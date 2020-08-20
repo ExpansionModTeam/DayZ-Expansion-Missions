@@ -930,7 +930,7 @@
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
-	<type name="DayZExpansion_Kar98">
+	<type name="Expansion_Kar98">
         <nominal>25</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
