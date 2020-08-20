@@ -433,7 +433,7 @@ class ObjectEditor extends COM_Module
 
 				//contact_pos [ 1 ] = contact_pos [ 1 ] + nHightOffsetToGround;
 
-				if ( dBodyIsActive( m_SelectedObject ) && dBodyIsDynamic( m_SelectedObject ) )
+				if ( dBodyIsActive( m_SelectedObject ) && dBodyIsDynamic( m_SelectedObject ) && !m_SelectedObject.IsInherited( Man ) && !m_SelectedObject.IsInherited( DayZCreature ) )
 				{
 					vector transform[4];
 					m_SelectedObject.GetTransform( transform );

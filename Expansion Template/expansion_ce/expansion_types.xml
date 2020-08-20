@@ -757,7 +757,7 @@
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-    </type>		
+    </type>	
 	<type name="Expansion_M9">
         <nominal>20</nominal>
         <lifetime>10800</lifetime>
@@ -842,7 +842,7 @@
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-    </type>	
+    </type>
 	<type name="Expansion_VityazSN">
         <nominal>30</nominal>
         <lifetime>10800</lifetime>

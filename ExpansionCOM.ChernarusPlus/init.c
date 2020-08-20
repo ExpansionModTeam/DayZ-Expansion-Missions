@@ -1,4 +1,4 @@
-#define EXPANSION_LOOT_SPAWN_POSITION_THINGY
+//#define EXPANSION_LOOT_SPAWN_POSITION_THINGY
 
 #include "$CurrentDir:\\Missions\\ExpansionCOM.ChernarusPlus\\core\\BaseModuleInclude.c"
 
@@ -25,7 +25,7 @@ void main()
 	CFString test_string = "Hello";
 	test_string.Test();
 
-	bool loadTraderObjects = false;
+	bool loadTraderObjects = true;
 	bool loadTraderNPCs = false;
 
 	string MissionWorldName = "empty";

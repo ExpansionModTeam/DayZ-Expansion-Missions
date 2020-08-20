@@ -116,6 +116,8 @@ void LoadMissionObjectsFile( string name, string worldname )
 
 		if ( special == "true")
 			ProcessMissionObject( obj );
+
+		EXPANSION_CheckDoors( obj );
 	}
 
 	CloseFile( file );
@@ -317,3 +319,53 @@ bool GetTraderFromMissionFile( FileHandle file, out string name, out vector posi
 	
 	return true;
 }
+
+
+	// ------------------------------------------------------------
+	// Expansion CheckDoors
+	// ------------------------------------------------------------
+	void EXPANSION_CheckDoors( Object obj )
+	{
+		string cfg_doors;
+		int door_sources_count;
+		int i_selection;
+		int door_index;
+		Building building;
+		if ( Class.CastTo( building, obj ) )
+		{
+			cfg_doors = "cfgVehicles " + building.GetType() + " " + "Doors ";
+			door_sources_count = GetGame().ConfigGetChildrenCount( cfg_doors );
+			
+			if ( door_sources_count > 0 )
+			{
+				//! Make sure to check for closed doors first and open them
+				for ( i_selection = 0; i_selection < door_sources_count; i_selection++ )
+				{
+					door_index = building.GetDoorIndex( i_selection );
+
+					//! Check if door index is valid
+					if ( door_index != -1 )
+					{
+						if ( !building.IsDoorOpen( door_index ) )
+						{
+							building.OpenDoor( door_index );
+						}
+					}
+				}
+				//! After all doors are opened close them again
+				for ( i_selection = 0; i_selection < door_sources_count; i_selection++ )
+				{
+					door_index = building.GetDoorIndex( i_selection );
+
+					//! Check if door index is valid
+					if ( door_index != -1 )
+					{
+						//if ( building.IsDoorOpen( door_index ) )
+						//{
+						//	building.CloseDoor( door_index );
+						//}
+					}
+				}
+			}
+		}
+	}
