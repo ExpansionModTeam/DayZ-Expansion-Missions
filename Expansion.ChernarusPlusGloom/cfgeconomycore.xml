@@ -29,13 +29,12 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="log_ce_statistics" value="false"/>
 		<default name="log_ce_zombie" value="false"/>
 		<default name="log_storageinfo" value="false"/>
-		<default name="log_hivewarning" value="false"/>
-		<default name="log_missionfilewarning" value="false"/>
+		<default name="log_hivewarning" value="true"/>
+		<default name="log_missionfilewarning" value="true"/>
 		<default name="save_events_startup" value="true"/>
 		<default name="save_types_startup" value="true"/>
 	</defaults>
-	<updaters>
-	</updaters>
+
 	<!-- EXPANSION CENTRAL ECONOMY -->
 	<ce folder="expansion_ce">
 		<file name="expansion_types.xml" type="types" />
