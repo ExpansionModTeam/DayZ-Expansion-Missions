@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
+<!--
+
+    This file is based on the vanilla 1.09 types.xml
+    However the values have been tweaked to follow the 1.08 values
+
+-->
     <type name="ACOGOptic">
         <nominal>15</nominal>
         <lifetime>7200</lifetime>
