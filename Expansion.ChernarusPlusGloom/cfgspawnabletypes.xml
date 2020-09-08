@@ -2093,6 +2093,15 @@
 			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
 		</attachments>
 	</type>
+	<type name="Deagle">
+		<attachments chance="0.10">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Deagle_Gold">
+		<attachments chance="0.05">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
 <!-- FUTURE
 	<type name="AugSteyr">
 		<attachments chance="0.10">
