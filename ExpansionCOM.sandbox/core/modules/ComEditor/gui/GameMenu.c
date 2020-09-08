@@ -9,7 +9,7 @@ class GameMenu extends PopupMenu
 
 	protected ref map< string, string > checkBoxMap = new map< string, string >; // store widget name
 
-	string checkboxLayout = "$CurrentDir:\\Missions\\ExpansionCOM.sandbox\\core\\modules\\ComEditor\\gui\\layouts\\CheckboxTemplate.layout";
+	string checkboxLayout = "$CurrentDir:\\Missions\\ExpansionCOM.Sandbox\\core\\modules\\ComEditor\\gui\\layouts\\CheckboxTemplate.layout";
 
 	void GameMenu()
 	{

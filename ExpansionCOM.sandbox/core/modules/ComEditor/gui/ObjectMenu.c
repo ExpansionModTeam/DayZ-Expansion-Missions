@@ -8,6 +8,7 @@ class COM_ObjectMenu extends PopupMenu
 	protected ButtonWidget m_btnCancel;
 	protected EditBoxWidget m_QuantityItem;
 	protected ButtonWidget m_btnDOJToggle;
+	protected ButtonWidget m_btnDOJPrecision;
 
 	private ItemPreviewWidget m_item_widget;
 	protected EntityAI previewItem;
@@ -39,6 +40,7 @@ class COM_ObjectMenu extends PopupMenu
 		m_btnSpawnInventory = ButtonWidget.Cast( layoutRoot.FindAnyWidget( "btn_spawn_inventory" ) );
 		m_btnCancel = ButtonWidget.Cast( layoutRoot.FindAnyWidget( "btn_cancel" ) );
 		m_btnDOJToggle = ButtonWidget.Cast( layoutRoot.FindAnyWidget( "btn_doj_toggle" ) );
+		m_btnDOJPrecision = ButtonWidget.Cast( layoutRoot.FindAnyWidget( "btn_doj_precision" ) );
 
 		m_QuantityItem = EditBoxWidget.Cast( layoutRoot.FindAnyWidget( "quantity_items" ) );
 		
@@ -235,6 +237,20 @@ class COM_ObjectMenu extends PopupMenu
 					menu.SetDOJBool( true );
 				else
 					menu.SetDOJBool( false );
+			}
+			
+			return true;
+		}
+
+		if ( w == m_btnDOJPrecision)
+		{
+			EditorMenu menu2 = EditorMenu.Cast( GetGame().GetUIManager().GetMenu() );
+			if ( menu2 )
+			{
+				if ( !menu2.GetDOJPrecision() )
+					menu2.SetDOJPrecision( true );
+				else
+					menu2.SetDOJPrecision( false );
 			}
 			
 			return true;

@@ -1,0 +1,1 @@
+#include "$CurrentDir:Missions\\ExpansionCOM.DeerIsle\\init.c"

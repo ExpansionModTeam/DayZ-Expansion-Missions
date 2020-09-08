@@ -216,11 +216,12 @@
 		</cargo>
 		<attachments chance="0.10" name="optics">
 				<item name="M4_T3NRDSOptic" chance="0.20" />
-				<item name="ACOGOptic" chance="0.20" />
-				<item name="M68Optic" chance="0.20" />
-				<item name="BUISOptic" chance="0.20" />
-				<item name="ReflexOptic" chance="0.20" />
-				<item name="ExpansionReflexMRSOptic" chance="0.20" />
+				<item name="ACOGOptic" chance="0.15" />
+				<item name="M68Optic" chance="0.15" />
+				<item name="BUISOptic" chance="0.15" />
+				<item name="ReflexOptic" chance="0.15" />
+				<item name="ExpansionReflexMRSOptic" chance="0.10" />
+				<item name="ExpansionEXPS3HoloOptic" chance="0.10" />
 		</attachments>
 		<!-- -------------------------------------------------------------------------------------------- -->
 		

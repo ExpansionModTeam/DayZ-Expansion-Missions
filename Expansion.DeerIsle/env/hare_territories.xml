@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<territory-type>
+    <territory color="3002332147">
+        <zone name="Zone_hare" smin="0" smax="0" dmin="0" dmax="0" x="9303.67" z="4663.5" r="195"/>
+    </territory>
+    <territory color="3002332147"/>
+    <territory color="3002332147">
+        <zone name="Zone_hare" smin="0" smax="0" dmin="0" dmax="0" x="7884.16" z="2594.66" r="135"/>
+    </territory>
+    <territory color="3002332147">
+        <zone name="Zone_hare" smin="0" smax="0" dmin="0" dmax="0" x="10774.5" z="4505.67" r="150"/>
+    </territory>
+    <territory color="3002332147"/>
+    <territory color="3002332147">
+        <zone name="Zone_hare" smin="0" smax="0" dmin="0" dmax="0" x="9282.83" z="5276.17" r="157.5"/>
+    </territory>
+    <territory color="3002332147">
+        <zone name="Zone_hare" smin="0" smax="0" dmin="0" dmax="0" x="10274" z="3948.5" r="100"/>
+    </territory>
+</territory-type>

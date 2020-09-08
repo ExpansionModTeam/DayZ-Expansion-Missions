@@ -15,12 +15,14 @@ class EditorMenu extends UIScriptedMenu
 	protected Widget m_matMenu;
 	protected Widget m_objectInfoMenu;
 	protected bool m_toggleDOJCode;
+	protected bool m_toggleDOJPrecision;
 
 	void EditorMenu()
 	{
 		SetID( 133742 );
 		
 		m_toggleDOJCode = false;
+		m_toggleDOJPrecision = false;
 	}
 	
 	void ~EditorMenu()
@@ -29,7 +31,7 @@ class EditorMenu extends UIScriptedMenu
 	
 	override Widget Init()
 	{
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.sandbox\\core\\modules\\ComEditor\\gui\\layouts\\EditorMenu.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ChernarusPlus\\core\\modules\\ComEditor\\gui\\layouts\\EditorMenu.layout" );
 
 		m_ObjectButton   = ButtonWidget.Cast( layoutRoot.FindAnyWidget("objects_button") );
 		m_PositionButton = ButtonWidget.Cast( layoutRoot.FindAnyWidget("position_button") );
@@ -38,13 +40,13 @@ class EditorMenu extends UIScriptedMenu
 		m_MatButton	 = ButtonWidget.Cast( layoutRoot.FindAnyWidget("mat_button") );
 		m_ObjectEditorButton = layoutRoot.FindAnyWidget( "objectEditor_button" );
 
-		m_aiMenu   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.sandbox\\core\\modules\\ComEditor\\gui\\layouts\\AIMenu.layout", layoutRoot );
-		m_objectMenu   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.sandbox\\core\\modules\\ComEditor\\gui\\layouts\\ObjectMenu.layout", layoutRoot );
-		m_weatherMenu  = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.sandbox\\core\\modules\\ComEditor\\gui\\layouts\\WeatherMenu.layout", layoutRoot );
-		m_positionMenu = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.sandbox\\core\\modules\\ComEditor\\gui\\layouts\\PositionMenu.layout", layoutRoot );
-		m_gameMenu 	   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.sandbox\\core\\modules\\ComEditor\\gui\\layouts\\GameMenu.layout", layoutRoot );
-		m_matMenu 	   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.sandbox\\core\\modules\\ComEditor\\gui\\layouts\\CameraMenu.layout", layoutRoot );
-		m_objectInfoMenu = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.sandbox\\core\\modules\\ComEditor\\gui\\layouts\\ObjectEditorInfo.layout", layoutRoot );
+		m_aiMenu   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ChernarusPlus\\core\\modules\\ComEditor\\gui\\layouts\\AIMenu.layout", layoutRoot );
+		m_objectMenu   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ChernarusPlus\\core\\modules\\ComEditor\\gui\\layouts\\ObjectMenu.layout", layoutRoot );
+		m_weatherMenu  = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ChernarusPlus\\core\\modules\\ComEditor\\gui\\layouts\\WeatherMenu.layout", layoutRoot );
+		m_positionMenu = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ChernarusPlus\\core\\modules\\ComEditor\\gui\\layouts\\PositionMenu.layout", layoutRoot );
+		m_gameMenu 	   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ChernarusPlus\\core\\modules\\ComEditor\\gui\\layouts\\GameMenu.layout", layoutRoot );
+		m_matMenu 	   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ChernarusPlus\\core\\modules\\ComEditor\\gui\\layouts\\CameraMenu.layout", layoutRoot );
+		m_objectInfoMenu = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ChernarusPlus\\core\\modules\\ComEditor\\gui\\layouts\\ObjectEditorInfo.layout", layoutRoot );
 
 		return layoutRoot;
 	}
@@ -406,6 +408,28 @@ class EditorMenu extends UIScriptedMenu
 		else
 		{
 			m_toggleDOJCode = true;
+		}
+	}
+	
+	void SetDOJPrecision(bool state)
+	{
+		m_toggleDOJPrecision = state;
+	}
+	
+	bool GetDOJPrecision()
+	{
+		return m_toggleDOJPrecision;
+	}
+	
+	void ToggleDOJPrecision()
+	{
+		if (m_toggleDOJPrecision)
+		{
+			m_toggleDOJPrecision = false;
+		}
+		else
+		{
+			m_toggleDOJPrecision = true;
 		}
 	}
 }
