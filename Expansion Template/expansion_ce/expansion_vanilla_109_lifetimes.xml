@@ -4616,7 +4616,7 @@
 	 </type>
 	 <type name="Deagle_Gold">
 		<nominal>7</nominal>
-		<lifetime>10800</lifetime>>
+		<lifetime>10800</lifetime>
 		<restock>7200</restock>
 		<min>2</min>
 	    <quantmin>-1</quantmin>
