@@ -119,26 +119,45 @@ class CustomMission: MissionServer
 		}
 		else
 		{
-			EntityAI itemTop;
+			EntityAI itemClothing;
 			EntityAI itemEnt;
 			ItemBase itemBs;
 			float rand;
 
-			itemTop = player.FindAttachmentBySlotName("Body");
-
-			if ( itemTop )
+			itemClothing = player.FindAttachmentBySlotName( "Body" );
+			if ( itemClothing )
 			{
-				itemEnt = itemTop.GetInventory().CreateInInventory("Rag");
-				if ( Class.CastTo(itemBs, itemEnt ) )
-					itemBs.SetQuantity(4);
+				SetRandomHealth( itemClothing );
+				
+				itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
+				if ( Class.CastTo( itemBs, itemEnt ) )
+					itemBs.SetQuantity( 4 );
 
-				SetRandomHealth(itemEnt);
+				SetRandomHealth( itemEnt );
 
 				string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-				int rndIndex = Math.RandomInt(0, 4);
-				itemEnt = itemTop.GetInventory().CreateInInventory(chemlightArray[rndIndex]);
-				SetRandomHealth(itemEnt);
+				int rndIndex = Math.RandomInt( 0, 4 );
+				itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
+				SetRandomHealth( itemEnt );
+
+				rand = Math.RandomFloatInclusive( 0.0, 1.0 );
+				if ( rand < 0.35 )
+					itemEnt = player.GetInventory().CreateInInventory( "Apple" );
+				else if ( rand > 0.65 )
+					itemEnt = player.GetInventory().CreateInInventory( "Pear" );
+				else
+					itemEnt = player.GetInventory().CreateInInventory( "Plum" );
+
+				SetRandomHealth( itemEnt );
 			}
+			
+			itemClothing = player.FindAttachmentBySlotName( "Legs" );
+			if ( itemClothing )
+				SetRandomHealth( itemClothing );
+			
+			itemClothing = player.FindAttachmentBySlotName( "Feet" );
+			if ( itemClothing )
+				SetRandomHealth( itemClothing );
 		}
 	}
 };
