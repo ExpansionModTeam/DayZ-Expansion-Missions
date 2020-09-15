@@ -15,12 +15,14 @@ class EditorMenu extends UIScriptedMenu
 	protected Widget m_matMenu;
 	protected Widget m_objectInfoMenu;
 	protected bool m_toggleDOJCode;
+	protected bool m_toggleDOJPrecision;
 
 	void EditorMenu()
 	{
 		SetID( 133742 );
 		
 		m_toggleDOJCode = false;
+		m_toggleDOJPrecision = false;
 	}
 	
 	void ~EditorMenu()
@@ -406,6 +408,28 @@ class EditorMenu extends UIScriptedMenu
 		else
 		{
 			m_toggleDOJCode = true;
+		}
+	}
+	
+	void SetDOJPrecision(bool state)
+	{
+		m_toggleDOJPrecision = state;
+	}
+	
+	bool GetDOJPrecision()
+	{
+		return m_toggleDOJPrecision;
+	}
+	
+	void ToggleDOJPrecision()
+	{
+		if (m_toggleDOJPrecision)
+		{
+			m_toggleDOJPrecision = false;
+		}
+		else
+		{
+			m_toggleDOJPrecision = true;
 		}
 	}
 }

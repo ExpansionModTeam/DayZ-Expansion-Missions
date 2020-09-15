@@ -187,7 +187,6 @@ class ObjectInfoMenu extends PopupMenu
 				position[1] = position[1] + value * 0.05;
 			}
 			
-			//position[1] = position[1] + value * 0.05;
 			SetSelectedObjectTransform( position, GetSelectedObject().GetOrientation() );
 			infoPosY.SetText( position[1].ToString() );
 		}
