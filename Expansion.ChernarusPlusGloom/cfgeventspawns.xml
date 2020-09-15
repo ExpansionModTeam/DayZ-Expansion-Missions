@@ -1237,8 +1237,18 @@
 		<pos x="1159.035278" y="153.176682" z="6219.569824" a="0.000000" />
 	</event>
 	<event name="VehicleBus">
-		<!-- Cherno -->
+		<!-- Cherno Bus Station -->
 		<pos x="6391.597168" y="12.033311" z="2696.855469" a="38.998974" />
+		<!-- Elektro Bus Stop -->
+		<pos x="10901.647461" y="5.876880" z="2813.317383" a="20.49" />
+		<!-- Zeleno Bus Station -->
+		<pos x="2514.898438 " y="190.492996" z="5272.000000" a="95.000023" />	
+		<!-- Pustoshka Bus Stop -->
+		<pos x="2907.472412 " y="331.534241" z="7308.514160" a="17.00" />	
+		<!-- Servograd Bus Stop -->		
+		<pos x="7912.813965 " y="117.039627" z="12669.354492" a="64.00019" />		
+		<!-- Berezino Bus Stop -->		
+		<pos x="12982.299805 " y="6.062156" z="8363.116211" a="-17.00" /> 	
 	</event>
 	<event name="VehicleTractor">
 		<!-- Krasnostav -->
