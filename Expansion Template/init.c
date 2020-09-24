@@ -70,6 +70,9 @@ void main()
  **/
 class CustomMission: MissionServer
 {	
+	// ------------------------------------------------------------
+	// Override OnInit
+	// ------------------------------------------------------------
 	override void OnInit()
 	{
 		ExpansionMissionModule missionModule;
@@ -79,6 +82,81 @@ class CustomMission: MissionServer
 		}
 
 		super.OnInit();
+	}
+	
+	// ------------------------------------------------------------
+	// Override CreateCharacter
+	// ------------------------------------------------------------
+	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
+	{
+		Entity playerEnt;
+		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
+		Class.CastTo( m_player, playerEnt );
+
+		GetGame().SelectPlayer( identity, m_player );
+
+		return m_player;
+	}
+	
+	// ------------------------------------------------------------
+	// SetRandomHealth
+	// ------------------------------------------------------------
+	void SetRandomHealth(EntityAI itemEnt)
+	{
+		if ( itemEnt )
+		{
+			float rndHlt = Math.RandomFloat( 0.25, 0.65 );
+			itemEnt.SetHealth01( "", "", rndHlt );
+		}
+	}
+	
+	// ------------------------------------------------------------
+	// StartingEquipSetup
+	// ------------------------------------------------------------
+	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
+	{
+		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )
+		{
+			EntityAI itemClothing;
+			EntityAI itemEnt;
+			ItemBase itemBs;
+			float rand;
+
+			itemClothing = player.FindAttachmentBySlotName( "Body" );
+			if ( itemClothing )
+			{
+				SetRandomHealth( itemClothing );
+				
+				itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
+				if ( Class.CastTo( itemBs, itemEnt ) )
+					itemBs.SetQuantity( 4 );
+
+				SetRandomHealth( itemEnt );
+
+				string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
+				int rndIndex = Math.RandomInt( 0, 4 );
+				itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
+				SetRandomHealth( itemEnt );
+
+				rand = Math.RandomFloatInclusive( 0.0, 1.0 );
+				if ( rand < 0.35 )
+					itemEnt = player.GetInventory().CreateInInventory( "Apple" );
+				else if ( rand > 0.65 )
+					itemEnt = player.GetInventory().CreateInInventory( "Pear" );
+				else
+					itemEnt = player.GetInventory().CreateInInventory( "Plum" );
+
+				SetRandomHealth( itemEnt );
+			}
+			
+			itemClothing = player.FindAttachmentBySlotName( "Legs" );
+			if ( itemClothing )
+				SetRandomHealth( itemClothing );
+			
+			itemClothing = player.FindAttachmentBySlotName( "Feet" );
+			if ( itemClothing )
+				SetRandomHealth( itemClothing );
+		}
 	}
 }
 
