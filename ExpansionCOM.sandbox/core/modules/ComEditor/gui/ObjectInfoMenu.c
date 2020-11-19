@@ -50,14 +50,14 @@ class ObjectInfoMenu extends PopupMenu
 
 		widgetStore = new COMWidgetStore( layoutRoot );
 
-		listBox = widgetStore.GetListboxWidget("object_editor_info_list");
+		listBox 		= widgetStore.GetListboxWidget("object_editor_info_list");
 
-		infoPosX = layoutRoot.FindAnyWidget( "object_info_pos_x" );
-		infoPosY = layoutRoot.FindAnyWidget( "object_info_pos_y" );
-		infoPosZ = layoutRoot.FindAnyWidget( "object_info_pos_z" );
-		infoPosYaw = layoutRoot.FindAnyWidget( "object_info_yaw_input" );
-		infoPosPitch = layoutRoot.FindAnyWidget( "object_info_pitch_input" );
-		infoPosRoll = layoutRoot.FindAnyWidget( "object_info_roll_input" );
+		infoPosX 		= EditBoxWidget.Cast( layoutRoot.FindAnyWidget( "object_info_pos_x" ) );
+		infoPosY 		= EditBoxWidget.Cast( layoutRoot.FindAnyWidget( "object_info_pos_y" ) );
+		infoPosZ 		= EditBoxWidget.Cast( layoutRoot.FindAnyWidget( "object_info_pos_z" ) );
+		infoPosYaw 		= EditBoxWidget.Cast( layoutRoot.FindAnyWidget( "object_info_yaw_input" ) );
+		infoPosPitch 	= EditBoxWidget.Cast( layoutRoot.FindAnyWidget( "object_info_pitch_input" ) );
+		infoPosRoll 	= EditBoxWidget.Cast( layoutRoot.FindAnyWidget( "object_info_roll_input" ) );
 	}
 
 	override bool OnItemSelected( Widget w, int x, int y, int row, int column, int oldRow, int oldColumn )
@@ -186,8 +186,6 @@ class ObjectInfoMenu extends PopupMenu
 			{
 				position[1] = position[1] + value * 0.05;
 			}
-			
-			//position[1] = position[1] + value * 0.05;
 			SetSelectedObjectTransform( position, GetSelectedObject().GetOrientation() );
 			infoPosY.SetText( position[1].ToString() );
 		}
@@ -232,7 +230,7 @@ class ObjectInfoMenu extends PopupMenu
 		vector pos = GetSelectedObjectPosition();
 		vector orientation = GetSelectedObject().GetOrientation();
 
-		EditBoxWidget editWidget = w;
+		EditBoxWidget editWidget = EditBoxWidget.Cast( w );
 		string text = editWidget.GetText();
 
 		float value = text.ToFloat();

@@ -506,11 +506,6 @@
 			<item name="ExpansionDeltapointOptic" chance="1.00" />
 		</attachments>
 	</type>	
-	<type name="ExpansionFlaregun">
-		<attachments chance="0.30">
-			<item name="ExpansionAmmoFlare" chance="1.00" />
-		</attachments>
-	</type>
 	<type name="Expansion_M79">
 		<attachments chance="0.30">
 			<item name="Ammo_Expansion_M203_Smoke_White" chance="0.07" />

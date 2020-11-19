@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
+    <!-- Vanilla Tweaks -->
+    <event name="VehicleCivilianSedan">
+        <nominal>10</nominal>
+        <min>7</min>
+        <max>13</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="15" min="9" type="CivilianSedan"/>
+        </children>
+    </event>
+    <event name="VehicleHatchback02">
+        <nominal>10</nominal>
+        <min>7</min>
+        <max>13</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="15" min="9" type="Hatchback_02"/>
+        </children>
+    </event>
+    <event name="VehicleOffroadHatchback">
+        <nominal>10</nominal>
+        <min>7</min>
+        <max>13</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="15" min="9" type="OffroadHatchback"/>
+        </children>
+    </event>
+    <event name="VehicleSedan02">
+        <nominal>10</nominal>
+        <min>7</min>
+        <max>13</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="15" min="9" type="Sedan_02"/>
+        </children>
+    </event>
+    <event name="VehicleTruck01">
+        <nominal>8</nominal>
+        <min>5</min>
+        <max>11</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="15" min="9" type="Truck_01_Covered"/>
+        </children>
+    </event>
     <!-- CARS -->
 	<event name="VehicleUAZ">
         <nominal>5</nominal>

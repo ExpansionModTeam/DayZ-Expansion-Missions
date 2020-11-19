@@ -135,7 +135,7 @@ class COMKeyBinds extends COM_Module
 
 		if( oWeapon )
 		{
-			Magazine oMag = ( Magazine ) oWeapon.GetAttachmentByConfigTypeName( "DefaultMagazine" );
+			Magazine oMag = Magazine.Cast( oWeapon.GetAttachmentByConfigTypeName( "DefaultMagazine" ) );
 
 			if( oMag && oMag.IsMagazine() )
 			{
@@ -243,7 +243,7 @@ class COMKeyBinds extends COM_Module
 
 			if( oWeapon )
 			{
-				Magazine oMag = ( Magazine ) oWeapon.GetAttachmentByConfigTypeName( "DefaultMagazine" );
+				Magazine oMag = Magazine.Cast( oWeapon.GetAttachmentByConfigTypeName( "DefaultMagazine" ) );
 
 				if( oMag && oMag.IsMagazine() )
 				{

@@ -239,17 +239,22 @@ class CommunityOfflineClient : MissionGameplay
 		{
 			EntityAI item = NULL;
 
-			item = player.GetInventory().CreateInInventory("AviatorGlasses");
-			item = player.GetInventory().CreateInInventory("MilitaryBeret_UN");
+			item = player.GetInventory().CreateInInventory("Mich2001Helmet");
+			item = item.GetInventory().CreateAttachment("NVGoggles");
+			item.GetInventory().CreateAttachment("Battery9V");
 			item = player.GetInventory().CreateInInventory("M65Jacket_Black");
-			item = player.GetInventory().CreateInInventory("TacticalGloves_Black");
-			item = player.GetInventory().CreateInInventory("HunterPants_Autumn");
+			item = player.GetInventory().CreateInInventory("OMNOGloves_Brown");
+			item = player.GetInventory().CreateInInventory("BDUPants");
 			item = player.GetInventory().CreateInInventory("MilitaryBoots_Black");
+			item = item.GetInventory().CreateAttachment("CombatKnife");
 			
-			item = player.GetInventory().CreateInInventory("ExpansionParachuteBag");
-			item.GetInventory().CreateAttachment("ExpansionParachute");
+			item = player.GetInventory().CreateInInventory("DryBag_Blue");
 			
 			item = player.GetInventory().CreateInInventory("Shovel");
+
+			item = player.GetInventory().CreateInInventory("Expansion_M16");
+			item = item.GetInventory().CreateAttachment("Expansion_ANPEQ15_Green");
+			item.GetInventory().CreateAttachment("Battery9V");
 
 			player.COTSetGodMode(true);
 		}
@@ -262,7 +267,6 @@ class CommunityOfflineClient : MissionGameplay
 
 		SpawnItem( GetPlayer(), "ExpansionStairKit" );
 		SpawnItem( GetPlayer(), "ExpansionStairKit" );
-		SpawnItem( GetPlayer(), "ExpansionStairKit" );
 
 		SpawnItem( GetPlayer(), "ExpansionFloorKit" );
 		SpawnItem( GetPlayer(), "ExpansionFloorKit" );
@@ -273,7 +277,7 @@ class CommunityOfflineClient : MissionGameplay
 		SpawnItem( GetPlayer(), "ExpansionWallKit" );
 
 		SpawnItem( GetPlayer(), "ExpansionRampKit" );
-
+		SpawnItem( GetPlayer(), "ExpansionRampKit" );
 	}
 
 	override void OnInit()
@@ -489,8 +493,8 @@ class CommunityOfflineClient : MissionGameplay
 
 	void SpawnKit(string kit)
 	{
-		SpawnItem(GetGame().GetPlayer(), kit);
-		SpawnItem(GetGame().GetPlayer(), "Nail");
-		SpawnItem(GetGame().GetPlayer(), "WoodenPlank");
+		SpawnItem(PlayerBase.Cast( GetGame().GetPlayer() ), kit);
+		SpawnItem(PlayerBase.Cast( GetGame().GetPlayer() ), "Nail");
+		SpawnItem(PlayerBase.Cast( GetGame().GetPlayer() ), "WoodenPlank");
 	}
 }

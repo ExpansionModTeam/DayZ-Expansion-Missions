@@ -190,7 +190,7 @@ class ObjectEditor extends COM_Module
 		foreach( Object m_object : m_Objects )
 		{
 			ref Param objectParam = new Param3<string, vector, vector>( m_object.GetType(), m_object.GetPosition(), m_object.GetOrientation() );
-			scene.m_SceneObjects.Insert( objectParam );
+			scene.m_SceneObjects.Insert( Param3<string,vector,vector>.Cast( objectParam ) );
 
 		}
 

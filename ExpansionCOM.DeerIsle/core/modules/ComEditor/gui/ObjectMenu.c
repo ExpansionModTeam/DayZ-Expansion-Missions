@@ -44,7 +44,7 @@ class COM_ObjectMenu extends PopupMenu
 
 		m_QuantityItem = EditBoxWidget.Cast( layoutRoot.FindAnyWidget( "quantity_items" ) );
 		
-		m_editBox = layoutRoot.FindAnyWidget("className_spawner_box");
+		m_editBox = EditBoxWidget.Cast( layoutRoot.FindAnyWidget("className_spawner_box") );
 	}
 
 	override void OnShow()
@@ -126,7 +126,7 @@ class COM_ObjectMenu extends PopupMenu
 		if( strSelection != "" )
 		{
 			strSelection.ToLower();
-			ObjectEditor obEditor = GetCOMModuleManager().GetModule( ObjectEditor );
+			ObjectEditor obEditor = ObjectEditor.Cast( GetCOMModuleManager().GetModule( ObjectEditor ) );
 
 			if ( GetGame().IsKindOf( strSelection, "DZ_LightAI" ) ) 
 			{
@@ -135,13 +135,13 @@ class COM_ObjectMenu extends PopupMenu
 
 			if( w == m_btnSpawnCursor )
 			{
-				EntityAI oCursorObj = g_Game.CreateObject( strSelection, GetCursorPos(), true, ai );
+				EntityAI oCursorObj = EntityAI.Cast( g_Game.CreateObject( strSelection, GetCursorPos(), true, ai ) );
 				obEditor.addObject( oCursorObj );
 				ObjectInfoMenu.listBox.AddItem(oCursorObj.GetType(), oCursorObj, 0);
 
 				if ( oCursorObj.IsInherited( ItemBase ) )
 				{
-					oItem = ( ItemBase ) oCursorObj;
+					oItem = ItemBase.Cast( oCursorObj );
 					SetupSpawnedItem( oItem, oItem.GetMaxHealth(), 1 );
 
 					quantity = 0;
@@ -165,13 +165,13 @@ class COM_ObjectMenu extends PopupMenu
 			}
 			else if ( w == m_btnSpawnGround )
 			{
-				EntityAI oObj = g_Game.CreateObject( strSelection, GetGame().GetPlayer().GetPosition(), false, ai );
+				EntityAI oObj = EntityAI.Cast( g_Game.CreateObject( strSelection, GetGame().GetPlayer().GetPosition(), false, ai ) );
  				obEditor.addObject( oObj );
 			 	ObjectInfoMenu.listBox.AddItem(oObj.GetType(), oObj, 0);
 
 				if ( oObj.IsInherited( ItemBase ) )
 				{
-					oItem = ( ItemBase ) oObj;
+					oItem = ItemBase.Cast( oObj );
 					SetupSpawnedItem( oItem, oItem.GetMaxHealth(), 1 );
 					
 					quantity = 0;
@@ -199,7 +199,7 @@ class COM_ObjectMenu extends PopupMenu
 
 				if ( oInvItem.IsInherited( ItemBase ) )
 				{
-					oItem = ( ItemBase ) oObj;
+					oItem = ItemBase.Cast( oObj );
 					SetupSpawnedItem( oItem, oItem.GetMaxHealth(), 1 );
 
 					quantity = 0;
@@ -289,7 +289,7 @@ class COM_ObjectMenu extends PopupMenu
 
 			if ( strSelection.Contains("Fx") ) return false; // fix crash for this dumb item
 
-			previewItem = GetGame().CreateObject( strSelection, vector.Zero, false );
+			previewItem = EntityAI.Cast( GetGame().CreateObject( strSelection, vector.Zero, false ) );
 
 			m_item_widget.SetItem( previewItem );
 			m_item_widget.SetModelPosition( Vector(0,0,0.5) );

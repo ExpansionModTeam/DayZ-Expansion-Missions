@@ -8,9 +8,7 @@
 		-->
 		<group name="Land_Wreck_hb01_aban1_blue" lootmax="2">
 				<usage name="Village" />
-				<usage name="Hunting" />
 				<usage name="Farm" />
-				<usage name="School" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -20,12 +18,14 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="1.551117 -0.460756 0.179687" range="0.203125" height="0.100000" />
-						<point pos="1.507416 -0.434036 -0.361572" range="0.237500" height="0.100000" />
-						<point pos="-0.940186 -0.033871 0.512939" range="0.203125" height="0.507813" />
-						<point pos="-0.922852 0.016527 -0.729248" range="0.134375" height="0.335938" />
 						<point pos="-0.514923 -0.683249 -0.580811" range="0.100000" height="0.250000" />
+						<point pos="-0.546204 -0.739777 0.478760" range="0.100000" height="0.250000" />
+						<point pos="-0.044220 -0.389238 0.301758" range="0.216492" height="0.541229" />
 						<point pos="-0.073731 -0.337166 -0.571289" range="0.198242" height="0.495605" />
+						<point pos="1.521026 -0.462440 0.190185" range="0.237500" height="0.593750" />
+						<point pos="1.544220 -0.431307 -0.387207" range="0.203125" height="0.507813" />
+						<point pos="-0.741089 0.031483 -0.782471" range="0.100000" height="0.250000" />
+						<point pos="-0.768067 -0.043346 0.660156" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
@@ -34,6 +34,9 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_green" lootmax="2">
+				<usage name="Village" />
+				<usage name="Hunting" />
+				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -43,12 +46,14 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="1.551117 -0.460756 0.179687" range="0.203125" height="0.100000" />
-						<point pos="1.507416 -0.434036 -0.361572" range="0.237500" height="0.100000" />
-						<point pos="-0.940186 -0.033871 0.512939" range="0.203125" height="0.507813" />
-						<point pos="-0.922852 0.016527 -0.729248" range="0.134375" height="0.335938" />
 						<point pos="-0.514923 -0.683249 -0.580811" range="0.100000" height="0.250000" />
+						<point pos="-0.546204 -0.739777 0.478760" range="0.100000" height="0.250000" />
+						<point pos="-0.044220 -0.389238 0.301758" range="0.216492" height="0.541229" />
 						<point pos="-0.073731 -0.337166 -0.571289" range="0.198242" height="0.495605" />
+						<point pos="1.521026 -0.462440 0.190185" range="0.237500" height="0.593750" />
+						<point pos="1.544220 -0.431307 -0.387207" range="0.203125" height="0.507813" />
+						<point pos="-0.741089 0.031483 -0.782471" range="0.100000" height="0.250000" />
+						<point pos="-0.768067 -0.043346 0.660156" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
@@ -57,6 +62,8 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_white" lootmax="2">
+				<usage name="Village" />
+				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -66,12 +73,14 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="1.551117 -0.460756 0.179687" range="0.203125" height="0.100000" />
-						<point pos="1.507416 -0.434036 -0.361572" range="0.237500" height="0.100000" />
-						<point pos="-0.940186 -0.033871 0.512939" range="0.203125" height="0.507813" />
-						<point pos="-0.922852 0.016527 -0.729248" range="0.134375" height="0.335938" />
 						<point pos="-0.514923 -0.683249 -0.580811" range="0.100000" height="0.250000" />
+						<point pos="-0.546204 -0.739777 0.478760" range="0.100000" height="0.250000" />
+						<point pos="-0.044220 -0.389238 0.301758" range="0.216492" height="0.541229" />
 						<point pos="-0.073731 -0.337166 -0.571289" range="0.198242" height="0.495605" />
+						<point pos="1.521026 -0.462440 0.190185" range="0.237500" height="0.593750" />
+						<point pos="1.544220 -0.431307 -0.387207" range="0.203125" height="0.507813" />
+						<point pos="-0.741089 0.031483 -0.782471" range="0.100000" height="0.250000" />
+						<point pos="-0.768067 -0.043346 0.660156" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
@@ -80,6 +89,8 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_blue" lootmax="2">
+				<usage name="Village" />
+				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -90,7 +101,13 @@
 						<tag name="floor" />
 						<tag name="shelves" />
 						<point pos="-0.590393 -0.510935 0.625977" range="0.100000" height="0.250000" />
+						<point pos="-0.649689 -0.564240 -0.388916" range="0.100000" height="0.250000" />
+						<point pos="-0.094360 -0.226664 -0.427002" range="0.203003" height="0.507507" />
 						<point pos="-0.179352 -0.160469 0.520508" range="0.203125" height="0.507813" />
+						<point pos="1.462036 -0.296394 -0.305908" range="0.260254" height="0.583523" />
+						<point pos="1.457825 -0.264769 0.321533" range="0.237500" height="0.577982" />
+						<point pos="-0.812867 0.201370 0.783203" range="0.100000" height="0.250000" />
+						<point pos="-0.794555 0.130087 -0.663086" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
@@ -99,6 +116,9 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_green" lootmax="2">
+				<usage name="Village" />
+				<usage name="Hunting" />
+				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -109,7 +129,13 @@
 						<tag name="floor" />
 						<tag name="shelves" />
 						<point pos="-0.590393 -0.510935 0.625977" range="0.100000" height="0.250000" />
+						<point pos="-0.649689 -0.564240 -0.388916" range="0.100000" height="0.250000" />
+						<point pos="-0.094360 -0.226664 -0.427002" range="0.203003" height="0.507507" />
 						<point pos="-0.179352 -0.160469 0.520508" range="0.203125" height="0.507813" />
+						<point pos="1.462036 -0.296394 -0.305908" range="0.260254" height="0.583523" />
+						<point pos="1.457825 -0.264769 0.321533" range="0.237500" height="0.577982" />
+						<point pos="-0.812867 0.201370 0.783203" range="0.100000" height="0.250000" />
+						<point pos="-0.794555 0.130087 -0.663086" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
@@ -118,6 +144,8 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_white" lootmax="2">
+				<usage name="Village" />
+				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -128,7 +156,13 @@
 						<tag name="floor" />
 						<tag name="shelves" />
 						<point pos="-0.590393 -0.510935 0.625977" range="0.100000" height="0.250000" />
+						<point pos="-0.649689 -0.564240 -0.388916" range="0.100000" height="0.250000" />
+						<point pos="-0.094360 -0.226664 -0.427002" range="0.203003" height="0.507507" />
 						<point pos="-0.179352 -0.160469 0.520508" range="0.203125" height="0.507813" />
+						<point pos="1.462036 -0.296394 -0.305908" range="0.260254" height="0.583523" />
+						<point pos="1.457825 -0.264769 0.321533" range="0.237500" height="0.577982" />
+						<point pos="-0.812867 0.201370 0.783203" range="0.100000" height="0.250000" />
+						<point pos="-0.794555 0.130087 -0.663086" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
@@ -148,6 +182,14 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
+						<point pos="1.457816 -0.077440 0.185163" range="0.100000" height="0.250000" />
+						<point pos="-0.122574 -0.237055 -0.407825" range="0.194855" height="0.487137" />
+						<point pos="-0.640529 -0.388655 0.473257" range="0.118561" height="0.179335" />
+						<point pos="0.713309 -0.226099 -0.510008" range="0.152740" height="0.381851" />
+						<point pos="0.700657 -0.183714 0.326738" range="0.163696" height="0.409241" />
+						<point pos="-0.112578 -0.204390 0.310395" range="0.182526" height="0.456314" />
+						<point pos="-0.568404 -0.435467 -0.525660" range="0.188019" height="0.258942" />
+						<point pos="1.589356 -0.123903 -0.355557" range="0.179352" height="0.448379" />
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0" />
@@ -168,6 +210,14 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
+						<point pos="1.457816 -0.077440 0.185163" range="0.100000" height="0.250000" />
+						<point pos="-0.122574 -0.237055 -0.407825" range="0.194855" height="0.487137" />
+						<point pos="-0.640529 -0.388655 0.473257" range="0.118561" height="0.179335" />
+						<point pos="0.713309 -0.226099 -0.510008" range="0.152740" height="0.381851" />
+						<point pos="0.700657 -0.183714 0.326738" range="0.163696" height="0.409241" />
+						<point pos="-0.112578 -0.204390 0.310395" range="0.182526" height="0.456314" />
+						<point pos="-0.568404 -0.435467 -0.525660" range="0.188019" height="0.258942" />
+						<point pos="1.589356 -0.123903 -0.355557" range="0.179352" height="0.448379" />
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0" />
@@ -188,6 +238,14 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
+						<point pos="1.457816 -0.077440 0.185163" range="0.100000" height="0.250000" />
+						<point pos="-0.122574 -0.237055 -0.407825" range="0.194855" height="0.487137" />
+						<point pos="-0.640529 -0.388655 0.473257" range="0.118561" height="0.179335" />
+						<point pos="0.713309 -0.226099 -0.510008" range="0.152740" height="0.381851" />
+						<point pos="0.700657 -0.183714 0.326738" range="0.163696" height="0.409241" />
+						<point pos="-0.112578 -0.204390 0.310395" range="0.182526" height="0.456314" />
+						<point pos="-0.568404 -0.435467 -0.525660" range="0.188019" height="0.258942" />
+						<point pos="1.589356 -0.123903 -0.355557" range="0.179352" height="0.448379" />
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0" />
@@ -208,6 +266,16 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
+						<point pos="1.023582 -0.202618 0.257945" range="0.130982" height="0.327454" />
+						<point pos="1.920607 -0.109632 -0.300123" range="0.178223" height="0.445557" />
+						<point pos="1.883080 -0.139698 0.261844" range="0.181335" height="0.453339" />
+						<point pos="0.591166 -0.382135 0.512848" range="0.147156" height="0.367890" />
+						<point pos="0.537920 -0.312344 -0.528397" range="0.100000" height="0.250000" />
+						<point pos="-0.379451 -0.372387 0.538083" range="0.100000" height="0.147526" />
+						<point pos="0.115108 -0.182005 0.457668" range="0.134375" height="0.335938" />
+						<point pos="0.999923 -0.154825 -0.393066" range="0.157135" height="0.392837" />
+						<point pos="0.160377 -0.148722 -0.207611" range="0.100000" height="0.250000" />
+						<point pos="-0.318821 -0.302542 -0.524253" range="0.156159" height="0.213125" />
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0" />
@@ -228,6 +296,16 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
+						<point pos="1.023582 -0.202618 0.257945" range="0.130982" height="0.327454" />
+						<point pos="1.920607 -0.109632 -0.300123" range="0.178223" height="0.445557" />
+						<point pos="1.883080 -0.139698 0.261844" range="0.181335" height="0.453339" />
+						<point pos="0.591166 -0.382135 0.512848" range="0.147156" height="0.367890" />
+						<point pos="0.537920 -0.312344 -0.528397" range="0.100000" height="0.250000" />
+						<point pos="-0.379451 -0.372387 0.538083" range="0.100000" height="0.147526" />
+						<point pos="0.115108 -0.182005 0.457668" range="0.134375" height="0.335938" />
+						<point pos="0.999923 -0.154825 -0.393066" range="0.157135" height="0.392837" />
+						<point pos="0.160377 -0.148722 -0.207611" range="0.100000" height="0.250000" />
+						<point pos="-0.318821 -0.302542 -0.524253" range="0.156159" height="0.213125" />
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0" />
@@ -248,6 +326,16 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
+						<point pos="1.023582 -0.202618 0.257945" range="0.130982" height="0.327454" />
+						<point pos="1.920607 -0.109632 -0.300123" range="0.178223" height="0.445557" />
+						<point pos="1.883080 -0.139698 0.261844" range="0.181335" height="0.453339" />
+						<point pos="0.591166 -0.382135 0.512848" range="0.147156" height="0.367890" />
+						<point pos="0.537920 -0.312344 -0.528397" range="0.100000" height="0.250000" />
+						<point pos="-0.379451 -0.372387 0.538083" range="0.100000" height="0.147526" />
+						<point pos="0.115108 -0.182005 0.457668" range="0.134375" height="0.335938" />
+						<point pos="0.999923 -0.154825 -0.393066" range="0.157135" height="0.392837" />
+						<point pos="0.160377 -0.148722 -0.207611" range="0.100000" height="0.250000" />
+						<point pos="-0.318821 -0.302542 -0.524253" range="0.156159" height="0.213125" />
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0" />
@@ -268,14 +356,18 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
+						<point pos="-0.745453 -0.350191 -0.495850" range="0.100000" height="0.250000" />
 						<point pos="-0.300934 -0.191841 0.587891" range="0.232605" height="0.581512" />
 						<point pos="-0.733673 -0.439064 0.669433" range="0.109894" height="0.274734" />
-						<point pos="0.118622 -0.377073 -0.412354" range="0.152435" height="0.341722" />
+						<point pos="0.166809 -0.462395 0.694824" range="0.179230" height="0.434694" />
 						<point pos="0.645721 -0.162916 -0.431885" range="0.152069" height="0.380173" />
-						<point pos="-1.971619 0.263107 -0.641114" range="0.100000" height="0.250000" />
-						<point pos="1.852112 0.198814 -0.352539" range="0.237500" height="0.593750" />
-						<point pos="1.961334 0.087528 0.846924" range="0.134375" height="0.335938" />
-						<point pos="-1.484650 0.157104 0.962158" range="0.100000" height="0.250000" />
+						<point pos="0.118622 -0.377073 -0.412354" range="0.152435" height="0.341722" />
+						<point pos="-0.340118 -0.120390 -0.237549" range="0.168750" height="0.421875" />
+						<point pos="0.612213 -0.230255 0.522217" range="0.187836" height="0.469589" />
+						<point pos="2.024384 -0.194431 0.579345" range="0.308350" height="0.188450" />
+						<point pos="1.922180 -0.169662 0.004150" range="0.276380" height="0.222973" />
+						<point pos="-1.093232 0.184647 0.904540" range="0.100000" height="0.250000" />
+						<point pos="-1.069641 0.297686 -0.593994" range="0.134375" height="0.335938" />
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0" />
@@ -296,14 +388,18 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
+						<point pos="-0.745453 -0.350191 -0.495850" range="0.100000" height="0.250000" />
 						<point pos="-0.300934 -0.191841 0.587891" range="0.232605" height="0.581512" />
 						<point pos="-0.733673 -0.439064 0.669433" range="0.109894" height="0.274734" />
-						<point pos="0.118622 -0.377073 -0.412354" range="0.152435" height="0.341722" />
+						<point pos="0.166809 -0.462395 0.694824" range="0.179230" height="0.434694" />
 						<point pos="0.645721 -0.162916 -0.431885" range="0.152069" height="0.380173" />
-						<point pos="-1.971619 0.263107 -0.641114" range="0.100000" height="0.250000" />
-						<point pos="1.852112 0.198814 -0.352539" range="0.237500" height="0.593750" />
-						<point pos="1.961334 0.087528 0.846924" range="0.134375" height="0.335938" />
-						<point pos="-1.484650 0.157104 0.962158" range="0.100000" height="0.250000" />
+						<point pos="0.118622 -0.377073 -0.412354" range="0.152435" height="0.341722" />
+						<point pos="-0.340118 -0.120390 -0.237549" range="0.168750" height="0.421875" />
+						<point pos="0.612213 -0.230255 0.522217" range="0.187836" height="0.469589" />
+						<point pos="2.024384 -0.194431 0.579345" range="0.308350" height="0.188450" />
+						<point pos="1.922180 -0.169662 0.004150" range="0.276380" height="0.222973" />
+						<point pos="-1.093232 0.184647 0.904540" range="0.100000" height="0.250000" />
+						<point pos="-1.069641 0.297686 -0.593994" range="0.134375" height="0.335938" />
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0" />
@@ -324,14 +420,18 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
+						<point pos="-0.745453 -0.350191 -0.495850" range="0.100000" height="0.250000" />
 						<point pos="-0.300934 -0.191841 0.587891" range="0.232605" height="0.581512" />
 						<point pos="-0.733673 -0.439064 0.669433" range="0.109894" height="0.274734" />
-						<point pos="0.118622 -0.377073 -0.412354" range="0.152435" height="0.341722" />
+						<point pos="0.166809 -0.462395 0.694824" range="0.179230" height="0.434694" />
 						<point pos="0.645721 -0.162916 -0.431885" range="0.152069" height="0.380173" />
-						<point pos="-1.971619 0.263107 -0.641114" range="0.100000" height="0.250000" />
-						<point pos="1.852112 0.198814 -0.352539" range="0.237500" height="0.593750" />
-						<point pos="1.961334 0.087528 0.846924" range="0.134375" height="0.335938" />
-						<point pos="-1.484650 0.157104 0.962158" range="0.100000" height="0.250000" />
+						<point pos="0.118622 -0.377073 -0.412354" range="0.152435" height="0.341722" />
+						<point pos="-0.340118 -0.120390 -0.237549" range="0.168750" height="0.421875" />
+						<point pos="0.612213 -0.230255 0.522217" range="0.187836" height="0.469589" />
+						<point pos="2.024384 -0.194431 0.579345" range="0.308350" height="0.188450" />
+						<point pos="1.922180 -0.169662 0.004150" range="0.276380" height="0.222973" />
+						<point pos="-1.093232 0.184647 0.904540" range="0.100000" height="0.250000" />
+						<point pos="-1.069641 0.297686 -0.593994" range="0.134375" height="0.335938" />
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0" />
@@ -339,6 +439,25 @@
 						<proxy type="CivSedanDoors_BackLeft" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
 						<proxy type="CivSedanHood" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
 				</dispatch>
+		</group>
+		<group name="Land_Wreck_sed01_aban1_police" lootmax="6">
+				<usage name="Police" />
+				<container name="loot" lootmax="6">
+						<point pos="0.031705 -0.464386 0.646786" range="0.100000" height="0.170959" />
+						<point pos="-1.275356 0.155441 0.962088" range="0.100000" height="0.250000" />
+						<point pos="-1.227970 0.297272 -0.657177" range="0.100000" height="0.250000" />
+						<point pos="0.096978 -0.365051 -0.491634" range="0.130829" height="0.299835" />
+						<point pos="0.574310 -0.147308 -0.446449" range="0.226532" height="0.566330" />
+						<point pos="1.993657 -0.160416 -0.292275" range="0.311523" height="0.216187" />
+						<point pos="-0.702634 -0.452850 0.740357" range="0.140808" height="0.352020" />
+						<point pos="-0.339908 -0.177246 0.446496" range="0.168750" height="0.421875" />
+						<point pos="2.051123 -0.200378 0.427373" range="0.375000" height="0.187073" />
+						<point pos="-0.314029 -0.112701 -0.347890" range="0.203125" height="0.507813" />
+						<point pos="0.554788 -0.233734 0.561149" range="0.203125" height="0.507813" />
+						<point pos="-0.781376 -0.341125 -0.493432" range="0.100000" height="0.250000" />
+						<point pos="-1.892381 0.141266 0.955100" range="0.100000" height="0.250000" />
+						<point pos="-1.809468 0.282761 -0.658990" range="0.100000" height="0.250000" />
+				</container>
 		</group>
 		<group name="Land_Wreck_sed01_aban2_white" lootmax="2">
 				<usage name="Village" />
@@ -352,12 +471,16 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="0.106262 -0.387922 0.494873" range="0.176971" height="0.426207" />
-						<point pos="-0.273560 -0.185202 -0.344238" range="0.231598" height="0.578995" />
-						<point pos="2.061249 -0.142282 0.421386" range="0.313965" height="0.284912" />
-						<point pos="2.010071 -0.166580 -0.286865" range="0.377075" height="0.242688" />
-						<point pos="0.590119 -0.150232 0.559570" range="0.158874" height="0.397186" />
-						<point pos="-0.740814 -0.439035 -0.555420" range="0.141083" height="0.352707" />
+						<point pos="-1.117584 0.218529 0.777588" range="0.168750" height="0.421875" />
+						<point pos="-1.115662 0.167839 -0.675293" range="0.134375" height="0.335938" />
+						<point pos="-0.263031 -0.188763 -0.394531" range="0.220337" height="0.550842" />
+						<point pos="-0.801514 -0.387016 -0.517578" range="0.100000" height="0.250000" />
+						<point pos="2.095581 -0.155787 0.419189" range="0.370087" height="0.312712" />
+						<point pos="0.587616 -0.154692 0.543457" range="0.203125" height="0.507813" />
+						<point pos="0.615173 -0.190559 -0.450195" range="0.214783" height="0.536957" />
+						<point pos="2.092529 -0.181551 -0.355957" range="0.317871" height="0.297819" />
+						<point pos="-0.269776 -0.156334 0.549805" range="0.226929" height="0.567322" />
+						<point pos="-0.801483 -0.370373 0.625000" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0" />
@@ -378,12 +501,16 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="0.106262 -0.387922 0.494873" range="0.176971" height="0.426207" />
-						<point pos="-0.273560 -0.185202 -0.344238" range="0.231598" height="0.578995" />
-						<point pos="2.061249 -0.142282 0.421386" range="0.313965" height="0.284912" />
-						<point pos="2.010071 -0.166580 -0.286865" range="0.377075" height="0.242688" />
-						<point pos="0.590119 -0.150232 0.559570" range="0.158874" height="0.397186" />
-						<point pos="-0.740814 -0.439035 -0.555420" range="0.141083" height="0.352707" />
+						<point pos="-1.117584 0.218529 0.777588" range="0.168750" height="0.421875" />
+						<point pos="-1.115662 0.167839 -0.675293" range="0.134375" height="0.335938" />
+						<point pos="-0.263031 -0.188763 -0.394531" range="0.220337" height="0.550842" />
+						<point pos="-0.801514 -0.387016 -0.517578" range="0.100000" height="0.250000" />
+						<point pos="2.095581 -0.155787 0.419189" range="0.370087" height="0.312712" />
+						<point pos="0.587616 -0.154692 0.543457" range="0.203125" height="0.507813" />
+						<point pos="0.615173 -0.190559 -0.450195" range="0.214783" height="0.536957" />
+						<point pos="2.092529 -0.181551 -0.355957" range="0.317871" height="0.297819" />
+						<point pos="-0.269776 -0.156334 0.549805" range="0.226929" height="0.567322" />
+						<point pos="-0.801483 -0.370373 0.625000" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0" />
@@ -404,12 +531,16 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="0.106262 -0.387922 0.494873" range="0.176971" height="0.426207" />
-						<point pos="-0.273560 -0.185202 -0.344238" range="0.231598" height="0.578995" />
-						<point pos="2.061249 -0.142282 0.421386" range="0.313965" height="0.284912" />
-						<point pos="2.010071 -0.166580 -0.286865" range="0.377075" height="0.242688" />
-						<point pos="0.590119 -0.150232 0.559570" range="0.158874" height="0.397186" />
-						<point pos="-0.740814 -0.439035 -0.555420" range="0.141083" height="0.352707" />
+						<point pos="-1.117584 0.218529 0.777588" range="0.168750" height="0.421875" />
+						<point pos="-1.115662 0.167839 -0.675293" range="0.134375" height="0.335938" />
+						<point pos="-0.263031 -0.188763 -0.394531" range="0.220337" height="0.550842" />
+						<point pos="-0.801514 -0.387016 -0.517578" range="0.100000" height="0.250000" />
+						<point pos="2.095581 -0.155787 0.419189" range="0.370087" height="0.312712" />
+						<point pos="0.587616 -0.154692 0.543457" range="0.203125" height="0.507813" />
+						<point pos="0.615173 -0.190559 -0.450195" range="0.214783" height="0.536957" />
+						<point pos="2.092529 -0.181551 -0.355957" range="0.317871" height="0.297819" />
+						<point pos="-0.269776 -0.156334 0.549805" range="0.226929" height="0.567322" />
+						<point pos="-0.801483 -0.370373 0.625000" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0" />
@@ -417,6 +548,25 @@
 						<proxy type="CivSedanDoors_BackRight" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
 						<proxy type="CivSedanTrunk" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
 				</dispatch>
+		</group>
+		<group name="Land_Wreck_sed01_aban2_police" lootmax="6">
+				<usage name="Police" />
+				<container name="loot" lootmax="6">
+						<point pos="-0.756097 -0.451713 -0.498970" range="0.100000" height="0.250000" />
+						<point pos="-1.289279 0.145333 -0.723734" range="0.168750" height="0.421875" />
+						<point pos="-1.222338 0.196649 0.878290" range="0.134375" height="0.335938" />
+						<point pos="-1.930030 0.092211 -0.740091" range="0.134375" height="0.335938" />
+						<point pos="-0.659882 -0.412734 0.620196" range="0.143616" height="0.359040" />
+						<point pos="-1.738955 0.160387 0.875367" range="0.168750" height="0.421875" />
+						<point pos="0.178399 -0.428228 -0.331929" range="0.169495" height="0.410131" />
+						<point pos="0.653234 -0.158788 0.632871" range="0.175201" height="0.438002" />
+						<point pos="0.185075 -0.395218 0.659461" range="0.176575" height="0.425077" />
+						<point pos="-0.234679 -0.164952 0.480046" range="0.189392" height="0.473480" />
+						<point pos="-0.285054 -0.184806 -0.395743" range="0.203125" height="0.507813" />
+						<point pos="0.609893 -0.182907 -0.236139" range="0.219818" height="0.549545" />
+						<point pos="2.056719 -0.155075 0.458795" range="0.361084" height="0.252710" />
+						<point pos="2.068902 -0.180123 -0.301695" range="0.372314" height="0.250785" />
+				</container>
 		</group>
 		<group name="Land_Wreck_sed02_aban1_yellow" lootmax="2">
 				<usage name="Village" />
@@ -431,11 +581,14 @@
 						<tag name="floor" />
 						<tag name="shelves" />
 						<point pos="0.190887 -0.256781 -0.205811" range="0.203125" height="0.507813" />
-						<point pos="-1.422516 0.128433 0.641846" range="0.237500" height="0.593750" />
-						<point pos="-1.355316 0.082838 -0.518066" range="0.134375" height="0.335938" />
-						<point pos="-1.938446 0.039644 0.739746" range="0.134375" height="0.335938" />
-						<point pos="-0.982758 -0.432077 0.538330" range="0.140350" height="0.350876" />
+						<point pos="-1.793030 -0.361715 -0.176514" range="0.167480" height="0.233089" />
+						<point pos="-1.795593 -0.317720 0.329590" range="0.200195" height="0.213846" />
+						<point pos="0.180328 -0.207417 0.560791" range="0.203125" height="0.507813" />
+						<point pos="-1.025238 -0.440590 0.437744" range="0.114075" height="0.285187" />
 						<point pos="-0.531372 -0.232500 0.336182" range="0.147888" height="0.369720" />
+						<point pos="-0.553802 -0.272118 -0.315430" range="0.168823" height="0.422058" />
+						<point pos="1.296081 0.138826 -0.510498" range="0.134375" height="0.335938" />
+						<point pos="1.275025 0.247122 0.728027" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0" />
@@ -457,11 +610,14 @@
 						<tag name="floor" />
 						<tag name="shelves" />
 						<point pos="0.190887 -0.256781 -0.205811" range="0.203125" height="0.507813" />
-						<point pos="-1.422516 0.128433 0.641846" range="0.237500" height="0.593750" />
-						<point pos="-1.355316 0.082838 -0.518066" range="0.134375" height="0.335938" />
-						<point pos="-1.938446 0.039644 0.739746" range="0.134375" height="0.335938" />
-						<point pos="-0.982758 -0.432077 0.538330" range="0.140350" height="0.350876" />
+						<point pos="-1.793030 -0.361715 -0.176514" range="0.167480" height="0.233089" />
+						<point pos="-1.795593 -0.317720 0.329590" range="0.200195" height="0.213846" />
+						<point pos="0.180328 -0.207417 0.560791" range="0.203125" height="0.507813" />
+						<point pos="-1.025238 -0.440590 0.437744" range="0.114075" height="0.285187" />
 						<point pos="-0.531372 -0.232500 0.336182" range="0.147888" height="0.369720" />
+						<point pos="-0.553802 -0.272118 -0.315430" range="0.168823" height="0.422058" />
+						<point pos="1.296081 0.138826 -0.510498" range="0.134375" height="0.335938" />
+						<point pos="1.275025 0.247122 0.728027" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0" />
@@ -483,11 +639,14 @@
 						<tag name="floor" />
 						<tag name="shelves" />
 						<point pos="0.190887 -0.256781 -0.205811" range="0.203125" height="0.507813" />
-						<point pos="-1.422516 0.128433 0.641846" range="0.237500" height="0.593750" />
-						<point pos="-1.355316 0.082838 -0.518066" range="0.134375" height="0.335938" />
-						<point pos="-1.938446 0.039644 0.739746" range="0.134375" height="0.335938" />
-						<point pos="-0.982758 -0.432077 0.538330" range="0.140350" height="0.350876" />
+						<point pos="-1.793030 -0.361715 -0.176514" range="0.167480" height="0.233089" />
+						<point pos="-1.795593 -0.317720 0.329590" range="0.200195" height="0.213846" />
+						<point pos="0.180328 -0.207417 0.560791" range="0.203125" height="0.507813" />
+						<point pos="-1.025238 -0.440590 0.437744" range="0.114075" height="0.285187" />
 						<point pos="-0.531372 -0.232500 0.336182" range="0.147888" height="0.369720" />
+						<point pos="-0.553802 -0.272118 -0.315430" range="0.168823" height="0.422058" />
+						<point pos="1.296081 0.138826 -0.510498" range="0.134375" height="0.335938" />
+						<point pos="1.275025 0.247122 0.728027" range="0.100000" height="0.250000" />
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0" />
@@ -508,13 +667,16 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="1.763916 0.189627 -0.501221" range="0.134375" height="0.335938" />
+						<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196" />
+						<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030" />
+						<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861" />
+						<point pos="-0.494202 -0.023838 0.367920" range="0.168750" height="0.421875" />
 						<point pos="-1.701843 -0.099649 -0.129883" range="0.225098" height="0.308670" />
 						<point pos="-1.722961 -0.076416 0.370605" range="0.145020" height="0.281595" />
-						<point pos="-0.458343 -0.062677 -0.342773" range="0.227478" height="0.568695" />
-						<point pos="-0.883484 -0.256844 -0.146729" range="0.103912" height="0.259781" />
-						<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861" />
-						<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030" />
+						<point pos="-0.958649 -0.259422 -0.214844" range="0.100000" height="0.250000" />
+						<point pos="-0.052399 -0.278509 -0.386230" range="0.141327" height="0.288389" />
+						<point pos="1.393433 0.333178 0.669678" range="0.124725" height="0.311813" />
+						<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813" />
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0" />
@@ -535,13 +697,16 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="1.763916 0.189627 -0.501221" range="0.134375" height="0.335938" />
+						<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196" />
+						<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030" />
+						<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861" />
+						<point pos="-0.494202 -0.023838 0.367920" range="0.168750" height="0.421875" />
 						<point pos="-1.701843 -0.099649 -0.129883" range="0.225098" height="0.308670" />
 						<point pos="-1.722961 -0.076416 0.370605" range="0.145020" height="0.281595" />
-						<point pos="-0.458343 -0.062677 -0.342773" range="0.227478" height="0.568695" />
-						<point pos="-0.883484 -0.256844 -0.146729" range="0.103912" height="0.259781" />
-						<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861" />
-						<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030" />
+						<point pos="-0.958649 -0.259422 -0.214844" range="0.100000" height="0.250000" />
+						<point pos="-0.052399 -0.278509 -0.386230" range="0.141327" height="0.288389" />
+						<point pos="1.393433 0.333178 0.669678" range="0.124725" height="0.311813" />
+						<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813" />
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0" />
@@ -562,13 +727,16 @@
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="1.763916 0.189627 -0.501221" range="0.134375" height="0.335938" />
+						<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196" />
+						<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030" />
+						<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861" />
+						<point pos="-0.494202 -0.023838 0.367920" range="0.168750" height="0.421875" />
 						<point pos="-1.701843 -0.099649 -0.129883" range="0.225098" height="0.308670" />
 						<point pos="-1.722961 -0.076416 0.370605" range="0.145020" height="0.281595" />
-						<point pos="-0.458343 -0.062677 -0.342773" range="0.227478" height="0.568695" />
-						<point pos="-0.883484 -0.256844 -0.146729" range="0.103912" height="0.259781" />
-						<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861" />
-						<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030" />
+						<point pos="-0.958649 -0.259422 -0.214844" range="0.100000" height="0.250000" />
+						<point pos="-0.052399 -0.278509 -0.386230" range="0.141327" height="0.288389" />
+						<point pos="1.393433 0.333178 0.669678" range="0.124725" height="0.311813" />
+						<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813" />
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0" />
@@ -576,5 +744,116 @@
 						<proxy type="Sedan_02_Door_2_2" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
 						<proxy type="Sedan_02_Hood" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
 				</dispatch>
+		</group>
+		<group name="Land_Wreck_truck01_aban1_green" >
+			<usage name="Village" />		
+			<usage name="Industrial" />		
+			<container name="loot" lootmax="2">
+				<category name="vehicleparts" />
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<category name="explosives" />
+			</container>
+			<dispatch>
+					<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+					<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+					<proxy type="Truck_01_Door_2_1" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+					<proxy type="Truck_01_Hood" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+			</dispatch>
+		</group>
+		<group name="Land_Wreck_truck01_aban1_blue" >
+			<usage name="Village" />		
+			<usage name="Industrial" />		
+			<container name="loot" lootmax="2">
+				<category name="vehicleparts" />
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<category name="explosives" />
+			</container>
+			<dispatch>
+					<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+					<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+					<proxy type="Truck_01_Door_2_1" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+					<proxy type="Truck_01_Hood" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+			</dispatch>
+		</group>
+		<group name="Land_Wreck_truck01_aban1_orange" >
+			<usage name="Village" />		
+			<usage name="Industrial" />		
+			<container name="loot" lootmax="2">
+				<category name="vehicleparts" />
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<category name="explosives" />
+			</container>
+			<dispatch>
+					<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+					<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+					<proxy type="Truck_01_Door_2_1" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+					<proxy type="Truck_01_Hood" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+			</dispatch>
+		</group>
+		<group name="Land_Wreck_truck01_aban2_green" >
+			<usage name="Village" />		
+			<usage name="Industrial" />		
+			<container name="loot" lootmax="2">
+				<category name="vehicleparts" />
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<category name="explosives" />
+			</container>
+			<dispatch>
+					<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+					<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+					<proxy type="Truck_01_Door_1_1" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+			</dispatch>
+		</group>
+		<group name="Land_Wreck_truck01_aban2_blue" >
+			<usage name="Village" />		
+			<usage name="Industrial" />		
+			<container name="loot" lootmax="2">
+				<category name="vehicleparts" />
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<category name="explosives" />
+			</container>
+			<dispatch>
+					<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+					<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+					<proxy type="Truck_01_Door_1_1" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+			</dispatch>
+		</group>
+		<group name="Land_Wreck_truck01_aban2_orange" >
+			<usage name="Village" />		
+			<usage name="Industrial" />		
+			<container name="loot" lootmax="2">
+				<category name="vehicleparts" />
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<category name="explosives" />
+			</container>
+			<dispatch>
+					<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+					<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+					<proxy type="Truck_01_Door_1_1" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+			</dispatch>
 		</group>
 </prototype>

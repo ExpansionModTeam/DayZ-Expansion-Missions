@@ -96,23 +96,23 @@ class COMWidgetStore
 	{
 		if ( widget.IsInherited( TextWidget ) ) 
 		{
-			textWidgets.Insert( widget );
+			textWidgets.Insert( TextWidget.Cast( widget ) );
 		}
 		if ( widget.IsInherited( ButtonWidget ) ) 
 		{
-			buttonWidgets.Insert( widget );
+			buttonWidgets.Insert( ButtonWidget.Cast( widget ) );
 		}
 		if ( widget.IsInherited( EditBoxWidget ) ) 
 		{
-			editBoxWidgets.Insert( widget );
+			editBoxWidgets.Insert( EditBoxWidget.Cast( widget ) );
 		}
 		if ( widget.IsInherited( SliderWidget ) ) 
 		{
-			sliderWidgets.Insert( widget );
+			sliderWidgets.Insert( SliderWidget.Cast( widget ) );
 		}
 		if ( widget.IsInherited( TextListboxWidget )) 
 		{
-			textListBoxWidgets.Insert( widget );
+			textListBoxWidgets.Insert( TextListboxWidget.Cast( widget ) );
 		}
 	}
 
@@ -134,7 +134,7 @@ class COMWidgetStore
 		{
 			if ( widget.GetName() == name ) 
 			{
-				return widget;
+				return TextWidget.Cast(widget);
 			}
 		}
 		return null;
@@ -146,7 +146,7 @@ class COMWidgetStore
 		{
 			if ( widget.GetName() == name ) 
 			{
-				return widget;
+				return ButtonWidget.Cast( widget );
 			}
 		}
 		return null;
@@ -158,7 +158,7 @@ class COMWidgetStore
 		{
 			if ( widget.GetName() == name ) 
 			{
-				return widget;
+				return EditBoxWidget.Cast( widget );
 			}
 		}
 		return null;
@@ -170,7 +170,7 @@ class COMWidgetStore
 		{
 			if ( widget.GetName() == name ) 
 			{
-				return widget;
+				return SliderWidget.Cast( widget );
 			}
 		}
 		return null;
@@ -182,7 +182,7 @@ class COMWidgetStore
 		{
 			if ( widget.GetName() == name ) 
 			{
-				return widget;
+				return TextListboxWidget.Cast( widget );
 			}
 		}
 		return null;

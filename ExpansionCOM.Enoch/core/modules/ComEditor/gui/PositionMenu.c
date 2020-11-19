@@ -243,7 +243,7 @@ class COM_PositionMenu extends PopupMenu
 			}
 			else
 			{
-				PlayerBase oPlayer = GetGame().GetPlayer();
+				PlayerBase oPlayer = PlayerBase.Cast( GetGame().GetPlayer() );
 				oPlayer.MessageStatus( "Invalid teleportation position!" );
 
 				return true;

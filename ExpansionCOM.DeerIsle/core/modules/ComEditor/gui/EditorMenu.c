@@ -38,7 +38,7 @@ class EditorMenu extends UIScriptedMenu
 		m_WeatherButton  = ButtonWidget.Cast( layoutRoot.FindAnyWidget("weather_button") );
 		m_GameButton	 = ButtonWidget.Cast( layoutRoot.FindAnyWidget("game_button") );
 		m_MatButton	 = ButtonWidget.Cast( layoutRoot.FindAnyWidget("mat_button") );
-		m_ObjectEditorButton = layoutRoot.FindAnyWidget( "objectEditor_button" );
+		m_ObjectEditorButton = ButtonWidget.Cast( layoutRoot.FindAnyWidget( "objectEditor_button" ) );
 
 		m_aiMenu   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\AIMenu.layout", layoutRoot );
 		m_objectMenu   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\ObjectMenu.layout", layoutRoot );

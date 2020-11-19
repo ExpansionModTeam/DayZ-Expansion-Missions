@@ -69,6 +69,23 @@
             <child lootmax="0" lootmin="0" max="15" min="9" type="Sedan_02"/>
         </children>
     </event>
+    <event name="VehicleTruck01">
+        <nominal>8</nominal>
+        <min>5</min>
+        <max>11</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>0</active> <!-- Deer Isle don't have M3S Covered spawns configured -->
+        <children>
+            <child lootmax="0" lootmin="0" max="15" min="9" type="Truck_01_Covered"/>
+        </children>
+    </event>
     <!-- Expansion content -->
     <!-- CARS -->
 	<event name="VehicleUAZ">
