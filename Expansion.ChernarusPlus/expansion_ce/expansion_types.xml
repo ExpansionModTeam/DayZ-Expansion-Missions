@@ -909,7 +909,7 @@
     </type>
     <type name="HatchbackTrunk_Blue">
         <nominal>0</nominal>
-        <lifetime>10800</lifetime>
+        <lifetime>0</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
