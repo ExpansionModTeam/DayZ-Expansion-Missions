@@ -1521,7 +1521,7 @@
     <type name="Truck_01_Covered_Blue">
         <nominal>0</nominal>
         <lifetime>3888000</lifetime>
-        <restock>0</restock>
+        <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -1531,7 +1531,7 @@
     <type name="Truck_01_Covered_Orange">
         <nominal>0</nominal>
         <lifetime>3888000</lifetime>
-        <restock>0</restock>
+        <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -1710,6 +1710,22 @@
         <value name="Tier3"/>
     </type>
     <!-- Expansion Content -->
+	<type name="ExpansionAirdropContainer">
+        <lifetime>2700</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="ExpansionAirdropContainer_Medical">
+        <lifetime>2700</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="ExpansionAirdropContainer_Military">
+        <lifetime>2700</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="ExpansionAirdropContainer_Basebuilding">
+        <lifetime>2700</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
     <!-- HELICOPTERS -->
 	<type name="ExpansionMh6">
         <nominal>0</nominal>
