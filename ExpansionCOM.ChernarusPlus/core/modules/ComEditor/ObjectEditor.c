@@ -433,13 +433,13 @@ class ObjectEditor extends COM_Module
 
 				//contact_pos [ 1 ] = contact_pos [ 1 ] + nHightOffsetToGround;
 
-				if ( dBodyIsActive( m_SelectedObject ) && dBodyIsDynamic( m_SelectedObject ) && !m_SelectedObject.IsInherited( Man ) && !m_SelectedObject.IsInherited( DayZCreature ) )
-				{
-					vector transform[4];
-					m_SelectedObject.GetTransform( transform );
-					transform[3] = contact_pos;
-					dBodySetTargetMatrix( m_SelectedObject, transform, 1.0 / 40.0 );
-				} else
+				//if ( dBodyIsActive( m_SelectedObject ) && dBodyIsDynamic( m_SelectedObject ) && !m_SelectedObject.IsInherited( Man ) && !m_SelectedObject.IsInherited( DayZCreature ) )
+				//{
+				//	vector transform[4];
+				//	m_SelectedObject.GetTransform( transform );
+				//	transform[3] = contact_pos;
+				//	dBodySetTargetMatrix( m_SelectedObject, transform, 1.0 / 40.0 );
+				//} else
 				{
 					m_SelectedObject.SetPosition( contact_pos );
 					m_SelectedObject.PlaceOnSurface();

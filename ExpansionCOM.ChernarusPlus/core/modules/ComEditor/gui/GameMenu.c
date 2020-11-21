@@ -29,40 +29,34 @@ class GameMenu extends PopupMenu
 		m_gameScriptList.AddItem( "Spawn Gunter",			new Param1<string>("SpawnHatchback_02"),				0 );
 		m_gameScriptList.AddItem( "Spawn Sedan", 			new Param1<string>("SpawnSedan"), 	 					0 );
 		m_gameScriptList.AddItem( "Spawn Sarka", 			new Param1<string>("SpawnSedan_02"), 	 				0 );
-		m_gameScriptList.AddItem( "Spawn V3S Chassis",		new Param1<string>("SpawnTruck_01_Chassis"), 			0 );
-		m_gameScriptList.AddItem( "Spawn V3S Cargo",		new Param1<string>("SpawnTruck_01_Cargo"), 				0 );
-		m_gameScriptList.AddItem( "Spawn Utility",			new Param1<string>("SpawnTruck_02"), 	  				0 );
-		m_gameScriptList.AddItem( "Spawn Van",				new Param1<string>("SpawnVan_01"), 	  					0 );
-		m_gameScriptList.AddItem( "Spawn Merlin",			new Param1<string>("DefaultExpansionMerlin"),			0 );
-		m_gameScriptList.AddItem( "Spawn Mh6",				new Param1<string>("DefaultExpansionMh6"),				0 );
-		m_gameScriptList.AddItem( "Spawn Uh1h",				new Param1<string>("DefaultExpansionUh1h"),				0 );
-		m_gameScriptList.AddItem( "Spawn UAZ",				new Param1<string>("DefaultExpansionUAZ"),				0 );
-		m_gameScriptList.AddItem( "Spawn UAZRoofless",		new Param1<string>("DefaultExpansionUAZRoofless"),		0 );
-		m_gameScriptList.AddItem( "Spawn UAZCargoRoofless",	new Param1<string>("DefaultExpansionUAZCargoRoofless"),	0 );
-		m_gameScriptList.AddItem( "Spawn UAZCargo",			new Param1<string>("DefaultExpansionUAZCargo"),			0 );
-		m_gameScriptList.AddItem( "Spawn Vodnik",			new Param1<string>("DefaultExpansionVodnik"),			0 );
-		m_gameScriptList.AddItem( "Spawn Bus",			 	new Param1<string>("DefaultExpansionBus"),				0 );
-		m_gameScriptList.AddItem( "Spawn ZodiacBoat",		new Param1<string>("DefaultExpansionZodiacBoat"),		0 );
-		m_gameScriptList.AddItem( "Spawn UtilityBoat",		new Param1<string>("DefaultExpansionUtilityBoat"),		0 );
-		//! m_gameScriptList.AddItem( "Spawn AmphibiaBoat",	new Param1<string>("DefaultExpansionAmphibiaBoat"),		0 );
-		m_gameScriptList.AddItem( "Spawn AN2",				new Param1<string>("DefaultExpansionAN2"),				0 );
-		//! m_gameScriptList.AddItem( "Spawn Su34",			new Param1<string>("DefaultExpansionSu34"),				0 );
-		m_gameScriptList.AddItem( "Spawn C130J",			new Param1<string>("DefaultExpansionC130J"),			0 );
-		//! m_gameScriptList.AddItem( "Spawn Forklift",		new Param1<string>("DefaultExpansionForklift"),			0 );
-		m_gameScriptList.AddItem( "Spawn Tractor",			new Param1<string>("DefaultExpansionTractor"),			0 );
-		m_gameScriptList.AddItem( "Spawn Mi8",				new Param1<string>("DefaultExpansionMi8"),				0 );
+		m_gameScriptList.AddItem( "Spawn M3S Covered",		new Param1<string>("SpawnTruck_01_Covered"), 			0 );
+		//m_gameScriptList.AddItem( "Spawn M3S Chassis",		new Param1<string>("SpawnTruck_01_Chassis"), 			0 );
+		//m_gameScriptList.AddItem( "Spawn M3S Cargo",		new Param1<string>("SpawnTruck_01_Cargo"), 				0 );
+		//m_gameScriptList.AddItem( "Spawn M3S Command",		new Param1<string>("SpawnTruck_01_Command"), 				0 );
+		//m_gameScriptList.AddItem( "Spawn Utility",			new Param1<string>("SpawnTruck_02"), 	  				0 );
+		//m_gameScriptList.AddItem( "Spawn Van",				new Param1<string>("SpawnVan_01"), 	  					0 );
+		m_gameScriptList.AddItem( "Spawn UAZ",				new Param1<string>("SpawnExpansionUAZ"),				0 );
+		m_gameScriptList.AddItem( "Spawn UAZ Roofless",		new Param1<string>("SpawnExpansionUAZRoofless"),		0 );
+		m_gameScriptList.AddItem( "Spawn UAZ Cargo Roofless",	new Param1<string>("SpawnExpansionUAZCargoRoofless"),	0 );
+		m_gameScriptList.AddItem( "Spawn UAZ Cargo",			new Param1<string>("SpawnExpansionUAZCargo"),			0 );
+		m_gameScriptList.AddItem( "Spawn Vodnik",			new Param1<string>("SpawnExpansionVodnik"),			0 );
+		m_gameScriptList.AddItem( "Spawn Bus",			 	new Param1<string>("SpawnExpansionBus"),				0 );
+		//! m_gameScriptList.AddItem( "Spawn Forklift",		new Param1<string>("SpawnExpansionForklift"),			0 );
+		m_gameScriptList.AddItem( "Spawn Tractor",			new Param1<string>("SpawnExpansionTractor"),			0 );
+		m_gameScriptList.AddItem( "Spawn Helicopter Merlin",			new Param1<string>("SpawnExpansionMerlin"),			0 );
+		m_gameScriptList.AddItem( "Spawn Helicopter Mh6",				new Param1<string>("SpawnExpansionMh6"),				0 );
+		m_gameScriptList.AddItem( "Spawn Helicopter Uh1h",				new Param1<string>("SpawnExpansionUh1h"),				0 );
+		//m_gameScriptList.AddItem( "Spawn Helicopter Mi8",				new Param1<string>("SpawnExpansionMi8"),				0 );
+		m_gameScriptList.AddItem( "Spawn Plane AN2",				new Param1<string>("SpawnExpansionAN2"),				0 );
+		m_gameScriptList.AddItem( "Spawn Plane C130J",			new Param1<string>("SpawnExpansionC130J"),			0 );
+		//! m_gameScriptList.AddItem( "Spawn Plane Su34",			new Param1<string>("SpawnExpansionSu34"),				0 );
+		m_gameScriptList.AddItem( "Spawn Boat PBX",		new Param1<string>("SpawnExpansionZodiacBoat"),		0 );
+		m_gameScriptList.AddItem( "Spawn Boat RHIB",		new Param1<string>("SpawnExpansionUtilityBoat"),		0 );
+		//! m_gameScriptList.AddItem( "Spawn Boat Wheeled RHIB",	new Param1<string>("SpawnExpansionAmphibiaBoat"),		0 );
 
 		CheckBoxWidget checkBoxGodmode = CheckBoxWidget.Cast(GetGame().GetWorkspace().CreateWidgets( checkboxLayout, m_checkboxPanel ));
 		checkBoxGodmode.SetName( "Godmode" );
 		checkBoxGodmode.SetText( "Godmode" );
-
-//		CheckBoxWidget checkBoxAiming = CheckBoxWidget.Cast(GetGame().GetWorkspace().CreateWidgets( checkboxLayout, m_checkboxPanel ));
-//		checkBoxAiming.SetName("OldAiming");
-//		checkBoxAiming.SetText("Old Aiming");
-//
-//		CheckBoxWidget checkBoxLaser = CheckBoxWidget.Cast(GetGame().GetWorkspace().CreateWidgets( checkboxLayout, m_checkboxPanel ));
-//		checkBoxLaser.SetName("LaserPointer");
-//		checkBoxLaser.SetText("Laser Pointer");
 
 		checkBoxMap.Insert( checkBoxGodmode.GetName(), "ToggleGodMode" );
 	}
@@ -192,29 +186,16 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "Sedan_02", attArr );
 	}
 
-	static CarScript SpawnV3SCargo() 
-	{
-		TStringArray attArr = {
-		"V3SWheel","V3SWheel", "V3SWheel","V3SWheel", "V3SWheelDouble",
-		"V3SWheelDouble", "V3SWheelDouble","V3SWheelDouble",
-		"TruckBattery","TruckRadiator","EngineBelt","GlowPlug","V3SHood",
-		"V3SDoors_Driver_Orange","V3SDoors_CoDriver_Orange",
-		};
-
-		return SpawnVehicle( "V3S_Cargo_Blue", attArr );
-	}
-
 	static CarScript SpawnTruck_01_Chassis() 
 	{
 		TStringArray attArr = {
 		"Truck_01_Wheel","Truck_01_Wheel", "Truck_01_Wheel","Truck_01_Wheel",
 		"Truck_01_WheelDouble","Truck_01_WheelDouble", "Truck_01_WheelDouble",
-		"Truck_01_WheelDouble","TruckBattery","TruckRadiator","EngineBelt",
-		"GlowPlug","Truck_01_Hood_Orange","Truck_01_Door_1_1_Orange",
-		"Truck_01_Door_2_1_Orange",
+		"Truck_01_WheelDouble","TruckBattery","Truck_01_Hood","Truck_01_Door_1_1",
+		"Truck_01_Door_2_1",
 		};
 
-		return SpawnVehicle( "Truck_01_Chassis_Orange", attArr );
+		return SpawnVehicle( "Truck_01_Chassis", attArr );
 	}
 
 	static CarScript SpawnTruck_01_Cargo() 
@@ -222,26 +203,49 @@ class GameMenu extends PopupMenu
 		TStringArray attArr = {
 		"Truck_01_Wheel","Truck_01_Wheel", "Truck_01_Wheel","Truck_01_Wheel",
 		"Truck_01_WheelDouble","Truck_01_WheelDouble", "Truck_01_WheelDouble",
-		"Truck_01_WheelDouble","TruckBattery","TruckRadiator","EngineBelt",
-		"GlowPlug","Truck_01_Hood_Orange","Truck_01_Door_1_1_Orange",
-		"Truck_01_Door_2_1_Orange",
+		"Truck_01_WheelDouble","TruckBattery","Truck_01_Hood","Truck_01_Door_1_1",
+		"Truck_01_Door_2_1",
 		};
 
-		return SpawnVehicle( "Truck_01_Cargo_Blue", attArr );
+		return SpawnVehicle( "Truck_01_Cargo", attArr );
+	}
+
+	static CarScript SpawnTruck_01_Covered() 
+	{
+		TStringArray attArr = {
+		"Truck_01_Wheel","Truck_01_Wheel", "Truck_01_Wheel","Truck_01_Wheel",
+		"Truck_01_WheelDouble","Truck_01_WheelDouble", "Truck_01_WheelDouble",
+		"Truck_01_WheelDouble","TruckBattery","Truck_01_Hood","Truck_01_Door_1_1",
+		"Truck_01_Door_2_1",
+		};
+
+		return SpawnVehicle( "Truck_01_Covered", attArr );
+	}
+
+	static CarScript SpawnTruck_01_Command() 
+	{
+		TStringArray attArr = {
+		"Truck_01_Wheel","Truck_01_Wheel", "Truck_01_Wheel","Truck_01_Wheel",
+		"Truck_01_WheelDouble","Truck_01_WheelDouble", "Truck_01_WheelDouble",
+		"Truck_01_WheelDouble","TruckBattery","Truck_01_Hood","Truck_01_Door_1_1",
+		"Truck_01_Door_2_1",
+		};
+
+		return SpawnVehicle( "Truck_01_Command", attArr );
 	}
 
 	static CarScript SpawnTruck_02() 
 	{
 		TStringArray attArr = {
 		"Truck_02_Wheel","Truck_02_Wheel", "Truck_02_Wheel","Truck_02_Wheel",
-		"TruckBattery","TruckRadiator","EngineBelt","GlowPlug",
+		"TruckBattery","GlowPlug",
 		"Truck_02_Door_1_1","Truck_02_Door_2_1",
 		};
 
 		return SpawnVehicle( "Truck_02", attArr );
 	}
 
-	static CarScript DefaultExpansionMerlin()
+	static CarScript SpawnExpansionMerlin()
 	{
 		array< string> attArr = new array< string>;
 
@@ -258,7 +262,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionMerlin", attArr );
 	}
 
-	static CarScript DefaultExpansionMi8()
+	static CarScript SpawnExpansionMi8()
 	{
 		array< string> attArr = new array< string>;
 
@@ -277,7 +281,7 @@ class GameMenu extends PopupMenu
 
 	}
 
-	static CarScript DefaultExpansionMh6()
+	static CarScript SpawnExpansionMh6()
 	{
 		array< string> attArr = new array< string>;
 
@@ -294,7 +298,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionMh6", attArr );
 	}
 
-	static CarScript DefaultExpansionUh1h()
+	static CarScript SpawnExpansionUh1h()
 	{
 		array< string> attArr = new array< string>;
 
@@ -303,12 +307,12 @@ class GameMenu extends PopupMenu
 		attArr.Insert("ExpansionIgniterPlug");
 		attArr.Insert("HeadlightH7");
 
-		//attArr.Insert("ExpansionUh1hDoor_1_1");
-		//attArr.Insert("ExpansionUh1hDoor_1_2");
+		attArr.Insert("ExpansionUh1hDoor_1_1");
+		attArr.Insert("ExpansionUh1hDoor_1_2");
 		return SpawnVehicle( "ExpansionUh1h", attArr );
 	}
 
-	static CarScript DefaultExpansionQuad()
+	static CarScript SpawnExpansionQuad()
 	{
 		array< string> attArr = new array< string>;
 
@@ -319,7 +323,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionQuad", attArr );
 	}
 
-	static CarScript DefaultExpansionUAZ()
+	static CarScript SpawnExpansionUAZ()
 	{
 		array< string> attArr = new array< string>;
 
@@ -342,7 +346,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionUAZ", attArr );
 	}
 
-	static CarScript DefaultExpansionUAZRoofless()
+	static CarScript SpawnExpansionUAZRoofless()
 	{
 		array< string> attArr = new array< string>;
 
@@ -365,7 +369,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionUAZRoofless", attArr );
 	}
 
-	static CarScript DefaultExpansionUAZCargoRoofless()
+	static CarScript SpawnExpansionUAZCargoRoofless()
 	{
 		array< string> attArr = new array< string>;
 
@@ -388,7 +392,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionUAZCargoRoofless", attArr );
 	}
 
-	static CarScript DefaultExpansionUAZCargo()
+	static CarScript SpawnExpansionUAZCargo()
 	{
 		array< string> attArr = new array< string>;
 
@@ -412,7 +416,7 @@ class GameMenu extends PopupMenu
 	}
 
 	/*
-	static CarScript DefaultExpansionForklift()
+	static CarScript SpawnExpansionForklift()
 	{
 		array< string> attArr = new array< string>;
 
@@ -431,7 +435,7 @@ class GameMenu extends PopupMenu
 	}
 	*/
 
-	static CarScript DefaultExpansionTractor()
+	static CarScript SpawnExpansionTractor()
 	{
 		array< string> attArr = new array< string>;
 
@@ -451,7 +455,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionTractor", attArr );
 	}
 
-	static CarScript DefaultExpansionVodnik()
+	static CarScript SpawnExpansionVodnik()
 	{
 		array< string> attArr = new array< string>;
 
@@ -472,7 +476,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionVodnik", attArr );
 	}
 
-	static CarScript DefaultExpansionBus( vector position = "0 0 0" )
+	static CarScript SpawnExpansionBus( vector position = "0 0 0" )
 	{
 		array< string> attArr = new array< string>;
 
@@ -490,7 +494,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionBus", attArr, position );
 	}
 
-	static CarScript DefaultExpansionZodiacBoat()
+	static CarScript SpawnExpansionZodiacBoat()
 	{
 		array< string> attArr = new array< string>;
 
@@ -503,7 +507,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionZodiacBoat", attArr );
 	}
 
-	static CarScript DefaultExpansionUtilityBoat()
+	static CarScript SpawnExpansionUtilityBoat()
 	{
 		array< string> attArr = new array< string>;
 
@@ -517,7 +521,7 @@ class GameMenu extends PopupMenu
 	}
 
 	/*
-	static CarScript DefaultExpansionAmphibiaBoat()
+	static CarScript SpawnExpansionAmphibiaBoat()
 	{
 		array< string> attArr = new array< string>;
 
@@ -536,7 +540,7 @@ class GameMenu extends PopupMenu
 	*/
 
 	/*
-	static CarScript DefaultExpansionSu34()
+	static CarScript SpawnExpansionSu34()
 	{
 		array< string> attArr = new array< string>;
 
@@ -554,7 +558,7 @@ class GameMenu extends PopupMenu
 	}
 	*/
 
-	static CarScript DefaultExpansionAN2()
+	static CarScript SpawnExpansionAN2()
 	{
 		array< string> attArr = new array< string>;
 
@@ -571,7 +575,7 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionAn2", attArr );
 	}
 
-	static CarScript DefaultExpansionC130J()
+	static CarScript SpawnExpansionC130J()
 	{
 		array< string> attArr = new array< string>;
 
@@ -592,7 +596,7 @@ class GameMenu extends PopupMenu
 	{
 		TStringArray attArr = {
 		"TransitBusWheel","TransitBusWheel", "TransitBusWheelDouble","TransitBusWheelDouble",
-		"TruckBattery","TruckRadiator","EngineBelt","GlowPlug","BusHood",
+		"TruckBattery","GlowPlug","BusHood",
 		"BusDoors_Left","BusDoors_Right", "BusDoors_Left","BusDoors_Right", "BusDoors_Left","BusDoors_Right",
 		};
 

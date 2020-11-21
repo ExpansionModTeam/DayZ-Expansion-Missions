@@ -399,12 +399,12 @@ class ObjectInfoMenu extends PopupMenu
 			obj.GetTransform( transform );
 			float distance = vector.Distance( transform[3], position );
 			float time = 1.0 / 40.0;
-			//time *= distance * 0.001;
-
+			//time *= distance * 0.00001;
+//
 			Math3D.YawPitchRollMatrix( orientation, transform );
 			transform[3] = position;
 			dBodySetTargetMatrix( obj, transform, time );
-
+//
 			return;
 		}
 
