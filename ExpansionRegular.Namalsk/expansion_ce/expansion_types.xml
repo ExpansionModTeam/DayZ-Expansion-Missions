@@ -11,7 +11,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>	
     <type name="CombinationLock">
@@ -254,7 +253,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="shelves"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionHelicopterBattery">
@@ -319,7 +317,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>	
 	<type name="ExpansionAnWheel">
@@ -332,7 +329,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>	
 	<type name="ExpansionAnWheelSmall">
@@ -345,7 +341,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>	
 	<type name="ExpansionBusWheel">
@@ -358,7 +353,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>	
 	<type name="ExpansionBusWheelDouble">
@@ -371,7 +365,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>	
 	<type name="ExpansionUAZWheel">
@@ -383,7 +376,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionTractorFrontWheel">
@@ -396,7 +388,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Farm"/>
     </type>	
 	<type name="ExpansionTractorBackWheel">
@@ -409,7 +400,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Farm"/>
     </type>
 	<type name="ExpansionTractorDoorsDriver">
@@ -422,7 +412,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Farm"/>
     </type>	
 	<type name="ExpansionTractorDoorsCoDriver">
@@ -435,7 +424,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Farm"/>
     </type>
 	<type name="ExpansionVodnikWheel">
@@ -447,7 +435,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionVodnikDoorDriver">
@@ -459,7 +446,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionVodnikDoorCoDriver">
@@ -471,7 +457,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorDriver">
@@ -483,7 +468,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCoDriver">
@@ -495,7 +479,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo1">
@@ -507,7 +490,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo2">
@@ -519,7 +501,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUh1hDoor_1_1">
@@ -531,7 +512,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUh1hDoor_1_2">
@@ -543,7 +523,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1">
@@ -555,7 +534,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2">
@@ -567,7 +545,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1">
@@ -579,7 +556,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2">
@@ -591,7 +567,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<!-- OPTICS -->
@@ -1075,7 +1050,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
@@ -1090,7 +1064,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
@@ -1447,7 +1420,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
         <usage name="Police"/>
     </type>
 	<type name="Mag_Expansion_MPX_50Rnd">
@@ -1913,7 +1885,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Civilian"/>
         <usage name="Military"/>
     </type>
@@ -1927,7 +1898,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Civilian"/>
         <usage name="Military"/>
     </type>
@@ -1941,7 +1911,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Civilian"/>
         <usage name="Military"/>
     </type>
@@ -1955,7 +1924,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="floor"/>
         <usage name="Military"/>
     </type>
 	<type name="ExpansionHelipadKit">
@@ -2103,7 +2071,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="tools"/>
-        <tag name="shelves"/>
         <usage name="Industrial"/>
         <usage name="Civilian"/>
         <usage name="Fishing"/>
@@ -2137,7 +2104,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-        <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Civilian"/>
         <usage name="Fishing"/>
@@ -2152,7 +2118,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-        <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Civilian"/>
         <usage name="Fishing"/>
@@ -2167,7 +2132,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-        <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Civilian"/>
         <usage name="Fishing"/>
@@ -2182,7 +2146,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-        <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Civilian"/>
         <usage name="Fishing"/>
@@ -2197,7 +2160,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-        <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Civilian"/>
         <usage name="Fishing"/>
@@ -2212,7 +2174,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-        <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Civilian"/>
         <usage name="Fishing"/>
@@ -2227,7 +2188,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-        <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Civilian"/>
         <usage name="Fishing"/>
@@ -2242,7 +2202,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
-        <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Civilian"/>
         <usage name="Fishing"/>

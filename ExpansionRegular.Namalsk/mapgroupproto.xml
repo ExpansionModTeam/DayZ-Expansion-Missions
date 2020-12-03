@@ -9832,14 +9832,12 @@
 				<usage name="Village" />
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-0.514923 -0.683249 -0.580811" range="0.100000" height="0.250000" />
 						<point pos="-0.546204 -0.739777 0.478760" range="0.100000" height="0.250000" />
 						<point pos="-0.044220 -0.389238 0.301758" range="0.216492" height="0.541229" />
@@ -9860,14 +9858,12 @@
 				<usage name="Hunting" />
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-0.514923 -0.683249 -0.580811" range="0.100000" height="0.250000" />
 						<point pos="-0.546204 -0.739777 0.478760" range="0.100000" height="0.250000" />
 						<point pos="-0.044220 -0.389238 0.301758" range="0.216492" height="0.541229" />
@@ -9887,14 +9883,12 @@
 				<usage name="Village" />
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-0.514923 -0.683249 -0.580811" range="0.100000" height="0.250000" />
 						<point pos="-0.546204 -0.739777 0.478760" range="0.100000" height="0.250000" />
 						<point pos="-0.044220 -0.389238 0.301758" range="0.216492" height="0.541229" />
@@ -9914,14 +9908,12 @@
 				<usage name="Village" />
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-0.590393 -0.510935 0.625977" range="0.100000" height="0.250000" />
 						<point pos="-0.649689 -0.564240 -0.388916" range="0.100000" height="0.250000" />
 						<point pos="-0.094360 -0.226664 -0.427002" range="0.203003" height="0.507507" />
@@ -9942,14 +9934,12 @@
 				<usage name="Hunting" />
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-0.590393 -0.510935 0.625977" range="0.100000" height="0.250000" />
 						<point pos="-0.649689 -0.564240 -0.388916" range="0.100000" height="0.250000" />
 						<point pos="-0.094360 -0.226664 -0.427002" range="0.203003" height="0.507507" />
@@ -9969,14 +9959,12 @@
 				<usage name="Village" />
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-0.590393 -0.510935 0.625977" range="0.100000" height="0.250000" />
 						<point pos="-0.649689 -0.564240 -0.388916" range="0.100000" height="0.250000" />
 						<point pos="-0.094360 -0.226664 -0.427002" range="0.203003" height="0.507507" />
@@ -9996,14 +9984,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="1.457816 -0.077440 0.185163" range="0.100000" height="0.250000" />
 						<point pos="-0.122574 -0.237055 -0.407825" range="0.194855" height="0.487137" />
 						<point pos="-0.640529 -0.388655 0.473257" range="0.118561" height="0.179335" />
@@ -10024,14 +10010,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="1.457816 -0.077440 0.185163" range="0.100000" height="0.250000" />
 						<point pos="-0.122574 -0.237055 -0.407825" range="0.194855" height="0.487137" />
 						<point pos="-0.640529 -0.388655 0.473257" range="0.118561" height="0.179335" />
@@ -10052,14 +10036,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="1.457816 -0.077440 0.185163" range="0.100000" height="0.250000" />
 						<point pos="-0.122574 -0.237055 -0.407825" range="0.194855" height="0.487137" />
 						<point pos="-0.640529 -0.388655 0.473257" range="0.118561" height="0.179335" />
@@ -10080,14 +10062,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="1.023582 -0.202618 0.257945" range="0.130982" height="0.327454" />
 						<point pos="1.920607 -0.109632 -0.300123" range="0.178223" height="0.445557" />
 						<point pos="1.883080 -0.139698 0.261844" range="0.181335" height="0.453339" />
@@ -10110,14 +10090,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="1.023582 -0.202618 0.257945" range="0.130982" height="0.327454" />
 						<point pos="1.920607 -0.109632 -0.300123" range="0.178223" height="0.445557" />
 						<point pos="1.883080 -0.139698 0.261844" range="0.181335" height="0.453339" />
@@ -10140,14 +10118,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="1.023582 -0.202618 0.257945" range="0.130982" height="0.327454" />
 						<point pos="1.920607 -0.109632 -0.300123" range="0.178223" height="0.445557" />
 						<point pos="1.883080 -0.139698 0.261844" range="0.181335" height="0.453339" />
@@ -10170,14 +10146,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-0.745453 -0.350191 -0.495850" range="0.100000" height="0.250000" />
 						<point pos="-0.300934 -0.191841 0.587891" range="0.232605" height="0.581512" />
 						<point pos="-0.733673 -0.439064 0.669433" range="0.109894" height="0.274734" />
@@ -10202,14 +10176,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-0.745453 -0.350191 -0.495850" range="0.100000" height="0.250000" />
 						<point pos="-0.300934 -0.191841 0.587891" range="0.232605" height="0.581512" />
 						<point pos="-0.733673 -0.439064 0.669433" range="0.109894" height="0.274734" />
@@ -10234,14 +10206,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-0.745453 -0.350191 -0.495850" range="0.100000" height="0.250000" />
 						<point pos="-0.300934 -0.191841 0.587891" range="0.232605" height="0.581512" />
 						<point pos="-0.733673 -0.439064 0.669433" range="0.109894" height="0.274734" />
@@ -10285,14 +10255,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-1.117584 0.218529 0.777588" range="0.168750" height="0.421875" />
 						<point pos="-1.115662 0.167839 -0.675293" range="0.134375" height="0.335938" />
 						<point pos="-0.263031 -0.188763 -0.394531" range="0.220337" height="0.550842" />
@@ -10315,14 +10283,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-1.117584 0.218529 0.777588" range="0.168750" height="0.421875" />
 						<point pos="-1.115662 0.167839 -0.675293" range="0.134375" height="0.335938" />
 						<point pos="-0.263031 -0.188763 -0.394531" range="0.220337" height="0.550842" />
@@ -10345,14 +10311,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="-1.117584 0.218529 0.777588" range="0.168750" height="0.421875" />
 						<point pos="-1.115662 0.167839 -0.675293" range="0.134375" height="0.335938" />
 						<point pos="-0.263031 -0.188763 -0.394531" range="0.220337" height="0.550842" />
@@ -10394,14 +10358,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="0.190887 -0.256781 -0.205811" range="0.203125" height="0.507813" />
 						<point pos="-1.793030 -0.361715 -0.176514" range="0.167480" height="0.233089" />
 						<point pos="-1.795593 -0.317720 0.329590" range="0.200195" height="0.213846" />
@@ -10423,14 +10385,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="0.190887 -0.256781 -0.205811" range="0.203125" height="0.507813" />
 						<point pos="-1.793030 -0.361715 -0.176514" range="0.167480" height="0.233089" />
 						<point pos="-1.795593 -0.317720 0.329590" range="0.200195" height="0.213846" />
@@ -10452,14 +10412,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="0.190887 -0.256781 -0.205811" range="0.203125" height="0.507813" />
 						<point pos="-1.793030 -0.361715 -0.176514" range="0.167480" height="0.233089" />
 						<point pos="-1.795593 -0.317720 0.329590" range="0.200195" height="0.213846" />
@@ -10481,14 +10439,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196" />
 						<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030" />
 						<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861" />
@@ -10511,14 +10467,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196" />
 						<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030" />
 						<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861" />
@@ -10541,14 +10495,12 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="loot" lootmax="2">
-						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
 						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196" />
 						<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030" />
 						<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861" />
@@ -10571,7 +10523,6 @@
 			<usage name="Village" />		
 			<usage name="Industrial" />		
 			<container name="loot" lootmax="2">
-				<category name="vehicleparts" />
 				<category name="tools" />
 				<category name="containers" />
 				<category name="clothes" />
@@ -10590,7 +10541,6 @@
 			<usage name="Village" />		
 			<usage name="Industrial" />		
 			<container name="loot" lootmax="2">
-				<category name="vehicleparts" />
 				<category name="tools" />
 				<category name="containers" />
 				<category name="clothes" />
@@ -10609,7 +10559,6 @@
 			<usage name="Village" />		
 			<usage name="Industrial" />		
 			<container name="loot" lootmax="2">
-				<category name="vehicleparts" />
 				<category name="tools" />
 				<category name="containers" />
 				<category name="clothes" />
@@ -10628,7 +10577,6 @@
 			<usage name="Village" />		
 			<usage name="Industrial" />		
 			<container name="loot" lootmax="2">
-				<category name="vehicleparts" />
 				<category name="tools" />
 				<category name="containers" />
 				<category name="clothes" />
@@ -10646,7 +10594,6 @@
 			<usage name="Village" />		
 			<usage name="Industrial" />		
 			<container name="loot" lootmax="2">
-				<category name="vehicleparts" />
 				<category name="tools" />
 				<category name="containers" />
 				<category name="clothes" />
@@ -10664,7 +10611,6 @@
 			<usage name="Village" />		
 			<usage name="Industrial" />		
 			<container name="loot" lootmax="2">
-				<category name="vehicleparts" />
 				<category name="tools" />
 				<category name="containers" />
 				<category name="clothes" />
