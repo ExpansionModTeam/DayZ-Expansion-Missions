@@ -752,7 +752,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Farm"/>
-        <usage name="Village"/>
+        <usage name="Fishing"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -1057,8 +1057,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
         <usage name="Hunting"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -1105,8 +1105,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>		
@@ -1122,8 +1122,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>		
@@ -1372,7 +1372,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Farm"/>
-        <usage name="Village"/>
+        <usage name="Fishing"/>
         <usage name="Hunting"/>
     </type>
 	<!-- MAGAZINES -->
@@ -1432,7 +1432,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <usage name="Town"/>
+        <usage name="Civilian"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier1"/>
@@ -1867,8 +1867,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
         <usage name="Hunting"/>
     </type>
     <type name="ExpansionBarrierGateKit">
@@ -1881,8 +1881,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
         <usage name="Hunting"/>
     </type>
 	<type name="ExpansionCamoTentKit">
@@ -1895,8 +1895,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
         <usage name="Hunting"/>
     </type>
 	<type name="ExpansionSafeBase">
@@ -1914,7 +1914,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="floor"/>
-        <usage name="Town"/>
+        <usage name="Civilian"/>
         <usage name="Military"/>
     </type>
 	<type name="ExpansionSafeMini">
@@ -1928,7 +1928,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="floor"/>
-        <usage name="Town"/>
+        <usage name="Civilian"/>
         <usage name="Military"/>
     </type>
 	<type name="ExpansionSafeMedium">
@@ -1942,7 +1942,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="floor"/>
-        <usage name="Town"/>
+        <usage name="Civilian"/>
         <usage name="Military"/>
     </type>
 	<type name="ExpansionGunrack">
@@ -2105,8 +2105,8 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Industrial"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
     </type>
 	<type name="ExpansionGPS">
         <nominal>3</nominal>
@@ -2120,8 +2120,8 @@
         <category name="tools"/>
         <usage name="Military"/>
         <usage name="Police"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2139,8 +2139,8 @@
 		<category name="food"/>
         <tag name="shelves"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
     </type>
 	<type name="ExpansionBread1">
         <nominal>2</nominal>
@@ -2154,8 +2154,8 @@
 		<category name="food"/>
         <tag name="shelves"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
     </type>
 	<type name="ExpansionBread2">
         <nominal>2</nominal>
@@ -2169,8 +2169,8 @@
 		<category name="food"/>
         <tag name="shelves"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
     </type>
 	<type name="ExpansionBread3">
         <nominal>2</nominal>
@@ -2184,8 +2184,8 @@
 		<category name="food"/>
         <tag name="shelves"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
     </type>
 	<type name="ExpansionCheese1">
         <nominal>2</nominal>
@@ -2199,8 +2199,8 @@
 		<category name="food"/>
         <tag name="shelves"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
     </type>
 	<type name="ExpansionCheese2">
         <nominal>2</nominal>
@@ -2214,8 +2214,8 @@
 		<category name="food"/>
         <tag name="shelves"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
     </type>
 	<type name="ExpansionCheese3">
         <nominal>2</nominal>
@@ -2229,8 +2229,8 @@
 		<category name="food"/>
         <tag name="shelves"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
     </type>
 	<type name="ExpansionCheese4">
         <nominal>2</nominal>
@@ -2244,8 +2244,8 @@
         <category name="food"/>
         <tag name="shelves"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Civilian"/>
+        <usage name="Fishing"/>
     </type>
     <type name="Expansion_Gravecross_LowLifetime">
         <lifetime>300</lifetime>
