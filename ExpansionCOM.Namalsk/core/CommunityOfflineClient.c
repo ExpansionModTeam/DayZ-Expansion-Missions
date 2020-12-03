@@ -226,7 +226,7 @@ class CommunityOfflineClient : MissionGameplay
 		// pPos = "4185 0 8982";
 
 		//! Helicopter testing
-		pPos = "250 0 250";
+		pPos = "6237.932129 21.022436 9390.004883";
 
 		//! Boat Testing
 		// pPos = "13925 0 11757";
