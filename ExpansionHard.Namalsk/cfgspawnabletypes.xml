@@ -163,7 +163,7 @@
             <item name="Mag_CMAG_40Rnd" chance="0.15" />
             <item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
         </attachments>
-        <attachments chance="1.0">
+        <attachments chance="0.1">
             <item name="M9A1_Bayonet" chance="0.50" />
             <item name="M4_Suppressor" chance="0.50" />
         </attachments>
@@ -272,7 +272,7 @@
 
 
     <!-- NAMALSK - WEAPONS - PISTOLS -->
-    <type name="1911">
+    <type name="Colt1911">
         <attachments chance="0.80">
             <item name="Mag_1911_7Rnd" chance="1.00" />
         </attachments>
@@ -310,7 +310,7 @@
     </type>
     <type name="Deagle">
         <attachments chance="0.60">
-            <item name="Mag_DE_9rnd" chance="1.00" />
+            <item name="Mag_Deagle_9rnd" chance="1.00" />
         </attachments>
         <attachments chance="0.50">
             <item name="PistolOptic" chance="1.00" />
@@ -321,7 +321,7 @@
     </type>
     <type name="Deagle_Gold">
         <attachments chance="0.90">
-            <item name="Mag_DE_9rnd" chance="1.00" />
+            <item name="Mag_Deagle_9rnd" chance="1.00" />
         </attachments>
         <attachments chance="0.75">
             <item name="PistolOptic" chance="1.00" />
@@ -1415,12 +1415,12 @@
 
     <!-- NAMALSK - CLOTHES - HEADGEAR -->
     <type name="Mich2001Helmet">
-        <attachments chance="0.30">
+        <attachments chance="0.02">
             <item name="NVGoggles" chance="1.00" />
         </attachments>
     </type>
     <type name="NVGHeadstrap">
-        <attachments chance="0.30">
+        <attachments chance="0.02">
             <item name="NVGoggles" chance="1.00" />
         </attachments>
     </type>

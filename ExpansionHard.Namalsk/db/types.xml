@@ -622,8 +622,8 @@
     <tag name="police" />
   </type>
   <type name="LandMineTrap">
-    <nominal>10</nominal>
-    <min>8</min>
+    <nominal>6</nominal>
+    <min>4</min>
     <lifetime>604800</lifetime>
     <restock>900</restock>
     <quantmin>-1</quantmin>
@@ -1086,10 +1086,10 @@
     <tag name="military" />
   </type>
   <type name="Ammo_FlareRed">
-    <nominal>40</nominal>
+    <nominal>30</nominal>
     <lifetime>5400</lifetime>
     <restock>300</restock>
-    <min>35</min>
+    <min>25</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1421,7 +1421,7 @@
     <category name="weapons" />
     <tag name="military" />
   </type>
-  <type name="Mag_DE_9rnd">
+  <type name="Mag_Deagle_9rnd">
     <nominal>3</nominal>
     <min>2</min>
     <lifetime>5400</lifetime>
@@ -2528,8 +2528,8 @@
   
   <!-- NAMALSK - FOOD N DRINKS -->
   <type name="BoxCerealCrunchin">
-    <nominal>8</nominal>
-    <min>6</min>
+    <nominal>5</nominal>
+    <min>4</min>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -2541,8 +2541,8 @@
     <category name="food" />
   </type>
   <type name="PowderedMilk">
-    <nominal>10</nominal>
-    <min>7</min>
+    <nominal>6</nominal>
+    <min>6</min>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -2554,8 +2554,8 @@
     <category name="food" />
   </type>
   <type name="Rice">
-    <nominal>7</nominal>
-    <min>5</min>
+    <nominal>5</nominal>
+    <min>4</min>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -2907,10 +2907,10 @@
     <tag name="industrial" />
   </type>
   <type name="Fabric">
-    <nominal>60</nominal>
+    <nominal>35</nominal>
     <lifetime>5400</lifetime>
     <restock>0</restock>
-    <min>45</min>
+    <min>30</min>
     <quantmin>30</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -3072,6 +3072,20 @@
     <value />
     <category name="tools" />
     <tag name="fishing" />
+  </type>
+  <type name="GardenLime">
+    <nominal>10</nominal>
+    <min>8</min>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="farm" />
   </type>
   <type name="MediumTent">
     <nominal>5</nominal>
@@ -3510,21 +3524,6 @@
     <tag name="civilian" />
     <tag name="hunting" />
   </type>
-  <type name="TireRepairKit">
-    <nominal>20</nominal>
-    <min>17</min>
-    <lifetime>5400</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="tools" />
-    <tag name="civilian" />
-    <tag name="industrial" />
-  </type>
   <type name="Whetstone">
     <nominal>20</nominal>
     <min>15</min>
@@ -3631,8 +3630,8 @@
     <tag name="military" />
   </type>
   <type name="Megaphone">
-    <nominal>30</nominal>
-    <min>25</min>
+    <nominal>15</nominal>
+    <min>10</min>
     <lifetime>5400</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -9017,7 +9016,7 @@
     <tag name="military" />
   </type>
   <type name="NVGoggles">
-    <nominal>2</nominal>
+    <nominal>1</nominal>
     <min>1</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
@@ -10129,8 +10128,8 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" /> 
   </type>
   <type name="GhillieBushrag_Woodland">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>2</nominal>
+    <min>2</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
     <quantmin>-1</quantmin>
@@ -10151,7 +10150,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" /> 
   </type>
   <type name="GhillieTop_Woodland">
-    <nominal>3</nominal>
+    <nominal>2</nominal>
     <min>2</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
@@ -10173,7 +10172,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" /> 
   </type>
   <type name="GhillieSuit_Woodland">
-    <nominal>2</nominal>
+    <nominal>1</nominal>
     <min>1</min>
     <lifetime>3600</lifetime>
     <restock>3600</restock>
@@ -10195,8 +10194,8 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" /> 
   </type>
   <type name="GhillieHood_Woodland">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>2</nominal>
+    <min>2</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
     <quantmin>-1</quantmin>

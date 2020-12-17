@@ -31,7 +31,7 @@
     <tag name="civilian" />
   </type>
   <type name="dzn_SodaCan_Pipsi">
-    <nominal>7</nominal>
+    <nominal>8</nominal>
     <min>6</min>
     <lifetime>900</lifetime>
     <restock>0</restock>
@@ -44,7 +44,7 @@
     <category name="food" />
   </type>
   <type name="dzn_SodaCan_Cola">
-    <nominal>7</nominal>
+    <nominal>8</nominal>
     <min>6</min>
     <lifetime>900</lifetime>
     <restock>0</restock>
@@ -57,7 +57,7 @@
     <category name="food" />
   </type>
   <type name="dzn_SodaCan_Spite">
-    <nominal>7</nominal>
+    <nominal>8</nominal>
     <min>6</min>
     <lifetime>900</lifetime>
     <restock>0</restock>
@@ -70,7 +70,7 @@
     <category name="food" />
   </type>
   <type name="dzn_SodaCan_Kvass">
-    <nominal>7</nominal>
+    <nominal>8</nominal>
     <min>6</min>
     <lifetime>900</lifetime>
     <restock>0</restock>
@@ -83,7 +83,7 @@
     <category name="food" />
   </type>
   <type name="dzn_BakedBeansCan">
-    <nominal>7</nominal>
+    <nominal>6</nominal>
     <min>6</min>
     <lifetime>900</lifetime>
     <restock>0</restock>
@@ -96,7 +96,7 @@
     <category name="food" />
   </type>
   <type name="dzn_PeachesCan">
-    <nominal>7</nominal>
+    <nominal>6</nominal>
     <min>6</min>
     <lifetime>900</lifetime>
     <restock>0</restock>
@@ -109,8 +109,8 @@
     <category name="food" />
   </type>
   <type name="dzn_SardinesCan">
-    <nominal>7</nominal>
-    <min>8</min>
+    <nominal>6</nominal>
+    <min>6</min>
     <lifetime>900</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -122,7 +122,7 @@
     <category name="food" />
   </type>
   <type name="dzn_SpaghettiCan">
-    <nominal>7</nominal>
+    <nominal>6</nominal>
     <min>6</min>
     <lifetime>900</lifetime>
     <restock>0</restock>
@@ -135,8 +135,8 @@
     <category name="food" />
   </type>
   <type name="dzn_TunaCan">
-    <nominal>15</nominal>
-    <min>12</min>
+    <nominal>10</nominal>
+    <min>8</min>
     <lifetime>900</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -278,10 +278,10 @@
     <tag name="military" />
   </type>
   <type name="dzn_apsi">
-    <nominal>6</nominal>
-    <min>5</min>
+    <nominal>1</nominal>
+    <min>1</min>
     <lifetime>5400</lifetime>
-    <restock>0</restock>
+    <restock>2700</restock>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -334,8 +334,8 @@
     <tag name="military" />
   </type>
   <type name="dzn_yeger_up_woodl">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>3</nominal>
+    <min>1</min>
     <lifetime>3600</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -488,8 +488,8 @@
     <tag name="military" />
   </type>
   <type name="dzn_yeger_pants_woodl">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>3</nominal>
+    <min>1</min>
     <lifetime>3600</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -742,8 +742,8 @@
     <tag name="military" />
   </type>
   <type name="dzn_yegerhood_woodl">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>3</nominal>
+    <min>1</min>
     <lifetime>3600</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -883,8 +883,8 @@
     <tag name="military" />
   </type>
   <type name="dzn_ghilliebushragwinter">
-    <nominal>3</nominal>
-    <min>2</min>
+    <nominal>1</nominal>
+    <min>1</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
     <quantmin>-1</quantmin>
@@ -897,8 +897,8 @@
     <tag name="military" />
   </type>
   <type name="dzn_ghilliebushragtandark">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>2</nominal>
+    <min>2</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
     <quantmin>-1</quantmin>
@@ -911,7 +911,7 @@
     <tag name="military" />
   </type>
   <type name="dzn_ghillietopwinter">
-    <nominal>2</nominal>
+    <nominal>1</nominal>
     <min>1</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
@@ -925,7 +925,7 @@
     <tag name="military" />
   </type>
   <type name="dzn_ghillietoptandark">
-    <nominal>3</nominal>
+    <nominal>2</nominal>
     <min>2</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
@@ -939,7 +939,7 @@
     <tag name="military" />
   </type>
   <type name="dzn_ghilliesuitwinter">
-    <nominal>2</nominal>
+    <nominal>1</nominal>
     <min>1</min>
     <lifetime>3600</lifetime>
     <restock>3600</restock>
@@ -954,7 +954,7 @@
   </type>
   <type name="dzn_ghilliesuittandark">
     <nominal>2</nominal>
-    <min>1</min>
+    <min>2</min>
     <lifetime>3600</lifetime>
     <restock>3600</restock>
     <quantmin>-1</quantmin>
@@ -967,7 +967,7 @@
     <tag name="military" />
   </type>
   <type name="dzn_ghilliehoodwinter">
-    <nominal>3</nominal>
+    <nominal>1</nominal>
     <min>1</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
@@ -981,8 +981,8 @@
     <tag name="military" />
   </type>
   <type name="dzn_ghilliehoodtandark">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>2</nominal>
+    <min>2</min>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
     <quantmin>-1</quantmin>

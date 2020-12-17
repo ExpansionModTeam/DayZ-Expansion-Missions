@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
-	<cargo chance="0.20" name="toolsgeneral">
+	<cargo chance="0.10" name="toolsgeneral">
 		<item name="KitchenKnife" chance="0.025" />
 		<item name="HuntingKnife" chance="0.025" />
 		<item name="SteakKnife" chance="0.025" />
 		<item name="CanOpener" chance="0.025" />
 		<item name="Matchbox" chance="0.15" />
-		<item name="Battery9V" chance="0.10" />
-		<item name="SparkPlug" chance="0.05" />
+		<item name="Battery9V" chance="0.15" />
 		<item name="Headtorch_Black" chance="0.05" />
 		<item name="Headtorch_Grey" chance="0.05" />
 		<item name="Flashlight" chance="0.05" />
@@ -19,7 +18,7 @@
 		<item name="LeatherSewingKit" chance="0.05" />
 	</cargo>
 
-	<cargo chance="0.20" name="toolshunting">
+	<cargo chance="0.10" name="toolshunting">
 		<item name="HuntingKnife" chance="0.15" />
 		<item name="Matchbox" chance="0.10" />
 		<item name="Battery9V" chance="0.15" />
@@ -32,17 +31,17 @@
 		<item name="LeatherSewingKit" chance="0.05" />
 	</cargo>
 	
-	<cargo chance="0.20" name="toolsmilitary">
+	<cargo chance="0.10" name="toolsmilitary">
 		<item name="CombatKnife" chance="0.15" />
 		<item name="Battery9V" chance="0.15" />
-		<item name="UniversalLight" chance="0.20" />
-		<item name="TLRLight" chance="0.20" />
+		<item name="UniversalLight" chance="0.10" />
+		<item name="TLRLight" chance="0.10" />
 		<item name="Roadflare" chance="0.20" />
-		<item name="BandageDressing" chance="0.05" />
-		<item name="Epinephrine" chance="0.05" />
+		<item name="BandageDressing" chance="0.15" />
+		<item name="Epinephrine" chance="0.15" />
 	</cargo>
 
-	<cargo chance="0.20" name="toolsmedic">
+	<cargo chance="0.10" name="toolsmedic">
 		<item name="Heatpack" chance="0.13" />
 		<item name="SewingKit" chance="0.10" />
 		<item name="BandageDressing" chance="0.10" />
@@ -57,7 +56,7 @@
 		<item name="SalineBagIV" chance="0.05" />
 	</cargo>
 
-	<cargo chance="0.20" name="toolspolice">
+	<cargo chance="0.10" name="toolspolice">
 		<item name="BandageDressing" chance="0.10" />
 		<item name="Battery9V" chance="0.10" />
 		<item name="PersonalRadio" chance="0.10" />

@@ -15,8 +15,8 @@ void FindMissionFiles(string worldname, bool loadObjects, bool loadTraders)
 	array<string> objectFiles;
 	array<string> traderFiles;
 
-	string objectFilesFolder = "$CurrentDir:\\mpmissions\\Expansion." + worldname + "\\expansion\\objects\\";
-	string traderFilesFolder = "$CurrentDir:\\mpmissions\\Expansion." + worldname + "\\expansion\\traders\\";
+	string objectFilesFolder = "$CurrentDir:\\mpmissions\\ExpansionRegular." + worldname + "\\expansion\\objects\\";
+	string traderFilesFolder = "$CurrentDir:\\mpmissions\\ExpansionRegular." + worldname + "\\expansion\\traders\\";
 
 	if ( loadObjects && FileExist( objectFilesFolder ) )
 	{
@@ -77,7 +77,7 @@ void LoadMissionObjectsFile( string name, string worldname )
 	vector rotation;
 	string special;
 
-	string filePath = "$CurrentDir:\\mpmissions\\Expansion." + worldname +"\\expansion\\objects\\" + name;
+	string filePath = "$CurrentDir:\\mpmissions\\ExpansionRegular." + worldname +"\\expansion\\objects\\" + name;
 	FileHandle file = OpenFile( filePath, FileMode.READ );
 
 	if ( !file )
@@ -240,7 +240,7 @@ void LoadMissionTradersFile( string name, string worldname )
 	vector rotation;
 	TStringArray gear = new TStringArray;
 
-	string filePath = "$CurrentDir:\\mpmissions\\Expansion." + worldname + "\\expansion\\traders\\" + name;
+	string filePath = "$CurrentDir:\\mpmissions\\ExpansionRegular." + worldname + "\\expansion\\traders\\" + name;
 	FileHandle file = OpenFile( filePath, FileMode.READ );
 
 	if ( !file )

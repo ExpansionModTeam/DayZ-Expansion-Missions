@@ -12,6 +12,7 @@
 		<file path="env/pig_territories.xml" />
 		<file path="env/hen_territories.xml" />
 		<file path="env/wolf_territories.xml" />
+		<file path="env/hare_territories.xml" />
 		<file path="env/zombie_territories.xml" />
 		<file path="env/bear_territories.xml" />
 		<file path="env/hare_territories.xml" />	<!-- EXPANSION -->
