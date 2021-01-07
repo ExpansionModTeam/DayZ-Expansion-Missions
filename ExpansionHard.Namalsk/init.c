@@ -10,8 +10,8 @@
  *
 */
 
-#include "$CurrentDir:\\mpmissions\\ExpansionHard.Namalsk\\expansion\\ExpansionObjectSpawnTools.c"
-#include "$CurrentDir:\\mpmissions\\ExpansionHard.Namalsk\\expansion\\missions\\MissionConstructor.c"
+#include "$CurrentDir:\\mpmissions\\ExpansionHard.namalsk\\expansion\\ExpansionObjectSpawnTools.c"
+#include "$CurrentDir:\\mpmissions\\ExpansionHard.namalsk\\expansion\\missions\\MissionConstructor.c"
 
 void main()
 {
