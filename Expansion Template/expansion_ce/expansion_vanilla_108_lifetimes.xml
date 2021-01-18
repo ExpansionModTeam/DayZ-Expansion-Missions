@@ -2,8 +2,11 @@
 <types>
 <!--
 
-    This file is based on the vanilla 1.09 types.xml
+    This file is based on the vanilla 1.09 types.xml (meaning it's not updated to dayz 1.10)
     However the values have been tweaked to follow the 1.08 values
+    This file is optionnal and can be deleted if you don't care about it
+
+    If you want to use this file, replace the content of "types.xml" from your "db" folder with this one
 
 -->
     <type name="ACOGOptic">

@@ -9,8 +9,8 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  *
 */
-#include "$CurrentDir:\\mpmissions\\Expansion.MyWorld\\expansion\\ExpansionObjectSpawnTools.c"
-#include "$CurrentDir:\\mpmissions\\Expansion.MyWorld\\expansion\\missions\\MissionConstructor.c"
+#include "$CurrentDir:\\mpmissions\\Expansion.MYWORLD\\expansion\\ExpansionObjectSpawnTools.c"
+#include "$CurrentDir:\\mpmissions\\Expansion.MYWORLD\\expansion\\missions\\MissionConstructor.c"
 
 void main()
 {
