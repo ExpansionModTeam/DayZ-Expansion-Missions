@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <!-- CARS -->
-	<event name="VehicleExpansionGroundMilitary">
-        <nominal>3</nominal>
+	<event name="VehicleExpansionUAZ">
+        <nominal>1</nominal>
         <min>0</min>
-        <max>7</max>
+        <max>2</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -15,17 +15,33 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionUAZ"/>
-			<child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionUAZRoofless"/>
-			<child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionUAZCargo"/>
-			<child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionUAZCargoRoofless"/>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionVodnik"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionUAZ"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionUAZRoofless"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionUAZCargo"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionUAZCargoRoofless"/>
+        </children>
+    </event>
+	<event name="VehicleExpansionVodnik">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionVodnik"/>
         </children>
     </event>
 	<event name="VehicleExpansionBus">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <min>0</min>
-        <max>3</max>
+        <max>2</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -36,13 +52,13 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="0" type="ExpansionBus"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionBus"/>
         </children>
     </event>
     <event name="VehicleExpansionTractor">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <min>0</min>
-        <max>4</max>
+        <max>2</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -53,14 +69,49 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="4" min="0" type="ExpansionTractor"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionTractor"/>
+        </children>
+    </event>
+	<!-- PLANES -->
+	<event name="VehicleExpansionAn2">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionAn2"/>
+        </children>
+    </event>
+	<event name="VehicleExpansionC130J">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionC130J"/>
         </children>
     </event>
 	<!-- HELICOPTERS -->
-	<event name="VehicleExpansionHelicopter">
-        <nominal>2</nominal>
+	<event name="VehicleExpansionMerlin">
+        <nominal>1</nominal>
         <min>0</min>
-        <max>3</max>
+        <max>1</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -71,16 +122,65 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionMerlin"/>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionMh6"/>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionUh1h"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionMerlin"/>
+        </children>
+    </event>
+	<event name="VehicleExpansionMh6">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionMh6"/>
+        </children>
+    </event>
+	<event name="VehicleExpansionUh1h">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionUh1h"/>
+        </children>
+    </event>
+	<event name="VehicleExpansionGyrocopter">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>2</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionGyrocopter"/>
         </children>
     </event>
 	<!-- BOATS -->
-	<event name="VehicleExpansionBoat">
-        <nominal>3</nominal>
+	<event name="VehicleExpansionUtilityBoat">
+        <nominal>1</nominal>
         <min>0</min>
-        <max>6</max>
+        <max>1</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -91,8 +191,24 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="0" type="ExpansionUtilityBoat"/>
-            <child lootmax="0" lootmin="0" max="8" min="0" type="ExpansionZodiacBoat"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ExpansionUtilityBoat"/>
+        </children>
+    </event>
+	<event name="VehicleExpansionZodiacBoat">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>2</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ExpansionZodiacBoat"/>
         </children>
     </event>
 </events>

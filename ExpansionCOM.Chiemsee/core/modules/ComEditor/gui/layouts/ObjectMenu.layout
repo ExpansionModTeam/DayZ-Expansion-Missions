@@ -296,6 +296,17 @@ PanelWidgetClass ObjectMenu {
      vexactsize 1
      text "DOJ Specials:"
     }
+    ButtonWidgetClass btn_doj_precision {
+     position 135 53.3041
+     size 200 20
+     halign right_ref
+     valign top_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Toggle Object Precision"
+    }
    }
   }
  }

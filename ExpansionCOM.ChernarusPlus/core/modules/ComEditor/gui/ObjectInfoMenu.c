@@ -186,8 +186,6 @@ class ObjectInfoMenu extends PopupMenu
 			{
 				position[1] = position[1] + value * 0.05;
 			}
-			
-			// position[1] = position[1] + value * 0.05;
 			SetSelectedObjectTransform( position, GetSelectedObject().GetOrientation() );
 			infoPosY.SetText( position[1].ToString() );
 		}
@@ -265,39 +263,6 @@ class ObjectInfoMenu extends PopupMenu
 		}
 		SetSelectedObjectTransform( pos, orientation );
 
-/*
-		bool check = false; //?????????????
-
-		if ( editWidget == infoPosPitch )
-		{
-			for(int i = 0; i < text.Length(); i++ )
-			{
-				string token;
-				string character = text.Get(i);
-				int result = character.ParseStringEx(token);
-
-				if ( result == 4 || text.Get(i) == "." )
-				{
-					newText = newText + token;
-					check = true; // lol wtf why this crashing. come back to this
-				}
-			}
-
-			if ( check ) // idk why this bool is causing unknown module crash
-			{
-				orientation[1] = newText.ToFloat();
-				GetSelectedObject().SetOrientation(orientation);
-			}
-			else
-			{
-				editWidget.SetText( newText );
-			}
-
-			return false;
-		}
-
-		*/
-
 		return false;
 	}
 
@@ -315,11 +280,6 @@ class ObjectInfoMenu extends PopupMenu
 	{
 		UpdateObjectList();
 		GetGame().GetCallQueue( CALL_CATEGORY_GUI ).CallLater( Update, 100, true );
-	}
-
-	override void OnHide()
-	{
-		//GetGame().GetUpdateQueue( CALL_CATEGORY_GUI ).Remove( Update );
 	}
 
 	void Update()
@@ -399,12 +359,11 @@ class ObjectInfoMenu extends PopupMenu
 			obj.GetTransform( transform );
 			float distance = vector.Distance( transform[3], position );
 			float time = 1.0 / 40.0;
-			//time *= distance * 0.00001;
-//
+
 			Math3D.YawPitchRollMatrix( orientation, transform );
 			transform[3] = position;
 			dBodySetTargetMatrix( obj, transform, time );
-//
+
 			return;
 		}
 

@@ -216,6 +216,57 @@ class CommunityOfflineClient : MissionGameplay
 				GesturesMenu.CloseMenu();
 			}
 		}
+
+		/*
+		if (key == KeyCode.KC_K)
+		{
+			Print( "START ITEMS" );
+
+			TStringArray configs = new TStringArray;
+			configs.Insert( CFG_VEHICLESPATH );
+			configs.Insert( CFG_WEAPONSPATH );
+			configs.Insert( CFG_MAGAZINESPATH );
+
+			for ( int nConfig = 0; nConfig < configs.Count(); ++nConfig )
+			{
+				string strConfigPath = configs.Get( nConfig );
+
+				int nClasses = g_Game.ConfigGetChildrenCount( strConfigPath );
+
+				for ( int nClass = 0; nClass < nClasses; ++nClass )
+				{
+					string strName;
+
+					g_Game.ConfigGetChildName( strConfigPath, nClass, strName );
+
+					int scope = g_Game.ConfigGetInt( strConfigPath + " " + strName + " scope" );
+
+					if ( scope != 2 )
+					{
+						continue;
+					}
+
+					if ( strName == "Mag_Scout_5Rnd") continue; // fix crash for this dumb item. dont spawn it
+
+					if ( strName.Contains("Fx") )continue; // fix crash for this dumb item. dont spawn it
+
+					if ( strName == "ItemOptics" ) 
+					{
+						continue; // Fix crash
+					}
+
+					if ( strName.Contains("Fx") ) 
+					{
+					//	continue; // Fix crash
+					}
+
+					Print( "" + strName );
+				}
+			}
+
+			Print( "END ITEMS" );
+		}
+		*/
 	}
 
 	static void SetupWeather()

@@ -8,7 +8,7 @@ class ArkDebugMonitor
 
 	void ArkDebugMonitor()
 	{
-		m_WidgetRoot = GetGame().GetWorkspace().CreateWidgets("$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\DebugMonitor\\gui\\layouts\\day_z_debug_monitor.layout");
+		m_WidgetRoot = GetGame().GetWorkspace().CreateWidgets("$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\DebugMonitor\\gui\\layouts\\day_z_debug_monitor.layout");
 		m_WidgetRoot.Show(false);
 
 		m_pWindowLabelText = TextWidget.Cast( m_WidgetRoot.FindAnyWidget("WindowLabel") );

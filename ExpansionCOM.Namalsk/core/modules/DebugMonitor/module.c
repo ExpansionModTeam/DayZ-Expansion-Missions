@@ -1,2 +1,2 @@
-#include "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\DebugMonitor\\CustomDebugMonitor.c"
-#include "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\DebugMonitor\\gui\\DebugMonitor.c"
+#include "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\DebugMonitor\\CustomDebugMonitor.c"
+#include "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\DebugMonitor\\gui\\DebugMonitor.c"

@@ -97,26 +97,6 @@ class COM_ObjectMenu extends PopupMenu
 		int quantity = 0;
 		string text = "";
 		ItemBase oItem = NULL;
-
-		/* poof
-		if ( w.GetName() == "dump_selects" ) 
-		{
-			if ( previewItem ) 
-			{
-				string toCopy = "";
-				TStringArray strings = new TStringArray;
-				previewItem.GetSelectionList(strings);
-				foreach(string selection : strings ) 
-				{
-					toCopy = toCopy + selection + "\n";
-				}
-				GetGame().CopyToClipboard( toCopy );
-				// Message( "Dumped selections to clipboard"); 
-
-
-			}
-		}
-		*/
 		
 		if ( strSelection == "" ) 
 		{
@@ -285,9 +265,39 @@ class COM_ObjectMenu extends PopupMenu
 				GetGame().ObjectDelete( previewItem );
 			}
 
-			if ( strSelection == "Mag_Scout_5Rnd") return false; // fix crash for this dumb item
+			// fix crash for broken items
+			// Clothings
+			if ( strSelection == "LargeTentBackPack") return false;
 
-			if ( strSelection.Contains("Fx") ) return false; // fix crash for this dumb item
+			// Weapons
+			if ( strSelection == "QuickieBow") return false;
+			if ( strSelection == "RecurveBow") return false;
+			if ( strSelection == "GP25Base") return false;
+			if ( strSelection == "GP25") return false;
+			if ( strSelection == "GP25_Standalone") return false;
+			if ( strSelection == "M203Base") return false;
+			if ( strSelection == "M203") return false;
+			if ( strSelection == "M203_Standalone") return false;
+			if ( strSelection == "Red9") return false;
+
+			// Mags
+			if ( strSelection == "Mag_Scout_5Rnd") return false;
+
+			// Vehicles
+			if ( strSelection == "ExpansionSoundProxyBase") return false;
+			if ( strSelection == "ExpansionVehicleBaseSoundProxyBase") return false;
+			if ( strSelection == "ExpansionHelicopterScript") return false;
+			if ( strSelection == "ExpansionVodnikAudio") return false;
+			if ( strSelection == "ExpansionLHDAudio") return false;
+			if ( strSelection == "ExpansionUtilityAudio") return false;
+			if ( strSelection == "ExpansionZodiacAudio") return false;
+			if ( strSelection == "ExpansionGyrocopterAudio") return false;
+			if ( strSelection == "ExpansionMerlinAudio") return false;
+			if ( strSelection == "ExpansionMh6Audio") return false;
+			if ( strSelection == "ExpansionUh1hAudio") return false;
+
+			// Misc
+			if ( strSelection.Contains("Fx") ) return false;
 
 			previewItem = EntityAI.Cast( GetGame().CreateObject( strSelection, vector.Zero, false ) );
 
@@ -394,9 +404,36 @@ class COM_ObjectMenu extends PopupMenu
 					continue;
 				}
 
-				if ( strName == "Mag_Scout_5Rnd") continue; // fix crash for this dumb item. dont spawn it
+				// fix crash for broken items
+				// Clothings
+				if ( strName == "LargeTentBackPack") continue;
 
-				if ( strName.Contains("Fx") )continue; // fix crash for this dumb item. dont spawn it
+				// Weapons
+				if ( strName == "QuickieBow") continue;
+				if ( strName == "RecurveBow") continue;
+				if ( strName == "GP25Base") continue;
+				if ( strName == "GP25") continue;
+				if ( strName == "GP25_Standalone") continue;
+				if ( strName == "M203Base") continue;
+				if ( strName == "M203") continue;
+				if ( strName == "M203_Standalone") continue;
+				if ( strName == "Red9") continue;
+
+				// Mags
+				if ( strName == "Mag_Scout_5Rnd") continue;
+
+				// Vehicles
+				if ( strName == "ExpansionSoundProxyBase") continue;
+				if ( strName == "ExpansionVehicleBaseSoundProxyBase") continue;
+				if ( strName == "ExpansionHelicopterScript") continue;
+				if ( strName == "ExpansionVodnikAudio") continue;
+				if ( strName == "ExpansionLHDAudio") continue;
+				if ( strName == "ExpansionUtilityAudio") continue;
+				if ( strName == "ExpansionZodiacAudio") continue;
+				if ( strName == "ExpansionGyrocopterAudio") continue;
+				if ( strName == "ExpansionMerlinAudio") continue;
+				if ( strName == "ExpansionMh6Audio") continue;
+				if ( strName == "ExpansionUh1hAudio") continue;
 
 				string strNameLower = strName;
 

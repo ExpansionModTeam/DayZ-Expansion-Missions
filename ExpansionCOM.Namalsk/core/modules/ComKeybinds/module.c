@@ -1,1 +1,1 @@
-#include "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComKeybinds\\COMKeyBinds.c"
+#include "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComKeybinds\\COMKeyBinds.c"

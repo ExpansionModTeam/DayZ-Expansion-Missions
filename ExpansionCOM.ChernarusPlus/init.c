@@ -1,5 +1,3 @@
-//#define EXPANSION_LOOT_SPAWN_POSITION_THINGY
-
 #include "$CurrentDir:\\Missions\\ExpansionCOM.ChernarusPlus\\core\\BaseModuleInclude.c"
 
 #include "$CurrentDir:\\Missions\\ExpansionCOM.ChernarusPlus\\expansion\\ExpansionObjectSpawnTools.c"
@@ -10,21 +8,8 @@ Mission CreateCustomMission(string path)
 	return new CommunityOfflineClient();
 }
 
-typedef string CFString;
-
-class CFString: string
-{
-	void Test()
-	{
-		Print( string.Format( "Test: %1", value ) );
-	}
-};
-
 void main()
 {
-	CFString test_string = "Hello";
-	test_string.Test();
-
 	bool loadTraderObjects = true;
 	bool loadTraderNPCs = false;
 

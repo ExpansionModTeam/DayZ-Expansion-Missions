@@ -1,9 +1,9 @@
-#include "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\Module.c"
-#include "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\KeyMouseBinding.c"
+#include "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\Module.c"
+#include "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\KeyMouseBinding.c"
 
-#include "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComEditor\\module.c"
-#include "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComKeyBinds\\module.c"
-#include "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\DebugMonitor\\module.c"
+#include "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComEditor\\module.c"
+#include "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComKeyBinds\\module.c"
+#include "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\DebugMonitor\\module.c"
 
 class COM_KeyMouseActionType
 {

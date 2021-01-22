@@ -1,5 +1,3 @@
-#define EXPANSION_LOOT_SPAWN_POSITION_THINGY
-
 #include "$CurrentDir:\\Missions\\ExpansionCOM.sandbox\\core\\BaseModuleInclude.c"
 
 #include "$CurrentDir:\\Missions\\ExpansionCOM.sandbox\\expansion\\ExpansionObjectSpawnTools.c"

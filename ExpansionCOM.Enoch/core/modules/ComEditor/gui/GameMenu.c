@@ -415,7 +415,6 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionUAZCargo", attArr );
 	}
 
-	/*
 	static CarScript SpawnExpansionForklift()
 	{
 		array< string> attArr = new array< string>;
@@ -433,7 +432,6 @@ class GameMenu extends PopupMenu
 
 		return SpawnVehicle( "ExpansionForklift", attArr );
 	}
-	*/
 
 	static CarScript SpawnExpansionTractor()
 	{
@@ -520,7 +518,6 @@ class GameMenu extends PopupMenu
 		return SpawnVehicle( "ExpansionUtilityBoat", attArr );
 	}
 
-	/*
 	static CarScript SpawnExpansionAmphibiaBoat()
 	{
 		array< string> attArr = new array< string>;
@@ -537,9 +534,7 @@ class GameMenu extends PopupMenu
 
 		return SpawnVehicle( "ExpansionAmphibiaBoat", attArr );
 	}
-	*/
 
-	/*
 	static CarScript SpawnExpansionSu34()
 	{
 		array< string> attArr = new array< string>;
@@ -556,7 +551,6 @@ class GameMenu extends PopupMenu
 
 		return SpawnVehicle( "ExpansionSu34", attArr );
 	}
-	*/
 
 	static CarScript SpawnExpansionAN2()
 	{

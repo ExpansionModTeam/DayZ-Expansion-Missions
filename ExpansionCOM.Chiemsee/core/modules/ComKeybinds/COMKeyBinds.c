@@ -21,8 +21,6 @@ class COMKeyBinds extends COM_Module
 	
 	override void onUpdate( float timeslice )
 	{
-		UpdateAutoWalk();
-
 		UpdateGodMode();
 	}
 	
@@ -34,8 +32,8 @@ class COMKeyBinds extends COM_Module
 		COM_KeyMouseBinding spawnZ		  = new COM_KeyMouseBinding( GetModuleType() , "SpawnZ"		,  "Spawns infected."				);
 		COM_KeyMouseBinding hideHud		 = new COM_KeyMouseBinding( GetModuleType() , "HideHud"	   ,  "Hides ui completely."			);
 		COM_KeyMouseBinding printPlayer	 = new COM_KeyMouseBinding( GetModuleType() , "PrintPlayer"   ,  "Print current player position."  );
-		COM_KeyMouseBinding autoRun		 = new COM_KeyMouseBinding( GetModuleType() , "AutoRun"	   ,  "Toggle autorun."				 );
-		//COM_KeyMouseBinding keyFrame		= new COM_KeyMouseBinding( GetModuleType() , "OpenKeyframe"  ,  "Toggle dayz dev cinematic tool." );
+		//COM_KeyMouseBinding autoRun		 = new COM_KeyMouseBinding( GetModuleType() , "AutoRun"	   ,  "Toggle autorun."				 );
+		COM_KeyMouseBinding keyFrame		= new COM_KeyMouseBinding( GetModuleType() , "OpenKeyframe"  ,  "Toggle dayz dev cinematic tool." );
 		COM_KeyMouseBinding closeMenu	   = new COM_KeyMouseBinding( GetModuleType() , "CloseOpenMenu" ,  "Close the menu on esc.", true	);
 		COM_KeyMouseBinding decayGetPos	   = new COM_KeyMouseBinding( GetModuleType() , "DecayGetPos" ,  "Close the menu on esc.", true	);
 
@@ -45,8 +43,8 @@ class COMKeyBinds extends COM_Module
 		spawnZ		 .AddBinding( "kO" );
 		hideHud		.AddBinding( "kHome" );
 		printPlayer	.AddBinding( "kP" );
-		autoRun		.AddBinding( "kComma" );
-		//keyFrame	   .AddBinding( "kPrior" );
+		//autoRun		.AddBinding( "kComma" );
+		keyFrame	   .AddBinding( "kPrior" );
 		closeMenu	  .AddBinding( "kEscape" );
 		decayGetPos	  .AddBinding( "kL" );
 
@@ -56,8 +54,8 @@ class COMKeyBinds extends COM_Module
 		//RegisterCOM_KeyMouseBinding( spawnZ );
 		RegisterCOM_KeyMouseBinding( hideHud );
 		RegisterCOM_KeyMouseBinding( printPlayer );
-		RegisterCOM_KeyMouseBinding( autoRun );
-		//RegisterCOM_KeyMouseBinding( keyFrame );
+		//RegisterCOM_KeyMouseBinding( autoRun );
+		RegisterCOM_KeyMouseBinding( keyFrame );
 		RegisterCOM_KeyMouseBinding( closeMenu );
 		RegisterCOM_KeyMouseBinding( decayGetPos );
 	}
@@ -179,44 +177,6 @@ class COMKeyBinds extends COM_Module
 		Print( "Orientation" + GetPlayer().GetOrientation().ToString() );
 		// // Message(  "POS X:" + GetPlayer().GetPosition()[0] + " Y:" + GetPlayer().GetPosition()[2] + " Z:" + GetPlayer().GetPosition()[1] );
 		// // Message(  "Player position and orientation vector were written to the game logs too." );
-	}
-
-	void AutoRun()
-	{
-		if( m_nAutoWalkMode && !SHIFT() )
-		{
-			m_nAutoWalkMode = 0;
-			GetPlayer().GetInputController().OverrideMovementSpeed( false, 0 );
-			GetPlayer().GetInputController().OverrideMovementAngle( false, 0 );
-		}
-		else
-		{
-			if( SHIFT() )
-			{
-				m_nAutoWalkMode = 2;
-			}
-			else
-			{
-				m_nAutoWalkMode = 1;
-			}
-		}
-	}
-
-	void UpdateAutoWalk()
-	{
-		if( m_nAutoWalkMode )
-		{
-			if( ( GetPlayer().GetInputController().LimitsIsSprintDisabled() ) || ( m_nAutoWalkMode == 1 ) )
-			{
-				GetPlayer().GetInputController().OverrideMovementSpeed( true, 2 );
-			}
-			else
-			{
-				GetPlayer().GetInputController().OverrideMovementSpeed( true, 3 );
-			}
-
-			GetPlayer().GetInputController().OverrideMovementAngle( true, 1 );
-		}
 	}
 
 	void UpdateGodMode()

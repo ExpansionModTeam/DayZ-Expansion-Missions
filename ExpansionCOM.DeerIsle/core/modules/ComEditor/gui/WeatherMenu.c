@@ -219,24 +219,9 @@ class COM_WeatherMenu extends PopupMenu
 		ResetSliders();
 	}
 
-	override void OnHide()
-	{
-		/*
-		Weather weather = GetGame().GetWeather();
-
-		GetGame().GetWorld().SetDate( m_OrigYear, m_OrigMonth, m_OrigDay, m_OrigHour, m_OrigMinute );
-		weather.GetOvercast().Set( m_OrigOvercast, 0, 1000 );
-		weather.GetRain().Set( m_OrigRain, 0, 1000 );
-		weather.GetFog().Set( m_OrigFog, 0, 1000 );
-		weather.SetWindSpeed( m_OrigWindForce );
-
-		*/
-	}
-
 	void Update()
 	{
 		m_TxtWeatherTime.SetText( GetGame().GetWeather().GetTime().ToString() );
-		// m_TxtAirTemperature.SetText( GetGame().GetWeather().GetAirTemperature().ToString() );
 	}
 
 	void ResetSliders()

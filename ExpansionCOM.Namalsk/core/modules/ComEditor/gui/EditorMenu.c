@@ -31,22 +31,22 @@ class EditorMenu extends UIScriptedMenu
 	
 	override Widget Init()
 	{
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComEditor\\gui\\layouts\\EditorMenu.layout" );
+		layoutRoot 				= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComEditor\\gui\\layouts\\EditorMenu.layout" );
 
-		m_ObjectButton   = ButtonWidget.Cast( layoutRoot.FindAnyWidget("objects_button") );
-		m_PositionButton = ButtonWidget.Cast( layoutRoot.FindAnyWidget("position_button") );
-		m_WeatherButton  = ButtonWidget.Cast( layoutRoot.FindAnyWidget("weather_button") );
-		m_GameButton	 = ButtonWidget.Cast( layoutRoot.FindAnyWidget("game_button") );
-		m_MatButton	 = ButtonWidget.Cast( layoutRoot.FindAnyWidget("mat_button") );
-		m_ObjectEditorButton = ButtonWidget.Cast( layoutRoot.FindAnyWidget( "objectEditor_button" ) );
+		m_ObjectButton   		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("objects_button") );
+		m_PositionButton 		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("position_button") );
+		m_WeatherButton  		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("weather_button") );
+		m_GameButton	 		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("game_button") );
+		m_MatButton	 			= ButtonWidget.Cast( layoutRoot.FindAnyWidget("mat_button") );
+		m_ObjectEditorButton 	= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "objectEditor_button" ) );
 
-		m_aiMenu   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComEditor\\gui\\layouts\\AIMenu.layout", layoutRoot );
-		m_objectMenu   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComEditor\\gui\\layouts\\ObjectMenu.layout", layoutRoot );
-		m_weatherMenu  = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComEditor\\gui\\layouts\\WeatherMenu.layout", layoutRoot );
-		m_positionMenu = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComEditor\\gui\\layouts\\PositionMenu.layout", layoutRoot );
-		m_gameMenu 	   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComEditor\\gui\\layouts\\GameMenu.layout", layoutRoot );
-		m_matMenu 	   = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComEditor\\gui\\layouts\\CameraMenu.layout", layoutRoot );
-		m_objectInfoMenu = GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Namalsk\\core\\modules\\ComEditor\\gui\\layouts\\ObjectEditorInfo.layout", layoutRoot );
+		m_aiMenu   				= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComEditor\\gui\\layouts\\AIMenu.layout", layoutRoot );
+		m_objectMenu   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComEditor\\gui\\layouts\\ObjectMenu.layout", layoutRoot );
+		m_weatherMenu  			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComEditor\\gui\\layouts\\WeatherMenu.layout", layoutRoot );
+		m_positionMenu 			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComEditor\\gui\\layouts\\PositionMenu.layout", layoutRoot );
+		m_gameMenu 	   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComEditor\\gui\\layouts\\GameMenu.layout", layoutRoot );
+		m_matMenu 	   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComEditor\\gui\\layouts\\CameraMenu.layout", layoutRoot );
+		m_objectInfoMenu 		= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.namalsk\\core\\modules\\ComEditor\\gui\\layouts\\ObjectEditorInfo.layout", layoutRoot );
 
 		return layoutRoot;
 	}
@@ -111,8 +111,6 @@ class EditorMenu extends UIScriptedMenu
 					float random_pitch = Math.RandomFloat(0, 0.7);
 					float random_roll = Math.RandomFloat(0, 0.7);
 					obj.SetOrientation( Vector(random_yaw, random_pitch, random_roll) );
-					
-					// GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(RandomOri, 100, false, obj);
 				}
 
 				ObjectInfoMenu.listBox.AddItem(obj.GetType(), obj, 0);
@@ -228,12 +226,6 @@ class EditorMenu extends UIScriptedMenu
 		float random_yaw = Math.RandomFloat(-1, 1);
 
 		selected_obj.SetDirection(Vector(random_yaw, obj_dir[1], obj_dir[2]));
-
-		// vector pos = objtoedit.GetPosition();
-		// objtoedit.SetOrientation( GetGame().GetSurfaceOrientation(pos[0], pos[2]) );
-
-		// float random_yaw = Math.RandomFloat(-180, 180);
-		// objtoedit.SetOrientation( Vector(objtoedit.GetOrientation()[0], objtoedit.GetOrientation()[1], objtoedit.GetOrientation()[2]) );
 	}
 
 	override bool OnClick( Widget w, int x, int y, int button )
@@ -369,8 +361,6 @@ class EditorMenu extends UIScriptedMenu
 
 	override void Update( float timeslice ) 
 	{
-		//GetPlayer().MessageStatus( (GetMouseState( MouseState.RIGHT ) & MB_PRESSED_MASK).ToString() );
-
 		if ( GetMouseState( MouseState.RIGHT ) & MB_PRESSED_MASK ) 
 		{
 			if ( GetGame().GetUIManager().IsCursorVisible() ) 
