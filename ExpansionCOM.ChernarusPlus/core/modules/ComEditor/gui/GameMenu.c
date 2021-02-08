@@ -139,9 +139,9 @@ class GameMenu extends PopupMenu
 	static CarScript SpawnHatchback() 
 	{
 		TStringArray attArr = {
-		"HatchbackWheel","HatchbackWheel","HatchbackWheel","HatchbackWheel",
-		"CarBattery","CarRadiator","EngineBelt","SparkPlug","Expansion_HatchbackHood",
-		"Expansion_HatchbackTrunk","Expansion_HatchbackDoors_Driver","Expansion_HatchbackDoors_CoDriver",
+		"HatchbackWheel","HatchbackWheel","HatchbackWheel","HatchbackWheel","HatchbackWheel",
+		"CarBattery","CarRadiator","SparkPlug","HatchbackHood",
+		"HatchbackTrunk","HatchbackDoors_Driver","HatchbackDoors_CoDriver",
 		};
 
 		return SpawnVehicle( "OffroadHatchback", attArr );
@@ -151,10 +151,10 @@ class GameMenu extends PopupMenu
 	{
 		TStringArray attArr = {
 		"Hatchback_02_Wheel","Hatchback_02_Wheel","Hatchback_02_Wheel","Hatchback_02_Wheel",
-		"CarBattery","CarRadiator","EngineBelt","SparkPlug","Expansion_Hatchback_02_Hood",
-		"Expansion_Hatchback_02_Trunk","Expansion_Hatchback_02_Door_1_1",
-		"Expansion_Hatchback_02_Door_1_2","Expansion_Hatchback_02_Door_2_1",
-		"Expansion_Hatchback_02_Door_2_2",
+		"CarBattery","CarRadiator","SparkPlug","Hatchback_02_Hood",
+		"Hatchback_02_Trunk","Hatchback_02_Door_1_1",
+		"Hatchback_02_Door_1_2","Hatchback_02_Door_2_1",
+		"Hatchback_02_Door_2_2",
 		};
 
 		return SpawnVehicle( "Hatchback_02", attArr );
@@ -164,10 +164,10 @@ class GameMenu extends PopupMenu
 	{
 		TStringArray attArr = {
 		"CivSedanWheel","CivSedanWheel","CivSedanWheel","CivSedanWheel",
-		"CarBattery", "CarRadiator","EngineBelt", "SparkPlug","Expansion_CivSedanHood",
-		"Expansion_CivSedanTrunk", "Expansion_CivSedanDoors_Driver",
-		"Expansion_CivSedanDoors_CoDriver", "Expansion_CivSedanDoors_BackLeft", 
-		"Expansion_CivSedanDoors_BackRight",
+		"CarBattery", "CarRadiator", "SparkPlug","CivSedanHood",
+		"CivSedanTrunk", "CivSedanDoors_Driver",
+		"CivSedanDoors_CoDriver", "CivSedanDoors_BackLeft", 
+		"CivSedanDoors_BackRight",
 		};
 
 		return SpawnVehicle( "CivilianSedan", attArr );
@@ -177,10 +177,10 @@ class GameMenu extends PopupMenu
 	{
 		TStringArray attArr = {
 		"Sedan_02_Wheel","Sedan_02_Wheel","Sedan_02_Wheel","Sedan_02_Wheel",
-		"CarBattery","CarRadiator","EngineBelt","SparkPlug","Expansion_Sedan_02_Hood",
-		"Expansion_Sedan_02_Trunk","Expansion_Sedan_02_Door_1_1",
-		"Expansion_Sedan_02_Door_1_2","Expansion_Sedan_02_Door_2_1",
-		"Expansion_Sedan_02_Door_2_2",
+		"CarBattery","CarRadiator","SparkPlug","Sedan_02_Hood",
+		"Sedan_02_Trunk","Sedan_02_Door_1_1",
+		"Sedan_02_Door_1_2","Sedan_02_Door_2_1",
+		"Sedan_02_Door_2_2",
 		};
 
 		return SpawnVehicle( "Sedan_02", attArr );
@@ -601,7 +601,7 @@ class GameMenu extends PopupMenu
 	{
 		TStringArray attArr = {
 			"Van_01_Wheel","Van_01_Wheel","Van_01_Wheel","Van_01_Wheel",
-			"CarBattery","CarRadiator","EngineBelt","SparkPlug",
+			"CarBattery","CarRadiator","SparkPlug",
 			"Van_01_Door_1_1","Van_01_Door_2_1","Van_01_Door_2_2",
 			"Van_01_Trunk_1", "Van_01_Trunk_2",
 		};

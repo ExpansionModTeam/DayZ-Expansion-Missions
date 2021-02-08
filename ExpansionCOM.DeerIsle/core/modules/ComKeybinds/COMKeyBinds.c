@@ -33,7 +33,7 @@ class COMKeyBinds extends COM_Module
 		COM_KeyMouseBinding hideHud		 = new COM_KeyMouseBinding( GetModuleType() , "HideHud"	   ,  "Hides ui completely."			);
 		COM_KeyMouseBinding printPlayer	 = new COM_KeyMouseBinding( GetModuleType() , "PrintPlayer"   ,  "Print current player position."  );
 		//COM_KeyMouseBinding autoRun		 = new COM_KeyMouseBinding( GetModuleType() , "AutoRun"	   ,  "Toggle autorun."				 );
-		COM_KeyMouseBinding keyFrame		= new COM_KeyMouseBinding( GetModuleType() , "OpenKeyframe"  ,  "Toggle dayz dev cinematic tool." );
+		//COM_KeyMouseBinding keyFrame		= new COM_KeyMouseBinding( GetModuleType() , "OpenKeyframe"  ,  "Toggle dayz dev cinematic tool." );
 		COM_KeyMouseBinding closeMenu	   = new COM_KeyMouseBinding( GetModuleType() , "CloseOpenMenu" ,  "Close the menu on esc.", true	);
 		COM_KeyMouseBinding decayGetPos	   = new COM_KeyMouseBinding( GetModuleType() , "DecayGetPos" ,  "Close the menu on esc.", true	);
 
@@ -44,7 +44,7 @@ class COMKeyBinds extends COM_Module
 		hideHud		.AddBinding( "kHome" );
 		printPlayer	.AddBinding( "kP" );
 		//autoRun		.AddBinding( "kComma" );
-		keyFrame	   .AddBinding( "kPrior" );
+		//keyFrame	   .AddBinding( "kPrior" );
 		closeMenu	  .AddBinding( "kEscape" );
 		decayGetPos	  .AddBinding( "kL" );
 
@@ -55,7 +55,7 @@ class COMKeyBinds extends COM_Module
 		RegisterCOM_KeyMouseBinding( hideHud );
 		RegisterCOM_KeyMouseBinding( printPlayer );
 		//RegisterCOM_KeyMouseBinding( autoRun );
-		RegisterCOM_KeyMouseBinding( keyFrame );
+		//RegisterCOM_KeyMouseBinding( keyFrame );
 		RegisterCOM_KeyMouseBinding( closeMenu );
 		RegisterCOM_KeyMouseBinding( decayGetPos );
 	}

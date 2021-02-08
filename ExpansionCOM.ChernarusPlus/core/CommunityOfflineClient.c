@@ -109,7 +109,7 @@ class CommunityOfflineClient : MissionGameplay
 
 		vector pPos = "0 0 0";
 
-		pPos = "250 0 250";
+		pPos = "11885.583984 140.012405 12609.630859";
 
 		PlayerBase player;
 		Class.CastTo( player, GetGame().CreatePlayer( NULL, GetGame().CreateRandomPlayer(), pPos, 0, "NONE" ) );

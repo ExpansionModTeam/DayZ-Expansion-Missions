@@ -329,10 +329,72 @@ class ObjectEditor extends COM_Module
 			car = CarScript.Cast( obj );
 			if ( car )
 			{
+				car.GetInventory().CreateInInventory("CarBattery");
+				car.GetInventory().CreateInInventory("CarRadiator");
+				car.GetInventory().CreateInInventory("SparkPlug");
 				car.GetInventory().CreateInInventory("ExpansionUAZWheel");
 				car.GetInventory().CreateInInventory("ExpansionUAZWheel");
 				car.GetInventory().CreateInInventory("ExpansionUAZWheel");
 				car.GetInventory().CreateInInventory("ExpansionUAZWheel");
+			}
+		}
+		else if ( obj.IsKindOf("Truck_01_Covered") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("Truck_01_Door_1_1");
+				car.GetInventory().CreateInInventory("Truck_01_Door_2_1");
+				car.GetInventory().CreateInInventory("Truck_01_Hood");
+				car.GetInventory().CreateInInventory("TruckBattery");
+				car.GetInventory().CreateInInventory("Truck_01_Wheel");
+				car.GetInventory().CreateInInventory("Truck_01_Wheel");
+				car.GetInventory().CreateInInventory("Truck_01_Wheel");
+				car.GetInventory().CreateInInventory("Truck_01_Wheel");
+				car.GetInventory().CreateInInventory("Truck_01_WheelDouble");
+				car.GetInventory().CreateInInventory("Truck_01_WheelDouble");
+				car.GetInventory().CreateInInventory("Truck_01_WheelDouble");
+				car.GetInventory().CreateInInventory("Truck_01_WheelDouble");
+			}
+		}
+		else if ( obj.IsKindOf("Sedan_02") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("Sedan_02_Door_1_1");
+				car.GetInventory().CreateInInventory("Sedan_02_Door_1_2");
+				car.GetInventory().CreateInInventory("Sedan_02_Door_2_1");
+				car.GetInventory().CreateInInventory("Sedan_02_Door_2_2");
+				car.GetInventory().CreateInInventory("Sedan_02_Hood");
+				car.GetInventory().CreateInInventory("Sedan_02_Trunk");
+				car.GetInventory().CreateInInventory("CarBattery");
+				car.GetInventory().CreateInInventory("CarRadiator");
+				car.GetInventory().CreateInInventory("SparkPlug");
+				car.GetInventory().CreateInInventory("Sedan_02_Wheel");
+				car.GetInventory().CreateInInventory("Sedan_02_Wheel");
+				car.GetInventory().CreateInInventory("Sedan_02_Wheel");
+				car.GetInventory().CreateInInventory("Sedan_02_Wheel");
+			}
+		}
+		else if ( obj.IsKindOf("Hatchback_02") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("Hatchback_02_Door_1_1");
+				car.GetInventory().CreateInInventory("Hatchback_02_Door_1_2");
+				car.GetInventory().CreateInInventory("Hatchback_02_Door_2_1");
+				car.GetInventory().CreateInInventory("Hatchback_02_Door_2_2");
+				car.GetInventory().CreateInInventory("Hatchback_02_Hood");
+				car.GetInventory().CreateInInventory("Hatchback_02_Trunk");
+				car.GetInventory().CreateInInventory("CarBattery");
+				car.GetInventory().CreateInInventory("CarRadiator");
+				car.GetInventory().CreateInInventory("SparkPlug");
+				car.GetInventory().CreateInInventory("Hatchback_02_Wheel");
+				car.GetInventory().CreateInInventory("Hatchback_02_Wheel");
+				car.GetInventory().CreateInInventory("Hatchback_02_Wheel");
+				car.GetInventory().CreateInInventory("Hatchback_02_Wheel");
 			}
 		}
 	}

@@ -16,7 +16,23 @@ class COM_PositionMenu extends PopupMenu
 	{
 		m_bOverCurrentPos = false;
 
-		Positions.Insert( "Not available yet", "0 0 0" );
+		Positions.Insert( "Herreninsel", "7027.956055 10.402502 3514.430664" );
+		Positions.Insert( "Osternach", "3914.968506 29.584784 2703.943115" );
+		Positions.Insert( "Baustelle", "4018.841553 7.807599 5078.954102" );
+		Positions.Insert( "Hochstatt", "2623.289551 24.616463 5887.574707" );
+		Positions.Insert( "Sagewerk", "4222.124512 12.522442 6658.396484" );
+		Positions.Insert( "Gstadt Industrie", "8231.880859 4.878265 6337.642090" );
+		Positions.Insert( "Gollenhausen", "9335.285156 6.277999 8797.252930" );
+		Positions.Insert( "Eggstatt", "5296.567871 2.072500 8390.075195" );
+		Positions.Insert( "Hemhof", "3345.000244 4.323145 8686.267578" );
+		Positions.Insert( "Jolling", "1140.620239 19.302500 9485.746094" );
+		Positions.Insert( "Soll", "8409.345703 45.072495 9785.223633" );
+		Positions.Insert( "Stein", "4630.960449 74.067032 7582.009766" );
+		Positions.Insert( "AltSchwanstein", "3954.993896 50.788231 1267.142090" );
+		Positions.Insert( "Alm", "1405.421875 315.157776 1758.245361" );
+		Positions.Insert( "Hub", "2136.849609 502.716614 538.320679" );
+		Positions.Insert( "TedValley", "881.134155 27.349918 1320.070313" );
+		Positions.Insert( "Fraueninsel", "8944.375977 16.812483 4821.572266" );
 	}
 
 	void ~COM_PositionMenu()

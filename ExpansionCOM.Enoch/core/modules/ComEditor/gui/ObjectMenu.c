@@ -265,39 +265,8 @@ class COM_ObjectMenu extends PopupMenu
 				GetGame().ObjectDelete( previewItem );
 			}
 
-			// fix crash for broken items
-			// Clothings
-			if ( strSelection == "LargeTentBackPack") return false;
-
-			// Weapons
-			if ( strSelection == "QuickieBow") return false;
-			if ( strSelection == "RecurveBow") return false;
-			if ( strSelection == "GP25Base") return false;
-			if ( strSelection == "GP25") return false;
-			if ( strSelection == "GP25_Standalone") return false;
-			if ( strSelection == "M203Base") return false;
-			if ( strSelection == "M203") return false;
-			if ( strSelection == "M203_Standalone") return false;
-			if ( strSelection == "Red9") return false;
-
-			// Mags
-			if ( strSelection == "Mag_Scout_5Rnd") return false;
-
-			// Vehicles
-			if ( strSelection == "ExpansionSoundProxyBase") return false;
-			if ( strSelection == "ExpansionVehicleBaseSoundProxyBase") return false;
-			if ( strSelection == "ExpansionHelicopterScript") return false;
-			if ( strSelection == "ExpansionVodnikAudio") return false;
-			if ( strSelection == "ExpansionLHDAudio") return false;
-			if ( strSelection == "ExpansionUtilityAudio") return false;
-			if ( strSelection == "ExpansionZodiacAudio") return false;
-			if ( strSelection == "ExpansionGyrocopterAudio") return false;
-			if ( strSelection == "ExpansionMerlinAudio") return false;
-			if ( strSelection == "ExpansionMh6Audio") return false;
-			if ( strSelection == "ExpansionUh1hAudio") return false;
-
-			// Misc
-			if ( strSelection.Contains("Fx") ) return false;
+			if ( CheckItemCrash(strSelection) )
+				return false;
 
 			previewItem = EntityAI.Cast( GetGame().CreateObject( strSelection, vector.Zero, false ) );
 
@@ -315,6 +284,105 @@ class COM_ObjectMenu extends PopupMenu
 		}
 
 		return true;
+	}
+	
+	private bool CheckItemCrash( string name )
+	{
+		ref array< string > items =
+		{
+			"quickiebow",
+			"recurvebow",
+			"gp25base",
+			"gp25",
+			"gp25_standalone",
+			"m203base",
+			"m203",
+			"m203_standalone",
+			"red9",
+			"pvcbow",
+			"crossbow",
+			"augsteyr",
+			"m249",
+			"undersluggrenadem4",
+			"groza",
+			"pm73rak",
+			"scout",
+			"scout_black",
+			"scout_green",
+			"trumpet",
+			"lawbase",
+			"law",
+			"rpg7base",
+			"rpg7",
+			"dartgun",
+			"shockpistol",
+			"shockpistol_black",
+			"derringer_black",
+			"derringer_pink",
+			"derringer_grey",
+			"fnx45_arrow",
+			"longhorn",
+			"p1",
+			"makarovpb",
+			"mp133shotgun_pistolgrip",
+			
+			"largetentbackpack",
+			"splint_applied",
+			"leatherbelt_natural",
+			"leatherbelt_beige",
+			"leatherbelt_brown",
+			"leatherbelt_black",
+			"leatherknifeshealth",
+
+			"surrenderdummyitem",
+			"testobject",
+
+			"mag_scout_5rnd",
+			"itemoptics",
+			"fx",
+			"expansionsoundproxybase",
+			"expansionvehiclebasesoundproxybase",
+			"expansionhelicopterscript",
+			"expansionvodnikaudio",
+			"expansionlhdaudio",
+			"expansionutilityaudio",
+			"expansionzodiacaudio",
+			"expansiongyrocopteraudio",
+			"expansionmerlinaudio",
+			"expansionmh6audio",
+			"expansionuh1haudio",
+			"expansionvehicleplanebase",
+			"expansionvehiclehelicopterbase",
+			"expansionvehicleboatbase",
+			"expansionvehiclebikebase",
+			"expansionvehiclecarbase",
+			"expansionvehiclevehiclebase"
+		};
+		ref array< string > itemsList =
+		{
+			"placing",
+			"debug",
+			"fx",
+			"proxy",
+			"audio"
+		};
+
+		for ( int i = 0; i < items.Count(); ++i )
+		{
+			if ( name == items[i] )
+			{
+				return true;
+			}
+		}
+
+		for ( i = 0; i < itemsList.Count(); ++i )
+		{
+			if ( name.Contains( itemsList[i] ) )
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 
 	override bool OnMouseButtonDown( Widget w, int x, int y, int button ) 
@@ -404,37 +472,6 @@ class COM_ObjectMenu extends PopupMenu
 					continue;
 				}
 
-				// fix crash for broken items
-				// Clothings
-				if ( strName == "LargeTentBackPack") continue;
-
-				// Weapons
-				if ( strName == "QuickieBow") continue;
-				if ( strName == "RecurveBow") continue;
-				if ( strName == "GP25Base") continue;
-				if ( strName == "GP25") continue;
-				if ( strName == "GP25_Standalone") continue;
-				if ( strName == "M203Base") continue;
-				if ( strName == "M203") continue;
-				if ( strName == "M203_Standalone") continue;
-				if ( strName == "Red9") continue;
-
-				// Mags
-				if ( strName == "Mag_Scout_5Rnd") continue;
-
-				// Vehicles
-				if ( strName == "ExpansionSoundProxyBase") continue;
-				if ( strName == "ExpansionVehicleBaseSoundProxyBase") continue;
-				if ( strName == "ExpansionHelicopterScript") continue;
-				if ( strName == "ExpansionVodnikAudio") continue;
-				if ( strName == "ExpansionLHDAudio") continue;
-				if ( strName == "ExpansionUtilityAudio") continue;
-				if ( strName == "ExpansionZodiacAudio") continue;
-				if ( strName == "ExpansionGyrocopterAudio") continue;
-				if ( strName == "ExpansionMerlinAudio") continue;
-				if ( strName == "ExpansionMh6Audio") continue;
-				if ( strName == "ExpansionUh1hAudio") continue;
-
 				string strNameLower = strName;
 
 				strNameLower.ToLower();
@@ -446,15 +483,8 @@ class COM_ObjectMenu extends PopupMenu
 						continue;
 					}
 
-					if ( strName == "ItemOptics" ) 
-					{
-						continue; // Fix crash
-					}
-
-					if ( strName.Contains("Fx") ) 
-					{
-						continue; // Fix crash
-					}
+					if ( CheckItemCrash(strNameLower) )
+						continue;
 
 					m_classList.AddItem( strName, NULL, 0 );
 				}
