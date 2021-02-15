@@ -23,7 +23,7 @@ PanelWidgetClass object_editor_info
 			vexactpos 1
 			hexactsize 0
 			vexactsize 1
-			style rover_sim_colorable
+			style DayZDefaultPanelTop
 			{
 				TextWidgetClass title_text
 				{
@@ -55,7 +55,7 @@ PanelWidgetClass object_editor_info
 			hexactsize 0
 			vexactsize 0
 			vexactpos 1
-			style rover_sim_colorable
+			style DayZDefaultPanelTop
 			{
 				TextWidgetClass object_editor_info_select_input
 				{
@@ -69,7 +69,7 @@ PanelWidgetClass object_editor_info
 					visible 1
 					position 0.65 0
 					size 0.3 0.95
-					style EditorPanel
+					style DayZDefaultPanelTop
 					{
 						TextWidgetClass object_editor_info_objects
 						{
@@ -119,7 +119,7 @@ PanelWidgetClass object_editor_info
 					visible 1
 					position 0 0.1
 					size 0.65 1
-					style EditorPanel
+					style DayZDefaultPanelTop
 					{
 						PanelWidgetClass objectInfo_pos_panel 
 						{

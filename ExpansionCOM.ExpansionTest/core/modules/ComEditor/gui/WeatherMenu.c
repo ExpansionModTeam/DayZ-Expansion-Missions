@@ -95,6 +95,8 @@ class COM_WeatherMenu extends PopupMenu
 			editor.SetDate(m_CurrYear, m_CurrMonth, m_CurrDay, m_CurrHour, m_CurrMinute);
 
 			GetGame().GetWeather().SetWindFunctionParams( m_OrigWindForce, m_CurrWindForce, 1 );
+			
+			GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Weather" ), new StringLocaliser( "New weather config applied !" ), EXPANSION_NOTIFICATION_ICON_WATER_2, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 			return true;
 		}

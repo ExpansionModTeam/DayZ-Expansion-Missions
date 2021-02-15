@@ -357,6 +357,45 @@ class ObjectEditor extends COM_Module
 				car.GetInventory().CreateInInventory("Truck_01_WheelDouble");
 			}
 		}
+		else if ( obj.IsKindOf("CivilianSedan") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("CivSedanHood");
+				car.GetInventory().CreateInInventory("CivSedanDoors_Driver");
+				car.GetInventory().CreateInInventory("CivSedanDoors_CoDriver");
+				car.GetInventory().CreateInInventory("CivSedanDoors_BackLeft");
+				car.GetInventory().CreateInInventory("CivSedanDoors_BackRight");
+				car.GetInventory().CreateInInventory("CivSedanTrunk");
+				car.GetInventory().CreateInInventory("CarBattery");
+				car.GetInventory().CreateInInventory("CarRadiator");
+				car.GetInventory().CreateInInventory("SparkPlug");
+				car.GetInventory().CreateInInventory("CivSedanWheel");
+				car.GetInventory().CreateInInventory("CivSedanWheel");
+				car.GetInventory().CreateInInventory("CivSedanWheel");
+				car.GetInventory().CreateInInventory("CivSedanWheel");
+			}
+		}
+		else if ( obj.IsKindOf("OffroadHatchback") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("HatchbackHood");
+				car.GetInventory().CreateInInventory("HatchbackDoors_Driver");
+				car.GetInventory().CreateInInventory("HatchbackDoors_CoDriver");
+				car.GetInventory().CreateInInventory("HatchbackTrunk");
+				car.GetInventory().CreateInInventory("CarBattery");
+				car.GetInventory().CreateInInventory("CarRadiator");
+				car.GetInventory().CreateInInventory("SparkPlug");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+			}
+		}
 		else if ( obj.IsKindOf("Sedan_02") )
 		{
 			car = CarScript.Cast( obj );

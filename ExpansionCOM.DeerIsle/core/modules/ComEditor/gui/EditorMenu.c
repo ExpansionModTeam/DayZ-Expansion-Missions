@@ -31,7 +31,7 @@ class EditorMenu extends UIScriptedMenu
 	
 	override Widget Init()
 	{
-		layoutRoot 				= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\EditorMenu.layout" );
+		layoutRoot 				= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Deerisle\\core\\modules\\ComEditor\\gui\\layouts\\EditorMenu.layout" );
 
 		m_ObjectButton   		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("objects_button") );
 		m_PositionButton 		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("position_button") );
@@ -40,13 +40,13 @@ class EditorMenu extends UIScriptedMenu
 		m_MatButton	 			= ButtonWidget.Cast( layoutRoot.FindAnyWidget("mat_button") );
 		m_ObjectEditorButton 	= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "objectEditor_button" ) );
 
-		m_aiMenu   				= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\AIMenu.layout", layoutRoot );
-		m_objectMenu   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\ObjectMenu.layout", layoutRoot );
-		m_weatherMenu  			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\WeatherMenu.layout", layoutRoot );
-		m_positionMenu 			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\PositionMenu.layout", layoutRoot );
-		m_gameMenu 	   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\GameMenu.layout", layoutRoot );
-		m_matMenu 	   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\CameraMenu.layout", layoutRoot );
-		m_objectInfoMenu 		= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.DeerIsle\\core\\modules\\ComEditor\\gui\\layouts\\ObjectEditorInfo.layout", layoutRoot );
+		m_aiMenu   				= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Deerisle\\core\\modules\\ComEditor\\gui\\layouts\\AIMenu.layout", layoutRoot );
+		m_objectMenu   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Deerisle\\core\\modules\\ComEditor\\gui\\layouts\\ObjectMenu.layout", layoutRoot );
+		m_weatherMenu  			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Deerisle\\core\\modules\\ComEditor\\gui\\layouts\\WeatherMenu.layout", layoutRoot );
+		m_positionMenu 			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Deerisle\\core\\modules\\ComEditor\\gui\\layouts\\PositionMenu.layout", layoutRoot );
+		m_gameMenu 	   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Deerisle\\core\\modules\\ComEditor\\gui\\layouts\\GameMenu.layout", layoutRoot );
+		m_matMenu 	   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Deerisle\\core\\modules\\ComEditor\\gui\\layouts\\CameraMenu.layout", layoutRoot );
+		m_objectInfoMenu 		= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.Deerisle\\core\\modules\\ComEditor\\gui\\layouts\\ObjectEditorInfo.layout", layoutRoot );
 
 		return layoutRoot;
 	}
@@ -189,6 +189,104 @@ class EditorMenu extends UIScriptedMenu
 				car.GetInventory().CreateInInventory("ExpansionUAZWheel");
 				car.GetInventory().CreateInInventory("ExpansionUAZWheel");
 				car.GetInventory().CreateInInventory("ExpansionUAZWheel");
+			}
+		}
+		else if ( obj.IsKindOf("Truck_01_Covered") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("Truck_01_Door_1_1");
+				car.GetInventory().CreateInInventory("Truck_01_Door_2_1");
+				car.GetInventory().CreateInInventory("Truck_01_Hood");
+				car.GetInventory().CreateInInventory("TruckBattery");
+				car.GetInventory().CreateInInventory("Truck_01_Wheel");
+				car.GetInventory().CreateInInventory("Truck_01_Wheel");
+				car.GetInventory().CreateInInventory("Truck_01_Wheel");
+				car.GetInventory().CreateInInventory("Truck_01_Wheel");
+				car.GetInventory().CreateInInventory("Truck_01_WheelDouble");
+				car.GetInventory().CreateInInventory("Truck_01_WheelDouble");
+				car.GetInventory().CreateInInventory("Truck_01_WheelDouble");
+				car.GetInventory().CreateInInventory("Truck_01_WheelDouble");
+			}
+		}
+		else if ( obj.IsKindOf("CivilianSedan") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("CivSedanHood");
+				car.GetInventory().CreateInInventory("CivSedanDoors_Driver");
+				car.GetInventory().CreateInInventory("CivSedanDoors_CoDriver");
+				car.GetInventory().CreateInInventory("CivSedanDoors_BackLeft");
+				car.GetInventory().CreateInInventory("CivSedanDoors_BackRight");
+				car.GetInventory().CreateInInventory("CivSedanTrunk");
+				car.GetInventory().CreateInInventory("CarBattery");
+				car.GetInventory().CreateInInventory("CarRadiator");
+				car.GetInventory().CreateInInventory("SparkPlug");
+				car.GetInventory().CreateInInventory("CivSedanWheel");
+				car.GetInventory().CreateInInventory("CivSedanWheel");
+				car.GetInventory().CreateInInventory("CivSedanWheel");
+				car.GetInventory().CreateInInventory("CivSedanWheel");
+			}
+		}
+		else if ( obj.IsKindOf("OffroadHatchback") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("HatchbackHood");
+				car.GetInventory().CreateInInventory("HatchbackDoors_Driver");
+				car.GetInventory().CreateInInventory("HatchbackDoors_CoDriver");
+				car.GetInventory().CreateInInventory("HatchbackTrunk");
+				car.GetInventory().CreateInInventory("CarBattery");
+				car.GetInventory().CreateInInventory("CarRadiator");
+				car.GetInventory().CreateInInventory("SparkPlug");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+				car.GetInventory().CreateInInventory("HatchbackWheel");
+			}
+		}
+		else if ( obj.IsKindOf("Sedan_02") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("Sedan_02_Door_1_1");
+				car.GetInventory().CreateInInventory("Sedan_02_Door_1_2");
+				car.GetInventory().CreateInInventory("Sedan_02_Door_2_1");
+				car.GetInventory().CreateInInventory("Sedan_02_Door_2_2");
+				car.GetInventory().CreateInInventory("Sedan_02_Hood");
+				car.GetInventory().CreateInInventory("Sedan_02_Trunk");
+				car.GetInventory().CreateInInventory("CarBattery");
+				car.GetInventory().CreateInInventory("CarRadiator");
+				car.GetInventory().CreateInInventory("SparkPlug");
+				car.GetInventory().CreateInInventory("Sedan_02_Wheel");
+				car.GetInventory().CreateInInventory("Sedan_02_Wheel");
+				car.GetInventory().CreateInInventory("Sedan_02_Wheel");
+				car.GetInventory().CreateInInventory("Sedan_02_Wheel");
+			}
+		}
+		else if ( obj.IsKindOf("Hatchback_02") )
+		{
+			car = CarScript.Cast( obj );
+			if ( car )
+			{
+				car.GetInventory().CreateInInventory("Hatchback_02_Door_1_1");
+				car.GetInventory().CreateInInventory("Hatchback_02_Door_1_2");
+				car.GetInventory().CreateInInventory("Hatchback_02_Door_2_1");
+				car.GetInventory().CreateInInventory("Hatchback_02_Door_2_2");
+				car.GetInventory().CreateInInventory("Hatchback_02_Hood");
+				car.GetInventory().CreateInInventory("Hatchback_02_Trunk");
+				car.GetInventory().CreateInInventory("CarBattery");
+				car.GetInventory().CreateInInventory("CarRadiator");
+				car.GetInventory().CreateInInventory("SparkPlug");
+				car.GetInventory().CreateInInventory("Hatchback_02_Wheel");
+				car.GetInventory().CreateInInventory("Hatchback_02_Wheel");
+				car.GetInventory().CreateInInventory("Hatchback_02_Wheel");
+				car.GetInventory().CreateInInventory("Hatchback_02_Wheel");
 			}
 		}
 	}
@@ -393,10 +491,14 @@ class EditorMenu extends UIScriptedMenu
 	{
 		if (m_toggleDOJCode)
 		{
+			GetNotificationSystem().CreateNotification( new StringLocaliser( "Randomized Rotation Toggle" ), new StringLocaliser( "Randomized Rotation mode disabled" ), EXPANSION_NOTIFICATION_ICON_INFO, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+
 			m_toggleDOJCode = false;
 		}
 		else
 		{
+			GetNotificationSystem().CreateNotification( new StringLocaliser( "Randomized Rotation Toggle" ), new StringLocaliser( "Randomized Rotation mode enabled" ), EXPANSION_NOTIFICATION_ICON_INFO, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+
 			m_toggleDOJCode = true;
 		}
 	}
@@ -415,10 +517,14 @@ class EditorMenu extends UIScriptedMenu
 	{
 		if (m_toggleDOJPrecision)
 		{
+			GetNotificationSystem().CreateNotification( new StringLocaliser( "Precision Toggle" ), new StringLocaliser( "Precision mode disabled" ), EXPANSION_NOTIFICATION_ICON_INFO, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+
 			m_toggleDOJPrecision = false;
 		}
 		else
 		{
+			GetNotificationSystem().CreateNotification( new StringLocaliser( "Precision Toggle" ), new StringLocaliser( "Precision mode enabled" ), EXPANSION_NOTIFICATION_ICON_INFO, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+
 			m_toggleDOJPrecision = true;
 		}
 	}

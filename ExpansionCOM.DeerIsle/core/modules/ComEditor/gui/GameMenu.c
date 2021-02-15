@@ -98,6 +98,13 @@ class GameMenu extends PopupMenu
 		{
 			m_comGodMode = !m_comGodMode;
 
+			if ( m_comGodMode )
+			{
+				GetNotificationSystem().CreateNotification( new StringLocaliser( "Godmode Toggle" ), new StringLocaliser( "Godmode enabled" ), EXPANSION_NOTIFICATION_ICON_SHIELD, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+			} else {
+				GetNotificationSystem().CreateNotification( new StringLocaliser( "Godmode Toggle" ), new StringLocaliser( "Godmode disabled" ), EXPANSION_NOTIFICATION_ICON_SHIELD, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+			}
+
 			GetPlayer().SetAllowDamage( !m_comGodMode );
 		}
 		return m_comGodMode;
@@ -144,6 +151,8 @@ class GameMenu extends PopupMenu
 		"HatchbackTrunk","HatchbackDoors_Driver","HatchbackDoors_CoDriver",
 		};
 
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a ADA 4x4" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
+
 		return SpawnVehicle( "OffroadHatchback", attArr );
 	}
 
@@ -156,6 +165,8 @@ class GameMenu extends PopupMenu
 		"Hatchback_02_Door_1_2","Hatchback_02_Door_2_1",
 		"Hatchback_02_Door_2_2",
 		};
+
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Gunter" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "Hatchback_02", attArr );
 	}
@@ -170,6 +181,8 @@ class GameMenu extends PopupMenu
 		"CivSedanDoors_BackRight",
 		};
 
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Olga" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
+
 		return SpawnVehicle( "CivilianSedan", attArr );
 	}
 
@@ -183,6 +196,8 @@ class GameMenu extends PopupMenu
 		"Sedan_02_Door_2_2",
 		};
 
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Sarka" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
+
 		return SpawnVehicle( "Sedan_02", attArr );
 	}
 
@@ -194,6 +209,8 @@ class GameMenu extends PopupMenu
 		"Truck_01_WheelDouble","TruckBattery","Truck_01_Hood","Truck_01_Door_1_1",
 		"Truck_01_Door_2_1",
 		};
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a M3S Chassis" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "Truck_01_Chassis", attArr );
 	}
@@ -206,6 +223,8 @@ class GameMenu extends PopupMenu
 		"Truck_01_WheelDouble","TruckBattery","Truck_01_Hood","Truck_01_Door_1_1",
 		"Truck_01_Door_2_1",
 		};
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a M3S Cargo" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "Truck_01_Cargo", attArr );
 	}
@@ -218,6 +237,8 @@ class GameMenu extends PopupMenu
 		"Truck_01_WheelDouble","TruckBattery","Truck_01_Hood","Truck_01_Door_1_1",
 		"Truck_01_Door_2_1",
 		};
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a M3S Covered" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "Truck_01_Covered", attArr );
 	}
@@ -230,6 +251,8 @@ class GameMenu extends PopupMenu
 		"Truck_01_WheelDouble","TruckBattery","Truck_01_Hood","Truck_01_Door_1_1",
 		"Truck_01_Door_2_1",
 		};
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a M3S Command" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "Truck_01_Command", attArr );
 	}
@@ -241,6 +264,8 @@ class GameMenu extends PopupMenu
 		"TruckBattery","GlowPlug",
 		"Truck_02_Door_1_1","Truck_02_Door_2_1",
 		};
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Compact Truck" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "Truck_02", attArr );
 	}
@@ -258,6 +283,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("ExpansionMerlinFrontWheel");
 		attArr.Insert("ExpansionMerlinBackWheel");
 		attArr.Insert("ExpansionMerlinBackWheel");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Merlin Helicopter" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionMerlin", attArr );
 	}
@@ -276,6 +303,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("ExpansionMi8FrontWheel");
 		attArr.Insert("ExpansionMi8BackWheel");
 		attArr.Insert("ExpansionMi8BackWheel");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Mi8 Helicopter" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionMi8", attArr );
 
@@ -294,6 +323,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("Expansion_Mh6_Door_2_1");
 		attArr.Insert("Expansion_Mh6_Door_1_2");
 		attArr.Insert("Expansion_Mh6_Door_2_2");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Mh6 Helicopter" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionMh6", attArr );
 	}
@@ -309,6 +340,9 @@ class GameMenu extends PopupMenu
 
 		attArr.Insert("ExpansionUh1hDoor_1_1");
 		attArr.Insert("ExpansionUh1hDoor_1_2");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Uh1h Helicopter" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
+
 		return SpawnVehicle( "ExpansionUh1h", attArr );
 	}
 
@@ -319,6 +353,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("ExpansionHelicopterBattery");
 		attArr.Insert("CarRadiator");
 		attArr.Insert("GlowPlug");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Quad" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionQuad", attArr );
 	}
@@ -342,6 +378,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("CarBattery");
 		attArr.Insert("CarRadiator");
 		attArr.Insert("SparkPlug");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a UAZ" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionUAZ", attArr );
 	}
@@ -365,6 +403,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("CarBattery");
 		attArr.Insert("CarRadiator");
 		attArr.Insert("SparkPlug");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a UAZ Roofless" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionUAZRoofless", attArr );
 	}
@@ -388,6 +428,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("CarBattery");
 		attArr.Insert("CarRadiator");
 		attArr.Insert("SparkPlug");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a UAZ Cargo Roofless" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionUAZCargoRoofless", attArr );
 	}
@@ -411,6 +453,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("CarBattery");
 		attArr.Insert("CarRadiator");
 		attArr.Insert("SparkPlug");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a UAZ Cargo" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionUAZCargo", attArr );
 	}
@@ -429,6 +473,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("CarBattery");
 		attArr.Insert("CarRadiator");
 		attArr.Insert("SparkPlug");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Forklift" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionForklift", attArr );
 	}
@@ -449,6 +495,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("CarBattery");
 		attArr.Insert("CarRadiator");
 		attArr.Insert("SparkPlug");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Tractor" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionTractor", attArr );
 	}
@@ -470,6 +518,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("CarBattery");
 		attArr.Insert("CarRadiator");
 		attArr.Insert("SparkPlug");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Vodnik" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionVodnik", attArr );
 	}
@@ -488,6 +538,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("TruckBattery");
 		attArr.Insert("CarRadiator");
 		attArr.Insert("GlowPlug");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a (Expansion) Bus" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionBus", attArr, position );
 	}
@@ -501,6 +553,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("TruckBattery");
 		attArr.Insert("HeadlightH7");
 		attArr.Insert("HeadlightH7");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a PBX Boat" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionZodiacBoat", attArr );
 	}
@@ -514,6 +568,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("TruckBattery");
 		attArr.Insert("HeadlightH7");
 		attArr.Insert("HeadlightH7");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a RHIB Boat" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionUtilityBoat", attArr );
 	}
@@ -531,6 +587,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("ExpansionUtilityBoatWheel");
 		attArr.Insert("ExpansionUtilityBoatWheel");
 		attArr.Insert("ExpansionUtilityBoatWheel");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Amphibia Boat" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionAmphibiaBoat", attArr );
 	}
@@ -548,6 +606,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("GlowPlug");
 		attArr.Insert("HeadlightH7");
 		attArr.Insert("HeadlightH7");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Su34 Plane" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionSu34", attArr );
 	}
@@ -565,6 +625,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("GlowPlug");
 		attArr.Insert("HeadlightH7");
 		attArr.Insert("HeadlightH7");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a An2 Plane" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionAn2", attArr );
 	}
@@ -582,6 +644,8 @@ class GameMenu extends PopupMenu
 		attArr.Insert("GlowPlug");
 		attArr.Insert("HeadlightH7");
 		attArr.Insert("HeadlightH7");
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a C130J Plane" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "ExpansionC130J", attArr );
 	}
@@ -593,6 +657,8 @@ class GameMenu extends PopupMenu
 		"TruckBattery","GlowPlug","BusHood",
 		"BusDoors_Left","BusDoors_Right", "BusDoors_Left","BusDoors_Right", "BusDoors_Left","BusDoors_Right",
 		};
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Transit Bus" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "TransitBus", attArr );
 	}
@@ -605,6 +671,8 @@ class GameMenu extends PopupMenu
 			"Van_01_Door_1_1","Van_01_Door_2_1","Van_01_Door_2_2",
 			"Van_01_Trunk_1", "Van_01_Trunk_2",
 		};
+		
+		GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Vehicle Spawner" ), new StringLocaliser( "Spawned a Blue Van" ), EXPANSION_NOTIFICATION_ICON_CAR, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 		return SpawnVehicle( "Van_01", attArr );
 	}

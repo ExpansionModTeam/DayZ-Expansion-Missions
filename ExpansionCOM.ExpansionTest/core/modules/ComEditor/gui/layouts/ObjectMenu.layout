@@ -10,7 +10,7 @@ PanelWidgetClass ObjectMenu {
  hexactsize 1
  vexactsize 1
  scriptclass "COM_ObjectMenu"
- style EditorPanel
+ style DayZDefaultPanelTop
  {
   PanelWidgetClass Background {
    visible 1
@@ -21,7 +21,7 @@ PanelWidgetClass ObjectMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 1
-   style rover_sim_colorable
+   style DayZDefaultPanelTop
   }
   PanelWidgetClass title_wrapper {
    visible 1
@@ -32,7 +32,7 @@ PanelWidgetClass ObjectMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 1
-   style rover_sim_colorable
+   style DayZDefaultPanelTop
    {
     TextWidgetClass title_text {
      position 0 0
@@ -80,7 +80,7 @@ PanelWidgetClass ObjectMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 1
-   style rover_sim_colorable
+   style DayZDefaultPanelTop
   }
   ButtonWidgetClass btn_filter_All {
    position 5 65
@@ -173,7 +173,7 @@ PanelWidgetClass ObjectMenu {
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   style rover_sim_colorable
+   style DayZDefaultPanelTop
   }
   PanelWidgetClass buttonframe {
    position 0 0.825

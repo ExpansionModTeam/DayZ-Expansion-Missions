@@ -10,7 +10,7 @@ PanelWidgetClass PositionMenu {
  hexactsize 1
  vexactsize 1
  scriptclass "COM_PositionMenu"
- style EditorPanel
+ style DayZDefaultPanelTop
  {
   PanelWidgetClass Background {
    visible 1
@@ -21,7 +21,7 @@ PanelWidgetClass PositionMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 1
-   style rover_sim_colorable
+   style DayZDefaultPanelTop
   }
   PanelWidgetClass pnl_ppp_pm_title {
    visible 1
@@ -32,7 +32,7 @@ PanelWidgetClass PositionMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 1
-   style rover_sim_colorable
+   style DayZDefaultPanelTop
    {
     TextWidgetClass txt_ppp_pm_title_text {
      position 0 0

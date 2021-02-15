@@ -10,7 +10,7 @@ PanelWidgetClass GameMenu {
  hexactsize 1
  vexactsize 1
  scriptclass "GameMenu"
- style EditorPanel
+ style DayZDefaultPanelTop
  {
   PanelWidgetClass Background {
    visible 1
@@ -21,7 +21,7 @@ PanelWidgetClass GameMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 0
-   style rover_sim_colorable
+   style DayZDefaultPanelTop
   }
   PanelWidgetClass title_wrapper {
    visible 1
@@ -32,7 +32,7 @@ PanelWidgetClass GameMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 1
-   style rover_sim_colorable
+   style DayZDefaultPanelTop
    {
     TextWidgetClass title_text {
      position 0 0
@@ -76,7 +76,7 @@ PanelWidgetClass GameMenu {
    hexactsize 1
    vexactsize 1
    scriptclass "OverrideVerticalSpacer"
-   style rover_sim_colorable
+   style DayZDefaultPanelTop
   }
   ButtonWidgetClass game_script_button {
    position 80 10

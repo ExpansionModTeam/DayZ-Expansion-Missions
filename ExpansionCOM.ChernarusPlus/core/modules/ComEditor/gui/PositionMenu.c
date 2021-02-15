@@ -246,6 +246,8 @@ class COM_PositionMenu extends PopupMenu
 				PlayerBase oPlayer = PlayerBase.Cast( GetGame().GetPlayer() );
 				oPlayer.MessageStatus( "Invalid teleportation position!" );
 
+				GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Teleportation" ), new StringLocaliser( "Invalid teleportation position !" ), EXPANSION_NOTIFICATION_ICON_ERROR, COLOR_EXPANSION_NOTIFICATION_ERROR, 7 );
+
 				return true;
 			}
 
@@ -254,6 +256,8 @@ class COM_PositionMenu extends PopupMenu
 			vPlayerPos[2] = pos_y;
 
 			vPlayerPos = SnapToGround( vPlayerPos );
+
+			GetNotificationSystem().CreateNotification( new StringLocaliser( "COM Teleportation" ), new StringLocaliser( "Teleported player at selected location !" ), EXPANSION_NOTIFICATION_ICON_PERSONA, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 
 			GetGame().GetPlayer().SetPosition( vPlayerPos );
 

@@ -539,6 +539,14 @@
 			<item name="PistolOptic" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="Expansion_MP5">
+		<attachments chance="0.30">
+			<item name="Mag_MP5_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="Expansion_G36">
 		<attachments chance="0.30">
 			<item name="Mag_Expansion_G36_30Rnd" chance="0.90" />

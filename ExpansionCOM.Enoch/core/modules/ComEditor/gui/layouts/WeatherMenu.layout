@@ -12,7 +12,7 @@ PanelWidgetClass WeatherMenu
     hexactsize 1
     vexactsize 1
     scriptclass "COM_WeatherMenu"
-    style EditorPanel
+    style DayZDefaultPanelTop
 
     {
         PanelWidgetClass Background
@@ -25,7 +25,7 @@ PanelWidgetClass WeatherMenu
             vexactpos 1
             hexactsize 0
             vexactsize 1
-            style rover_sim_colorable
+            style DayZDefaultPanelTop
         }
 
         PanelWidgetClass title_wrapper
@@ -38,7 +38,7 @@ PanelWidgetClass WeatherMenu
             vexactpos 1
             hexactsize 0
             vexactsize 1
-            style rover_sim_colorable
+            style DayZDefaultPanelTop
 
             {
                 TextWidgetClass title_text

@@ -1153,11 +1153,17 @@
 		<!-- Prison Island -->
 		<pos x="2610.090576" y="21.751432" z="1306.517334" a="14.250560" />
 		<!-- Military Base Tisy -->
-		<pos x="1689.941284" y="451.738586" z="14343.285156" a="0.000000" />
+		<pos x="1695.774902" y="451.780273" z="14351.491211" a="0.000000" />
+		<!-- Chernogorsk Military Tents Hill -->
+		<pos x="7236.095703" y="30.453999" z="3063.333740" a="0.000000" />
 	</event>
 	<event name="VehicleMerlinHelicopter">
 		<!-- Airfield Vyvor -->
 		<pos x="4675.005859" y="342.870758" z="10362.887695" a="304.364269‬" />
+		<!-- Military Base Tisy -->
+		<pos x="1756.311157" y="453.931213" z="14025.924805" a="0.000000‬" />	
+		<!-- Balota Airstrip -->
+		<pos x="5029.338867" y="13.471303" z="2353.219482" a="0.000000‬" />
 	</event>
 	<event name="VehicleUh1hHelicopter">
 		<!-- Airfield Vybor -->
@@ -1166,10 +1172,22 @@
 		<pos x="8007.443848" y="342.698883" z="14627.948242" a="29.346302" />
 		<!-- Biathlon Arena -->
 		<pos x="504.444275" y="424.994934" z="11237.218750" a="10.636043" />
+		<!-- Balota Airstrip -->
+		<pos x="5054.599121" y="12.553435" z="2331.417236" a="0.000000" />
+		<!-- Military Base Tisy Radar -->
+		<pos x="569.409668" y="504.837891" z="13664.206055" a="0.000000" />
 	</event>
 	<event name="VehicleGyroHelicopter">
-		<!-- Airfield Balota -->
-		<pos x="5030.672363" y="9.536390" z="2356.444824" a="40.269878" />
+		<!-- Vysotovo -->
+		<pos x="5786.627930" y="53.137951" z="2380.108398" a="0.000000" />
+		<!-- Krasnovtav -->
+		<pos x="11614.966797" y="150.329575" z="12394.962891" a="0.000000" />
+		<!-- Construction Site -->
+		<pos x="11493.229492" y="221.229340" z="7458.070313" a="0.000000" />
+		<!-- Mogilevka -->
+		<pos x="7749.655273" y="214.223343" z="5115.906738" a="0.000000" />
+		<!-- Log Factory -->
+		<pos x="965.772705" y="181.196991" z="7538.529785" a="0.000000" />
 	</event>
 	<!-- EXPANSION BOATS -->
 	<event name="VehicleUtilityBoat">
@@ -1215,4 +1233,5 @@
 		<pos x="14297.227539" y="1.070972" z="13244.783203" a="261.999641‬" />
 	</event>
 	<event name="VehicleAn2Plane" />
+	<event name="VehicleC130JPlane" />
 </eventposdef>

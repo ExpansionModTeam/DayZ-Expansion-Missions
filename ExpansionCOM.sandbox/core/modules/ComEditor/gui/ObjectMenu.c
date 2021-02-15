@@ -214,9 +214,17 @@ class COM_ObjectMenu extends PopupMenu
 			if ( menu )
 			{
 				if ( !menu.GetDOJBoolState() )
+				{
+					GetNotificationSystem().CreateNotification( new StringLocaliser( "Randomized Rotation Toggle" ), new StringLocaliser( "Randomized Rotation mode enabled" ), EXPANSION_NOTIFICATION_ICON_INFO, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+
 					menu.SetDOJBool( true );
+				}
 				else
+				{
+					GetNotificationSystem().CreateNotification( new StringLocaliser( "Randomized Rotation Toggle" ), new StringLocaliser( "Randomized Rotation mode disabled" ), EXPANSION_NOTIFICATION_ICON_INFO, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+
 					menu.SetDOJBool( false );
+				}
 			}
 			
 			return true;
@@ -228,9 +236,17 @@ class COM_ObjectMenu extends PopupMenu
 			if ( menu2 )
 			{
 				if ( !menu2.GetDOJPrecision() )
+				{
+					GetNotificationSystem().CreateNotification( new StringLocaliser( "Precision Toggle" ), new StringLocaliser( "Precision mode enabled" ), EXPANSION_NOTIFICATION_ICON_INFO, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+
 					menu2.SetDOJPrecision( true );
-				else
+				}
+				else 
+				{					
+					GetNotificationSystem().CreateNotification( new StringLocaliser( "Precision Toggle" ), new StringLocaliser( "Precision mode disabled" ), EXPANSION_NOTIFICATION_ICON_INFO, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
+
 					menu2.SetDOJPrecision( false );
+				}
 			}
 			
 			return true;
@@ -286,96 +302,95 @@ class COM_ObjectMenu extends PopupMenu
 		return true;
 	}
 	
+	private static ref array< string > items =
+	{
+		"quickiebow",
+		"recurvebow",
+		"gp25base",
+		"gp25",
+		"gp25_standalone",
+		"m203base",
+		"m203",
+		"m203_standalone",
+		"red9",
+		"pvcbow",
+		"crossbow",
+		"augsteyr",
+		"m249",
+		"undersluggrenadem4",
+		"groza",
+		"pm73rak",
+		"scout",
+		"scout_black",
+		"scout_green",
+		"trumpet",
+		"lawbase",
+		"law",
+		"rpg7base",
+		"rpg7",
+		"dartgun",
+		"shockpistol",
+		"shockpistol_black",
+		"derringer_black",
+		"derringer_pink",
+		"derringer_grey",
+		"fnx45_arrow",
+		"longhorn",
+		"p1",
+		"makarovpb",
+		"mp133shotgun_pistolgrip",
+
+		"largetentbackpack",
+		"splint_applied",
+		"leatherbelt_natural",
+		"leatherbelt_beige",
+		"leatherbelt_brown",
+		"leatherbelt_black",
+		"leatherknifeshealth",
+
+		"mag_scout_5rnd",
+		"itemoptics",
+		"fx",
+		"expansionsoundproxybase",
+		"expansionvehiclebasesoundproxybase",
+		"expansionhelicopterscript",
+		"expansionvodnikaudio",
+		"expansionlhdaudio",
+		"expansionutilityaudio",
+		"expansionzodiacaudio",
+		"expansiongyrocopteraudio",
+		"expansionmerlinaudio",
+		"expansionmh6audio",
+		"expansionuh1haudio",
+		"expansionvehicleplanebase",
+		"expansionvehiclehelicopterbase",
+		"expansionvehicleboatbase",
+		"expansionvehiclebikebase",
+		"expansionvehiclecarbase",
+		"expansionvehiclevehiclebase",
+		"expansionzmbf_bluecollarfat_blue",
+		"expansionzmbf_bluecollarfat_green",
+		"expansionzmbf_bluecollarfat_red",
+		"expansionzmbf_bluecollarfat_white"
+	};
+
+	private static ref array< string > itemsList =
+	{
+		"placing",
+		"debug",
+		"fx",
+		"proxy",
+		"audio"
+	};
+
 	private bool CheckItemCrash( string name )
 	{
-		ref array< string > items =
+		if ( items.Find( name ) > -1 )
 		{
-			"quickiebow",
-			"recurvebow",
-			"gp25base",
-			"gp25",
-			"gp25_standalone",
-			"m203base",
-			"m203",
-			"m203_standalone",
-			"red9",
-			"pvcbow",
-			"crossbow",
-			"augsteyr",
-			"m249",
-			"undersluggrenadem4",
-			"groza",
-			"pm73rak",
-			"scout",
-			"scout_black",
-			"scout_green",
-			"trumpet",
-			"lawbase",
-			"law",
-			"rpg7base",
-			"rpg7",
-			"dartgun",
-			"shockpistol",
-			"shockpistol_black",
-			"derringer_black",
-			"derringer_pink",
-			"derringer_grey",
-			"fnx45_arrow",
-			"longhorn",
-			"p1",
-			"makarovpb",
-			"mp133shotgun_pistolgrip",
-			
-			"largetentbackpack",
-			"splint_applied",
-			"leatherbelt_natural",
-			"leatherbelt_beige",
-			"leatherbelt_brown",
-			"leatherbelt_black",
-			"leatherknifeshealth",
-
-			"surrenderdummyitem",
-			"testobject",
-
-			"mag_scout_5rnd",
-			"itemoptics",
-			"fx",
-			"expansionsoundproxybase",
-			"expansionvehiclebasesoundproxybase",
-			"expansionhelicopterscript",
-			"expansionvodnikaudio",
-			"expansionlhdaudio",
-			"expansionutilityaudio",
-			"expansionzodiacaudio",
-			"expansiongyrocopteraudio",
-			"expansionmerlinaudio",
-			"expansionmh6audio",
-			"expansionuh1haudio",
-			"expansionvehicleplanebase",
-			"expansionvehiclehelicopterbase",
-			"expansionvehicleboatbase",
-			"expansionvehiclebikebase",
-			"expansionvehiclecarbase",
-			"expansionvehiclevehiclebase"
-		};
-		ref array< string > itemsList =
-		{
-			"placing",
-			"debug",
-			"fx",
-			"proxy",
-			"audio"
-		};
-
-		for ( int i = 0; i < items.Count(); ++i )
-		{
-			if ( name == items[i] )
-			{
-				return true;
-			}
+			return true;
 		}
 
-		for ( i = 0; i < itemsList.Count(); ++i )
+		for ( int i = 0; i < itemsList.Count(); ++i )
 		{
 			if ( name.Contains( itemsList[i] ) )
 			{

@@ -79,14 +79,17 @@ class ObjectInfoMenu extends PopupMenu
 		if ( w.GetName() == "object_editor_info_export")
 		{
 			((ObjectEditor) GetCOMModuleManager().GetModule(ObjectEditor)).ExportScene();
+			GetNotificationSystem().CreateNotification( new StringLocaliser( "Object Editor" ), new StringLocaliser( "Copied data to clipboard." ), EXPANSION_NOTIFICATION_ICON_INFO, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
 		}
 		if ( w.GetName() == "object_editor_info_save")
 		{
 			((ObjectEditor) GetCOMModuleManager().GetModule(ObjectEditor)).SaveScene();
+			GetNotificationSystem().CreateNotification( new StringLocaliser( "Object Editor" ), new StringLocaliser( "Saved scene." ), EXPANSION_NOTIFICATION_ICON_HOME, COLOR_EXPANSION_NOTIFICATION_SUCCSESS, 7 );
 		}
 		if ( w.GetName() == "object_editor_info_clear")
 		{
 			ref array< ref Object> objects = ((ObjectEditor) GetCOMModuleManager().GetModule(ObjectEditor)).m_Objects;
+			GetNotificationSystem().CreateNotification( new StringLocaliser( "Object Editor" ), new StringLocaliser( "Cleared all objects from current scene." ), EXPANSION_NOTIFICATION_ICON_T_Empty_Can, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
 
 			foreach( Object obj : objects )
 			{
