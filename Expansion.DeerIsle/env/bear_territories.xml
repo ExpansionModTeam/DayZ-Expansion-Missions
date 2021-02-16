@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="4278190080">
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8464" z="11248" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7952" z="11386.7" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7925.33" z="11898.7" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8442.67" z="11786.7" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8357.33" z="12250.7" r="200"/>
+    </territory>
+    <territory color="4278190080">
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="6282.67" z="12026.7" r="200"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="5866.67" z="12432" r="200"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="6400" z="11541.3" r="200"/>
@@ -9,32 +16,11 @@
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="5882.67" z="11626.7" r="200"/>
     </territory>
     <territory color="4278190080">
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8464" z="11248" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7952" z="11386.7" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7925.33" z="11898.7" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8442.67" z="11786.7" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8357.33" z="12250.7" r="200"/>
-    </territory>
-    <territory color="4278190080">
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="14682.7" z="5914.67" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="14042.7" z="6016" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="13850.7" z="6517.33" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="14016" z="5280" r="200"/>
-    </territory>
-    <territory color="4278190080">
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="6378.67" z="12682.7" r="200"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="6746.67" z="12341.3" r="200"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7237.33" z="12512" r="200"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7690.67" z="12421.3" r="200"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8165.33" z="12672" r="200"/>
-    </territory>
-    <territory color="4278190080">
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="6805.33" z="10581.3" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7285.33" z="10458.7" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7749.33" z="10581.3" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7136" z="10922.7" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7621.33" z="11040" r="200"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8186.67" z="10837.3" r="200"/>
     </territory>
     <territory color="4288914339">
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8325.33" z="10293.3" r="200"/>
@@ -43,5 +29,19 @@
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="6544" z="9056" r="200"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="6464" z="13754.7" r="200"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="9898.67" z="11413.3" r="200"/>
+    </territory>
+    <territory color="4278190080">
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="14682.7" z="5914.67" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="14042.7" z="6016" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="13850.7" z="6517.33" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="14016" z="5280" r="200"/>
+    </territory>
+    <territory color="4278190080">
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="6805.33" z="10581.3" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7285.33" z="10458.7" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7749.33" z="10581.3" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7136" z="10922.7" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7621.33" z="11040" r="200"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8186.67" z="10837.3" r="200"/>
     </territory>
 </territory-type>

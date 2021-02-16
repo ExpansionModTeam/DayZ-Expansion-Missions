@@ -776,7 +776,7 @@
     <flags deletable="0" init_random="0" remove_damaged="1" />
     <position>fixed</position>
     <limit>mixed</limit>
-    <active>0</active>
+    <active>1</active>
     <children>
       <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan" />
       <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Black" />
@@ -795,7 +795,7 @@
     <flags deletable="0" init_random="0" remove_damaged="1" />
     <position>fixed</position>
     <limit>mixed</limit>
-    <active>0</active>
+    <active>1</active>
     <children>
       <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02" />
       <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Black" />
@@ -814,7 +814,7 @@
     <flags deletable="0" init_random="0" remove_damaged="1" />
     <position>fixed</position>
     <limit>mixed</limit>
-    <active>0</active>
+    <active>1</active>
     <children>
       <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback" />
       <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_Blue" />
@@ -833,11 +833,30 @@
     <flags deletable="0" init_random="0" remove_damaged="1" />
     <position>fixed</position>
     <limit>mixed</limit>
-    <active>0</active>
+    <active>1</active>
     <children>
       <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02" />
       <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Grey" />
       <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Red" />
+    </children>
+  </event>
+  <event name="VehicleTruck01">
+    <nominal>5</nominal>
+    <min>3</min>
+    <max>5</max>
+    <lifetime>300</lifetime>
+    <restock>0</restock>
+    <saferadius>500</saferadius>
+    <distanceradius>500</distanceradius>
+    <cleanupradius>200</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="1" />
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>1</active>
+    <children>
+      <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered" />
+      <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Blue" />
+      <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange" />
     </children>
   </event>
   <event name="StaticVanPinkies">
@@ -889,30 +908,30 @@
     <active>1</active>
     <children>
       <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_bloody_1" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_bloody_2" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_bloody_3" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_bloody_4" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_bloody_5" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_1" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_2" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_3" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_4" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_5" />	  
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_bloody_2" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_bloody_3" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_bloody_4" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_bloody_5" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_1" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_2" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_3" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_4" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_burned_5" />
       <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_clean_1" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_clean_2" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_clean_3" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_clean_4" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_clean_5" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_1" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_2" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_3" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_4" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_5" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_1" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_2" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_3" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_4" />
-	  <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_5" />	  	
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_clean_2" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_clean_3" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_clean_4" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_clean_5" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_1" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_2" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_3" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_4" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_gnawed_5" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_1" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_2" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_3" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_4" />
+      <child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_skeleton_old_5" />
     </children>
   </event>
 </events>

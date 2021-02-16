@@ -9,6 +9,14 @@
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="10256" z="11155.1" r="50"/>
     </territory>
     <territory color="872381884">
+        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="8621.61" z="5430.35" r="70"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8549.82" z="5275.22" r="80"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8455.86" z="5105.4" r="80"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8400.61" z="5391.3" r="80"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8700.53" z="5260.65" r="50"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8376.43" z="5241.15" r="50"/>
+    </territory>
+    <territory color="872381884">
         <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="8764.32" z="8825.7" r="60"/>
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9193.44" z="9056.78" r="90"/>
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8933.18" z="9905.81" r="70"/>
@@ -35,13 +43,5 @@
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="5645.34" z="7738.67" r="80"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="5041.81" z="7838.67" r="50"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="5036.27" z="8115.62" r="90"/>
-    </territory>
-    <territory color="872381884">
-        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="8621.61" z="5430.35" r="70"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8549.82" z="5275.22" r="80"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8455.86" z="5105.4" r="80"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8400.61" z="5391.3" r="80"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8700.53" z="5260.65" r="50"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8376.43" z="5241.15" r="50"/>
     </territory>
 </territory-type>

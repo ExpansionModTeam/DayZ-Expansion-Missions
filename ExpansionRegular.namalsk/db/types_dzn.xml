@@ -163,7 +163,7 @@
   <type name="dzn_Pot">
     <nominal>12</nominal>
     <min>10</min>
-    <lifetime>900</lifetime>
+    <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>

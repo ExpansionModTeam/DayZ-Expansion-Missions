@@ -8195,15 +8195,15 @@
 						<category name="weapons" />
 						<tag name="civilian" />
 						<tag name="hunting" />
-						<point pos="0.838623 1.386356 -1.526611" range="0.443750" height="1.109375" />
-						<point pos="-1.812622 3.105797 0.761047" range="0.512500" height="1.281250" />
-						<point pos="1.801575 3.105797 1.250061" range="0.524780" height="1.311951" />
-						<point pos="-0.779785 3.105797 -0.607056" range="0.549320" height="1.373299" />
-						<point pos="1.217224 3.105797 -0.448975" range="0.566065" height="1.415163" />
-						<point pos="0.586059 3.105797 2.681213" range="0.581250" height="1.453125" />
-						<point pos="-0.950318 3.105797 2.418212" range="0.597053" height="1.492632" />
-						<point pos="-0.379456 1.386356 -0.942505" range="0.721130" height="1.578821" />
-						<point pos="0.135925 1.386356 -3.121582" range="1.131250" height="2.000000" />
+						<point pos="0.838623 0.859837 -1.526611" range="0.443750" height="1.109375" />
+						<point pos="-1.812622 2.999886 0.761047" range="0.512500" height="1.281250" />
+						<point pos="0.135925 0.859837 -3.121582" range="1.131250" height="2.000000" />
+						<point pos="-0.779785 2.999886 -0.607056" range="0.549320" height="1.373300" />
+						<point pos="1.217224 2.999886 -0.448975" range="0.566065" height="1.415163" />
+						<point pos="0.586059 2.999886 2.681213" range="0.581250" height="1.453125" />
+						<point pos="-0.950318 2.999886 2.418212" range="0.597053" height="1.492633" />
+						<point pos="-0.379456 0.859837 -0.942505" range="0.721130" height="1.802825" />
+						<point pos="1.806702 2.999886 1.623413" range="0.709717" height="1.774292" />
 				</container>
 		</group>
 		<group name="Land_Pier_Crane_B" lootmax="2">
@@ -8964,14 +8964,14 @@
 						<category name="clothes" />
 						<tag name="industrial" />
 						<point pos="-2.604980 -0.442233 -2.089844" range="0.203125" height="0.507793" />
-						<point pos="-0.008301 -0.714442 1.568848" range="0.203125" height="0.507793" />
+						<point pos="1.507812 -1.293538 -1.299561" range="1.178223" height="1.949670" />
 						<point pos="-3.268554 -0.714442 -1.892578" range="0.271875" height="0.679668" />
 						<point pos="1.257813 -0.837122 0.802734" range="0.271875" height="0.679665" />
 						<point pos="2.083984 -0.228084 1.320313" range="0.302246" height="0.755596" />
 						<point pos="0.009277 -1.293538 0.470703" range="0.867188" height="1.949670" />
 						<point pos="-2.775391 -1.293538 0.371582" range="1.040039" height="1.949670" />
 						<point pos="-1.269043 -1.293538 -1.324463" range="1.153320" height="1.949670" />
-						<point pos="1.507812 -1.293538 -1.299561" range="1.178223" height="1.949670" />
+						<point pos="0.133179 -0.253295 1.412109" range="0.306250" height="0.765625" />
 				</container>
 		</group>
 		<group name="Land_Workshop2" lootmax="4">

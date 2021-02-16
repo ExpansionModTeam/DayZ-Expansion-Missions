@@ -248,6 +248,21 @@
             <item name="Mag_VSS_10Rnd" chance="1.00" />
         </attachments>
     </type>
+    <type name="ASVAL">
+        <attachments chance="1.00">
+            <item name="UniversalLight" chance="1.00" />
+        </attachments>
+        <attachments chance="0.80">
+            <item name="ReflexOptic" chance="0.38" />
+            <item name="M4_T3NRDSOptic" chance="0.27" />
+            <item name="M68Optic" chance="0.20" />
+            <item name="ACOGOptic" chance="0.15" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="Mag_VSS_10Rnd" chance="0.40" />
+            <item name="Mag_VAL_20Rnd" chance="0.60" />
+        </attachments>
+    </type>
     <type name="Winchester70">
         <attachments chance="0.20">
             <item name="HuntingOptic" chance="1.00" />
@@ -453,6 +468,11 @@
     <type name="PersonalRadio">
         <attachments chance="1.00">
             <item name="Battery9V" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FishingRod">
+        <attachments chance="0.50">
+            <item name="Hook" chance="1.00" />
         </attachments>
     </type>
 
