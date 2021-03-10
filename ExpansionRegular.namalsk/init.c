@@ -85,15 +85,15 @@ class CustomMission: MissionServer
 		// comment this whole block if NOT using Namalsk Survival
 		if ( m_EventManagerServer )
 		{
-			// enable/disable event system, min time between events, max time between events
-            m_EventManagerServer.OnInitServer( true, 600, 800 );
-            // Register possible events along with their probability (0..1)
-	    // any custom events MUST inherit from EventBase, otherwise they will fail to load!
-            m_EventManagerServer.RegisterEvent( Aurora, 1.0 );
-            m_EventManagerServer.RegisterEvent( Blizzard, 0.5 );
-            m_EventManagerServer.RegisterEvent( ExtremeCold, 0.4 );
-            m_EventManagerServer.RegisterEvent( Snowfall, 0.5 );
-            m_EventManagerServer.RegisterEvent( EVRStorm, 0.25 );
+			// enable/disable event system, min time between events, max time between events, max number of events at the same time
+			m_EventManagerServer.OnInitServer( true, 550, 1800, 2 );
+			// registering events and their probability
+			m_EventManagerServer.RegisterEvent( Aurora, 1.0 );
+			m_EventManagerServer.RegisterEvent( Blizzard, 0.5 );
+			m_EventManagerServer.RegisterEvent( ExtremeCold, 0.4 );
+			m_EventManagerServer.RegisterEvent( Snowfall, 0.5 );
+			m_EventManagerServer.RegisterEvent( EVRStorm, 0.25 );
+			m_EventManagerServer.RegisterEvent( HeavyFog, 0.3 );
 		}
 	}
 

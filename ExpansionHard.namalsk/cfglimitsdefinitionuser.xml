@@ -14,6 +14,9 @@
         <user name="Tier4">
             <value name="Tier4" />
         </user>
+        <user name="Tier5">
+            <value name="Tier5" />
+        </user>
         <user name="Tier12">
             <value name="Tier1" />
             <value name="Tier2" />
@@ -26,12 +29,27 @@
             <value name="Tier3" />
             <value name="Tier4" />
         </user>
+        <user name="Tier45">
+            <value name="Tier4" />
+            <value name="Tier5" />
+        </user>
         <user name="Tier123">
             <value name="Tier1" />
             <value name="Tier2" />
             <value name="Tier3" />
         </user>
         <user name="Tier234">
+            <value name="Tier2" />
+            <value name="Tier3" />
+            <value name="Tier4" />
+        </user>
+        <user name="Tier345">
+            <value name="Tier3" />
+            <value name="Tier4" />
+            <value name="Tier5" />
+        </user>
+        <user name="Tier1234">
+            <value name="Tier1" />
             <value name="Tier2" />
             <value name="Tier3" />
             <value name="Tier4" />

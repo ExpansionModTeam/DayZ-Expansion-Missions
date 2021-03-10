@@ -243,6 +243,58 @@
     <value user="Tier4" />
     <category name="lore" />
   </type>
+  <type name="dzn_athena3_august">
+    <nominal>1</nominal>
+    <min>1</min>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier5" />
+    <category name="lore" />
+  </type>
+  <type name="dzn_athena3_exp1">
+    <nominal>1</nominal>
+    <min>1</min>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier5" />
+    <category name="lore" />
+  </type>
+  <type name="dzn_athena3_exp2">
+    <nominal>1</nominal>
+    <min>1</min>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier5" />
+    <category name="lore" />
+  </type>
+  <type name="dzn_athena3_october">
+    <nominal>1</nominal>
+    <min>1</min>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier5" />
+    <category name="lore" />
+  </type>
   <type name="dzn_tool_watch">
     <nominal>0</nominal>
     <min>0</min>
@@ -278,8 +330,8 @@
     <tag name="military" />
   </type>
   <type name="dzn_apsi">
-    <nominal>1</nominal>
-    <min>1</min>
+    <nominal>2</nominal>
+    <min>2</min>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
     <quantmin>-1</quantmin>
@@ -287,9 +339,22 @@
     <cost>100</cost>
     <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
     <usage />
-    <value user="Tier4" />
+    <value user="Tier5" />
     <category name="tools" />
     <tag name="military" />
+  </type>
+  <type name="dzn_detector">
+    <nominal>8</nominal>
+    <min>8</min>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier34" />
+    <category name="lore" />
   </type>
   <type name="dzn_gorka_up_winter">
     <nominal>2</nominal>
