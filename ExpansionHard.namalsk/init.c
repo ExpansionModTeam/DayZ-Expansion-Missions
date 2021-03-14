@@ -94,11 +94,11 @@ class CustomMission: MissionServer
 			// enable/disable event system, min time between events, max time between events, max number of events at the same time
 			m_EventManagerServer.OnInitServer( true, 550, 1800, 2 );
 			// registering events and their probability
-			m_EventManagerServer.RegisterEvent( Aurora, 1.0 );
+			m_EventManagerServer.RegisterEvent( Aurora, 0.85 );
 			m_EventManagerServer.RegisterEvent( Blizzard, 0.5 );
 			m_EventManagerServer.RegisterEvent( ExtremeCold, 0.4 );
-			m_EventManagerServer.RegisterEvent( Snowfall, 0.5 );
-			m_EventManagerServer.RegisterEvent( EVRStorm, 0.25 );
+			m_EventManagerServer.RegisterEvent( Snowfall, 0.6 );
+			m_EventManagerServer.RegisterEvent( EVRStorm, 0.35 );
 			m_EventManagerServer.RegisterEvent( HeavyFog, 0.3 );
 		}
 	}
