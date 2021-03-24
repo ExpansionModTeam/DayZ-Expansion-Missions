@@ -10057,12 +10057,41 @@
 						<point pos="1.766601 7.044838 -8.110353" range="0.796066" height="1.990165" />
 				</container>
 		</group>
-		<group name="Land_Misc_Greenhouse" lootmax="0">
-				<usage name="Farm" />
-				<container name="lootFloor" lootmax="0">
-						<category name="tools" />
-				</container>
-		</group>
+		<group name="Land_Misc_Greenhouse" lootmax="2">
+	                <usage name="Farm" />
+        	        <usage name="Seeds" />
+                	<container name="lootFloor" lootmax="2">
+	                        <category name="food" />
+        	                <tag name="floor" />
+                	        <tag name="shelves" />
+                        	<point pos="1.036133 -1.039726 1.228759" range="0.228317" height="1.109375" />
+	                        <point pos="1.133789 -1.042969 -1.604736" range="0.267550" height="1.759033" />
+	                        <point pos="1.052246 -1.035568 -0.253174" range="0.278766" height="1.195313" />
+	                        <point pos="-1.548339 -1.033989 -1.972412" range="0.374268" height="0.935669" />
+	                        <point pos="-1.145508 -1.036255 -0.593994" range="0.281328" height="1.109375" />
+	                        <point pos="-1.199707 -1.052734 1.403564" range="0.203299" height="1.225586" />
+	                        <point pos="-1.171875 -1.042793 0.281982" range="0.274628" height="1.195313" />
+	                        <point pos="0.004883 -1.046005 -1.507568" range="0.223582" height="0.593750" />
+	                        <point pos="-0.581543 -1.050278 -2.014160" range="0.237500" height="0.593750" />
+        	        </container>
+	        </group>
+		<group name="Land_Misc_Polytunnel" lootmax="2">
+                	<usage name="Farm" />
+	                <container name="lootFloor" lootmax="2">
+        	                <category name="food" />
+	                        <tag name="floor" />
+	                        <tag name="shelves" />
+	                        <point pos="1.098562 -0.974169 2.561424" range="0.546875" height="1.346185" />
+	                        <point pos="1.094813 -0.969830 0.502738" range="0.615625" height="1.400981" />
+	                        <point pos="1.043145 -0.965755 -0.961946" range="0.546875" height="1.367142" />
+	                        <point pos="1.151073 -0.968777 -2.237044" range="0.561523" height="1.305940" />
+	                        <point pos="-0.110786 -0.981991 -2.653004" range="0.615625" height="1.539063" />
+	                        <point pos="-1.215720 -0.975293 -2.136014" range="0.581250" height="1.453125" />
+	                        <point pos="-1.143044 -0.971108 -0.819655" range="0.650000" height="1.624973" />
+	                        <point pos="-1.079991 -0.972311 0.662379" range="0.581250" height="1.453125" />
+	                        <point pos="-1.140877 -0.977881 1.856682" range="0.614617" height="1.625000" />
+        	        </container>
+	        </group>
 		<group name="Land_Farm_CowshedA" lootmax="5">
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="5">
@@ -11176,25 +11205,20 @@
 						<point pos="-21.9861 -17.5146 19.2939" range="0.6" height="1.5" flags="32" />
 				</container>
 		</group>		
-		<group name="Land_jmc_ruinecolumn_loot" lootmax="8">				
-				<usage name="Military" />												
-				<container name="lootFloor" lootmax="8">
-						<category name="tools" />
-						<category name="containers" />
-						<category name="clothes" />		
-						<category name="food" />		
-						<category name="weapons" />										
-						<category name="explosives" />													
-						<point pos="0.314 0.701 0.373" range="0.387367" height="0.581305" flags="32"/>
-						<point pos="-0.314 0.701 0.373" range="0.387367" height="0.581305" flags="32"/>
-						<point pos="0.314 0.701 -0.373" range="0.387367" height="0.581305" flags="32"/>
-						<point pos="-0.314 0.701 -0.373" range="0.387367" height="0.581305" flags="32"/>												
-						<point pos="0.000 0.701 0.373" range="0.387367" height="0.581305" flags="32"/>
-						<point pos="-0.314 0.701 0.000" range="0.387367" height="0.581305" flags="32"/>
-						<point pos="0.000 0.701 -0.373" range="0.387367" height="0.581305" flags="32"/>
-						<point pos="0.314 0.701 0.000" range="0.387367" height="0.581305" flags="32"/>												
-				</container>				
-		</group>		
+		<group name="Land_jmc_ruinecolumn_loot" lootmax="3">
+                	<usage name="Military" />
+	                <container name="lootFloor" lootmax="3">
+        	                <category name="tools" />
+	                        <category name="containers" />
+	                        <category name="clothes" />
+	                        <category name="food" />
+	                        <category name="weapons" />
+	                        <category name="explosives" />
+        		                <point pos="-0.441030 0.439246 -0.399075" range="0.5" height="1.5" /> 
+		                        <point pos="-0.038144 0.439246 -0.044720" range="0.5" height="1.5" /> 
+		                        <point pos="0.392042 0.439246 0.519333" range="0.5" height="1.5" /> 
+                	</container>
+	        </group>		
 		<group name="Land_Sara_zluty_statek_in" lootmax="8">										
 				<usage name="Village" />	
 				<usage name="Town" />	

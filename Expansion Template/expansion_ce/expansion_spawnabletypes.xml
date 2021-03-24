@@ -539,6 +539,11 @@
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="Expansion_Longhorn">
+		<attachments chance="0.25">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="Expansion_G36">
 		<attachments chance="0.30">
 			<item name="Mag_Expansion_G36_30Rnd" chance="0.90" />

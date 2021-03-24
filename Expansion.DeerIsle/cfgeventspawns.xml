@@ -857,5 +857,5 @@
 	</event>
 	<event name="VehicleAn2Plane">		
 		<pos x="13576.06" z="9651.484" a="101.3276" />
-	</event>  
+	</event>
 </eventposdef>

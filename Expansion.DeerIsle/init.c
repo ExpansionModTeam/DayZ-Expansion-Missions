@@ -43,11 +43,11 @@ void main()
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
 	Weather weather = g_Game.GetWeather();
 
-	weather.MissionWeather(false);    // false = use weather controller from Weather.c
+	weather.MissionWeather(false);	// false = use weather controller from Weather.c
 
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
-	weather.GetRain().Set( 0, 0, 1);
-	weather.GetFog().Set( Math.RandomFloatInclusive(0.05, 0.1), 1, 0);
+	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.02, 0.1), 1, 0);
+	weather.GetRain().Set( 0, 1, 0);
+	weather.GetFog().Set( 0, 1, 0);
 
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
@@ -56,7 +56,7 @@ void main()
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-	int reset_month = 9, reset_day = 20;
+	int reset_month = 8, reset_day = 10;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))

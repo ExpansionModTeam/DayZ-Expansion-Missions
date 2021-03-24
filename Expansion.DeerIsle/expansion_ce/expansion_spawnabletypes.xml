@@ -704,4 +704,9 @@
 			<item name="ACOGOptic" chance="0.05" />
 		</attachments>
 	</type>
+	<type name="Expansion_LAW">
+		<attachments chance="0.00">
+			<item name="ExpansionAmmoLAW" chance="1.00" />
+		</attachments>
+	</type>
 </spawnabletypes>

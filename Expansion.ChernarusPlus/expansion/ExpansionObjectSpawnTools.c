@@ -138,7 +138,10 @@ void ProcessMissionObject(Object obj)
 	{
 		ExpansionPointLight light = ExpansionPointLight.Cast( obj );
 		if ( light )
+		{
 			light.SetDiffuseColor(1,0,0);
+			light.SetLifetime(3600);
+		}
 		
 		#ifdef EXPANSIONEXLOGPRINT
 		EXLogPrint( "Processed mapping object: " + obj.ClassName() + "!" );
@@ -149,10 +152,11 @@ void ProcessMissionObject(Object obj)
 		Fireplace fireplace = Fireplace.Cast( obj );
 		if ( fireplace )
 		{
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, true, "Bark_Oak");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, true, "Firewood");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, true, "WoodenStick");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.StartFire, 60 * 1000, true);
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, false, "Bark_Oak");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, false, "Firewood");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, false, "WoodenStick");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.StartFire, 60 * 1000, false);
+			fireplace.SetLifetime(3600);
 		}
 
 		#ifdef EXPANSIONEXLOGPRINT
@@ -165,10 +169,11 @@ void ProcessMissionObject(Object obj)
 		if ( barrel ) 
 		{
 			barrel.Open();
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, true, "Bark_Oak");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, true, "Firewood");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, true, "WoodenStick");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.StartFire, 60 * 1000, true);
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, false, "Bark_Oak");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, false, "Firewood");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, false, "WoodenStick");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.StartFire, 60 * 1000, false);
+			barrel.SetLifetime(3600);
 		}
 
 		#ifdef EXPANSIONEXLOGPRINT
@@ -183,6 +188,7 @@ void ProcessMissionObject(Object obj)
 			flare.GetCompEM().SetEnergy(999999);
 			flare.GetCompEM().SwitchOn();
 			flare.SwitchLight(false); //! Flickering
+			flare.SetLifetime(0);
 		}
 
 		#ifdef EXPANSIONEXLOGPRINT
@@ -234,7 +240,7 @@ void LoadMissionTradersFile( string name, string worldname )
 		#endif
 
 	Object obj;
-	ExpansionTraderBase trader;
+	ExpansionTraderNPCBase trader;
 	string className;
 	vector position;
 	vector rotation;
@@ -253,7 +259,7 @@ void LoadMissionTradersFile( string name, string worldname )
 		#endif
 
 		obj = GetGame().CreateObject( className, position, false, false, true );
-		trader = ExpansionTraderBase.Cast( obj );
+		trader = ExpansionTraderNPCBase.Cast( obj );
 		
 		if ( trader )
 		{

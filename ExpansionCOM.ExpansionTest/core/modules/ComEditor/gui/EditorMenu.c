@@ -5,6 +5,7 @@ class EditorMenu extends UIScriptedMenu
 	protected ButtonWidget m_PositionButton;
 	protected ButtonWidget m_WeatherButton;
 	protected ButtonWidget m_GameButton;
+	protected ButtonWidget m_DebugButton;
 	protected ButtonWidget m_ObjectEditorButton;
 
 	protected Widget m_aiMenu;
@@ -12,6 +13,7 @@ class EditorMenu extends UIScriptedMenu
 	protected Widget m_weatherMenu;
 	protected Widget m_positionMenu;
 	protected Widget m_gameMenu;
+	protected Widget m_debugMenu;
 	protected Widget m_matMenu;
 	protected Widget m_objectInfoMenu;
 	protected bool m_toggleDOJCode;
@@ -37,6 +39,7 @@ class EditorMenu extends UIScriptedMenu
 		m_PositionButton 		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("position_button") );
 		m_WeatherButton  		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("weather_button") );
 		m_GameButton	 		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("game_button") );
+		m_DebugButton	 		= ButtonWidget.Cast( layoutRoot.FindAnyWidget("debug_button") );
 		m_MatButton	 			= ButtonWidget.Cast( layoutRoot.FindAnyWidget("mat_button") );
 		m_ObjectEditorButton 	= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "objectEditor_button" ) );
 
@@ -45,6 +48,7 @@ class EditorMenu extends UIScriptedMenu
 		m_weatherMenu  			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ExpansionTest\\core\\modules\\ComEditor\\gui\\layouts\\WeatherMenu.layout", layoutRoot );
 		m_positionMenu 			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ExpansionTest\\core\\modules\\ComEditor\\gui\\layouts\\PositionMenu.layout", layoutRoot );
 		m_gameMenu 	   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ExpansionTest\\core\\modules\\ComEditor\\gui\\layouts\\GameMenu.layout", layoutRoot );
+		m_debugMenu 	   		= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ExpansionTest\\core\\modules\\ComEditor\\gui\\layouts\\DebugMenu.layout", layoutRoot );
 		m_matMenu 	   			= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ExpansionTest\\core\\modules\\ComEditor\\gui\\layouts\\CameraMenu.layout", layoutRoot );
 		m_objectInfoMenu 		= GetGame().GetWorkspace().CreateWidgets( "$CurrentDir:missions\\ExpansionCOM.ExpansionTest\\core\\modules\\ComEditor\\gui\\layouts\\ObjectEditorInfo.layout", layoutRoot );
 
@@ -348,6 +352,10 @@ class EditorMenu extends UIScriptedMenu
 		{
 			m_gameMenu.GetScript( popMenu );
 		}
+		if ( w == m_DebugButton ) 
+		{
+			m_debugMenu.GetScript( popMenu );
+		}
 		if ( w == m_MatButton ) 
 		{
 			m_matMenu.GetScript( popMenu );
@@ -388,6 +396,7 @@ class EditorMenu extends UIScriptedMenu
 		Widget m_PositionButtonBkg = layoutRoot.FindAnyWidget("position_button_bkg");
 		Widget m_WeatherButtonBkg  = layoutRoot.FindAnyWidget("weather_button_bkg");
 		Widget m_GameButtonBkg	 = layoutRoot.FindAnyWidget("game_button_bkg");
+		Widget m_DebugButtonBkg	 = layoutRoot.FindAnyWidget("debug_button_bkg");
 		Widget m_MatButtonBkg	 = layoutRoot.FindAnyWidget("mat_button_bkg");
 		Widget m_ObjectEditorBkg   = layoutRoot.FindAnyWidget("objectEditor_button_bkg");
 
@@ -395,6 +404,7 @@ class EditorMenu extends UIScriptedMenu
 		m_PositionButtonBkg.SetColor(ARGB(0, 255, 255, 255));
 		m_WeatherButtonBkg.SetColor(ARGB(0, 255, 255, 255));
 		m_GameButtonBkg.SetColor(ARGB(0, 255, 255, 255));
+		m_DebugButtonBkg.SetColor(ARGB(0, 255, 255, 255));
 		m_MatButtonBkg.SetColor(ARGB(0, 255, 255, 255));
 		m_ObjectEditorBkg.SetColor(ARGB(0, 255, 255, 255));
 		
@@ -413,6 +423,10 @@ class EditorMenu extends UIScriptedMenu
 		if ( m_GameButton == focus && m_gameMenu.IsVisible() )
 		{
 			m_GameButtonBkg.SetColor(ARGB(255, 255, 0, 0));
+		}
+		if ( m_DebugButton == focus && m_debugMenu.IsVisible() )
+		{
+			m_DebugButtonBkg.SetColor(ARGB(255, 255, 0, 0));
 		}
 		if ( m_MatButton == focus && m_matMenu.IsVisible() )
 		{
@@ -445,6 +459,10 @@ class EditorMenu extends UIScriptedMenu
 		if ( m_gameMenu != focus && m_gameMenu.IsVisible() ) 
 		{
 			m_gameMenu.Show(false);
+		}
+		if ( m_debugMenu != focus && m_debugMenu.IsVisible() ) 
+		{
+			m_debugMenu.Show(false);
 		}
 		if ( m_matMenu != focus && m_matMenu.IsVisible() ) 
 		{

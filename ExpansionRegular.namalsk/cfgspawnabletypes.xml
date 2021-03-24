@@ -133,8 +133,6 @@
             <item name="M4_T3NRDSOptic" chance="0.27" />
             <item name="M68Optic" chance="0.20" />
             <item name="ACOGOptic" chance="0.15" />
-			<item name="ExpansionReflexMRSOptic" chance="0.10" />
-			<item name="ExpansionEXPS3HoloOptic" chance="0.10" />
         </attachments>
     </type>
     <type name="Izh18" />
@@ -156,8 +154,6 @@
             <item name="M4_T3NRDSOptic" chance="0.10" />
             <item name="M68Optic" chance="0.10" />
             <item name="ACOGOptic" chance="0.06" />
-			<item name="ExpansionReflexMRSOptic" chance="0.10" />
-			<item name="ExpansionEXPS3HoloOptic" chance="0.10" />
         </attachments>
         <attachments chance="1.0">
             <item name="Mag_CMAG_10Rnd" chance="0.10" />
@@ -198,8 +194,6 @@
             <item name="M4_T3NRDSOptic" chance="0.27" />
             <item name="M68Optic" chance="0.20" />
             <item name="ACOGOptic" chance="0.15" />
-			<item name="ExpansionReflexMRSOptic" chance="0.10" />
-			<item name="ExpansionEXPS3HoloOptic" chance="0.10" />
         </attachments>
         <attachments chance="0.10">
             <item name="MP5_Compensator" chance="1.00" />
@@ -241,8 +235,6 @@
             <item name="M4_T3NRDSOptic" chance="0.27" />
             <item name="M68Optic" chance="0.20" />
             <item name="ACOGOptic" chance="0.15" />
-			<item name="ExpansionReflexMRSOptic" chance="0.10" />
-			<item name="ExpansionEXPS3HoloOptic" chance="0.10" />
         </attachments>
         <attachments chance="0.10">
             <item name="PistolSuppressor" chance="1.00" />
@@ -265,8 +257,6 @@
             <item name="M4_T3NRDSOptic" chance="0.27" />
             <item name="M68Optic" chance="0.20" />
             <item name="ACOGOptic" chance="0.15" />
-			<item name="ExpansionReflexMRSOptic" chance="0.10" />
-			<item name="ExpansionEXPS3HoloOptic" chance="0.10" />
         </attachments>
         <attachments chance="0.60">
             <item name="Mag_VSS_10Rnd" chance="0.40" />
