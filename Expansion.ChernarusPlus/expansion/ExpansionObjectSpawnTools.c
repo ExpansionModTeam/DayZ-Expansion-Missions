@@ -28,6 +28,7 @@ void FindMissionFiles(string worldname, bool loadObjects, bool loadTraders)
 		}
 	}
 
+#ifdef EXPANSIONMODMARKET
 	if ( loadTraders && FileExist( traderFilesFolder ) )
 	{
 		if (FindFilesInLocation(traderFilesFolder).Count() >= 0)
@@ -37,6 +38,7 @@ void FindMissionFiles(string worldname, bool loadObjects, bool loadTraders)
 			LoadMissionTraders(traderFiles, worldname);
 		}
 	}
+#endif
 }
 
 // ------------------------------------------------------------
@@ -219,6 +221,7 @@ bool GetObjectFromMissionFile( FileHandle file, out string name, out vector posi
 	return true;
 }
 
+#ifdef EXPANSIONMODMARKET
 // ------------------------------------------------------------
 // Expansion LoadMissionTraders
 // ------------------------------------------------------------
@@ -323,3 +326,4 @@ bool GetTraderFromMissionFile( FileHandle file, out string name, out vector posi
 	
 	return true;
 }
+#endif

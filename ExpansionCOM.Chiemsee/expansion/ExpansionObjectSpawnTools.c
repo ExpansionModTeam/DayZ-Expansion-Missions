@@ -15,8 +15,8 @@ void FindMissionFiles(string worldname, bool loadObjects, bool loadTraders)
 	array<string> objectFiles;
 	array<string> traderFiles;
 
-	string objectFilesFolder = "$CurrentDir:\\missions\\ExpansionCOM." + worldname + "\\expansion\\objects\\";
-	string traderFilesFolder = "$CurrentDir:\\missions\\ExpansionCOM." + worldname + "\\expansion\\traders\\";
+	string objectFilesFolder = "$CurrentDir:\\mpmissions\\ExpansionCOM." + worldname + "\\expansion\\objects\\";
+	string traderFilesFolder = "$CurrentDir:\\mpmissions\\ExpansionCOM." + worldname + "\\expansion\\traders\\";
 
 	if ( loadObjects && FileExist( objectFilesFolder ) )
 	{
@@ -28,6 +28,7 @@ void FindMissionFiles(string worldname, bool loadObjects, bool loadTraders)
 		}
 	}
 
+#ifdef EXPANSIONMODMARKET
 	if ( loadTraders && FileExist( traderFilesFolder ) )
 	{
 		if (FindFilesInLocation(traderFilesFolder).Count() >= 0)
@@ -37,6 +38,7 @@ void FindMissionFiles(string worldname, bool loadObjects, bool loadTraders)
 			LoadMissionTraders(traderFiles, worldname);
 		}
 	}
+#endif
 }
 
 // ------------------------------------------------------------
@@ -68,8 +70,8 @@ void FixObjectCollision( Object obj )
 void LoadMissionObjectsFile( string name, string worldname )
 {
 	#ifdef EXPANSIONEXLOGPRINT
-	EXLogPrint( "Attempting to load mission object file: " + name );
-	#endif
+		EXLogPrint( "Attempting to load mission object file: " + name );
+		#endif
 
 	Object obj;
 	string className;
@@ -77,7 +79,7 @@ void LoadMissionObjectsFile( string name, string worldname )
 	vector rotation;
 	string special;
 
-	string filePath = "$CurrentDir:\\missions\\ExpansionCOM." + worldname +"\\expansion\\objects\\" + name;
+	string filePath = "$CurrentDir:\\mpmissions\\ExpansionCOM." + worldname +"\\expansion\\objects\\" + name;
 	FileHandle file = OpenFile( filePath, FileMode.READ );
 
 	if ( !file )
@@ -121,8 +123,8 @@ void LoadMissionObjectsFile( string name, string worldname )
 	CloseFile( file );
 
 	#ifdef EXPANSIONEXLOGPRINT
-	EXLogPrint( "Created all objects from mission object file: " + filePath );
-	#endif
+		EXLogPrint( "Created all objects from mission object file: " + filePath );
+		#endif
 }
 
 // ------------------------------------------------------------
@@ -131,14 +133,17 @@ void LoadMissionObjectsFile( string name, string worldname )
 void ProcessMissionObject(Object obj)
 {
 	#ifdef EXPANSIONEXLOGPRINT
-	EXLogPrint( "Try to process mapping object: " + obj.ClassName() );
-	#endif
+		EXLogPrint( "Try to process mapping object: " + obj.ClassName() );
+		#endif
 
 	if ( obj.IsInherited(ExpansionPointLight) )
 	{
 		ExpansionPointLight light = ExpansionPointLight.Cast( obj );
 		if ( light )
+		{
 			light.SetDiffuseColor(1,0,0);
+			light.SetLifetime(3600);
+		}
 		
 		#ifdef EXPANSIONEXLOGPRINT
 		EXLogPrint( "Processed mapping object: " + obj.ClassName() + "!" );
@@ -149,10 +154,11 @@ void ProcessMissionObject(Object obj)
 		Fireplace fireplace = Fireplace.Cast( obj );
 		if ( fireplace )
 		{
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, true, "Bark_Oak");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, true, "Firewood");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, true, "WoodenStick");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.StartFire, 60 * 1000, true);
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, false, "Bark_Oak");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, false, "Firewood");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, false, "WoodenStick");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.StartFire, 60 * 1000, false);
+			fireplace.SetLifetime(3600);
 		}
 
 		#ifdef EXPANSIONEXLOGPRINT
@@ -165,10 +171,11 @@ void ProcessMissionObject(Object obj)
 		if ( barrel ) 
 		{
 			barrel.Open();
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, true, "Bark_Oak");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, true, "Firewood");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, true, "WoodenStick");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.StartFire, 60 * 1000, true);
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, false, "Bark_Oak");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, false, "Firewood");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, false, "WoodenStick");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.StartFire, 60 * 1000, false);
+			barrel.SetLifetime(3600);
 		}
 
 		#ifdef EXPANSIONEXLOGPRINT
@@ -183,6 +190,7 @@ void ProcessMissionObject(Object obj)
 			flare.GetCompEM().SetEnergy(999999);
 			flare.GetCompEM().SwitchOn();
 			flare.SwitchLight(false); //! Flickering
+			flare.SetLifetime(0);
 		}
 
 		#ifdef EXPANSIONEXLOGPRINT
@@ -213,6 +221,7 @@ bool GetObjectFromMissionFile( FileHandle file, out string name, out vector posi
 	return true;
 }
 
+#ifdef EXPANSIONMODMARKET
 // ------------------------------------------------------------
 // Expansion LoadMissionTraders
 // ------------------------------------------------------------
@@ -230,17 +239,17 @@ void LoadMissionTraders( array<string> files, string worldname )
 void LoadMissionTradersFile( string name, string worldname )
 {
 	#ifdef EXPANSIONEXLOGPRINT
-	EXLogPrint( "Attempting to load mission trader file: " + name );
-	#endif
+		EXLogPrint( "Attempting to load mission trader file: " + name );
+		#endif
 
 	Object obj;
-	ExpansionTraderBase trader;
+	ExpansionTraderNPCBase trader;
 	string className;
 	vector position;
 	vector rotation;
 	TStringArray gear = new TStringArray;
 
-	string filePath = "$CurrentDir:\\missions\\ExpansionCOM." + worldname + "\\expansion\\traders\\" + name;
+	string filePath = "$CurrentDir:\\mpmissions\\ExpansionCOM." + worldname + "\\expansion\\traders\\" + name;
 	FileHandle file = OpenFile( filePath, FileMode.READ );
 
 	if ( !file )
@@ -253,7 +262,7 @@ void LoadMissionTradersFile( string name, string worldname )
 		#endif
 
 		obj = GetGame().CreateObject( className, position, false, false, true );
-		trader = ExpansionTraderBase.Cast( obj );
+		trader = ExpansionTraderNPCBase.Cast( obj );
 		
 		if ( trader )
 		{
@@ -280,16 +289,16 @@ void LoadMissionTradersFile( string name, string worldname )
 			}
 
 			#ifdef EXPANSIONEXLOGPRINT
-			EXLogPrint( "  Created" );
-			#endif
+		EXLogPrint( "  Created" );
+		#endif
 		}
 	}
 
 	CloseFile( file );
-	
+
 	#ifdef EXPANSIONEXLOGPRINT
-	EXLogPrint( "Created all traders from mission trader file: " + filePath );
-	#endif
+		EXLogPrint( "Created all traders from mission trader file: " + filePath );
+		#endif
 }
 
 // ------------------------------------------------------------
@@ -317,3 +326,4 @@ bool GetTraderFromMissionFile( FileHandle file, out string name, out vector posi
 	
 	return true;
 }
+#endif

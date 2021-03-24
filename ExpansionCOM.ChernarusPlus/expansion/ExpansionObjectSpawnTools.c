@@ -15,8 +15,8 @@ void FindMissionFiles(string worldname, bool loadObjects, bool loadTraders)
 	array<string> objectFiles;
 	array<string> traderFiles;
 
-	string objectFilesFolder = "$CurrentDir:\\missions\\ExpansionCOM." + worldname + "\\expansion\\objects\\";
-	string traderFilesFolder = "$CurrentDir:\\missions\\ExpansionCOM." + worldname + "\\expansion\\traders\\";
+	string objectFilesFolder = "$CurrentDir:\\mpmissions\\ExpansionCOM." + worldname + "\\expansion\\objects\\";
+	string traderFilesFolder = "$CurrentDir:\\mpmissions\\ExpansionCOM." + worldname + "\\expansion\\traders\\";
 
 	if ( loadObjects && FileExist( objectFilesFolder ) )
 	{
@@ -28,6 +28,7 @@ void FindMissionFiles(string worldname, bool loadObjects, bool loadTraders)
 		}
 	}
 
+#ifdef EXPANSIONMODMARKET
 	if ( loadTraders && FileExist( traderFilesFolder ) )
 	{
 		if (FindFilesInLocation(traderFilesFolder).Count() >= 0)
@@ -37,6 +38,7 @@ void FindMissionFiles(string worldname, bool loadObjects, bool loadTraders)
 			LoadMissionTraders(traderFiles, worldname);
 		}
 	}
+#endif
 }
 
 // ------------------------------------------------------------
@@ -77,7 +79,7 @@ void LoadMissionObjectsFile( string name, string worldname )
 	vector rotation;
 	string special;
 
-	string filePath = "$CurrentDir:\\missions\\ExpansionCOM." + worldname +"\\expansion\\objects\\" + name;
+	string filePath = "$CurrentDir:\\mpmissions\\ExpansionCOM." + worldname +"\\expansion\\objects\\" + name;
 	FileHandle file = OpenFile( filePath, FileMode.READ );
 
 	if ( !file )
@@ -116,8 +118,6 @@ void LoadMissionObjectsFile( string name, string worldname )
 
 		if ( special == "true")
 			ProcessMissionObject( obj );
-
-		EXPANSION_CheckDoors( obj );
 	}
 
 	CloseFile( file );
@@ -140,7 +140,10 @@ void ProcessMissionObject(Object obj)
 	{
 		ExpansionPointLight light = ExpansionPointLight.Cast( obj );
 		if ( light )
+		{
 			light.SetDiffuseColor(1,0,0);
+			light.SetLifetime(3600);
+		}
 		
 		#ifdef EXPANSIONEXLOGPRINT
 		EXLogPrint( "Processed mapping object: " + obj.ClassName() + "!" );
@@ -151,10 +154,11 @@ void ProcessMissionObject(Object obj)
 		Fireplace fireplace = Fireplace.Cast( obj );
 		if ( fireplace )
 		{
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, true, "Bark_Oak");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, true, "Firewood");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, true, "WoodenStick");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.StartFire, 60 * 1000, true);
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, false, "Bark_Oak");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, false, "Firewood");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.GetInventory().CreateAttachment, 60 * 1000, false, "WoodenStick");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(fireplace.StartFire, 60 * 1000, false);
+			fireplace.SetLifetime(3600);
 		}
 
 		#ifdef EXPANSIONEXLOGPRINT
@@ -167,10 +171,11 @@ void ProcessMissionObject(Object obj)
 		if ( barrel ) 
 		{
 			barrel.Open();
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, true, "Bark_Oak");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, true, "Firewood");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, true, "WoodenStick");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.StartFire, 60 * 1000, true);
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, false, "Bark_Oak");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, false, "Firewood");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.GetInventory().CreateAttachment, 60 * 1000, false, "WoodenStick");
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(barrel.StartFire, 60 * 1000, false);
+			barrel.SetLifetime(3600);
 		}
 
 		#ifdef EXPANSIONEXLOGPRINT
@@ -185,6 +190,7 @@ void ProcessMissionObject(Object obj)
 			flare.GetCompEM().SetEnergy(999999);
 			flare.GetCompEM().SwitchOn();
 			flare.SwitchLight(false); //! Flickering
+			flare.SetLifetime(0);
 		}
 
 		#ifdef EXPANSIONEXLOGPRINT
@@ -215,6 +221,7 @@ bool GetObjectFromMissionFile( FileHandle file, out string name, out vector posi
 	return true;
 }
 
+#ifdef EXPANSIONMODMARKET
 // ------------------------------------------------------------
 // Expansion LoadMissionTraders
 // ------------------------------------------------------------
@@ -236,13 +243,13 @@ void LoadMissionTradersFile( string name, string worldname )
 		#endif
 
 	Object obj;
-	ExpansionTraderBase trader;
+	ExpansionTraderNPCBase trader;
 	string className;
 	vector position;
 	vector rotation;
 	TStringArray gear = new TStringArray;
 
-	string filePath = "$CurrentDir:\\missions\\ExpansionCOM." + worldname + "\\expansion\\traders\\" + name;
+	string filePath = "$CurrentDir:\\mpmissions\\ExpansionCOM." + worldname + "\\expansion\\traders\\" + name;
 	FileHandle file = OpenFile( filePath, FileMode.READ );
 
 	if ( !file )
@@ -255,7 +262,7 @@ void LoadMissionTradersFile( string name, string worldname )
 		#endif
 
 		obj = GetGame().CreateObject( className, position, false, false, true );
-		trader = ExpansionTraderBase.Cast( obj );
+		trader = ExpansionTraderNPCBase.Cast( obj );
 		
 		if ( trader )
 		{
@@ -319,53 +326,4 @@ bool GetTraderFromMissionFile( FileHandle file, out string name, out vector posi
 	
 	return true;
 }
-
-
-	// ------------------------------------------------------------
-	// Expansion CheckDoors
-	// ------------------------------------------------------------
-	void EXPANSION_CheckDoors( Object obj )
-	{
-		string cfg_doors;
-		int door_sources_count;
-		int i_selection;
-		int door_index;
-		Building building;
-		if ( Class.CastTo( building, obj ) )
-		{
-			cfg_doors = "cfgVehicles " + building.GetType() + " " + "Doors ";
-			door_sources_count = GetGame().ConfigGetChildrenCount( cfg_doors );
-			
-			if ( door_sources_count > 0 )
-			{
-				//! Make sure to check for closed doors first and open them
-				for ( i_selection = 0; i_selection < door_sources_count; i_selection++ )
-				{
-					door_index = building.GetDoorIndex( i_selection );
-
-					//! Check if door index is valid
-					if ( door_index != -1 )
-					{
-						if ( !building.IsDoorOpen( door_index ) )
-						{
-							building.OpenDoor( door_index );
-						}
-					}
-				}
-				//! After all doors are opened close them again
-				for ( i_selection = 0; i_selection < door_sources_count; i_selection++ )
-				{
-					door_index = building.GetDoorIndex( i_selection );
-
-					//! Check if door index is valid
-					if ( door_index != -1 )
-					{
-						//if ( building.IsDoorOpen( door_index ) )
-						//{
-						//	building.CloseDoor( door_index );
-						//}
-					}
-				}
-			}
-		}
-	}
+#endif
