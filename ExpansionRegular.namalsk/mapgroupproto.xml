@@ -7472,6 +7472,7 @@
 						<category name="clothes" />
 						<category name="bags" />
 						<tag name="military" />
+						<tag name="seaice" />
 						<point pos="1.504700 -0.342685 -2.449402" range="0.264954" height="0.649138" />
 						<point pos="-0.392822 -0.342685 -2.218979" range="0.340625" height="0.851563" />
 						<point pos="-0.163330 -0.342685 2.137375" range="0.340625" height="0.851563" />
@@ -9255,6 +9256,7 @@
 						<category name="clothes" />
 						<category name="bags" />
 						<tag name="military" />
+						<tag name="seaice" />
 						<point pos="-6.595657 0.109486 1.977679" range="0.100000" height="0.250000" />
 						<point pos="-7.481484 -6.208757 2.309984" range="0.163937" height="0.409843" />
 						<point pos="-9.671457 -6.218838 2.365073" range="0.171539" height="0.428848" />

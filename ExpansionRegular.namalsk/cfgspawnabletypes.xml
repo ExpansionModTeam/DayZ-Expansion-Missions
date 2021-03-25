@@ -1444,6 +1444,41 @@
             <item name="NVGoggles" chance="1.00" />
         </attachments>
     </type>
+    <type name="BoonieHat_Black">
+        <attachments chance="0.50">
+            <item name="Hook" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="BoonieHat_Blue">
+        <attachments chance="0.50">
+            <item name="Hook" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="BoonieHat_NavyBlue">
+        <attachments chance="0.50">
+            <item name="Hook" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="BoonieHat_Olive">
+        <attachments chance="0.50">
+            <item name="Hook" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="BoonieHat_Orange">
+        <attachments chance="0.50">
+            <item name="Hook" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="BoonieHat_Red">
+        <attachments chance="0.50">
+            <item name="Hook" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="BoonieHat_Tan">
+        <attachments chance="0.50">
+            <item name="Hook" chance="1.00" />
+        </attachments>
+    </type>
 
 
     <!-- NAMALSK - CLOTHES - MASKS -->

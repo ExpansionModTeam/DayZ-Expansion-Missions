@@ -22,6 +22,7 @@
         <tag name="medical" />
         <tag name="firefighter" />
         <tag name="fishing" />
+        <tag name="seaice" />
     </tags>
     <usageflags />
     <valueflags>
