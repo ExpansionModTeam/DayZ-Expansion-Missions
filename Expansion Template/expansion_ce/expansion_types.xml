@@ -828,7 +828,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="industrial"/>
+        <tag name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCoDriver_Black">
         <nominal>5</nominal>
@@ -839,7 +839,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="industrial"/>
+        <tag name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo1_Black">
         <nominal>5</nominal>
@@ -850,7 +850,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="industrial"/>
+        <tag name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo2_Black">
         <nominal>5</nominal>
@@ -861,7 +861,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="industrial"/>
+        <tag name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorDriver_LightGreen">
         <nominal>5</nominal>
@@ -872,7 +872,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="industrial"/>
+        <tag name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCoDriver_LightGreen">
         <nominal>5</nominal>
@@ -883,7 +883,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="industrial"/>
+        <tag name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo1_LightGreen">
         <nominal>5</nominal>
@@ -894,7 +894,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="industrial"/>
+        <tag name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo2_LightGreen">
         <nominal>5</nominal>
@@ -905,7 +905,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="industrial"/>
+        <tag name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_1_BanditKitty">
         <nominal>0</nominal>

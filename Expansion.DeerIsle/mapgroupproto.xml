@@ -1639,7 +1639,7 @@
 				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
 						<category name="containers" />
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<tag name="floor" />
 						<point pos="-7.711425 -1.211449 -3.089601" range="0.432941" height="1.082352" />
@@ -1661,7 +1661,7 @@
 				<container name="lootshelves" lootmax="15">
 						<category name="tools" />
 						<category name="containers" />
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<category name="books" />
 						<tag name="shelves" />
@@ -1771,7 +1771,7 @@
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<tag name="floor" />
 						<point pos="-5.951288 -1.199928 -6.827761" range="0.451904" height="1.109469" />
@@ -1800,7 +1800,7 @@
 				<container name="lootshelves" lootmax="15">
 						<category name="tools" />
 						<category name="containers" />
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<category name="books" />
 						<tag name="shelves" />
@@ -2051,7 +2051,7 @@
 		<group name="Land_City_Stand_FastFood">
 				<usage name="Town" />
 				<container name="lootFloor" lootmax="3">
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<tag name="floor" />
 						<point pos="-1.082757 -1.681622 1.212267" range="0.425734" height="1.063808" />
@@ -2060,7 +2060,7 @@
 						<point pos="-2.402230 -1.681622 1.281190" range="0.763318" height="1.906204" />
 				</container>
 				<container name="lootshelves" lootmax="3">
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<tag name="shelves" />
 						<point pos="-1.568304 -0.840914 2.087595" range="0.100000" height="0.250000" />
@@ -2085,7 +2085,7 @@
 		<group name="Land_City_Stand_Grocery">
 				<usage name="Town" />
 				<container name="lootFloor" lootmax="3">
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<tag name="floor" />
 						<point pos="-1.561227 -1.680985 1.228264" range="0.358607" height="0.893983" />
@@ -2096,7 +2096,7 @@
 						<point pos="-2.483529 -1.681297 -0.337439" range="0.560023" height="1.398770" />
 				</container>
 				<container name="lootshelves" lootmax="3">
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<tag name="shelves" />
 						<point pos="-0.451944 -0.840236 1.995806" range="0.100000" height="0.250000" />
@@ -3094,7 +3094,7 @@
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<tag name="floor" />
 						<point pos="3.990622 -2.245270 -2.744349" range="0.514404" height="1.286006" />
@@ -3113,7 +3113,7 @@
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<category name="books" />
 						<tag name="shelves" />
@@ -3176,7 +3176,7 @@
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<tag name="floor" />
 						<point pos="0.806958 -0.616379 5.135689" range="0.583008" height="1.457520" />
@@ -3192,8 +3192,8 @@
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<category name="industrialfood" />
-						<category name="industrialfood" />
+						<category name="Industrialfood" />
+						<category name="Industrialfood" />
 						<category name="food" />
 						<tag name="shelves" />
 						<point pos="4.154597 -2.655357 -3.049034" range="0.134375" height="0.335938" />

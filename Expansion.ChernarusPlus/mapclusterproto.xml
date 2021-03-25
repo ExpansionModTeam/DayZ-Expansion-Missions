@@ -66,8 +66,8 @@
 			<export name="QuercusRobur_stumpB" shape="dz\plants\tree\d_quercusRobur_stumpb.p3d" />
 			<export name="QuercusRobur_stump" shape="dz\plants\tree\d_quercusRobur_stump.p3d" />
 <!-- -->
-			<export name="Haybale" shape="dz\structures\industrial\misc\misc_haybale.p3d" />
-			<export name="Strawstack" shape="dz\structures\industrial\farms\farm_strawstack.p3d" />
+			<export name="Haybale" shape="dz\structures\Industrial\misc\misc_haybale.p3d" />
+			<export name="Strawstack" shape="dz\structures\Industrial\farms\farm_strawstack.p3d" />
 <!-- -->
 			<export name="CaninaBush1" shape="dz\plants\bush\b_rosaCanina_1s.p3d" />
 			<export name="CaninaBush2" shape="dz\plants\bush\b_rosaCanina_2s.p3d" />
