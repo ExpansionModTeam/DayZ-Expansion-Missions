@@ -14683,8 +14683,8 @@
 				</container>
 				<dispatch>
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
-                        <proxy type="HatchbackDoors_Driver" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
-                        <proxy type="HatchbackTrunk" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
+                        <proxy type="HatchbackDoors_Driver_BlueRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
+                        <proxy type="HatchbackTrunk_BlueRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_green" lootmax="2">
@@ -14711,8 +14711,8 @@
 				</container>
 				<dispatch>
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
-                        <proxy type="HatchbackDoors_Driver" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
-                        <proxy type="HatchbackTrunk" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
+                        <proxy type="HatchbackDoors_Driver_GreenRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
+                        <proxy type="HatchbackTrunk_GreenRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_white" lootmax="2">
@@ -14740,8 +14740,8 @@
 				</container>
 				<dispatch>
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
-                        <proxy type="HatchbackDoors_Driver" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
-                        <proxy type="HatchbackTrunk" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
+                        <proxy type="HatchbackDoors_Driver_WhiteRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
+                        <proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_police" lootmax="6">
@@ -14782,8 +14782,8 @@
 				</container>
 				<dispatch>
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
-						<proxy type="HatchbackDoors_CoDriver" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
-						<proxy type="HatchbackHood" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
+						<proxy type="HatchbackDoors_CoDriver_BlueRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
+						<proxy type="HatchbackHood_BlueRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_green" lootmax="2">
@@ -14810,8 +14810,8 @@
 				</container>
 				<dispatch>
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
-						<proxy type="HatchbackDoors_CoDriver" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
-						<proxy type="HatchbackHood" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
+						<proxy type="HatchbackDoors_CoDriver_GreenRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
+						<proxy type="HatchbackHood_GreenRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_white" lootmax="2">
@@ -14839,8 +14839,8 @@
 				</container>
 				<dispatch>
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
-						<proxy type="HatchbackDoors_CoDriver" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
-						<proxy type="HatchbackHood" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
+						<proxy type="HatchbackDoors_CoDriver_WhiteRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
+						<proxy type="HatchbackHood_WhiteRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_police" lootmax="6">
@@ -14881,9 +14881,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0" />
-						<proxy type="Hatchback_02_Door_1_1" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
-						<proxy type="Hatchback_02_Door_2_2" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
-						<proxy type="Hatchback_02_Trunk" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
+						<proxy type="Hatchback_02_Door_1_1_RedRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
+						<proxy type="Hatchback_02_Door_2_2_RedRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
+						<proxy type="Hatchback_02_Trunk_RedRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban1_black" lootmax="2">
@@ -14911,9 +14911,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0" />
-						<proxy type="Hatchback_02_Door_1_1" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
-						<proxy type="Hatchback_02_Door_2_2" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
-						<proxy type="Hatchback_02_Trunk" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
+						<proxy type="Hatchback_02_Door_1_1_BlackRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
+						<proxy type="Hatchback_02_Door_2_2_BlackRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
+						<proxy type="Hatchback_02_Trunk_BlackRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban1_blue" lootmax="2">
@@ -14941,9 +14941,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0" />
-						<proxy type="Hatchback_02_Door_1_1" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
-						<proxy type="Hatchback_02_Door_2_2" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
-						<proxy type="Hatchback_02_Trunk" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
+						<proxy type="Hatchback_02_Door_1_1_BlueRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
+						<proxy type="Hatchback_02_Door_2_2_BlueRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
+						<proxy type="Hatchback_02_Trunk_BlueRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban2_red" lootmax="2">
@@ -14973,9 +14973,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0" />
-						<proxy type="Hatchback_02_Door_1_2" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
-						<proxy type="Hatchback_02_Door_2_1" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
-						<proxy type="Hatchback_02_Hood" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
+						<proxy type="Hatchback_02_Door_1_2_RedRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
+						<proxy type="Hatchback_02_Door_2_1_RedRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
+						<proxy type="Hatchback_02_Hood_RedRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban2_black" lootmax="2">
@@ -15005,9 +15005,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0" />
-						<proxy type="Hatchback_02_Door_1_2" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
-						<proxy type="Hatchback_02_Door_2_1" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
-						<proxy type="Hatchback_02_Hood" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
+						<proxy type="Hatchback_02_Door_1_2_BlackRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
+						<proxy type="Hatchback_02_Door_2_1_BlackRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
+						<proxy type="Hatchback_02_Hood_BlackRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban2_blue" lootmax="2">
@@ -15037,9 +15037,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0" />
-						<proxy type="Hatchback_02_Door_1_2" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
-						<proxy type="Hatchback_02_Door_2_1" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
-						<proxy type="Hatchback_02_Hood" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
+						<proxy type="Hatchback_02_Door_1_2_BlueRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
+						<proxy type="Hatchback_02_Door_2_1_BlueRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
+						<proxy type="Hatchback_02_Hood_BlueRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_white" lootmax="2">
@@ -15071,9 +15071,9 @@
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0" />
-						<proxy type="CivSedanDoors_CoDriver" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
-						<proxy type="CivSedanDoors_BackLeft" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
-						<proxy type="CivSedanHood" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="CivSedanDoors_CoDriver_WhiteRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
+						<proxy type="CivSedanDoors_BackLeft_WhiteRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
+						<proxy type="CivSedanHood_WhiteRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_black" lootmax="2">
@@ -15105,9 +15105,9 @@
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0" />
-						<proxy type="CivSedanDoors_CoDriver" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
-						<proxy type="CivSedanDoors_BackLeft" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
-						<proxy type="CivSedanHood" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="CivSedanDoors_CoDriver_BlackRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
+						<proxy type="CivSedanDoors_BackLeft_BlackRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
+						<proxy type="CivSedanHood_BlackRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_wine" lootmax="2">
@@ -15139,9 +15139,9 @@
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0" />
-						<proxy type="CivSedanDoors_CoDriver" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
-						<proxy type="CivSedanDoors_BackLeft" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
-						<proxy type="CivSedanHood" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="CivSedanDoors_CoDriver_WineRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
+						<proxy type="CivSedanDoors_BackLeft_WineRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
+						<proxy type="CivSedanHood_WineRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban2_white" lootmax="2">
@@ -15171,9 +15171,9 @@
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0" />
-						<proxy type="CivSedanDoors_Driver" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
-						<proxy type="CivSedanDoors_BackRight" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
-						<proxy type="CivSedanTrunk" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
+						<proxy type="CivSedanDoors_Driver_WhiteRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
+						<proxy type="CivSedanDoors_BackRight_WhiteRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
+						<proxy type="CivSedanTrunk_WhiteRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban2_wine" lootmax="2">
@@ -15203,9 +15203,9 @@
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0" />
-						<proxy type="CivSedanDoors_Driver" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
-						<proxy type="CivSedanDoors_BackRight" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
-						<proxy type="CivSedanTrunk" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
+						<proxy type="CivSedanDoors_Driver_WineRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
+						<proxy type="CivSedanDoors_BackRight_WineRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
+						<proxy type="CivSedanTrunk_WineRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban2_black" lootmax="2">
@@ -15235,9 +15235,9 @@
 				</container>
 				<dispatch>
 						<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0" />
-						<proxy type="CivSedanDoors_Driver" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
-						<proxy type="CivSedanDoors_BackRight" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
-						<proxy type="CivSedanTrunk" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
+						<proxy type="CivSedanDoors_Driver_BlackRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
+						<proxy type="CivSedanDoors_BackRight_BlackRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
+						<proxy type="CivSedanTrunk_BlackRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed02_aban1_yellow" lootmax="2">
@@ -15266,9 +15266,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0" />
-						<proxy type="Sedan_02_Door_2_1" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0" />
-						<proxy type="Sedan_02_Door_1_2" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0" />
-						<proxy type="Sedan_02_Trunk" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0" />
+						<proxy type="Sedan_02_Door_2_1_YellowRust" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0" />
+						<proxy type="Sedan_02_Door_1_2_YellowRust" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0" />
+						<proxy type="Sedan_02_Trunk_YellowRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed02_aban1_grey" lootmax="2">
@@ -15297,9 +15297,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0" />
-						<proxy type="Sedan_02_Door_2_1" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0" />
-						<proxy type="Sedan_02_Door_1_2" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0" />
-						<proxy type="Sedan_02_Trunk" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0" />
+						<proxy type="Sedan_02_Door_2_1_GreyRust" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0" />
+						<proxy type="Sedan_02_Door_1_2_GreyRust" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0" />
+						<proxy type="Sedan_02_Trunk_GreyRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed02_aban1_red" lootmax="2">
@@ -15328,9 +15328,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0" />
-						<proxy type="Sedan_02_Door_2_1" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0" />
-						<proxy type="Sedan_02_Door_1_2" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0" />
-						<proxy type="Sedan_02_Trunk" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0" />
+						<proxy type="Sedan_02_Door_2_1_RedRust" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0" />
+						<proxy type="Sedan_02_Door_1_2_RedRust" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0" />
+						<proxy type="Sedan_02_Trunk_RedRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed02_aban2_yellow" lootmax="2">
@@ -15360,9 +15360,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0" />
-						<proxy type="Sedan_02_Door_1_1" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0" />
-						<proxy type="Sedan_02_Door_2_2" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
-						<proxy type="Sedan_02_Hood" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
+						<proxy type="Sedan_02_Door_1_1_YellowRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0" />
+						<proxy type="Sedan_02_Door_2_2_YellowRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
+						<proxy type="Sedan_02_Hood_YellowRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed02_aban2_grey" lootmax="2">
@@ -15392,9 +15392,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0" />
-						<proxy type="Sedan_02_Door_1_1" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0" />
-						<proxy type="Sedan_02_Door_2_2" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
-						<proxy type="Sedan_02_Hood" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
+						<proxy type="Sedan_02_Door_1_1_GreyRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0" />
+						<proxy type="Sedan_02_Door_2_2_GreyRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
+						<proxy type="Sedan_02_Hood_GreyRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed02_aban2_red" lootmax="2">
@@ -15424,9 +15424,9 @@
 				</container>
 				<dispatch>
 						<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0" />
-						<proxy type="Sedan_02_Door_1_1" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0" />
-						<proxy type="Sedan_02_Door_2_2" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
-						<proxy type="Sedan_02_Hood" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
+						<proxy type="Sedan_02_Door_1_1_RedRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0" />
+						<proxy type="Sedan_02_Door_2_2_RedRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
+						<proxy type="Sedan_02_Hood_RedRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
 				</dispatch>
 		</group>
 		<!-- 1.07  Amusement Park Objects-->
@@ -15573,8 +15573,8 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_2_1" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
-								<proxy type="Truck_01_Hood" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+								<proxy type="Truck_01_Door_2_1_GreenRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+								<proxy type="Truck_01_Hood_GreenRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban1_blue" >
@@ -15592,8 +15592,8 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_2_1" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
-								<proxy type="Truck_01_Hood" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+								<proxy type="Truck_01_Door_2_1_BlueRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+								<proxy type="Truck_01_Hood_BlueRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban1_orange" >
@@ -15611,8 +15611,8 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_2_1" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
-								<proxy type="Truck_01_Hood_" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+								<proxy type="Truck_01_Door_2_1_OrangeRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+								<proxy type="Truck_01_Hood_OrangeRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_green" >
@@ -15630,7 +15630,7 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_1_1" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_blue" >
@@ -15648,7 +15648,7 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_1_1" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="Truck_01_Door_1_1_BlueRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_orange" >
@@ -15666,7 +15666,7 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_1_1" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="Truck_01_Door_1_1_OrangeRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
 <!-- NOT INGAME - PREPARATION
