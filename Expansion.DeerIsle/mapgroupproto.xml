@@ -11207,6 +11207,7 @@
 		</group>		
 		<group name="Land_jmc_ruinecolumn_loot" lootmax="3">
                 	<usage name="Military" />
+					<usage name="Temple" />   
 	                <container name="lootFloor" lootmax="3">
         	                <category name="tools" />
 	                        <category name="containers" />
@@ -11214,9 +11215,9 @@
 	                        <category name="food" />
 	                        <category name="weapons" />
 	                        <category name="explosives" />
-        		                <point pos="-0.441030 0.439246 -0.399075" range="0.5" height="1.5" /> 
-		                        <point pos="-0.038144 0.439246 -0.044720" range="0.5" height="1.5" /> 
-		                        <point pos="0.392042 0.439246 0.519333" range="0.5" height="1.5" /> 
+				<point pos="-0.441030 0.439246 -0.399075" range="0.5" height="1.5" /> 
+                                <point pos="-0.038144 0.439246 -0.044720" range="0.5" height="1.5" /> 
+                                <point pos="0.392042 0.439246 0.519333" range="0.5" height="1.5" />  
                 	</container>
 	        </group>		
 		<group name="Land_Sara_zluty_statek_in" lootmax="8">										

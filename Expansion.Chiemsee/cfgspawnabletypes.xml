@@ -23,6 +23,24 @@
 	<type name="MediumTent">
 		<hoarder />
 	</type>
+	<type name="MediumTent_Green">
+		<hoarder />
+	</type>
+	<type name="MediumTent_Orange">
+		<hoarder />
+	</type>
+	<type name="PartyTent">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Blue">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Brown">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Lunapark">
+		<hoarder />
+	</type>
 	<type name="SeaChest">
 		<hoarder />
 	</type>
@@ -590,17 +608,19 @@
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PoliceJacket">
+		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PolicePants">
-		<cargo preset="foodVillage" />
+		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PoliceJacketOrel">
+		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PolicePantsOrel">
-		<cargo preset="foodVillage" />
+		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PrisonUniformJacket">
@@ -801,10 +821,10 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_Green">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_Red">
 		<cargo preset="foodCity" />
@@ -833,11 +853,11 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_CitizenANormal_Brown">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_CitizenBSkinny">
 		<cargo preset="foodCity" />
@@ -865,10 +885,11 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_White">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_ShortSkirt_beige">
 		<cargo preset="foodCity" />
@@ -878,11 +899,11 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_black">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_ShortSkirt_brown">
 		<cargo preset="foodCity" />
@@ -913,18 +934,18 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_red">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_ShortSkirt_stripes">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_ShortSkirt_white">
 		<cargo preset="foodCity" />
@@ -969,11 +990,11 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Orange">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Red">
 		<cargo preset="foodCity" />
@@ -997,11 +1018,11 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Brown">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Grey">
 		<cargo preset="foodCity" />
@@ -1039,11 +1060,11 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_Brown">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_ClerkFat_Grey">
 		<cargo preset="foodCity" />
@@ -1079,9 +1100,11 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Grey">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="hatsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Olive">
 		<cargo preset="foodCity" />
@@ -1111,11 +1134,11 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_bluechecks">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_Jacket_brown">
 		<cargo preset="foodCity" />
@@ -1146,11 +1169,11 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_magenta">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_Jacket_stripes">
 		<cargo preset="foodCity" />
@@ -1169,9 +1192,11 @@
 		<attachments preset="hatsMotorbike" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Black">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="hatsMotorbike" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="helmetsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Blue">
 		<cargo preset="foodCity" />
@@ -1179,10 +1204,11 @@
 		<attachments preset="hatsMotorbike" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Blue">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsCity" />
-		<attachments preset="hatsCitySkate" />
-		<attachments preset="bagsCity" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="helmetsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Brown">
 		<cargo preset="foodCity" />
@@ -1458,19 +1484,22 @@
 	<!-- -----------------------------Police----------------------------- -->
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
-		<attachments preset="glassesVillage" />
+		<cargo preset="ammoPolice" />
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanFat">
 		<cargo preset="toolsPolice" />
-		<attachments preset="glassesVillage" />
+		<cargo preset="ammoPolice" />
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce">
 		<cargo preset="toolsPolice" />
-		<attachments preset="glassesVillage" />
+		<cargo preset="ammoPolice" />
+		<cargo chance="0.1">
+			<item name="Mag_Scout_5Rnd" chance="1.0" />
+		</cargo>
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
@@ -1604,19 +1633,21 @@
 		<cargo preset="toolsVillage" />
 	</type>
 	<type name="ZmbF_MilkMaidOld_Green">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsVillage" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
 	</type>
 	<type name="ZmbF_MilkMaidOld_Grey">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 	</type>
 	<type name="ZmbF_VillagerOld_Blue">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="hatsFarm" />
-		<attachments preset="bagsVillage" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_VillagerOld_Green">
 		<cargo preset="foodVillage" />
@@ -1661,17 +1692,18 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbF_JoggerSkinny_Red">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="hatsFarm" />
-		<attachments preset="bagsVillage" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="helmetsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_FarmerFat_Beige">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="bagsVillage" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_FarmerFat_Blue">
 		<cargo preset="foodVillage" />
@@ -1703,11 +1735,11 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_JoggerSkinny_Red">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="hatsFarm" />
-		<attachments preset="bagsVillage" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="helmetsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_VillagerOld_Blue">
 		<cargo preset="foodVillage" />
@@ -1717,11 +1749,11 @@
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_VillagerOld_Green">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="hatsFarm" />
-		<attachments preset="bagsVillage" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="food_T1" />
+		<cargo preset="toolsCommon_T1" />
+		<attachments preset="hatsCommon_T1" />
+		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_VillagerOld_White">
 		<cargo preset="foodVillage" />
@@ -1733,18 +1765,18 @@
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
 	<type name="MakarovIJ70">
-		<attachments chance="0.20">
+		<attachments chance="0.60">
 			<item name="Mag_IJ70_8Rnd" chance="1.00" />
 		</attachments>
 		<!-- MakarovPBSuppressor -->
 	</type>
 	<type name="MKII">
-		<attachments chance="0.30">
+		<attachments chance="0.60">
 			<item name="Mag_MKII_10Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="CZ75">
-		<attachments chance="0.20">
+		<attachments chance="0.50">
 			<item name="Mag_CZ75_15Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.05">
@@ -1783,7 +1815,7 @@
 		<attachments chance="0.10">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.30">
+		<attachments chance="0.50">
 			<item name="Mag_CZ61_20Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -1798,7 +1830,8 @@
 			<item name="MP5k_StockBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_MP5_30Rnd" chance="1.00" />
+			<item name="Mag_MP5_15Rnd" chance="0.5" />
+			<item name="Mag_MP5_30Rnd" chance="0.5" />
 		</attachments>
 		<attachments chance="0.20">
 			<item name="BUISOptic" chance="0.30" />
@@ -1818,7 +1851,6 @@
 		<attachments chance="0.20">
 			<item name="Mag_UMP_25Rnd" chance="1.00" />
 		</attachments>
-		<!-- Mag_UMP_25Rnd -->
 		<attachments chance="0.30">
 			<item name="BUISOptic" chance="0.15" />
 			<item name="M68Optic" chance="0.15" />
@@ -1841,12 +1873,12 @@
 		<attachments chance="1.0">
 			<item name="PSO11Optic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.08">
+		<attachments chance="0.10">
 			<item name="Mag_VSS_10Rnd" chance="1.00" />
 		</attachments>
-	</type>
+	</type>	
 	<type name="ASVAL">
-		<attachments chance="0.08">
+		<attachments chance="0.10">
 			<item name="Mag_VAL_20Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
@@ -1923,8 +1955,8 @@
 		<attachments chance="0.50">
 			<item name="AK_Suppressor" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="Mag_AKM_30Rnd" chance="0.30" />
+		<attachments chance="0.30">
+			<item name="Mag_AKM_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AK74">
@@ -1957,7 +1989,7 @@
 			<item name="AK_Suppressor" chance="0.50" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_AK74_30Rnd" chance="0.50" />
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AKS74U">
@@ -1976,8 +2008,8 @@
 		<attachments chance="1.00">
 			<item name="AK_Suppressor" chance="0.05" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="Mag_AK74_30Rnd" chance="0.30" />
+		<attachments chance="0.30">
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AK101">
@@ -2004,7 +2036,7 @@
 			<item name="AK_Suppressor" chance="0.50" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_AK101_30Rnd" chance="0.50" />
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="M4A1">
@@ -2053,7 +2085,7 @@
 		<attachments chance="0.05">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.15">
+		<attachments chance="0.60">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2061,7 +2093,7 @@
 		<attachments chance="0.15">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.15">
+		<attachments chance="0.60">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2078,6 +2110,58 @@
 			<item name="Mag_Saiga_5Rnd" chance="0.60" />
 			<item name="Mag_Saiga_8Rnd" chance="0.40" />
 			<item name="Mag_Saiga_Drum20Rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Ruger1022">
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
+			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Deagle">
+		<attachments chance="0.10">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Deagle_Gold">
+		<attachments chance="0.10">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Scout">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Scout_Chernarus">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Scout_Livonia">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
 		</attachments>
 	</type>
 <!-- FUTURE
@@ -2121,15 +2205,6 @@
 			<item name="Mag_PM73_15Rnd" chance="0.50" />
 		</attachments>
 	</type>
-	<type name="Ruger1022">
-		<attachments chance="0.15">
-			<item name="HuntingOptic" chance="0.50" />
-		</attachments>
-		<attachments chance="0.08">
-			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
-			<item name="Mag_Ruger1022_10Rnd" chance="0.50" />
-		</attachments>
-	</type>
 	<type name="Scout">
 		<attachments chance="1.00">
 			<item name="M68Optic" chance="0.30" />
@@ -2142,11 +2217,6 @@
 	<type name="Trumpet">
 		<attachments chance="0.25">
 			<item name="HuntingOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="DE">
-		<attachments chance="0.10">
-			<item name="Mag_DE_9rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="FNX45_arrow">

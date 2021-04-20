@@ -31,6 +31,7 @@
 		<usage name="School"/>
 		<usage name="Prison"/>
 		<usage name="Lunapark"/>
+		<usage name="SeasonalEvent"/>		
 		<usage name="Fortknox"/>
 		<usage name="Temple"/>
 		<usage name="Mine" />	

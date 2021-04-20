@@ -216,6 +216,21 @@ class CommunityOfflineClient : MissionGameplay
 				GesturesMenu.CloseMenu();
 			}
 		}
+		if (key == KeyCode.KC_C)
+		{
+			Camera currentCam = Camera.GetCurrentCamera();
+			int year, month, day, hour, minute;
+			float overcast, rain, fog, windspeed;
+			GetGame().GetWorld().GetDate(year, month, day, hour, minute);
+			string date = year.ToString() + ", " + month.ToString() + ", " + day.ToString() + ", " + hour.ToString() + ", " + minute.ToString();
+			overcast = g_Game.GetWeather().GetOvercast().GetActual();
+			rain = g_Game.GetWeather().GetRain().GetActual();
+			fog = g_Game.GetWeather().GetFog().GetActual();
+			windspeed = g_Game.GetWeather().GetWindSpeed();
+			string weather = "\nOvercast: " + overcast.ToString() + "\nRain: " + rain.ToString() + "\nFog: " + fog.ToString() + "\nWindSpeed: " + windspeed.ToString();
+			string clipboard = "CameraPOS: " + currentCam.GetPosition() + "\nCameraORI: " + currentCam.GetOrientation() + "\nCharPOS: " + GetPlayer().GetPosition() + "\nCharORI: " + GetPlayer().GetOrientation() + "\nFOV: " + currentCam.GetCurrentFOV() + "\nDate: " + date + weather;
+			GetGame().CopyToClipboard(clipboard);
+		}
 
 		/*
 		if (key == KeyCode.KC_K)

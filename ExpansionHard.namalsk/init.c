@@ -91,6 +91,7 @@ class CustomMission: MissionServer
 		// comment this whole block if NOT using Namalsk Survival
 		if ( m_EventManagerServer )
 		{
+			// enable/disable event system, min time between events, max time between events, max number of events at the same time
 			m_EventManagerServer.OnInitServer( true, 550, 1000, 2 );
 			// registering events and their probability
 			m_EventManagerServer.RegisterEvent( Aurora, 0.85 );

@@ -18,7 +18,7 @@
     <var name="RespawnAttempt" type="0" value="2"/>
     <var name="RespawnLimit" type="0" value="20"/>
     <var name="RespawnTypes" type="0" value="12"/>
-    <var name="RestartSpawn" type="0" value="100"/>
+    <var name="RestartSpawn" type="0" value="0"/>
     <var name="SpawnInitial" type="0" value="1200"/>
     <var name="TimeHopping" type="0" value="60"/>
     <var name="TimeLogin" type="0" value="15"/>
