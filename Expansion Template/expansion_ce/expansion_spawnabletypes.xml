@@ -12,7 +12,8 @@
 			<item name="MP5k_StockBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_MP5_30Rnd" chance="1.00" />
+			<item name="Mag_MP5_15Rnd" chance="0.5" />
+			<item name="Mag_MP5_30Rnd" chance="0.5" />
 		</attachments>
 		<attachments chance="0.20">
 			<item name="BUISOptic" chance="0.30" />
@@ -63,6 +64,42 @@
 		</attachments>
 		<attachments chance="0.10">
 			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Scout">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+			<item name="ExpansionReflexMRSOptic" chance="0.20" />
+			<item name="M4_Suppressor" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Scout_Chernarus">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+			<item name="ExpansionReflexMRSOptic" chance="0.20" />
+			<item name="M4_Suppressor" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Scout_Livonia">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+			<item name="ExpansionReflexMRSOptic" chance="0.20" />
+			<item name="M4_Suppressor" chance="0.20" />
 		</attachments>
 	</type>
 	<!-- EXPANSION ITEMS -->

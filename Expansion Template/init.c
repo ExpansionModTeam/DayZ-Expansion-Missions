@@ -26,93 +26,12 @@ void main()
 		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 
-	//INIT WEATHER BEFORE ECONOMY INIT------------------------
-	Weather weather = g_Game.GetWeather();
-
-	weather.MissionWeather(false);	// false = use weather controller from Weather.c
-
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.02, 0.1), 1, 0);
-	weather.GetRain().Set( 0, 1, 0);
-	weather.GetFog().Set( 0, 1, 0);
-
-	//INIT ECONOMY--------------------------------------
-	Hive ce = CreateHive();
-	if ( ce )
-		ce.InitOffline();
-
-	//DATE RESET AFTER ECONOMY INIT-------------------------
-	int year, month, day, hour, minute;
-	int reset_month = 8, reset_day = 10;
-	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
-
-	if ((month == reset_month) && (day < reset_day))
-	{
-		GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-	}
-	else
-	{
-		if ((month == reset_month + 1) && (day > reset_day))
-		{
-			GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-		}
-		else
-		{
-			if ((month < reset_month) || (month > reset_month + 1))
-			{
-				GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-			}
-		}
-	}
+	//! This code need to be on the top of the function "main", everything else will be under this line
 }
 
-/**@class		CustomExpansionMission
- * @brief		This class handle expansion serverside mission
- **/
 class CustomMission: MissionServer
-{	
-	// ------------------------------------------------------------
-	// Override OnInit
-	// ------------------------------------------------------------
-	override void OnInit()
-	{
-		ExpansionMissionModule missionModule;
-		if ( Class.CastTo( missionModule, GetModuleManager().GetModule( ExpansionMissionModule ) ) )
-		{
-			missionModule.SetMissionConstructor( COMMissionConstructor );
-		}
-
-		super.OnInit();
-	}
-	
-	// ------------------------------------------------------------
-	// Override CreateCharacter
-	// ------------------------------------------------------------
-	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
-	{
-		Entity playerEnt;
-		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
-		Class.CastTo( m_player, playerEnt );
-
-		GetGame().SelectPlayer( identity, m_player );
-
-		return m_player;
-	}
-	
-	// ------------------------------------------------------------
-	// SetRandomHealth
-	// ------------------------------------------------------------
-	void SetRandomHealth(EntityAI itemEnt)
-	{
-		if ( itemEnt )
-		{
-			float rndHlt = Math.RandomFloat( 0.25, 0.65 );
-			itemEnt.SetHealth01( "", "", rndHlt );
-		}
-	}
-	
-	// ------------------------------------------------------------
-	// StartingEquipSetup
-	// ------------------------------------------------------------
+{
+	//! This function already exist in your file, replace/update it with this one
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
 		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )
@@ -158,9 +77,4 @@ class CustomMission: MissionServer
 				SetRandomHealth( itemClothing );
 		}
 	}
-}
-
-Mission CreateCustomMission(string path)
-{
-	return new CustomMission();
 }
