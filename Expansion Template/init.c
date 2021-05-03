@@ -31,6 +31,15 @@ void main()
 
 class CustomMission: MissionServer
 {
+	void SetRandomHealth(EntityAI itemEnt)
+	{
+		if ( itemEnt )
+		{
+			float rndHlt = Math.RandomFloat( 0.25, 0.65 );
+			itemEnt.SetHealth01( "", "", rndHlt );
+		}
+	}
+
 	//! This function already exist in your file, replace/update it with this one
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{

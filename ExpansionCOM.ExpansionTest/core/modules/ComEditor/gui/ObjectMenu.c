@@ -320,9 +320,6 @@ class COM_ObjectMenu extends PopupMenu
 		"undersluggrenadem4",
 		"groza",
 		"pm73rak",
-		"scout",
-		"scout_black",
-		"scout_green",
 		"trumpet",
 		"lawbase",
 		"law",
@@ -348,7 +345,6 @@ class COM_ObjectMenu extends PopupMenu
 		"leatherbelt_black",
 		"leatherknifeshealth",
 
-		"mag_scout_5rnd",
 		"itemoptics",
 		"fx",
 		"expansionsoundproxybase",
@@ -367,11 +363,7 @@ class COM_ObjectMenu extends PopupMenu
 		"expansionvehicleboatbase",
 		"expansionvehiclebikebase",
 		"expansionvehiclecarbase",
-		"expansionvehiclevehiclebase",
-		"expansionzmbf_bluecollarfat_blue",
-		"expansionzmbf_bluecollarfat_green",
-		"expansionzmbf_bluecollarfat_red",
-		"expansionzmbf_bluecollarfat_white"
+		"expansionvehiclevehiclebase"
 	};
 
 	private static ref array< string > itemsList =
@@ -481,11 +473,6 @@ class COM_ObjectMenu extends PopupMenu
 				g_Game.ConfigGetChildName( strConfigPath, nClass, strName );
 
 				int scope = g_Game.ConfigGetInt( strConfigPath + " " + strName + " scope" );
-
-				if ( scope == 0 )
-				{
-					continue;
-				}
 
 				string strNameLower = strName;
 
