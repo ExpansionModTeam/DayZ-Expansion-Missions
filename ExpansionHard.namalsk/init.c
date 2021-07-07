@@ -10,7 +10,6 @@
  *
 */
 
-#include "$CurrentDir:\\mpmissions\\ExpansionHard.namalsk\\expansion\\ExpansionObjectSpawnTools.c"
 #include "$CurrentDir:\\mpmissions\\ExpansionHard.namalsk\\expansion\\missions\\MissionConstructor.c"
 
 void main()
@@ -24,7 +23,7 @@ void main()
 	if (MissionWorldName != "empty")
 	{
 		//! Spawn mission objects and traders
-		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
+		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\Expansion." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 	/*
 	  [Namalsk] CE init (offline)

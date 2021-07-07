@@ -842,7 +842,7 @@
 	</event>
 	<!-- EXPANSION BOATS -->
 	<event name="VehicleUtilityBoat">
-		<pos x="3778.844" z="9292.776" a="0" />
+		<pos x="10011.94" z="10538.68" a="180.2238" />
 	</event>
 	<event name="VehicleZodiacBoat">
 		<pos x="5742.234" z="14138.12" a="95.52639" />
@@ -853,7 +853,6 @@
 		<pos x="5688.359" z="14609.7" a="325.3828" />
 		<pos x="5693.875" z="15085.41" a="4.701996" />
 		<pos x="9967.969" z="10557.9" a="4.701996" />
-		<pos x="10011.94" z="10538.68" a="180.2238" />
 	</event>
 	<event name="VehicleAn2Plane">		
 		<pos x="13576.06" z="9651.484" a="101.3276" />

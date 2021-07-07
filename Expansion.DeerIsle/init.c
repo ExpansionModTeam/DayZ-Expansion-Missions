@@ -10,7 +10,6 @@
  *
 */
 
-#include "$CurrentDir:\\mpmissions\\Expansion.DeerIsle\\expansion\\ExpansionObjectSpawnTools.c"
 #include "$CurrentDir:\\mpmissions\\Expansion.DeerIsle\\expansion\\missions\\MissionConstructor.c"
 
 void SpawnObject( string type, vector position, vector orientation )
@@ -37,7 +36,7 @@ void main()
 	if (MissionWorldName != "empty")
 	{
 		//! Spawn mission objects and traders
-		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
+		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\Expansion." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
