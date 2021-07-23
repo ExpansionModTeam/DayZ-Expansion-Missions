@@ -1,0 +1,5372 @@
+{
+    "Version": 1,
+    "MapName": "ChernarusPlus",
+    "CameraPosition": [
+        12983.0,
+        23.86052131652832,
+        5539.10009765625
+    ],
+    "EditorObjects": [
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5825.728515625,
+                143.08258056640626,
+                4490.28076171875
+            ],
+            "Orientation": [
+                -112.24469757080078,
+                0.6192179918289185,
+                0.6410718560218811
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fe",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fe",
+            "Position": [
+                5830.693359375,
+                147.73341369628907,
+                4514.265625
+            ],
+            "Orientation": [
+                -159.56362915039063,
+                0.5227010250091553,
+                0.307066947221756
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                5818.74658203125,
+                142.76284790039063,
+                4496.13427734375
+            ],
+            "Orientation": [
+                119.20433807373047,
+                0.2983289957046509,
+                0.4931999742984772
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5790.4228515625,
+                133.80941772460938,
+                4465.99609375
+            ],
+            "Orientation": [
+                -39.927982330322269,
+                0.44784700870513918,
+                0.09399599581956864
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5811.44970703125,
+                137.424072265625,
+                4467.87890625
+            ],
+            "Orientation": [
+                -118.48324584960938,
+                0.16743998229503632,
+                0.06953498721122742
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5810.48388671875,
+                135.83274841308595,
+                4455.64794921875
+            ],
+            "Orientation": [
+                139.416748046875,
+                0.22524796426296235,
+                0.4544049799442291
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                5784.8203125,
+                131.5678253173828,
+                4459.38134765625
+            ],
+            "Orientation": [
+                -177.2631072998047,
+                0.3924749791622162,
+                0.26598596572875979
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5778.587890625,
+                130.5709686279297,
+                4464.9609375
+            ],
+            "Orientation": [
+                31.384164810180665,
+                0.22729900479316712,
+                0.44372397661209109
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_robiniaPseudoacacia_2s",
+            "DisplayName": "bldr_plnt_t_robiniaPseudoacacia_2s",
+            "Position": [
+                5818.751953125,
+                141.6245880126953,
+                4477.2314453125
+            ],
+            "Orientation": [
+                -72.38799285888672,
+                0.16165098547935487,
+                0.40898796916007998
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2s",
+            "Position": [
+                5818.384765625,
+                137.27142333984376,
+                4460.619140625
+            ],
+            "Orientation": [
+                106.38858795166016,
+                0.5404749512672424,
+                0.36980897188186648
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2fc",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2fc",
+            "Position": [
+                5823.5966796875,
+                139.31524658203126,
+                4463.0068359375
+            ],
+            "Orientation": [
+                -92.03229522705078,
+                0.4055059850215912,
+                0.5789279341697693
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2fb",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2fb",
+            "Position": [
+                5825.4150390625,
+                140.75302124023438,
+                4456.15673828125
+            ],
+            "Orientation": [
+                21.2561092376709,
+                0.566771924495697,
+                0.5383819341659546
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2f",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2f",
+            "Position": [
+                5822.67041015625,
+                138.48158264160157,
+                4453.07275390625
+            ],
+            "Orientation": [
+                -61.60443878173828,
+                0.342570960521698,
+                0.2355019748210907
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1s",
+            "Position": [
+                5816.91796875,
+                132.91900634765626,
+                4454.7138671875
+            ],
+            "Orientation": [
+                -39.96076583862305,
+                0.3739529848098755,
+                0.4613049626350403
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1fb",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1fb",
+            "Position": [
+                5829.560546875,
+                136.13511657714845,
+                4458.6630859375
+            ],
+            "Orientation": [
+                11.47767448425293,
+                0.07545299828052521,
+                0.4199679493904114
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1f",
+            "Position": [
+                5830.51611328125,
+                138.8052520751953,
+                4453.5625
+            ],
+            "Orientation": [
+                -108.562744140625,
+                0.6263529658317566,
+                0.46237289905548098
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1f",
+            "Position": [
+                5801.626953125,
+                133.9160614013672,
+                4470.794921875
+            ],
+            "Orientation": [
+                -52.64542007446289,
+                0.6384439468383789,
+                0.08489499241113663
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2w",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2w",
+            "Position": [
+                5804.81982421875,
+                132.58544921875,
+                4476.09619140625
+            ],
+            "Orientation": [
+                -81.95887756347656,
+                0.5746979713439941,
+                0.029266998171806337
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5832.71728515625,
+                145.25660705566407,
+                4502.06298828125
+            ],
+            "Orientation": [
+                2.005157709121704,
+                0.5650209784507752,
+                0.5339169502258301
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5829.40966796875,
+                140.21595764160157,
+                4497.53369140625
+            ],
+            "Orientation": [
+                117.80585479736328,
+                0.35857197642326357,
+                0.08630499243736267
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5834.8173828125,
+                146.47039794921876,
+                4491.95166015625
+            ],
+            "Orientation": [
+                25.50617790222168,
+                0.506636917591095,
+                0.04494699463248253
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5832.009765625,
+                147.1356964111328,
+                4496.7177734375
+            ],
+            "Orientation": [
+                68.54220581054688,
+                0.2289859801530838,
+                0.07017599046230316
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5840.806640625,
+                147.0111083984375,
+                4511.06982421875
+            ],
+            "Orientation": [
+                121.72818756103516,
+                0.6082159280776978,
+                0.23238298296928407
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5842.263671875,
+                149.68910217285157,
+                4517.49169921875
+            ],
+            "Orientation": [
+                -168.56629943847657,
+                0.6738420128822327,
+                0.5132380127906799
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5848.27001953125,
+                150.91635131835938,
+                4532.50830078125
+            ],
+            "Orientation": [
+                -44.65879821777344,
+                0.1374260038137436,
+                0.64472496509552
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5844.58154296875,
+                150.80953979492188,
+                4526.11572265625
+            ],
+            "Orientation": [
+                -141.37240600585938,
+                0.624366044998169,
+                0.20294499397277833
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5835.50537109375,
+                149.86158752441407,
+                4527.72998046875
+            ],
+            "Orientation": [
+                159.71656799316407,
+                0.6572219729423523,
+                0.2502419352531433
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5828.90234375,
+                145.9104766845703,
+                4527.296875
+            ],
+            "Orientation": [
+                69.82051849365235,
+                0.37393197417259219,
+                0.020294999703764917
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5843.6923828125,
+                147.91355895996095,
+                4521.83203125
+            ],
+            "Orientation": [
+                -176.58570861816407,
+                0.4890769422054291,
+                0.30501601099967959
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5829.064453125,
+                139.6721649169922,
+                4513.541015625
+            ],
+            "Orientation": [
+                131.2990264892578,
+                0.12685100734233857,
+                0.5654270052909851
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5831.88720703125,
+                142.3813934326172,
+                4519.37744140625
+            ],
+            "Orientation": [
+                -109.45867156982422,
+                0.21223799884319306,
+                0.48418498039245608
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5840.29150390625,
+                141.19650268554688,
+                4515.97998046875
+            ],
+            "Orientation": [
+                143.8853302001953,
+                0.2549629807472229,
+                0.5522028803825378
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5836.1455078125,
+                141.30299377441407,
+                4531.68505859375
+            ],
+            "Orientation": [
+                129.66017150878907,
+                0.5920439958572388,
+                0.39473894238471987
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5857.0068359375,
+                143.59933471679688,
+                4541.392578125
+            ],
+            "Orientation": [
+                79.64266204833985,
+                0.5060809850692749,
+                0.37760597467422488
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5852.4677734375,
+                142.87005615234376,
+                4548.01953125
+            ],
+            "Orientation": [
+                -3.4363949298858644,
+                0.5429750084877014,
+                0.6566449403762817
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5851.97900390625,
+                143.1457061767578,
+                4541.69580078125
+            ],
+            "Orientation": [
+                103.6025390625,
+                0.24114197492599488,
+                0.03206499665975571
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5847.20068359375,
+                142.51275634765626,
+                4541.18994140625
+            ],
+            "Orientation": [
+                -132.4789581298828,
+                0.33791396021842959,
+                0.3401999771595001
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5845.39697265625,
+                142.3228759765625,
+                4529.95263671875
+            ],
+            "Orientation": [
+                -69.74402618408203,
+                0.26023998856544497,
+                0.011727999895811081
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5848.99267578125,
+                142.73211669921876,
+                4547.48779296875
+            ],
+            "Orientation": [
+                -129.92239379882813,
+                0.054965995252132419,
+                0.5645290017127991
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5856.74462890625,
+                143.92381286621095,
+                4557.77880859375
+            ],
+            "Orientation": [
+                52.7437629699707,
+                0.07233399152755737,
+                0.1346060037612915
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5851.90380859375,
+                144.9285888671875,
+                4545.0634765625
+            ],
+            "Orientation": [
+                -26.412982940673829,
+                0.056589994579553607,
+                0.22674298286437989
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5854.80126953125,
+                145.7100830078125,
+                4553.65576171875
+            ],
+            "Orientation": [
+                43.71919631958008,
+                0.5580779910087586,
+                0.10958998650312424
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5837.1201171875,
+                143.61192321777345,
+                4540.22314453125
+            ],
+            "Orientation": [
+                -141.3505859375,
+                0.011792000383138657,
+                0.464508980512619
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5839.26513671875,
+                143.24172973632813,
+                4561.0625
+            ],
+            "Orientation": [
+                110.37643432617188,
+                0.1855129897594452,
+                0.5576289296150208
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5839.3837890625,
+                141.34498596191407,
+                4556.5087890625
+            ],
+            "Orientation": [
+                -99.4179916381836,
+                0.42688995599746706,
+                0.5080469250679016
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5852.99267578125,
+                143.293701171875,
+                4560.05029296875
+            ],
+            "Orientation": [
+                77.32643127441406,
+                0.14723098278045655,
+                0.4027499556541443
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5838.8173828125,
+                141.43307495117188,
+                4548.6328125
+            ],
+            "Orientation": [
+                148.70352172851563,
+                0.37220096588134768,
+                0.2481909990310669
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5833.4541015625,
+                140.1654510498047,
+                4554.88037109375
+            ],
+            "Orientation": [
+                41.23907470703125,
+                0.25107499957084658,
+                0.6749319434165955
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5846.06884765625,
+                148.474365234375,
+                4570.75146484375
+            ],
+            "Orientation": [
+                -143.7542266845703,
+                0.08331400156021118,
+                0.3349659740924835
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5864.921875,
+                150.21151733398438,
+                4568.0419921875
+            ],
+            "Orientation": [
+                -24.5144100189209,
+                0.22616598010063172,
+                0.6927079558372498
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2s",
+            "Position": [
+                5861.171875,
+                151.50433349609376,
+                4580.6201171875
+            ],
+            "Orientation": [
+                -139.85379028320313,
+                0.6375679969787598,
+                0.444364994764328
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1s",
+            "Position": [
+                5849.39990234375,
+                144.217529296875,
+                4577.6806640625
+            ],
+            "Orientation": [
+                128.93907165527345,
+                0.06665099412202835,
+                0.1635739803314209
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2sc",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2sc",
+            "Position": [
+                5850.32568359375,
+                149.9038848876953,
+                4584.20947265625
+            ],
+            "Orientation": [
+                162.4370574951172,
+                0.5986459255218506,
+                0.6350898742675781
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2sc",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2sc",
+            "Position": [
+                5868.6435546875,
+                151.79415893554688,
+                4574.74853515625
+            ],
+            "Orientation": [
+                -112.29935455322266,
+                0.3352869749069214,
+                0.6052250266075134
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1s",
+            "Position": [
+                5871.453125,
+                145.69500732421876,
+                4580.2744140625
+            ],
+            "Orientation": [
+                -108.89054870605469,
+                0.13560999929904939,
+                0.503154993057251
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                5874.8037109375,
+                149.14822387695313,
+                4576.53759765625
+            ],
+            "Orientation": [
+                85.79379272460938,
+                0.3517790138721466,
+                0.08190399408340454
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                5875.9384765625,
+                146.06997680664063,
+                4582.81884765625
+            ],
+            "Orientation": [
+                75.94979095458985,
+                0.1876710206270218,
+                0.6613659262657166
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5878.576171875,
+                152.18258666992188,
+                4586.12255859375
+            ],
+            "Orientation": [
+                -66.34615325927735,
+                0.3122579753398895,
+                0.4717939496040344
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5887.63818359375,
+                152.36920166015626,
+                4601.53173828125
+            ],
+            "Orientation": [
+                175.30743408203126,
+                0.35436397790908816,
+                0.6184909343719482
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5882.4287109375,
+                152.13528442382813,
+                4599.49560546875
+            ],
+            "Orientation": [
+                12.810599327087403,
+                0.33481696248054507,
+                0.5237269997596741
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5867.296875,
+                151.63560485839845,
+                4587.7021484375
+            ],
+            "Orientation": [
+                -60.50095748901367,
+                0.029673000797629358,
+                0.24761496484279633
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5885.88623046875,
+                152.80233764648438,
+                4613.552734375
+            ],
+            "Orientation": [
+                -23.943798065185548,
+                0.07357300072908402,
+                0.3258659839630127
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5898.0224609375,
+                156.95985412597657,
+                4603.88720703125
+            ],
+            "Orientation": [
+                117.53273010253906,
+                0.5467559695243836,
+                0.3189019560813904
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5885.94970703125,
+                150.5836181640625,
+                4596.57080078125
+            ],
+            "Orientation": [
+                -163.20181274414063,
+                0.24821297824382783,
+                0.06475000083446503
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5853.4140625,
+                148.0546417236328,
+                4593.82763671875
+            ],
+            "Orientation": [
+                -137.54843139648438,
+                0.4434249699115753,
+                0.6512188911437988
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5862.75927734375,
+                148.85873413085938,
+                4606.9736328125
+            ],
+            "Orientation": [
+                172.47769165039063,
+                0.4017249643802643,
+                0.28373897075653078
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5857.31787109375,
+                144.12457275390626,
+                4606.45751953125
+            ],
+            "Orientation": [
+                19.693744659423829,
+                0.2802349627017975,
+                0.33381298184394839
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5880.00732421875,
+                145.78936767578126,
+                4592.728515625
+            ],
+            "Orientation": [
+                -12.865224838256836,
+                0.21206697821617127,
+                0.3233879804611206
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5882.7138671875,
+                151.03208923339845,
+                4586.076171875
+            ],
+            "Orientation": [
+                154.9420623779297,
+                0.5642518997192383,
+                0.5492979884147644
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5889.04443359375,
+                154.25599670410157,
+                4576.63623046875
+            ],
+            "Orientation": [
+                157.05072021484376,
+                0.2421879768371582,
+                0.6583110094070435
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5878.07763671875,
+                149.86544799804688,
+                4600.66552734375
+            ],
+            "Orientation": [
+                30.805110931396486,
+                0.34227198362350466,
+                0.052872996777296069
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5873.08447265625,
+                145.46337890625,
+                4602.43115234375
+            ],
+            "Orientation": [
+                147.6109619140625,
+                0.5140069127082825,
+                0.5883910059928894
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5873.42431640625,
+                143.65296936035157,
+                4584.298828125
+            ],
+            "Orientation": [
+                -139.7117156982422,
+                0.06487799435853958,
+                0.2992269694805145
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5865.59130859375,
+                143.524658203125,
+                4585.60791015625
+            ],
+            "Orientation": [
+                20.163549423217775,
+                0.11992999166250229,
+                0.4951009750366211
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5864.158203125,
+                145.43655395507813,
+                4589.0556640625
+            ],
+            "Orientation": [
+                113.04228210449219,
+                0.06492099910974503,
+                0.15460199117660523
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5904.93505859375,
+                159.61122131347657,
+                4622.76611328125
+            ],
+            "Orientation": [
+                63.898826599121097,
+                0.2647469937801361,
+                0.48668399453163149
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5904.681640625,
+                158.68247985839845,
+                4637.2548828125
+            ],
+            "Orientation": [
+                -142.006103515625,
+                0.0347139947116375,
+                0.037620000541210178
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5896.1640625,
+                154.69200134277345,
+                4633.927734375
+            ],
+            "Orientation": [
+                -141.1101837158203,
+                0.4676709771156311,
+                0.281046986579895
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5891.20166015625,
+                154.44041442871095,
+                4625.943359375
+            ],
+            "Orientation": [
+                -65.27544403076172,
+                0.43135496973991396,
+                0.20234698057174684
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5896.29052734375,
+                154.99258422851563,
+                4641.80322265625
+            ],
+            "Orientation": [
+                67.27485656738281,
+                0.2188819795846939,
+                0.3294759690761566
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5900.85205078125,
+                157.5702667236328,
+                4651.18994140625
+            ],
+            "Orientation": [
+                175.318359375,
+                0.3355650007724762,
+                0.13915599882602693
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5887.1015625,
+                153.9268035888672,
+                4643.4404296875
+            ],
+            "Orientation": [
+                113.58856201171875,
+                0.47215697169303896,
+                0.3505609631538391
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5882.0390625,
+                152.90179443359376,
+                4639.9375
+            ],
+            "Orientation": [
+                94.1081771850586,
+                0.012304999865591526,
+                0.13977599143981934
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5909.904296875,
+                159.1689453125,
+                4660.462890625
+            ],
+            "Orientation": [
+                27.374460220336915,
+                0.001302999909967184,
+                0.29837197065353396
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5897.85498046875,
+                156.34791564941407,
+                4656.71630859375
+            ],
+            "Orientation": [
+                60.435401916503909,
+                0.09484999626874924,
+                0.6064639687538147
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5912.23193359375,
+                157.95167541503907,
+                4676.0146484375
+            ],
+            "Orientation": [
+                -123.39974975585938,
+                0.13761799037456513,
+                0.5947579145431519
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5903.79736328125,
+                157.71688842773438,
+                4673.64697265625
+            ],
+            "Orientation": [
+                131.26625061035157,
+                0.3665619194507599,
+                0.49076396226882937
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5894.72509765625,
+                155.26829528808595,
+                4665.90576171875
+            ],
+            "Orientation": [
+                10.341410636901856,
+                0.3474639654159546,
+                0.1388150006532669
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5896.00634765625,
+                156.25238037109376,
+                4673.8017578125
+            ],
+            "Orientation": [
+                169.71351623535157,
+                0.4837139844894409,
+                0.3716459274291992
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5925.55224609375,
+                159.1934356689453,
+                4681.4521484375
+            ],
+            "Orientation": [
+                95.13519287109375,
+                0.42293795943260195,
+                0.5652768611907959
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5881.3134765625,
+                151.4186553955078,
+                4663.3828125
+            ],
+            "Orientation": [
+                118.42862701416016,
+                0.6888600587844849,
+                0.3870700001716614
+            ],
+            "Scale": 1.0000001192092896,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5938.052734375,
+                162.8424530029297,
+                4686.8330078125
+            ],
+            "Orientation": [
+                22.239418029785158,
+                0.3230670094490051,
+                0.31059199571609499
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5950.96630859375,
+                165.78787231445313,
+                4695.3349609375
+            ],
+            "Orientation": [
+                -114.44075012207031,
+                0.5375270247459412,
+                0.4937549829483032
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5958.39208984375,
+                167.37464904785157,
+                4703.14599609375
+            ],
+            "Orientation": [
+                20.458534240722658,
+                0.6039220094680786,
+                0.4649369716644287
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5951.24267578125,
+                165.7616729736328,
+                4702.552734375
+            ],
+            "Orientation": [
+                70.69457244873047,
+                0.5724760293960571,
+                0.5701479911804199
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5970.65966796875,
+                170.7084197998047,
+                4704.45654296875
+            ],
+            "Orientation": [
+                -165.59451293945313,
+                0.05479499697685242,
+                0.2455420047044754
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5964.912109375,
+                169.23666381835938,
+                4708.029296875
+            ],
+            "Orientation": [
+                131.83438110351563,
+                0.10241299122571945,
+                0.5864259004592896
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5957.84716796875,
+                167.1221466064453,
+                4711.82177734375
+            ],
+            "Orientation": [
+                -106.91300964355469,
+                0.030035998672246934,
+                0.46641096472740176
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5974.04052734375,
+                171.51011657714845,
+                4710.66064453125
+            ],
+            "Orientation": [
+                133.1017303466797,
+                0.3872840404510498,
+                0.40599703788757326
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5969.13427734375,
+                169.8468475341797,
+                4719.23583984375
+            ],
+            "Orientation": [
+                -147.81854248046876,
+                0.32118695974349978,
+                0.2808759808540344
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5950.9482421875,
+                165.38661193847657,
+                4714.7421875
+            ],
+            "Orientation": [
+                -3.2397396564483644,
+                0.26709699630737307,
+                0.05351300165057182
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5890.162109375,
+                153.15093994140626,
+                4693.19775390625
+            ],
+            "Orientation": [
+                78.61564636230469,
+                0.21025098860263825,
+                0.2773509621620178
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5862.66064453125,
+                148.9279327392578,
+                4636.0322265625
+            ],
+            "Orientation": [
+                -166.17356872558595,
+                0.2710919678211212,
+                0.5353909730911255
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5884.97509765625,
+                150.97279357910157,
+                4624.83447265625
+            ],
+            "Orientation": [
+                -20.9720458984375,
+                0.6399609446525574,
+                0.11775100231170654
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5940.8974609375,
+                163.24911499023438,
+                4721.08251953125
+            ],
+            "Orientation": [
+                64.16104888916016,
+                0.43579795956611636,
+                0.0056399996392428879
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5952.30078125,
+                165.74830627441407,
+                4732.099609375
+            ],
+            "Orientation": [
+                161.07135009765626,
+                0.13407200574874879,
+                0.05567099526524544
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5934.85205078125,
+                161.6461639404297,
+                4734.71630859375
+            ],
+            "Orientation": [
+                -21.103124618530275,
+                0.20362898707389832,
+                0.060712989419698718
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5933.1845703125,
+                161.4377899169922,
+                4725.00537109375
+            ],
+            "Orientation": [
+                -12.133163452148438,
+                0.2338779866695404,
+                0.5102259516716003
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5932.0498046875,
+                161.28919982910157,
+                4716.88232421875
+            ],
+            "Orientation": [
+                -175.22000122070313,
+                0.4556009769439697,
+                0.47783994674682619
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5937.998046875,
+                161.6819610595703,
+                4742.7998046875
+            ],
+            "Orientation": [
+                -64.48876190185547,
+                0.16739799082279206,
+                0.45199090242385867
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5925.12744140625,
+                159.93336486816407,
+                4730.83935546875
+            ],
+            "Orientation": [
+                -115.87200927734375,
+                0.39913997054100039,
+                0.32428497076034548
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5928.72412109375,
+                159.8455047607422,
+                4745.49560546875
+            ],
+            "Orientation": [
+                110.0158920288086,
+                0.19275498390197755,
+                0.22706399857997895
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5911.7421875,
+                157.67616271972657,
+                4736.18212890625
+            ],
+            "Orientation": [
+                -20.74258804321289,
+                0.5494469404220581,
+                0.49341294169425967
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5912.3935546875,
+                158.0111846923828,
+                4728.19189453125
+            ],
+            "Orientation": [
+                108.6174087524414,
+                0.5167620182037354,
+                0.15022200345993043
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5903.62744140625,
+                155.9110565185547,
+                4724.4375
+            ],
+            "Orientation": [
+                38.737117767333987,
+                0.6359229683876038,
+                0.6742689609527588
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5889.734375,
+                155.56727600097657,
+                4710.23291015625
+            ],
+            "Orientation": [
+                -116.0577621459961,
+                0.13398697972297669,
+                0.3836730122566223
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3s",
+            "Position": [
+                5883.5576171875,
+                152.9552001953125,
+                4733.52880859375
+            ],
+            "Orientation": [
+                -169.54962158203126,
+                0.12642399966716767,
+                0.469402015209198
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5944.751953125,
+                162.582275390625,
+                4695.1865234375
+            ],
+            "Orientation": [
+                61.24390411376953,
+                0.06786900758743286,
+                0.11715298891067505
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5931.2890625,
+                158.6934051513672,
+                4675.603515625
+            ],
+            "Orientation": [
+                134.04135131835938,
+                0.31486400961875918,
+                0.6116979122161865
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5921.99462890625,
+                156.930419921875,
+                4677.31982421875
+            ],
+            "Orientation": [
+                -170.43458557128907,
+                0.497685968875885,
+                0.4785020053386688
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5915.2412109375,
+                156.0157012939453,
+                4678.078125
+            ],
+            "Orientation": [
+                74.27818298339844,
+                0.28126099705696108,
+                0.4934139549732208
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5907.16552734375,
+                155.0107879638672,
+                4678.72119140625
+            ],
+            "Orientation": [
+                124.45957946777344,
+                0.19172997772693635,
+                0.5423550009727478
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5910.32861328125,
+                156.4207763671875,
+                4666.23095703125
+            ],
+            "Orientation": [
+                -173.25340270996095,
+                0.03714999556541443,
+                0.6932389140129089
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5890.30029296875,
+                151.65554809570313,
+                4678.49658203125
+            ],
+            "Orientation": [
+                -23.484886169433595,
+                0.3641259968280792,
+                0.6879198551177979
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5884.2666015625,
+                150.3514862060547,
+                4648.0322265625
+            ],
+            "Orientation": [
+                -82.14460754394531,
+                0.5494260191917419,
+                0.20437699556350709
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5948.5400390625,
+                163.2583465576172,
+                4707.09521484375
+            ],
+            "Orientation": [
+                155.84890747070313,
+                0.6874499917030335,
+                0.46634697914123537
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5931.09375,
+                159.3529815673828,
+                4730.0458984375
+            ],
+            "Orientation": [
+                170.75144958496095,
+                0.19612997770309449,
+                0.1107649952173233
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5928.48876953125,
+                158.08404541015626,
+                4738.86669921875
+            ],
+            "Orientation": [
+                -179.40451049804688,
+                0.5362880825996399,
+                0.38290396332740786
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5935.46923828125,
+                158.17269897460938,
+                4750.59228515625
+            ],
+            "Orientation": [
+                9.216068267822266,
+                0.2500709891319275,
+                0.6985589265823364
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5913.9638671875,
+                155.50381469726563,
+                4742.404296875
+            ],
+            "Orientation": [
+                117.31421661376953,
+                0.4504530429840088,
+                0.3034989833831787
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5906.59912109375,
+                154.43948364257813,
+                4739.29443359375
+            ],
+            "Orientation": [
+                -117.84956359863281,
+                0.3670099675655365,
+                0.6672409176826477
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5910.7919921875,
+                155.27301025390626,
+                4722.81298828125
+            ],
+            "Orientation": [
+                -80.98649597167969,
+                0.579910933971405,
+                0.4088379740715027
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5915.23974609375,
+                156.70236206054688,
+                4715.12744140625
+            ],
+            "Orientation": [
+                -116.58218383789063,
+                0.13272598385810853,
+                0.42374998331069949
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5904.81787109375,
+                154.35792541503907,
+                4715.7001953125
+            ],
+            "Orientation": [
+                107.69965362548828,
+                0.2298620045185089,
+                0.6508560180664063
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5905.9404296875,
+                154.91152954101563,
+                4748.8720703125
+            ],
+            "Orientation": [
+                80.13430786132813,
+                0.4481029808521271,
+                0.45124298334121706
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5896.81982421875,
+                152.7642364501953,
+                4752.01123046875
+            ],
+            "Orientation": [
+                60.69761276245117,
+                0.2673749625682831,
+                0.4035189747810364
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5892.720703125,
+                152.4228515625,
+                4743.01171875
+            ],
+            "Orientation": [
+                107.01134490966797,
+                0.17957398295402528,
+                0.301470011472702
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5886.4296875,
+                151.4948272705078,
+                4747.5810546875
+            ],
+            "Orientation": [
+                1.5135040283203126,
+                0.512319028377533,
+                0.3821139931678772
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5893.5283203125,
+                152.6107635498047,
+                4758.609375
+            ],
+            "Orientation": [
+                -152.505615234375,
+                0.26177796721458437,
+                0.6896719932556152
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5883.88818359375,
+                151.61334228515626,
+                4690.21923828125
+            ],
+            "Orientation": [
+                -173.4828338623047,
+                0.12509998679161073,
+                0.007882999256253243
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5861.4453125,
+                148.42306518554688,
+                4703.39599609375
+            ],
+            "Orientation": [
+                23.474014282226564,
+                0.5444480180740356,
+                0.40950092673301699
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5885.04296875,
+                152.2223358154297,
+                4717.16162109375
+            ],
+            "Orientation": [
+                -47.84906005859375,
+                0.6898428201675415,
+                0.4393659830093384
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5877.20556640625,
+                150.43785095214845,
+                4716.939453125
+            ],
+            "Orientation": [
+                -63.25419998168945,
+                0.31776899099349978,
+                0.03680799901485443
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5886.548828125,
+                149.3724365234375,
+                4629.37158203125
+            ],
+            "Orientation": [
+                145.04344177246095,
+                0.11018899828195572,
+                0.2885670065879822
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5882.81396484375,
+                147.17214965820313,
+                4659.38525390625
+            ],
+            "Orientation": [
+                116.702392578125,
+                0.4280649721622467,
+                0.10608698427677155
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5906.57373046875,
+                153.4286346435547,
+                4671.1220703125
+            ],
+            "Orientation": [
+                -47.24814987182617,
+                0.4651719927787781,
+                0.5414789319038391
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5897.34423828125,
+                152.0199737548828,
+                4669.71875
+            ],
+            "Orientation": [
+                138.9578857421875,
+                0.6722829341888428,
+                0.16660697758197785
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5900.18212890625,
+                152.4054718017578,
+                4676.66259765625
+            ],
+            "Orientation": [
+                104.26901245117188,
+                0.5915529131889343,
+                0.5215479135513306
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5872.56494140625,
+                146.9275665283203,
+                4644.76513671875
+            ],
+            "Orientation": [
+                -54.32795715332031,
+                0.5056750178337097,
+                0.3301379680633545
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5959.6015625,
+                163.75686645507813,
+                4697.6474609375
+            ],
+            "Orientation": [
+                82.5160903930664,
+                0.6416910886764526,
+                0.04219099506735802
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5970.63671875,
+                165.90574645996095,
+                4715.3388671875
+            ],
+            "Orientation": [
+                87.8696517944336,
+                0.48142901062965395,
+                0.21736498177051545
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5955.2158203125,
+                161.90484619140626,
+                4707.24365234375
+            ],
+            "Orientation": [
+                -136.43406677246095,
+                0.5178309082984924,
+                0.2761979401111603
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5894.90185546875,
+                151.77328491210938,
+                4710.4365234375
+            ],
+            "Orientation": [
+                -169.3201904296875,
+                0.09382499009370804,
+                0.10788099467754364
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5882.69580078125,
+                149.72821044921876,
+                4696.57275390625
+            ],
+            "Orientation": [
+                47.04058074951172,
+                0.21642498672008515,
+                0.6108428835868836
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5909.466796875,
+                152.5283966064453,
+                4731.5185546875
+            ],
+            "Orientation": [
+                -2.103466510772705,
+                0.33609896898269656,
+                0.1859619915485382
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5925.31396484375,
+                155.295654296875,
+                4735.28466796875
+            ],
+            "Orientation": [
+                -125.19156646728516,
+                0.40462997555732729,
+                0.698750913143158
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5939.31591796875,
+                158.115234375,
+                4738.66357421875
+            ],
+            "Orientation": [
+                167.539306640625,
+                0.10965399444103241,
+                0.19914299249649049
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5893.4169921875,
+                150.3612060546875,
+                4748.40234375
+            ],
+            "Orientation": [
+                -76.23381805419922,
+                0.23629197478294373,
+                0.4027499556541443
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5903.8359375,
+                151.281494140625,
+                4751.42578125
+            ],
+            "Orientation": [
+                -36.57382583618164,
+                0.19078998267650605,
+                0.44581693410873415
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5867.982421875,
+                146.82437133789063,
+                4756.93701171875
+            ],
+            "Orientation": [
+                27.06855010986328,
+                0.1579979807138443,
+                0.3297319710254669
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5876.74462890625,
+                146.15916442871095,
+                4691.26318359375
+            ],
+            "Orientation": [
+                -44.83359909057617,
+                0.09326900541782379,
+                0.49685296416282656
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5856.294921875,
+                145.07156372070313,
+                4692.87353515625
+            ],
+            "Orientation": [
+                170.95904541015626,
+                0.07585899531841278,
+                0.2832689583301544
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5866.0205078125,
+                146.36724853515626,
+                4660.71240234375
+            ],
+            "Orientation": [
+                92.53936767578125,
+                0.5211849808692932,
+                0.08038798719644547
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5867.7255859375,
+                146.9357452392578,
+                4744.48388671875
+            ],
+            "Orientation": [
+                -72.50823211669922,
+                0.04898499697446823,
+                0.03168100491166115
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5862.134765625,
+                144.54425048828126,
+                4738.18115234375
+            ],
+            "Orientation": [
+                -9.216054916381836,
+                0.10350199043750763,
+                0.38927000761032107
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5861.8759765625,
+                145.0148468017578,
+                4711.86279296875
+            ],
+            "Orientation": [
+                -147.40335083007813,
+                0.5820470452308655,
+                0.024140000343322755
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5884.44677734375,
+                145.87025451660157,
+                4604.29296875
+            ],
+            "Orientation": [
+                -104.13787078857422,
+                0.4503459930419922,
+                0.6616869568824768
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5870.10009765625,
+                147.28341674804688,
+                4638.5380859375
+            ],
+            "Orientation": [
+                48.31889343261719,
+                0.5950570106506348,
+                0.6287879347801209
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5882.546875,
+                144.3106689453125,
+                4642.1962890625
+            ],
+            "Orientation": [
+                -2.8245460987091066,
+                0.5660889148712158,
+                0.3079429566860199
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5883.08251953125,
+                143.70640563964845,
+                4652.296875
+            ],
+            "Orientation": [
+                105.12120056152344,
+                0.29138699173927309,
+                0.5686739683151245
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5867.6005859375,
+                142.11097717285157,
+                4656.1884765625
+            ],
+            "Orientation": [
+                -158.75509643554688,
+                0.09085499495267868,
+                0.2294129878282547
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5893.52001953125,
+                146.4774169921875,
+                4676.505859375
+            ],
+            "Orientation": [
+                45.77321243286133,
+                0.5701689720153809,
+                0.1619499921798706
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5885.41552734375,
+                145.7772216796875,
+                4691.68994140625
+            ],
+            "Orientation": [
+                148.5396728515625,
+                0.6396617889404297,
+                0.4433179795742035
+            ],
+            "Scale": 0.9999998807907105,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5882.36279296875,
+                145.53672790527345,
+                4713.69091796875
+            ],
+            "Orientation": [
+                64.79473114013672,
+                0.2500709891319275,
+                0.0336029976606369
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5888.8251953125,
+                146.71444702148438,
+                4696.138671875
+            ],
+            "Orientation": [
+                166.4030303955078,
+                0.14020299911499024,
+                0.12121198326349259
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5890.30078125,
+                147.0546417236328,
+                4707.59375
+            ],
+            "Orientation": [
+                -5.94930362701416,
+                0.39089396595954897,
+                0.6703169941902161
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5910.75390625,
+                148.8448028564453,
+                4678.5166015625
+            ],
+            "Orientation": [
+                -79.2821044921875,
+                0.27171197533607485,
+                0.581619918346405
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5921.3671875,
+                150.38194274902345,
+                4673.517578125
+            ],
+            "Orientation": [
+                -117.42344665527344,
+                0.11324299871921539,
+                0.34552001953125
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5898.89697265625,
+                147.73512268066407,
+                4646.66748046875
+            ],
+            "Orientation": [
+                -47.313682556152347,
+                0.42022496461868288,
+                0.22232098877429963
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5909.65966796875,
+                150.4535675048828,
+                4663.228515625
+            ],
+            "Orientation": [
+                163.0707244873047,
+                0.037042997777462009,
+                0.2485329806804657
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5914.1494140625,
+                149.556396484375,
+                4709.52490234375
+            ],
+            "Orientation": [
+                -137.089599609375,
+                0.2588939666748047,
+                0.46418896317481997
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5912.765625,
+                149.406005859375,
+                4721.01123046875
+            ],
+            "Orientation": [
+                151.44589233398438,
+                0.10215599089860916,
+                0.470383882522583
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5920.96484375,
+                150.62184143066407,
+                4729.994140625
+            ],
+            "Orientation": [
+                -13.717413902282715,
+                0.02480199746787548,
+                0.557949960231781
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5895.02099609375,
+                146.60841369628907,
+                4738.9326171875
+            ],
+            "Orientation": [
+                58.82933807373047,
+                0.590719997882843,
+                0.2535110116004944
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5858.544921875,
+                139.21189880371095,
+                4687.3759765625
+            ],
+            "Orientation": [
+                -88.20831298828125,
+                0.2332800030708313,
+                0.5003989338874817
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5868.17431640625,
+                140.74200439453126,
+                4643.384765625
+            ],
+            "Orientation": [
+                175.8537139892578,
+                0.3959989845752716,
+                0.3386409878730774
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5879.81884765625,
+                141.0079345703125,
+                4647.59130859375
+            ],
+            "Orientation": [
+                38.332862854003909,
+                0.15434497594833375,
+                0.6441689729690552
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5883.03955078125,
+                142.58828735351563,
+                4636.49560546875
+            ],
+            "Orientation": [
+                -83.4119644165039,
+                0.5852079391479492,
+                0.5616239309310913
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5871.34375,
+                141.30935668945313,
+                4630.30810546875
+            ],
+            "Orientation": [
+                23.375682830810548,
+                0.3965759575366974,
+                0.35367998480796816
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5872.18701171875,
+                142.55601501464845,
+                4618.412109375
+            ],
+            "Orientation": [
+                -18.69951629638672,
+                0.26015397906303408,
+                0.0414859913289547
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5874.98681640625,
+                143.28887939453126,
+                4614.94384765625
+            ],
+            "Orientation": [
+                -157.76087951660157,
+                0.5823889374732971,
+                0.22845199704170228
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5880.240234375,
+                143.87930297851563,
+                4596.3125
+            ],
+            "Orientation": [
+                26.20542335510254,
+                0.5614960193634033,
+                0.6642500162124634
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5885.59033203125,
+                144.04080200195313,
+                4611.3232421875
+            ],
+            "Orientation": [
+                -59.99836730957031,
+                0.41892197728157046,
+                0.0712440013885498
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5888.7333984375,
+                143.80430603027345,
+                4625.23388671875
+            ],
+            "Orientation": [
+                -65.64694213867188,
+                0.6693990230560303,
+                0.5943939685821533
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5889.7314453125,
+                143.41140747070313,
+                4640.87353515625
+            ],
+            "Orientation": [
+                172.9147186279297,
+                0.27446696162223818,
+                0.3618620038032532
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5886.41748046875,
+                142.76321411132813,
+                4648.44775390625
+            ],
+            "Orientation": [
+                35.175357818603519,
+                0.2777569591999054,
+                0.1358659863471985
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5888.48291015625,
+                143.31517028808595,
+                4681.73291015625
+            ],
+            "Orientation": [
+                -141.59092712402345,
+                0.0979049950838089,
+                0.02185400016605854
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5889.89453125,
+                144.764404296875,
+                4712.35888671875
+            ],
+            "Orientation": [
+                149.8179473876953,
+                0.17399898171424867,
+                0.44034796953201296
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5881.228515625,
+                143.2294921875,
+                4717.95703125
+            ],
+            "Orientation": [
+                73.68817901611328,
+                0.5429959297180176,
+                0.24577701091766358
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5886.6884765625,
+                144.34066772460938,
+                4713.41845703125
+            ],
+            "Orientation": [
+                -15.869771003723145,
+                0.6602550148963928,
+                0.12759900093078614
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5893.51611328125,
+                145.1966094970703,
+                4682.62548828125
+            ],
+            "Orientation": [
+                -149.9053192138672,
+                0.44870099425315859,
+                0.5468408465385437
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5905.08447265625,
+                146.80738830566407,
+                4679.50830078125
+            ],
+            "Orientation": [
+                2.9447617530822756,
+                0.38343796133995058,
+                0.15507099032402039
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5910.81787109375,
+                147.5077667236328,
+                4674.01220703125
+            ],
+            "Orientation": [
+                -47.65241622924805,
+                0.4912559986114502,
+                0.01527399942278862
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5902.01025390625,
+                147.02157592773438,
+                4666.72314453125
+            ],
+            "Orientation": [
+                -84.00196838378906,
+                0.3334709703922272,
+                0.04934799671173096
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5912.412109375,
+                147.3274383544922,
+                4716.109375
+            ],
+            "Orientation": [
+                39.50191116333008,
+                0.11253799498081207,
+                0.6578629016876221
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5905.70166015625,
+                145.7524871826172,
+                4726.34716796875
+            ],
+            "Orientation": [
+                -103.558837890625,
+                0.2736339569091797,
+                0.6329330205917358
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5902.20068359375,
+                145.3752899169922,
+                4738.01806640625
+            ],
+            "Orientation": [
+                -90.91789245605469,
+                0.6291940212249756,
+                0.17087998986244203
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5887.11376953125,
+                143.42642211914063,
+                4744.939453125
+            ],
+            "Orientation": [
+                140.76063537597657,
+                0.38138696551322939,
+                0.493584007024765
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5874.494140625,
+                141.4824981689453,
+                4733.96044921875
+            ],
+            "Orientation": [
+                -98.22712707519531,
+                0.5170620083808899,
+                0.3623749613761902
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5861.94970703125,
+                139.40652465820313,
+                4700.58642578125
+            ],
+            "Orientation": [
+                15.826074600219727,
+                0.15084198117256165,
+                0.24276499450206757
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5875.3388671875,
+                141.9517822265625,
+                4707.19384765625
+            ],
+            "Orientation": [
+                159.1811981201172,
+                0.30285799503326418,
+                0.3148209750652313
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_3s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_3s",
+            "Position": [
+                5882.29296875,
+                151.51918029785157,
+                4704.2060546875
+            ],
+            "Orientation": [
+                -28.57792854309082,
+                0.6841389536857605,
+                0.28305500745773318
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1f",
+            "Position": [
+                5871.0224609375,
+                144.63943481445313,
+                4708.7978515625
+            ],
+            "Orientation": [
+                132.39158630371095,
+                0.659850001335144,
+                0.19204998016357423
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1fb",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1fb",
+            "Position": [
+                5879.20361328125,
+                143.63162231445313,
+                4716.56640625
+            ],
+            "Orientation": [
+                -33.47092056274414,
+                0.2110629826784134,
+                0.6024050116539002
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2w",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2w",
+            "Position": [
+                5853.09326171875,
+                139.60775756835938,
+                4703.115234375
+            ],
+            "Orientation": [
+                -36.99994659423828,
+                0.2907879650592804,
+                0.10546698421239853
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2fb",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2fb",
+            "Position": [
+                5880.77587890625,
+                148.50509643554688,
+                4687.1640625
+            ],
+            "Orientation": [
+                153.43389892578126,
+                0.3324029743671417,
+                2.3561151027679445
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5815.525390625,
+                140.50640869140626,
+                4722.26220703125
+            ],
+            "Orientation": [
+                -65.71246337890625,
+                0.06895899027585983,
+                0.24276497960090638
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5804.2724609375,
+                138.40185546875,
+                4735.3525390625
+            ],
+            "Orientation": [
+                -77.39195251464844,
+                0.47963395714759829,
+                0.34855297207832339
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5792.31298828125,
+                134.2654266357422,
+                4727.5703125
+            ],
+            "Orientation": [
+                -150.5499267578125,
+                0.025378994643688203,
+                0.20162098109722138
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5823.1044921875,
+                141.79318237304688,
+                4759.486328125
+            ],
+            "Orientation": [
+                -8.986603736877442,
+                0.36767297983169558,
+                0.3340049684047699
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5812.74853515625,
+                140.9273681640625,
+                4755.0263671875
+            ],
+            "Orientation": [
+                -39.37077331542969,
+                0.5974279642105103,
+                0.33902493119239809
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_3sb",
+            "DisplayName": "bldr_plnt_t_quercusRobur_3sb",
+            "Position": [
+                5840.29345703125,
+                144.66317749023438,
+                4754.4970703125
+            ],
+            "Orientation": [
+                -24.47608757019043,
+                0.37470099329948428,
+                0.5229579210281372
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2sb",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2sb",
+            "Position": [
+                5863.1884765625,
+                146.664794921875,
+                4725.5009765625
+            ],
+            "Orientation": [
+                93.365234375,
+                0.19360998272895814,
+                0.6919580101966858
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1s",
+            "Position": [
+                5848.1328125,
+                139.38291931152345,
+                4731.8515625
+            ],
+            "Orientation": [
+                -160.86373901367188,
+                0.40505698323249819,
+                0.5603209733963013
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                5822.56591796875,
+                142.00198364257813,
+                4721.72265625
+            ],
+            "Orientation": [
+                -160.03338623046876,
+                0.4643809497356415,
+                0.5025349259376526
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5828.26416015625,
+                143.1521453857422,
+                4710.29833984375
+            ],
+            "Orientation": [
+                -35.66701889038086,
+                0.15703698992729188,
+                0.6949699521064758
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5810.81689453125,
+                139.09718322753907,
+                4714.94921875
+            ],
+            "Orientation": [
+                20.830013275146486,
+                0.0841900110244751,
+                0.061032991856336597
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                5820.86181640625,
+                141.0446014404297,
+                4707.28759765625
+            ],
+            "Orientation": [
+                81.42353820800781,
+                0.2689339816570282,
+                0.4173619747161865
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                5832.7412109375,
+                139.43922424316407,
+                4717.6533203125
+            ],
+            "Orientation": [
+                90.96160888671875,
+                0.6802509427070618,
+                0.132192000746727
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                5846.4638671875,
+                142.33837890625,
+                4724.85498046875
+            ],
+            "Orientation": [
+                76.92216491699219,
+                0.07214199751615524,
+                0.312855988740921
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_robiniaPseudoacacia_2s",
+            "DisplayName": "bldr_plnt_t_robiniaPseudoacacia_2s",
+            "Position": [
+                5839.4580078125,
+                145.909423828125,
+                4707.51904296875
+            ],
+            "Orientation": [
+                -118.52140808105469,
+                0.03185199946165085,
+                0.5911469459533691
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_robiniaPseudoacacia_1f",
+            "DisplayName": "bldr_plnt_t_robiniaPseudoacacia_1f",
+            "Position": [
+                5845.71142578125,
+                139.22914123535157,
+                4700.65576171875
+            ],
+            "Orientation": [
+                -42.84513854980469,
+                0.3842709958553314,
+                0.11273100972175598
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_robiniaPseudoacacia_2f",
+            "DisplayName": "bldr_plnt_t_robiniaPseudoacacia_2f",
+            "Position": [
+                5841.287109375,
+                146.35342407226563,
+                4689.29052734375
+            ],
+            "Orientation": [
+                -167.15689086914063,
+                0.4720929265022278,
+                0.41328197717666628
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5828.740234375,
+                143.7114715576172,
+                4689.6611328125
+            ],
+            "Orientation": [
+                -17.12619400024414,
+                0.3109549582004547,
+                0.6914019584655762
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5822.8818359375,
+                142.7902069091797,
+                4694.67919921875
+            ],
+            "Orientation": [
+                158.33993530273438,
+                0.4084329605102539,
+                0.41308996081352236
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                5814.06201171875,
+                140.8278045654297,
+                4692.279296875
+            ],
+            "Orientation": [
+                163.43128967285157,
+                0.17532294988632203,
+                0.26117995381355288
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5811.0283203125,
+                140.4540557861328,
+                4701.02392578125
+            ],
+            "Orientation": [
+                -11.707122802734375,
+                0.25844496488571169,
+                0.24942998588085175
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                5804.35986328125,
+                136.54913330078126,
+                4710.12841796875
+            ],
+            "Orientation": [
+                28.445173263549806,
+                0.32644301652908327,
+                0.08346399664878845
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5850.173828125,
+                145.70736694335938,
+                4654.18017578125
+            ],
+            "Orientation": [
+                -44.49486541748047,
+                0.20048795640468598,
+                0.4578019976615906
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5842.703125,
+                144.6139373779297,
+                4650.9091796875
+            ],
+            "Orientation": [
+                -30.826961517333986,
+                0.23144297301769257,
+                0.5833709836006165
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5850.4345703125,
+                141.69618225097657,
+                4643.72021484375
+            ],
+            "Orientation": [
+                49.78291702270508,
+                0.10967599600553513,
+                0.051761992275714877
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5855.587890625,
+                141.91455078125,
+                4651.6396484375
+            ],
+            "Orientation": [
+                89.71607971191406,
+                0.347804993391037,
+                0.07739698141813278
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5841.08935546875,
+                138.32339477539063,
+                4656.09619140625
+            ],
+            "Orientation": [
+                151.6425323486328,
+                0.018456997349858285,
+                0.04330199584364891
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5843.91064453125,
+                138.81724548339845,
+                4643.4892578125
+            ],
+            "Orientation": [
+                87.62928009033203,
+                0.6959519386291504,
+                0.2584240138530731
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5846.86376953125,
+                139.52076721191407,
+                4649.59716796875
+            ],
+            "Orientation": [
+                -150.53904724121095,
+                0.6106089353561401,
+                0.006045999471098185
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5857.26318359375,
+                142.3199462890625,
+                4635.8828125
+            ],
+            "Orientation": [
+                -105.01195526123047,
+                0.2308659851551056,
+                0.5286189317703247
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5858.9658203125,
+                140.4743194580078,
+                4638.96337890625
+            ],
+            "Orientation": [
+                159.7384033203125,
+                0.3603019714355469,
+                0.21443797647953034
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5859.490234375,
+                140.6479034423828,
+                4631.88330078125
+            ],
+            "Orientation": [
+                -156.54811096191407,
+                0.5187919735908508,
+                0.46446698904037478
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5845.24609375,
+                146.671630859375,
+                4778.3515625
+            ],
+            "Orientation": [
+                118.64717102050781,
+                0.46831193566322329,
+                0.694926917552948
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5854.4404296875,
+                148.6531524658203,
+                4763.716796875
+            ],
+            "Orientation": [
+                -98.42376708984375,
+                0.632420003414154,
+                0.603067934513092
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5849.0,
+                144.25494384765626,
+                4798.142578125
+            ],
+            "Orientation": [
+                45.71858596801758,
+                0.30114901065826418,
+                0.6065280437469482
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5832.78857421875,
+                143.89366149902345,
+                4786.27392578125
+            ],
+            "Orientation": [
+                -48.34070587158203,
+                0.49146896600723269,
+                0.0040799998678267
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5824.37255859375,
+                143.01571655273438,
+                4783.1767578125
+            ],
+            "Orientation": [
+                82.61441802978516,
+                0.6275489330291748,
+                0.07004798948764801
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5828.05810546875,
+                144.45567321777345,
+                4766.85546875
+            ],
+            "Orientation": [
+                -177.1320037841797,
+                0.14663298428058625,
+                0.17372100055217744
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5845.0498046875,
+                142.06564331054688,
+                4782.05517578125
+            ],
+            "Orientation": [
+                -49.29125213623047,
+                0.30493101477622988,
+                0.4818349778652191
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5841.6435546875,
+                142.40782165527345,
+                4768.64697265625
+            ],
+            "Orientation": [
+                116.0031509399414,
+                0.6322489380836487,
+                0.5751469135284424
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5853.5126953125,
+                141.3417205810547,
+                4800.759765625
+            ],
+            "Orientation": [
+                -133.7135467529297,
+                0.4580790400505066,
+                0.08579199016094208
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5854.474609375,
+                141.57772827148438,
+                4807.146484375
+            ],
+            "Orientation": [
+                -126.80858612060547,
+                0.6955040097236633,
+                0.633872926235199
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5886.58544921875,
+                148.88450622558595,
+                4804.48193359375
+            ],
+            "Orientation": [
+                -8.145318031311036,
+                0.07585899531841278,
+                0.20322299003601075
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5877.94921875,
+                148.0203857421875,
+                4803.70703125
+            ],
+            "Orientation": [
+                33.722251892089847,
+                0.5017229318618774,
+                0.47707095742225649
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5874.0390625,
+                147.18763732910157,
+                4809.15673828125
+            ],
+            "Orientation": [
+                -143.02218627929688,
+                0.030484996736049653,
+                0.010211000218987465
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5865.74072265625,
+                143.73123168945313,
+                4821.04150390625
+            ],
+            "Orientation": [
+                -82.11182403564453,
+                0.5299429893493652,
+                0.13197799026966096
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                5879.7998046875,
+                144.56765747070313,
+                4812.92041015625
+            ],
+            "Orientation": [
+                -89.74884796142578,
+                0.6246009469032288,
+                0.6404309272766113
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5891.1982421875,
+                144.6861572265625,
+                4806.59912109375
+            ],
+            "Orientation": [
+                -150.02552795410157,
+                0.37905895709991457,
+                0.12531301379203797
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5879.7568359375,
+                143.02880859375,
+                4808.09375
+            ],
+            "Orientation": [
+                158.99546813964845,
+                0.6197089552879334,
+                0.3728419840335846
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5863.41259765625,
+                137.51559448242188,
+                4819.67529296875
+            ],
+            "Orientation": [
+                -17.672504425048829,
+                0.2045469880104065,
+                0.24881099164485932
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5868.03564453125,
+                135.70179748535157,
+                4822.59521484375
+            ],
+            "Orientation": [
+                -174.7501983642578,
+                0.24584098160266877,
+                0.031019002199172975
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5875.73583984375,
+                136.42054748535157,
+                4813.27783203125
+            ],
+            "Orientation": [
+                151.3366241455078,
+                0.15549896657466889,
+                0.2525709569454193
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5858.51611328125,
+                135.44285583496095,
+                4815.115234375
+            ],
+            "Orientation": [
+                -139.8974609375,
+                0.49548494815826418,
+                0.39456793665885928
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5823.04150390625,
+                140.8183135986328,
+                4769.27001953125
+            ],
+            "Orientation": [
+                -37.20749282836914,
+                0.32881399989128115,
+                0.6922569274902344
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5835.6142578125,
+                141.3669891357422,
+                4785.11767578125
+            ],
+            "Orientation": [
+                137.9745635986328,
+                0.038089998066425326,
+                0.6151799559593201
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5828.23876953125,
+                140.73687744140626,
+                4787.646484375
+            ],
+            "Orientation": [
+                17.661579132080079,
+                0.48984599113464358,
+                0.3577389717102051
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5817.60693359375,
+                139.0717315673828,
+                4784.1708984375
+            ],
+            "Orientation": [
+                -132.59912109375,
+                0.6012729406356812,
+                0.6647629737854004
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5822.3681640625,
+                136.3184356689453,
+                4776.4140625
+            ],
+            "Orientation": [
+                -128.4910888671875,
+                0.056866999715566638,
+                0.04355800151824951
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5830.05126953125,
+                137.20150756835938,
+                4780.98876953125
+            ],
+            "Orientation": [
+                170.6421661376953,
+                0.6996699571609497,
+                0.4584639370441437
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5821.58642578125,
+                137.02073669433595,
+                4764.2548828125
+            ],
+            "Orientation": [
+                67.76649475097656,
+                0.6057589650154114,
+                0.10108799487352371
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5818.24853515625,
+                134.28997802734376,
+                4766.66748046875
+            ],
+            "Orientation": [
+                36.7923469543457,
+                0.09510698914527893,
+                0.6847579479217529
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5826.55810546875,
+                135.7948455810547,
+                4763.22509765625
+            ],
+            "Orientation": [
+                -155.76148986816407,
+                0.22627297043800355,
+                0.07517500221729279
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5833.0205078125,
+                136.0517578125,
+                4768.28173828125
+            ],
+            "Orientation": [
+                -55.944976806640628,
+                0.3601739704608917,
+                0.45015400648117068
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5827.32421875,
+                135.3205108642578,
+                4770.46826171875
+            ],
+            "Orientation": [
+                -118.08990478515625,
+                0.18692299723625184,
+                0.4300299286842346
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5832.25927734375,
+                134.25108337402345,
+                4799.30517578125
+            ],
+            "Orientation": [
+                -51.89153289794922,
+                0.4813649654388428,
+                0.4513929784297943
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5820.19775390625,
+                132.49559020996095,
+                4794.9306640625
+            ],
+            "Orientation": [
+                -109.62254333496094,
+                0.27068597078323367,
+                0.29523196816444399
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5842.630859375,
+                136.90032958984376,
+                4758.595703125
+            ],
+            "Orientation": [
+                15.432755470275879,
+                0.5518829226493836,
+                0.24765698611736298
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5847.7705078125,
+                136.82382202148438,
+                4762.04736328125
+            ],
+            "Orientation": [
+                -94.08631134033203,
+                0.21044299006462098,
+                0.04351599141955376
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5838.14013671875,
+                140.6702423095703,
+                4814.20654296875
+            ],
+            "Orientation": [
+                135.10157775878907,
+                0.5446619987487793,
+                0.10882098972797394
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5834.9580078125,
+                136.3162384033203,
+                4808.52490234375
+            ],
+            "Orientation": [
+                175.63519287109376,
+                0.4453689754009247,
+                0.2504339814186096
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5833.787109375,
+                133.94044494628907,
+                4814.947265625
+            ],
+            "Orientation": [
+                137.65771484375,
+                0.3257800042629242,
+                0.3961919844150543
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5832.21240234375,
+                133.78854370117188,
+                4817.953125
+            ],
+            "Orientation": [
+                -19.5189208984375,
+                0.3303089737892151,
+                0.6567949652671814
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5823.57080078125,
+                132.92111206054688,
+                4800.6611328125
+            ],
+            "Orientation": [
+                41.304630279541019,
+                0.07901999354362488,
+                0.6328689455986023
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5827.69970703125,
+                149.77301025390626,
+                4933.22607421875
+            ],
+            "Orientation": [
+                -81.88238525390625,
+                0.2565230131149292,
+                0.29642796516418459
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5831.4873046875,
+                149.59454345703126,
+                4943.95556640625
+            ],
+            "Orientation": [
+                -110.35457611083985,
+                0.1545799970626831,
+                0.08871899545192719
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5837.64697265625,
+                149.24908447265626,
+                4938.74951171875
+            ],
+            "Orientation": [
+                -20.961105346679689,
+                0.2919209599494934,
+                0.09134699404239655
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5841.19384765625,
+                148.86302185058595,
+                4930.248046875
+            ],
+            "Orientation": [
+                -117.39068603515625,
+                0.474528968334198,
+                0.31663694977760317
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5843.41552734375,
+                149.46913146972657,
+                4935.9111328125
+            ],
+            "Orientation": [
+                -107.0550308227539,
+                0.6646989583969116,
+                0.3777129352092743
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5828.94921875,
+                148.54861450195313,
+                4915.23486328125
+            ],
+            "Orientation": [
+                128.14149475097657,
+                0.5752529501914978,
+                0.0713299959897995
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5833.87890625,
+                147.42889404296876,
+                4906.6767578125
+            ],
+            "Orientation": [
+                147.31597900390626,
+                0.36055895686149599,
+                0.54231196641922
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5838.673828125,
+                146.379638671875,
+                4898.67138671875
+            ],
+            "Orientation": [
+                -41.86182403564453,
+                0.35205596685409548,
+                0.30689603090286257
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5847.931640625,
+                146.5010986328125,
+                4909.81494140625
+            ],
+            "Orientation": [
+                -109.66625213623047,
+                0.5817689895629883,
+                0.31082698702812197
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5854.48486328125,
+                148.35459899902345,
+                4915.59716796875
+            ],
+            "Orientation": [
+                28.63090705871582,
+                0.6360729932785034,
+                0.42981699109077456
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5836.1875,
+                146.26560974121095,
+                4890.92578125
+            ],
+            "Orientation": [
+                125.41011047363281,
+                0.5726468563079834,
+                0.27412596344947817
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                5861.80712890625,
+                148.26234436035157,
+                4913.853515625
+            ],
+            "Orientation": [
+                142.9894256591797,
+                0.6523299217224121,
+                0.33569297194480898
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5859.25439453125,
+                146.82240295410157,
+                4919.16552734375
+            ],
+            "Orientation": [
+                -175.886474609375,
+                0.6366710066795349,
+                0.0050839995965361599
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5852.9375,
+                145.32672119140626,
+                4911.7470703125
+            ],
+            "Orientation": [
+                -174.92503356933595,
+                0.16111698746681214,
+                0.2215309888124466
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5831.35498046875,
+                146.945556640625,
+                4926.65625
+            ],
+            "Orientation": [
+                130.37034606933595,
+                0.6025339365005493,
+                0.5690799355506897
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                5843.4169921875,
+                147.89276123046876,
+                4942.046875
+            ],
+            "Orientation": [
+                110.10327911376953,
+                0.1585109978914261,
+                0.4551528990268707
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5858.36669921875,
+                143.50314331054688,
+                4914.787109375
+            ],
+            "Orientation": [
+                -84.93064880371094,
+                0.3378719985485077,
+                0.3169359564781189
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5836.05859375,
+                142.1209716796875,
+                4901.8662109375
+            ],
+            "Orientation": [
+                -60.36980438232422,
+                0.3091389834880829,
+                0.12418099492788315
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5841.30419921875,
+                141.43399047851563,
+                4889.322265625
+            ],
+            "Orientation": [
+                176.81517028808595,
+                0.1279199868440628,
+                0.0455239973962307
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5846.8203125,
+                145.2603302001953,
+                4938.48974609375
+            ],
+            "Orientation": [
+                -119.96916198730469,
+                0.18995697796344758,
+                0.6059519648551941
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5837.0078125,
+                144.49169921875,
+                4933.06640625
+            ],
+            "Orientation": [
+                -107.00041961669922,
+                0.2821369767189026,
+                0.6845019459724426
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5826.322265625,
+                145.60296630859376,
+                4945.853515625
+            ],
+            "Orientation": [
+                5.993011951446533,
+                0.18747900426387788,
+                0.35598695278167727
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5836.2216796875,
+                144.7859649658203,
+                4949.36279296875
+            ],
+            "Orientation": [
+                -59.61598587036133,
+                0.5442559719085693,
+                0.6918720602989197
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                5833.900390625,
+                143.7257843017578,
+                4917.87451171875
+            ],
+            "Orientation": [
+                97.451416015625,
+                0.6061440110206604,
+                0.580315887928009
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                5840.6123046875,
+                144.1490020751953,
+                4926.35546875
+            ],
+            "Orientation": [
+                156.8540496826172,
+                0.2749159336090088,
+                0.32584497332572939
+            ],
+            "Scale": 0.9999998807907105,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5866.04443359375,
+                138.99574279785157,
+                4904.19677734375
+            ],
+            "Orientation": [
+                29.49403190612793,
+                0.4264409840106964,
+                0.48354294896125796
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5856.88671875,
+                138.552978515625,
+                4909.24365234375
+            ],
+            "Orientation": [
+                120.37337493896485,
+                0.3826259672641754,
+                0.5430809855461121
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5855.41015625,
+                137.00332641601563,
+                4893.19140625
+            ],
+            "Orientation": [
+                -160.0770721435547,
+                0.06487798690795899,
+                0.3610069453716278
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5838.44384765625,
+                137.63116455078126,
+                4895.75244140625
+            ],
+            "Orientation": [
+                -3.960815906524658,
+                0.21411798894405366,
+                0.08846300095319748
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5844.06591796875,
+                140.45228576660157,
+                4931.20361328125
+            ],
+            "Orientation": [
+                -7.194777488708496,
+                0.4235149621963501,
+                0.26846396923065188
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5857.2900390625,
+                141.7764434814453,
+                4942.50390625
+            ],
+            "Orientation": [
+                172.82730102539063,
+                0.202239990234375,
+                0.6196449995040894
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5840.759765625,
+                142.21279907226563,
+                4954.748046875
+            ],
+            "Orientation": [
+                -22.44696807861328,
+                0.3253529667854309,
+                0.5329339504241943
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                5825.30810546875,
+                141.21096801757813,
+                4937.40283203125
+            ],
+            "Orientation": [
+                -173.9635772705078,
+                0.02994999848306179,
+                0.28245699405670168
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5839.94384765625,
+                138.73037719726563,
+                4938.6787109375
+            ],
+            "Orientation": [
+                -98.40190887451172,
+                0.5518190264701843,
+                0.6901418566703796
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5839.46533203125,
+                139.66969299316407,
+                4951.8134765625
+            ],
+            "Orientation": [
+                167.714111328125,
+                0.34528499841690066,
+                0.31443700194358828
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5849.27978515625,
+                140.38011169433595,
+                4954.587890625
+            ],
+            "Orientation": [
+                -49.21475601196289,
+                0.04590799659490585,
+                0.5026419162750244
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5850.04736328125,
+                140.83462524414063,
+                4962.16748046875
+            ],
+            "Orientation": [
+                -107.2188949584961,
+                0.21832598745822907,
+                0.08177599310874939
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5852.8330078125,
+                137.2034912109375,
+                4913.78076171875
+            ],
+            "Orientation": [
+                146.71505737304688,
+                0.14020299911499024,
+                0.497065931558609
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5850.2900390625,
+                135.9260711669922,
+                4908.77685546875
+            ],
+            "Orientation": [
+                -175.9411163330078,
+                0.43199601769447329,
+                0.5366729497909546
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5831.34130859375,
+                137.2672882080078,
+                4910.1826171875
+            ],
+            "Orientation": [
+                23.364757537841798,
+                0.6404740214347839,
+                0.5290669798851013
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5865.07958984375,
+                136.43771362304688,
+                4900.431640625
+            ],
+            "Orientation": [
+                -96.94883728027344,
+                0.3040119707584381,
+                0.1798519641160965
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                5856.865234375,
+                135.08419799804688,
+                4898.0556640625
+            ],
+            "Orientation": [
+                -124.208251953125,
+                0.012325999327003956,
+                0.34383195638656618
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5868.64892578125,
+                136.78660583496095,
+                4901.16064453125
+            ],
+            "Orientation": [
+                -139.41673278808595,
+                0.5032610297203064,
+                0.07553800195455551
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5852.79736328125,
+                134.8255615234375,
+                4884.32275390625
+            ],
+            "Orientation": [
+                95.9109115600586,
+                0.2590649724006653,
+                0.4766649603843689
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5835.71923828125,
+                135.4306182861328,
+                4888.12255859375
+            ],
+            "Orientation": [
+                84.85417175292969,
+                0.17083698511123658,
+                0.5019159913063049
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                5833.47412109375,
+                136.8579559326172,
+                4908.42041015625
+            ],
+            "Orientation": [
+                163.6497802734375,
+                0.46318498253822329,
+                0.2720319926738739
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        }
+    ],
+    "EditorDeletedObjects": []
+}

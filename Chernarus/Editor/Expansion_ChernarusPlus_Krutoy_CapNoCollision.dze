@@ -1,0 +1,332 @@
+{
+    "Version": 1,
+    "MapName": "ChernarusPlus",
+    "CameraPosition": [
+        12983.0,
+        23.86052131652832,
+        5539.10009765625
+    ],
+    "EditorObjects": [
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                13252.001953125,
+                6.588438987731934,
+                4052.410400390625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_prunusSpinosa_1s",
+            "DisplayName": "bldr_plnt_b_prunusSpinosa_1s",
+            "Position": [
+                13259.96484375,
+                7.176039218902588,
+                4055.993896484375
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_prunusSpinosa_2s",
+            "DisplayName": "bldr_plnt_b_prunusSpinosa_2s",
+            "Position": [
+                13258.876953125,
+                8.315717697143555,
+                4051.535400390625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_PiceaAbies_1fb",
+            "DisplayName": "bldr_plnt_b_PiceaAbies_1fb",
+            "Position": [
+                13254.0693359375,
+                6.444533824920654,
+                4055.78271484375
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_b_PiceaAbies_1f",
+            "Position": [
+                13253.93359375,
+                6.390042781829834,
+                4053.89697265625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_PiceaAbies_1fb",
+            "DisplayName": "bldr_plnt_b_PiceaAbies_1fb",
+            "Position": [
+                13252.7509765625,
+                6.531147003173828,
+                4062.14892578125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_c_Pines",
+            "DisplayName": "bldr_plnt_c_Pines",
+            "Position": [
+                13252.419921875,
+                6.393803119659424,
+                4059.79931640625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_path_panels_damaged",
+            "DisplayName": "bldr_path_panels_damaged",
+            "Position": [
+                13268.279296875,
+                6.112667083740234,
+                4081.982177734375
+            ],
+            "Orientation": [
+                50.9999885559082,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_path_panels_damaged",
+            "DisplayName": "bldr_path_panels_damaged",
+            "Position": [
+                13265.6787109375,
+                6.1024041175842289,
+                4079.6708984375
+            ],
+            "Orientation": [
+                -134.9999542236328,
+                -0.9999999403953552,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_path_panels",
+            "DisplayName": "bldr_path_panels",
+            "Position": [
+                13263.5390625,
+                6.064914226531982,
+                4077.06982421875
+            ],
+            "Orientation": [
+                35.999996185302737,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_path_panels_damaged",
+            "DisplayName": "bldr_path_panels_damaged",
+            "Position": [
+                13262.04296875,
+                6.0765299797058109,
+                4074.22021484375
+            ],
+            "Orientation": [
+                -164.00001525878907,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_path_panels_damaged",
+            "DisplayName": "bldr_path_panels_damaged",
+            "Position": [
+                13261.8134765625,
+                5.9937849044799809,
+                4070.87158203125
+            ],
+            "Orientation": [
+                -6.0,
+                1.9999998807907105,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_path_panels_damaged",
+            "DisplayName": "bldr_path_panels_damaged",
+            "Position": [
+                13261.982421875,
+                5.914735794067383,
+                4067.579833984375
+            ],
+            "Orientation": [
+                0.0,
+                1.5,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_path_panels",
+            "DisplayName": "bldr_path_panels",
+            "Position": [
+                13264.521484375,
+                5.948503017425537,
+                4068.342041015625
+            ],
+            "Orientation": [
+                49.99998092651367,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_path_panels_damaged",
+            "DisplayName": "bldr_path_panels_damaged",
+            "Position": [
+                13261.7353515625,
+                5.945075988769531,
+                4066.04736328125
+            ],
+            "Orientation": [
+                49.99998474121094,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_path_panels_damaged",
+            "DisplayName": "bldr_path_panels_damaged",
+            "Position": [
+                13258.8623046875,
+                5.945517063140869,
+                4063.856201171875
+            ],
+            "Orientation": [
+                49.999996185302737,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_rds_path_dirt_curve",
+            "DisplayName": "bldr_rds_path_dirt_curve",
+            "Position": [
+                13253.5947265625,
+                5.857093811035156,
+                4058.35595703125
+            ],
+            "Orientation": [
+                32.000003814697269,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_rds_path_dirt_curve",
+            "DisplayName": "bldr_rds_path_dirt_curve",
+            "Position": [
+                13249.66796875,
+                5.769000053405762,
+                4049.419921875
+            ],
+            "Orientation": [
+                -1.9999998807907105,
+                0.9999999403953552,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_rds_path_dirt_curve",
+            "DisplayName": "bldr_rds_path_dirt_curve",
+            "Position": [
+                13247.6865234375,
+                5.696138858795166,
+                4042.841064453125
+            ],
+            "Orientation": [
+                -175.99998474121095,
+                -0.9999999403953552,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_rds_path_dirt_curve",
+            "DisplayName": "bldr_rds_path_dirt_curve",
+            "Position": [
+                13248.7373046875,
+                5.576694011688232,
+                4034.422119140625
+            ],
+            "Orientation": [
+                -24.000003814697267,
+                0.9999999403953552,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        }
+    ],
+    "EditorDeletedObjects": []
+}

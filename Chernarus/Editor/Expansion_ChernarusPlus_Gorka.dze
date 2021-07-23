@@ -1,0 +1,1948 @@
+{
+    "Version": 1,
+    "MapName": "ChernarusPlus",
+    "CameraPosition": [
+        10896.0966796875,
+        205.25901794433595,
+        2253.333740234375
+    ],
+    "EditorObjects": [
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2fb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2fb",
+            "Position": [
+                9411.400390625,
+                318.28729248046877,
+                8764.677734375
+            ],
+            "Orientation": [
+                -61.9431266784668,
+                0.36164796352386477,
+                0.5558990240097046
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2f",
+            "Position": [
+                9400.1787109375,
+                323.7428283691406,
+                8762.67578125
+            ],
+            "Orientation": [
+                42.561073303222659,
+                0.506956934928894,
+                0.1544089913368225
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2fb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2fb",
+            "Position": [
+                9420.5068359375,
+                316.7237854003906,
+                8755.41796875
+            ],
+            "Orientation": [
+                -139.41673278808595,
+                0.46036496758461,
+                0.6212038993835449
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9383.8642578125,
+                326.8202819824219,
+                8768.0859375
+            ],
+            "Orientation": [
+                84.86448669433594,
+                0.3293909728527069,
+                0.4041169285774231
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2fb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2fb",
+            "Position": [
+                9386.6220703125,
+                328.6831359863281,
+                8772.595703125
+            ],
+            "Orientation": [
+                74.2781753540039,
+                0.6741199493408203,
+                0.48924803733825686
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2f",
+            "Position": [
+                9395.8642578125,
+                325.42535400390627,
+                8766.4931640625
+            ],
+            "Orientation": [
+                -45.532840728759769,
+                0.17756599187850953,
+                0.6790969371795654
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_3d",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_3d",
+            "Position": [
+                9409.29296875,
+                316.5147399902344,
+                8769.240234375
+            ],
+            "Orientation": [
+                -136.9056396484375,
+                0.20243199169635774,
+                0.5707249641418457
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_3f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_3f",
+            "Position": [
+                9413.0751953125,
+                318.57867431640627,
+                8776.0146484375
+            ],
+            "Orientation": [
+                115.52241516113281,
+                0.18679498136043549,
+                0.21644598245620728
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_3fb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_3fb",
+            "Position": [
+                9417.4111328125,
+                315.8420715332031,
+                8772.28515625
+            ],
+            "Orientation": [
+                58.5671272277832,
+                0.28243598341941836,
+                0.062079984694719318
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_3fc",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_3fc",
+            "Position": [
+                9389.919921875,
+                325.86492919921877,
+                8778.9677734375
+            ],
+            "Orientation": [
+                -121.3785171508789,
+                0.4383399784564972,
+                0.0014309999532997609
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_3s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_3s",
+            "Position": [
+                9397.6396484375,
+                323.5653076171875,
+                8776.337890625
+            ],
+            "Orientation": [
+                69.90792846679688,
+                0.2757059335708618,
+                0.4375709295272827
+            ],
+            "Scale": 0.9999998807907105,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2f",
+            "Position": [
+                9411.8896484375,
+                318.81219482421877,
+                8780.76953125
+            ],
+            "Orientation": [
+                167.9217529296875,
+                0.184487983584404,
+                0.25498491525650027
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2f",
+            "Position": [
+                9398.99609375,
+                322.44757080078127,
+                8790.0830078125
+            ],
+            "Orientation": [
+                -119.69596862792969,
+                0.1891239881515503,
+                0.09373899549245835
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2fb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2fb",
+            "Position": [
+                9408.4951171875,
+                319.275146484375,
+                8791.0537109375
+            ],
+            "Orientation": [
+                104.47659301757813,
+                0.4321659803390503,
+                0.11208999156951904
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9400.431640625,
+                318.5086669921875,
+                8797.8603515625
+            ],
+            "Orientation": [
+                -168.0746307373047,
+                0.3459039628505707,
+                0.251118004322052
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2fb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2fb",
+            "Position": [
+                9397.8994140625,
+                323.3968200683594,
+                8786.9228515625
+            ],
+            "Orientation": [
+                172.37939453125,
+                0.6301549673080444,
+                0.062251001596450809
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                9390.224609375,
+                322.28460693359377,
+                8787.65625
+            ],
+            "Orientation": [
+                122.54759216308594,
+                0.21851901710033418,
+                0.18435999751091004
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                9411.0859375,
+                315.3852844238281,
+                8787.1884765625
+            ],
+            "Orientation": [
+                66.77227020263672,
+                0.6354109644889832,
+                0.6957209706306458
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                9403.9599609375,
+                313.3533630371094,
+                8789.7529296875
+            ],
+            "Orientation": [
+                -0.9999839067459106,
+                0.4516489505767822,
+                0.22349600493907929
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                9406.9365234375,
+                309.89508056640627,
+                8795.7744140625
+            ],
+            "Orientation": [
+                70.49790954589844,
+                0.6583110094070435,
+                0.4573739469051361
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                9413.6513671875,
+                316.8614196777344,
+                8796.369140625
+            ],
+            "Orientation": [
+                175.1107635498047,
+                0.6809129118919373,
+                0.4049079716205597
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                9411.7353515625,
+                315.7223205566406,
+                8805.0869140625
+            ],
+            "Orientation": [
+                58.35954284667969,
+                0.3721369802951813,
+                0.1622919887304306
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                9418.447265625,
+                314.51800537109377,
+                8781.4892578125
+            ],
+            "Orientation": [
+                57.769554138183597,
+                0.3672879636287689,
+                0.2423809915781021
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                9400.2197265625,
+                316.6673889160156,
+                8805.267578125
+            ],
+            "Orientation": [
+                140.3563690185547,
+                0.40116897225379946,
+                0.47429290413856509
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                9422.130859375,
+                307.36712646484377,
+                8785.775390625
+            ],
+            "Orientation": [
+                -61.71368408203125,
+                0.17192699015140534,
+                0.09694398939609528
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                9414.951171875,
+                307.6163024902344,
+                8791.3525390625
+            ],
+            "Orientation": [
+                151.90475463867188,
+                0.5216969847679138,
+                0.4826889634132385
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                9416.4208984375,
+                306.849853515625,
+                8798.076171875
+            ],
+            "Orientation": [
+                -91.0380630493164,
+                0.009142998605966568,
+                0.37846094369888308
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9425.1416015625,
+                311.3779296875,
+                8780.44140625
+            ],
+            "Orientation": [
+                0.006415999494493008,
+                0.6876619458198547,
+                0.5346059799194336
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2fb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2fb",
+            "Position": [
+                9422.044921875,
+                314.9776916503906,
+                8802.8515625
+            ],
+            "Orientation": [
+                -175.8318634033203,
+                0.6720259785652161,
+                0.45199090242385867
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2f",
+            "Position": [
+                9426.134765625,
+                314.84686279296877,
+                8796.955078125
+            ],
+            "Orientation": [
+                -89.27906036376953,
+                0.4649369716644287,
+                0.3822629749774933
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9424.0595703125,
+                311.61810302734377,
+                8792.3291015625
+            ],
+            "Orientation": [
+                138.87046813964845,
+                0.5244529247283936,
+                0.026382997632026674
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9442.173828125,
+                311.3521423339844,
+                8786.59765625
+            ],
+            "Orientation": [
+                -163.35476684570313,
+                0.23949699103832246,
+                0.660660982131958
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9448.3173828125,
+                312.39459228515627,
+                8793.4365234375
+            ],
+            "Orientation": [
+                -86.14338684082031,
+                0.003716999664902687,
+                0.1545800119638443
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9446.5302734375,
+                312.28533935546877,
+                8786.3740234375
+            ],
+            "Orientation": [
+                137.22068786621095,
+                0.6814679503440857,
+                0.5776459574699402
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2fb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2fb",
+            "Position": [
+                9441.2392578125,
+                314.79840087890627,
+                8802.951171875
+            ],
+            "Orientation": [
+                100.06265258789063,
+                0.2733779847621918,
+                0.15462298691272736
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9438.998046875,
+                311.64971923828127,
+                8768.9287109375
+            ],
+            "Orientation": [
+                -39.337989807128909,
+                0.6148169636726379,
+                0.015145998448133469
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9425.837890625,
+                312.65081787109377,
+                8765.7783203125
+            ],
+            "Orientation": [
+                167.84523010253907,
+                0.08169098943471909,
+                0.21514299511909486
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9440.4091796875,
+                311.67852783203127,
+                8730.078125
+            ],
+            "Orientation": [
+                3.1086459159851076,
+                0.639661967754364,
+                0.4617749750614166
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9439.587890625,
+                311.2919006347656,
+                8735.3408203125
+            ],
+            "Orientation": [
+                11.881921768188477,
+                0.3792939782142639,
+                0.2034369856119156
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9428.208984375,
+                311.6354064941406,
+                8742.791015625
+            ],
+            "Orientation": [
+                80.23263549804688,
+                0.10907799005508423,
+                0.08190399408340454
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_3d",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_3d",
+            "Position": [
+                9432.7216796875,
+                312.2878112792969,
+                8736.244140625
+            ],
+            "Orientation": [
+                23.80177879333496,
+                0.6015080213546753,
+                0.4803389608860016
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_3f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_3f",
+            "Position": [
+                9433.7314453125,
+                315.77655029296877,
+                8741.9248046875
+            ],
+            "Orientation": [
+                89.31182861328125,
+                0.05430399626493454,
+                0.67631995677948
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9445.7890625,
+                311.6284484863281,
+                8751.474609375
+            ],
+            "Orientation": [
+                -17.81454849243164,
+                0.06152400001883507,
+                0.661194920539856
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9444.3916015625,
+                312.38226318359377,
+                8745.7099609375
+            ],
+            "Orientation": [
+                -18.885242462158204,
+                0.12215199321508408,
+                0.16564598679542542
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                9425.509765625,
+                312.38787841796877,
+                8753.978515625
+            ],
+            "Orientation": [
+                127.5733642578125,
+                0.17013198137283326,
+                0.6480998992919922
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                9436.166015625,
+                311.48956298828127,
+                8738.32421875
+            ],
+            "Orientation": [
+                92.6441421508789,
+                0.4648509621620178,
+                0.3279170095920563
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                9430.875,
+                307.5705261230469,
+                8743.6220703125
+            ],
+            "Orientation": [
+                15.836996078491211,
+                0.5171470046043396,
+                0.34434497356414797
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                9429.4765625,
+                307.6113586425781,
+                8762.810546875
+            ],
+            "Orientation": [
+                148.15724182128907,
+                0.5698699951171875,
+                0.24910998344421388
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                9434.6650390625,
+                305.6861877441406,
+                8765.4140625
+            ],
+            "Orientation": [
+                17.73805809020996,
+                0.5455169677734375,
+                0.02290099859237671
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                9447.046875,
+                305.5521240234375,
+                8762.19140625
+            ],
+            "Orientation": [
+                73.3494873046875,
+                0.3898469805717468,
+                0.3135400414466858
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                9446.208984375,
+                307.4366455078125,
+                8788.970703125
+            ],
+            "Orientation": [
+                104.86990356445313,
+                0.04041799530386925,
+                0.503218948841095
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                9448.0771484375,
+                305.4555969238281,
+                8784.6142578125
+            ],
+            "Orientation": [
+                2.8355047702789308,
+                0.48461198806762698,
+                0.46583399176597597
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                9439.2978515625,
+                305.3168029785156,
+                8782.0439453125
+            ],
+            "Orientation": [
+                -15.563860893249512,
+                0.6509630084037781,
+                0.16372300684452058
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_d_PinusSylvestris_fallen",
+            "DisplayName": "bldr_plnt_d_PinusSylvestris_fallen",
+            "Position": [
+                9444.0849609375,
+                303.9234619140625,
+                8779.5654296875
+            ],
+            "Orientation": [
+                -124.12789154052735,
+                -52.76377487182617,
+                1.049691081047058
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_d_PinusSylvestris_stump",
+            "DisplayName": "bldr_plnt_d_PinusSylvestris_stump",
+            "Position": [
+                9447.38671875,
+                304.8166198730469,
+                8774.728515625
+            ],
+            "Orientation": [
+                -160.9730224609375,
+                0.22524793446063996,
+                0.35532498359680178
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9452.369140625,
+                311.638427734375,
+                8759.724609375
+            ],
+            "Orientation": [
+                133.96485900878907,
+                0.3340909779071808,
+                0.3610289394855499
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9461.4677734375,
+                310.9837951660156,
+                8745.8955078125
+            ],
+            "Orientation": [
+                -130.41403198242188,
+                0.00002099999983329326,
+                0.4089239835739136
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9454.1318359375,
+                309.5433654785156,
+                8716.2744140625
+            ],
+            "Orientation": [
+                -68.30181884765625,
+                0.4043949842453003,
+                0.02482299879193306
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9468.6640625,
+                309.0718688964844,
+                8715.0966796875
+            ],
+            "Orientation": [
+                40.33225631713867,
+                0.6648909449577332,
+                0.616910994052887
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9467.2060546875,
+                310.5223083496094,
+                8739.6455078125
+            ],
+            "Orientation": [
+                -160.0006103515625,
+                0.06361798942089081,
+                0.39345696568489077
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2sb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2sb",
+            "Position": [
+                9474.0126953125,
+                310.4679260253906,
+                8739.6083984375
+            ],
+            "Orientation": [
+                -80.23262023925781,
+                0.11330797523260117,
+                0.45028194785118105
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9473.701171875,
+                310.555908203125,
+                8723.958984375
+            ],
+            "Orientation": [
+                7.041870594024658,
+                0.4532510042190552,
+                0.2689560055732727
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9463.2705078125,
+                309.5867919921875,
+                8712.10546875
+            ],
+            "Orientation": [
+                -67.38406372070313,
+                0.14571499824523927,
+                0.3823919892311096
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2s",
+            "Position": [
+                9459.814453125,
+                310.911865234375,
+                8734.4150390625
+            ],
+            "Orientation": [
+                97.49513244628906,
+                0.35267597436904909,
+                0.1669059842824936
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_2fb",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_2fb",
+            "Position": [
+                9468.162109375,
+                313.0703125,
+                8725.390625
+            ],
+            "Orientation": [
+                110.49661254882813,
+                0.5264179110527039,
+                0.291579008102417
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_3d",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_3d",
+            "Position": [
+                9475.3857421875,
+                310.70611572265627,
+                8734.30078125
+            ],
+            "Orientation": [
+                -12.941694259643555,
+                0.31749197840690615,
+                0.41379496455192568
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_3fc",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_3fc",
+            "Position": [
+                9452.1435546875,
+                314.15032958984377,
+                8736.1748046875
+            ],
+            "Orientation": [
+                78.6047134399414,
+                0.28559696674346926,
+                0.15541300177574159
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                9470.6767578125,
+                309.2323303222656,
+                8719.478515625
+            ],
+            "Orientation": [
+                -32.20355987548828,
+                0.18478699028491975,
+                0.6721979379653931
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                9476.0078125,
+                304.8459777832031,
+                8718.9111328125
+            ],
+            "Orientation": [
+                127.62799072265625,
+                0.03020700067281723,
+                0.49727994203567507
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                9473.0234375,
+                303.8133239746094,
+                8726.9609375
+            ],
+            "Orientation": [
+                142.13722229003907,
+                0.3965120017528534,
+                0.048813994973897937
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                9471.6943359375,
+                304.0454406738281,
+                8733.111328125
+            ],
+            "Orientation": [
+                7.5116753578186039,
+                0.3082839846611023,
+                0.37271395325660708
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_carpinus_2s",
+            "DisplayName": "bldr_plnt_t_carpinus_2s",
+            "Position": [
+                9465.2578125,
+                311.509765625,
+                8789.9541015625
+            ],
+            "Orientation": [
+                149.88442993164063,
+                0.22449995577335359,
+                0.2866649627685547
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1f",
+            "Position": [
+                9452.6103515625,
+                305.89013671875,
+                8772.560546875
+            ],
+            "Orientation": [
+                141.65652465820313,
+                0.16564598679542542,
+                0.6742689609527588
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1f",
+            "Position": [
+                9475.5283203125,
+                305.32781982421877,
+                8758.01171875
+            ],
+            "Orientation": [
+                -105.03378295898438,
+                0.5789709687232971,
+                0.08463899046182633
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9466.416015625,
+                304.3036193847656,
+                8753.1455078125
+            ],
+            "Orientation": [
+                -119.30265808105469,
+                0.285554975271225,
+                0.31486397981643679
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9448.1474609375,
+                305.1157531738281,
+                8759.126953125
+            ],
+            "Orientation": [
+                73.17469024658203,
+                0.015957999974489213,
+                0.5831789970397949
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9447.009765625,
+                305.04107666015627,
+                8795.7734375
+            ],
+            "Orientation": [
+                4.40879487991333,
+                0.4744429588317871,
+                0.27970099449157717
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9447.45703125,
+                305.0061950683594,
+                8807.6015625
+            ],
+            "Orientation": [
+                143.4920196533203,
+                0.6932608485221863,
+                0.14107897877693177
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1f",
+            "Position": [
+                9444.119140625,
+                305.7596435546875,
+                8796.76953125
+            ],
+            "Orientation": [
+                -135.8221893310547,
+                0.18367598950862885,
+                0.4346869885921478
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1f",
+            "Position": [
+                9425.0380859375,
+                305.9261474609375,
+                8796.6376953125
+            ],
+            "Orientation": [
+                -42.86698913574219,
+                0.5501519441604614,
+                0.18177497386932374
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1f",
+            "Position": [
+                9422.6591796875,
+                306.10723876953127,
+                8804.6025390625
+            ],
+            "Orientation": [
+                -36.81418991088867,
+                0.3275749683380127,
+                0.5442559123039246
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9425.712890625,
+                305.0774230957031,
+                8798.22265625
+            ],
+            "Orientation": [
+                -51.662109375,
+                0.44895797967910769,
+                0.6365219354629517
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9425.1005859375,
+                305.05584716796877,
+                8793.4208984375
+            ],
+            "Orientation": [
+                125.49750518798828,
+                0.6064859628677368,
+                0.6023199558258057
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9425.0439453125,
+                304.86358642578127,
+                8784.32421875
+            ],
+            "Orientation": [
+                79.3258056640625,
+                0.16190798580646516,
+                0.6601909399032593
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1f",
+            "Position": [
+                9425.2255859375,
+                306.479248046875,
+                8761.091796875
+            ],
+            "Orientation": [
+                58.85118103027344,
+                0.41731899976730349,
+                0.2005309909582138
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1f",
+            "Position": [
+                9455.3056640625,
+                305.8250427246094,
+                8762.978515625
+            ],
+            "Orientation": [
+                78.8450927734375,
+                0.14045897126197816,
+                0.2895919680595398
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9459.09765625,
+                304.91546630859377,
+                8761.75
+            ],
+            "Orientation": [
+                -136.90382385253907,
+                0.5395560264587402,
+                0.23616400361061097
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9451.8857421875,
+                304.980712890625,
+                8751.9716796875
+            ],
+            "Orientation": [
+                -159.9022979736328,
+                0.15126898884773255,
+                0.609283983707428
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1f",
+            "Position": [
+                9450.3486328125,
+                305.669921875,
+                8745.6064453125
+            ],
+            "Orientation": [
+                -28.70741081237793,
+                0.6097109913825989,
+                0.29824399948120119
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1f",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1f",
+            "Position": [
+                9441.7529296875,
+                305.5494079589844,
+                8738.0703125
+            ],
+            "Orientation": [
+                157.44403076171876,
+                0.5866820216178894,
+                0.3033069670200348
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9444.28515625,
+                305.07244873046877,
+                8747.6435546875
+            ],
+            "Orientation": [
+                -100.49964904785156,
+                0.5986239314079285,
+                0.25276294350624087
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9450.3037109375,
+                304.65631103515627,
+                8740.529296875
+            ],
+            "Orientation": [
+                -13.575399398803711,
+                0.5438079237937927,
+                0.005233999341726303
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PinusSylvestris_1s",
+            "DisplayName": "bldr_plnt_t_PinusSylvestris_1s",
+            "Position": [
+                9457.7060546875,
+                304.75439453125,
+                8750.0361328125
+            ],
+            "Orientation": [
+                -83.52124786376953,
+                0.4295389652252197,
+                0.6597210168838501
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                9459.5,
+                305.50726318359377,
+                8768.6455078125
+            ],
+            "Orientation": [
+                40.71465301513672,
+                0.6590589284896851,
+                0.24120596051216126
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_hb02_aban2_blue",
+            "DisplayName": "Land_Wreck_hb02_aban2_blue",
+            "Position": [
+                9443.55859375,
+                304.7010498046875,
+                8827.62109375
+            ],
+            "Orientation": [
+                0.00020399998174980283,
+                0.07646799087524414,
+                0.15270496904850007
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1f",
+            "Position": [
+                9463.8203125,
+                309.00994873046877,
+                8776.2216796875
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                1.6040308475494385
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1fb",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1fb",
+            "Position": [
+                9481.7939453125,
+                306.2974853515625,
+                8796.62109375
+            ],
+            "Orientation": [
+                -0.016498997807502748,
+                2.06154203414917,
+                -0.45863497257232668
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_sed01_aban2_white",
+            "DisplayName": "Land_Wreck_sed01_aban2_white",
+            "Position": [
+                9526.6953125,
+                304.4800109863281,
+                8820.5205078125
+            ],
+            "Orientation": [
+                103.12781524658203,
+                -3.0,
+                1.9999998807907105
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Forest_HumanSkeleton",
+            "DisplayName": "bldr_Forest_HumanSkeleton",
+            "Position": [
+                9499.138671875,
+                304.14923095703127,
+                8794.23828125
+            ],
+            "Orientation": [
+                -100.0779037475586,
+                21.00006866455078,
+                11.000020980834961
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_3s_summer",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_3s_summer",
+            "Position": [
+                9476.1865234375,
+                315.7609558105469,
+                8826.4990234375
+            ],
+            "Orientation": [
+                88.0001449584961,
+                -0.07623199373483658,
+                -0.3821060061454773
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Garbage_Pile7",
+            "DisplayName": "bldr_Garbage_Pile7",
+            "Position": [
+                9450.8330078125,
+                304.6453552246094,
+                8802.9716796875
+            ],
+            "Orientation": [
+                -97.99999237060547,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Garbage_Pile8",
+            "DisplayName": "bldr_Garbage_Pile8",
+            "Position": [
+                9460.45703125,
+                304.6910400390625,
+                8808.4697265625
+            ],
+            "Orientation": [
+                -99.2037353515625,
+                0.058639999479055408,
+                0.1344989836215973
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                9484.822265625,
+                311.8487854003906,
+                8809.6337890625
+            ],
+            "Orientation": [
+                -71.1206283569336,
+                0.15784898400306703,
+                0.04157199710607529
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1s",
+            "Position": [
+                9490.82421875,
+                308.1199951171875,
+                8809.40234375
+            ],
+            "Orientation": [
+                146.60580444335938,
+                0.18314200639724732,
+                0.1828639805316925
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Garbage_Pile7",
+            "DisplayName": "bldr_Garbage_Pile7",
+            "Position": [
+                9446.66015625,
+                304.6148986816406,
+                8824.36328125
+            ],
+            "Orientation": [
+                13.117488861083985,
+                0.4683759808540344,
+                0.18301399052143098
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_malusDomestica_2s",
+            "DisplayName": "bldr_plnt_t_malusDomestica_2s",
+            "Position": [
+                9560.25390625,
+                307.716552734375,
+                8835.888671875
+            ],
+            "Orientation": [
+                116.81165313720703,
+                0.05502999201416969,
+                0.43195295333862307
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_malusDomestica_3s",
+            "DisplayName": "bldr_plnt_t_malusDomestica_3s",
+            "Position": [
+                9554.224609375,
+                308.9583740234375,
+                8827.9248046875
+            ],
+            "Orientation": [
+                7.609994888305664,
+                0.33646196126937868,
+                0.6883940100669861
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1s",
+            "Position": [
+                9554.720703125,
+                307.0741271972656,
+                8837.541015625
+            ],
+            "Orientation": [
+                -82.16644287109375,
+                0.2263369858264923,
+                0.445902943611145
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                9513.634765625,
+                311.3749694824219,
+                8772.595703125
+            ],
+            "Orientation": [
+                171.0464324951172,
+                0.24385495483875276,
+                0.6247509717941284
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                9512.8837890625,
+                310.5474548339844,
+                8760.0244140625
+            ],
+            "Orientation": [
+                -35.48123550415039,
+                0.13505499064922334,
+                0.5156090259552002
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                9493.552734375,
+                311.30126953125,
+                8754.65625
+            ],
+            "Orientation": [
+                52.295814514160159,
+                0.3112969696521759,
+                0.17579299211502076
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                9490.265625,
+                310.6170959472656,
+                8743.5009765625
+            ],
+            "Orientation": [
+                97.68086242675781,
+                0.3376150131225586,
+                0.14714600145816804
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fe",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fe",
+            "Position": [
+                9486.8759765625,
+                312.688720703125,
+                8751.0009765625
+            ],
+            "Orientation": [
+                4.168429851531982,
+                0.2791239619255066,
+                0.4296029806137085
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1s",
+            "Position": [
+                9483.97265625,
+                307.4154968261719,
+                8752.7001953125
+            ],
+            "Orientation": [
+                -140.4765167236328,
+                0.6925338506698608,
+                0.26963895559310915
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                9479.8515625,
+                306.96160888671877,
+                8757.5302734375
+            ],
+            "Orientation": [
+                -2.5295908451080324,
+                0.21704497933387757,
+                0.08198999613523483
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                9483.9765625,
+                309.882080078125,
+                8762.5654296875
+            ],
+            "Orientation": [
+                128.73147583007813,
+                0.14062999188899995,
+                0.44359493255615237
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1s",
+            "Position": [
+                9468.8232421875,
+                307.5093994140625,
+                8781.74609375
+            ],
+            "Orientation": [
+                162.02188110351563,
+                0.5042870044708252,
+                0.5711089968681336
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_Tractor",
+            "DisplayName": "Land_Wreck_Tractor",
+            "Position": [
+                9691.71875,
+                300.05218505859377,
+                8867.9658203125
+            ],
+            "Orientation": [
+                -0.00040699998498894274,
+                0.15270300209522248,
+                -0.15270496904850007
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wreck_harverster",
+            "DisplayName": "bldr_wreck_harverster",
+            "Position": [
+                9992.998046875,
+                277.5489501953125,
+                8704.0595703125
+            ],
+            "Orientation": [
+                -0.15442898869514466,
+                -3.04502272605896,
+                2.9046480655670168
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wreck_harvester_head_trailer",
+            "DisplayName": "bldr_wreck_harvester_head_trailer",
+            "Position": [
+                9992.0185546875,
+                275.8629150390625,
+                8708.2744140625
+            ],
+            "Orientation": [
+                91.82957458496094,
+                -3.000002861022949,
+                -6.000015735626221
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wreck_harverster",
+            "DisplayName": "bldr_wreck_harverster",
+            "Position": [
+                9726.1962890625,
+                301.01861572265627,
+                8891.255859375
+            ],
+            "Orientation": [
+                -164.99969482421876,
+                0.07623600214719773,
+                0.07646898925304413
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        }
+    ],
+    "EditorDeletedObjects": []
+}
