@@ -466,17 +466,46 @@
 		<pos x="8659.848367" z="11164.369866" a="0.000000" /> 
 		<pos x="8329.271276" z="11112.676348" a="0.000000" /> 
 	</event>
-	<!-- TO DO -->
 	<!-- EXPANSION CARS -->
-	<event name="VehicleUAZ" />
-	<event name="VehicleVodnik" />
-	<event name="VehicleBus" />
-	<event name="VehicleTractor" />
+	<event name="VehicleUAZ">
+		<pos x="10413" y="259.007" z="6432.27" a="141.894"/>
+		<pos x="2641.2" y="198.492" z="5102.83" a="75.7305"/>
+		<pos x="10186.2" y="130.062" z="11319.8" a="-78.4213"/>
+		<pos x="8384.42" y="297.928" z="1931.71" a="-87.3917"/>
+    </event>
+	<event name="VehicleVodnik">
+		<pos x="5982.99" y="85.8204" z="11829.4" a="-121.247"/>	
+    </event>
+	<event name="VehicleBus">
+		<pos x="5535.74" y="78.7853" z="9269.13" a="-6.00414"/>
+		<pos x="10133" y="346.053" z="2319.6" a="-94.6259"/>
+		<pos x="12294.8" y="110.53" z="11103" a="65.1213"/>
+		<pos x="3542.31" y="234.596" z="4195.47" a="-5.32213"/>
+	</event>
+	<event name="VehicleTractor">
+		<pos x="3499.6" y="161.993" z="8296.21" a="62.0622"/>
+		<pos x="9618.83" y="240.102" z="6433.79" a="82.5602"/>
+		<pos x="962.62" y="230.389" z="3131.15" a="-83.1503"/>
+		<pos x="6380.49" y="110.753" z="8869.46" a="-83.1503"/>
+		<pos x="6688.17" y="326.712" z="5048.4" a="68.1893"/>
+		<pos x="2189.54" y="77.2423" z="12182.6" a="-83.1503"/>
+		<pos x="8359.78" y="297.012" z="2269.46" a="-83.1503"/>
+		<pos x="5900.37" y="315.217" z="1479.83" a="168.025"/>
+	</event>
 	<!-- EXPANSION HELICOPTERS -->
-	<event name="VehicleMH6Helicopter" />
-	<event name="VehicleMerlinHelicopter" />
-	<event name="VehicleUh1hHelicopter" />
-	<event name="VehicleGyroHelicopter" />
+	<event name="VehicleMH6Helicopter">
+		<pos x="6053.95" y="83.5234" z="11544" a="-0.589897"/>
+		<pos x="8148.98" y="296.591" z="1987.09" a="-0.371686"/>
+	</event>
+	<event name="VehicleMerlinHelicopter">
+		<pos x="5663.86" y="87.733" z="11213.7" a="-6.63527"/>
+	</event>
+	<event name="VehicleUh1hHelicopter">
+		<pos x="6208.91" y="86.6716" z="11716.3" a="112.566"/>
+	</event>
+	<event name="VehicleGyroHelicopter">
+		<pos x="7670.19" y="296.718" z="1696.31" a="0.968759"/>
+	</event>
 	<!-- EXPANSION BOATS -->
 	<event name="VehicleUtilityBoat" />
 	<event name="VehicleZodiacBoat" />
