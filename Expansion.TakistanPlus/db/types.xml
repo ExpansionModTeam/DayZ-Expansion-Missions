@@ -2060,8 +2060,6 @@
     <category name="food" />
     <usage name="Town" />
     <usage name="Village" />
-    <value name="Tier1" />
-    <value name="Tier2" />
   </type>
   <type name="BakedBeansCan_Opened">
     <nominal>0</nominal>
@@ -2177,7 +2175,6 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="clothes" />
-    <usage name="Industrial" />
     <usage name="Town" />
     <usage name="Village" />
   </type>
@@ -2191,7 +2188,6 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="clothes" />
-    <usage name="Industrial" />
     <usage name="Town" />
     <usage name="Village" />
   </type>
@@ -2205,7 +2201,6 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="clothes" />
-    <usage name="Industrial" />
     <usage name="Town" />
     <usage name="Village" />
   </type>
@@ -2219,7 +2214,6 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="clothes" />
-    <usage name="Industrial" />
     <usage name="Town" />
     <usage name="Village" />
   </type>
@@ -11043,6 +11037,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Police" />
+	<usage name="Military" />
   </type>
   <type name="NBCBootsGray">
     <nominal>4</nominal>
@@ -15783,6 +15778,48 @@
     <usage name="Hunting" />
     <value name="Tier1" />
     <value name="Tier2" />
+  </type>
+  <type name="WitchHood_Black">
+    <nominal>15</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Farm" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="WitchHood_Brown">
+	<nominal>15</nominal>
+	<lifetime>14400</lifetime>
+	<restock>0</restock>
+	<min>5</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	<category name="clothes" />
+	<usage name="Farm" />
+	<usage name="Town" />
+	<usage name="Village" />
+  </type>
+  <type name="WitchHood_Red">
+	<nominal>15</nominal>
+	<lifetime>14400</lifetime>
+	<restock>0</restock>
+	<min>5</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	<category name="clothes" />
+	<usage name="Farm" />
+	<usage name="Town" />
+	<usage name="Village" />
   </type>
   <type name="WolfMask">
     <nominal>0</nominal>

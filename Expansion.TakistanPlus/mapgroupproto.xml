@@ -955,7 +955,7 @@
 						<point pos="2.895578 9.386702 -2.099008" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-		<group name="Land_A_Mosque_big_minaret_1_EP1" llootmax="2">
+		<group name="Land_A_Mosque_big_minaret_1_EP1" lootmax="2">
 						<usage name="Town" />
 						<usage name="Village" />
 			<container name="lootFloor" lootmax="2">
@@ -1196,7 +1196,7 @@
 						<point pos="0.967651 0.015579 1.753108" range="0.203125" height="0.507813" />
 				</container>
 		</group>
-		<group name="Land_fortified_nest_big_ep1"lootmax="5">
+		<group name="Land_fortified_nest_big_ep1" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="4">
 						<category name="clothes" />
