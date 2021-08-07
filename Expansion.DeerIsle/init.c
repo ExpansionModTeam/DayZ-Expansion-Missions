@@ -13,6 +13,7 @@
 #include "$CurrentDir:\\mpmissions\\Expansion.DeerIsle\\expansion\\ExpansionObjectSpawnTools.c"
 #include "$CurrentDir:\\mpmissions\\Expansion.DeerIsle\\expansion\\missions\\MissionConstructor.c"
 
+//BBP Cement Mixers -Begin Part1-
 void SpawnObject( string type, vector position, vector orientation )
 {
     auto obj = GetGame().CreateObject( type, position );
@@ -39,7 +40,7 @@ void main()
 		//! Spawn mission objects and traders
 		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
-
+	
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
 	Weather weather = g_Game.GetWeather();
 
@@ -101,31 +102,31 @@ class CustomMission: MissionServer
 	}
 	
 	// ------------------------------------------------------------
+	// SetRandomHealth
+	// ------------------------------------------------------------	
+	void SetRandomHealth(EntityAI itemEnt)
+	{
+		if ( itemEnt )
+		{
+			int rndHlt = Math.RandomInt(55,100);
+			itemEnt.SetHealth("","",rndHlt);
+		}
+	}
+	
+	// ------------------------------------------------------------
 	// Override CreateCharacter
 	// ------------------------------------------------------------
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
 	{
 		Entity playerEnt;
-		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
-		Class.CastTo( m_player, playerEnt );
+		playerEnt = GetGame().CreatePlayer(identity, characterName, pos, 0, "NONE");//Creates random player
+		Class.CastTo(m_player, playerEnt);
 
 		GetGame().SelectPlayer(identity, m_player);
 
 		return m_player;
 	}
-	
-	// ------------------------------------------------------------
-	// SetRandomHealth
-	// ------------------------------------------------------------
-	void SetRandomHealth(EntityAI itemEnt)
-	{
-		if ( itemEnt )
-		{
-			float rndHlt = Math.RandomFloat( 0.25, 0.65 );
-			itemEnt.SetHealth01( "", "", rndHlt );
-		}
-	}
-	
+
 	// ------------------------------------------------------------
 	// StartingEquipSetup
 	// ------------------------------------------------------------

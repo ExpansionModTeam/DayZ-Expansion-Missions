@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
-    <territory color="2264924031">
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7498.67" z="11440" r="140"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7584" z="11792" r="140"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7045.33" z="12144" r="140"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7413.33" z="12138.7" r="140"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="6746.67" z="11914.7" r="140"/>
-    </territory>
     <territory color="4294967228">
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3012" z="13520" r="100"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3800" z="14368" r="100"/>
-    </territory>
-    <territory color="2113929087">
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7018.67" z="10128" r="140"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7909.33" z="10234.7" r="140"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="6533.33" z="9674.67" r="140"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7824" z="9584" r="140"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8661.33" z="10026.7" r="140"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="529.333" z="12293.3" r="50"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="597.333" z="11528" r="150"/>
     </territory>
     <territory color="872412928">
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="1805" z="9160" r="80"/>
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="11953" z="3813.79" r="100"/>
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="11711.2" z="3901.5" r="140"/>
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="12165.6" z="3750.79" r="100"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1688.21" z="9056.79" r="100"/>
     </territory>
 </territory-type>

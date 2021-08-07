@@ -2900,11 +2900,6 @@
         <quantmax>30</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-        <value name="Tier8" />
-        <value name="Tier9" />
-        <value name="Tier13" />
     </type>
 	<type name="ExpansionSilverBar">
         <nominal>0</nominal>
@@ -2915,11 +2910,31 @@
         <quantmax>30</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-        <value name="Tier8" />
-        <value name="Tier9" />
-        <value name="Tier13" />
+    </type>
+	<type name="ExpansionGoldNugget">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="ExpansionSilverNugget">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <!-- OTHER MARKET ITEMS -->
+    <type name="ExpansionTemporaryOwnedContainer">
+        <!-- NOTE: Lifetime is not controlled by CE, this is just here to prevent it from despawning before it expires -->
+        <lifetime>3888000</lifetime>
     </type>
 	<!-- ITEM END -->
 	<!-- BASE BUILDING -->	

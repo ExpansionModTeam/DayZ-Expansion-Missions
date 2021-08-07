@@ -43,6 +43,9 @@
 		<territory type="Herd" name="Bear" behavior="BlissBearGroupBeh">
 			<file usable="bear_territories"/>
 		</territory>
+		<territory type="Herd" name="AmbientHare" behavior="DZDeerGroupBeh">	<!-- EXPANSION -->
+			<file usable="hare_territories" />									<!-- EXPANSION -->
+		</territory>															<!-- EXPANSION -->
 
 		<!-- HEN -->
 		<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">

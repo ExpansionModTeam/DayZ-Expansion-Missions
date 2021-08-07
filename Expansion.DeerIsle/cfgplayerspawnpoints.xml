@@ -4,22 +4,15 @@
     <!-- runtime parameters used when player is spawning -->
     <spawn_params>
       <!-- used to rate point against infected -->
-      <min_dist_infected>10.0</min_dist_infected>
-      <max_dist_infected>50.0</max_dist_infected>
+      <min_dist_infected>30.0</min_dist_infected>
+      <max_dist_infected>70.0</max_dist_infected>
       <!-- used to rate point against other players -->
-      <min_dist_player>3.0</min_dist_player>
-      <max_dist_player>10.0</max_dist_player>
+      <min_dist_player>25.0</min_dist_player>
+      <max_dist_player>70.0</max_dist_player>
       <!-- used to rate point against buildings -->
       <min_dist_static>0.5</min_dist_static>
       <max_dist_static>2.0</max_dist_static>
     </spawn_params>
-    <!--
-            Generator parameters
-
-            Spawn points are generated around positions given inside <generator_posbubbles> element.
-            Around every position is created a rectangle with given dimensions.
-            This rectangle is then sampled for spawn point candidates in form of a grid.
-        -->
     <generator_params>
       <grid_density>8</grid_density>
       <!-- total width of grid in metres -->
@@ -36,119 +29,89 @@
     </generator_params>
     <!-- centers for grids of spawn points -->
     <generator_posbubbles>
-      <pos x="10496" z="4292" />
-      <pos x="10832" z="4384" />
-      <pos x="10880" z="4660" />
-      <pos x="10468" z="4656" />
-      <pos x="10632" z="4940" />
-      <pos x="10660" z="5252" />
-      <pos x="10488" z="5628" />
-      <pos x="10148" z="5664" />
-      <pos x="10648" z="4560" />
-      <pos x="10544" z="5420" />
-      <pos x="10232" z="4288" />
-      <pos x="10512" z="5144" />
-      <pos x="10364" z="5620" />
-      <pos x="10620" z="4732" />
-      <pos x="10896" z="4516" />
-      <pos x="10332" z="3992" />
-      <pos x="9900" z="5828" />
-      <pos x="11216" z="3296" />
-      <pos x="10380" z="4560" />
-      <pos x="10460" z="5028" />
-      <pos x="10368" z="5260" />
-      <pos x="10376" z="5456" />
-      <pos x="9972" z="5664" />
-      <pos x="8328" z="5420" />
-      <pos x="8476" z="4748" />
-      <pos x="9824" z="5076" />
-      <pos x="10004" z="4784" />
-      <pos x="9768" z="4728" />
-      <pos x="9968" z="5320" />
-      <pos x="6104" z="15508" />
-      <pos x="10028" z="4628" />
-      <pos x="10096" z="5388" />
-      <pos x="9732" z="5732" />
-      <pos x="9280" z="5136" />
-      <pos x="9444" z="4560" />
+      <pos x="10840" z="4628" />
+      <pos x="10588" z="4948" />
+      <pos x="10644" z="5248" />
+      <pos x="10340" z="3988" />
+      <pos x="10016" z="3588" />
+      <pos x="9552" z="3140" />
+      <pos x="9792" z="3244" />
+      <pos x="10488" z="5620" />
+      <pos x="10112" z="4064" />
+      <pos x="10820" z="4428" />
+      <pos x="8800" z="2564" />
+      <pos x="8628" z="1904" />
+      <pos x="8784" z="2140" />
+      <pos x="8196" z="2864" />
+      <pos x="8224" z="2544" />
+      <pos x="10528" z="5412" />
+      <pos x="10504" z="5140" />
+      <pos x="10512" z="4692" />
+      <pos x="10604" z="4372" />
+      <pos x="10132" z="3828" />
+      <pos x="9952" z="3416" />
+      <pos x="8816" z="2296" />
+      <pos x="8504" z="2520" />
+      <pos x="8728" z="2004" />
+      <pos x="8100" z="2720" />
     </generator_posbubbles>
   </fresh>
   <hop>
     <generator_posbubbles>
-      <pos x="10496" z="4292" />
-      <pos x="10832" z="4384" />
-      <pos x="10880" z="4660" />
-      <pos x="10468" z="4656" />
-      <pos x="10632" z="4940" />
-      <pos x="10660" z="5252" />
-      <pos x="10488" z="5628" />
-      <pos x="10148" z="5664" />
-      <pos x="10648" z="4560" />
-      <pos x="10544" z="5420" />
-      <pos x="10232" z="4288" />
-      <pos x="10512" z="5144" />
-      <pos x="10364" z="5620" />
-      <pos x="10620" z="4732" />
-      <pos x="10896" z="4516" />
-      <pos x="10332" z="3992" />
-      <pos x="9900" z="5828" />
-      <pos x="11216" z="3296" />
-      <pos x="10380" z="4560" />
-      <pos x="10460" z="5028" />
-      <pos x="10368" z="5260" />
-      <pos x="10376" z="5456" />
-      <pos x="9972" z="5664" />
-      <pos x="8328" z="5420" />
-      <pos x="8476" z="4748" />
-      <pos x="9824" z="5076" />
-      <pos x="10004" z="4784" />
-      <pos x="9768" z="4728" />
-      <pos x="9968" z="5320" />
-      <pos x="6104" z="15508" />
-      <pos x="10028" z="4628" />
-      <pos x="10096" z="5388" />
-      <pos x="9732" z="5732" />
-      <pos x="9280" z="5136" />
-      <pos x="9444" z="4560" />
+      <pos x="10840" z="4628" />
+      <pos x="10588" z="4948" />
+      <pos x="10644" z="5248" />
+      <pos x="10340" z="3988" />
+      <pos x="10016" z="3588" />
+      <pos x="9552" z="3140" />
+      <pos x="9792" z="3244" />
+      <pos x="10488" z="5620" />
+      <pos x="10112" z="4064" />
+      <pos x="10820" z="4428" />
+      <pos x="8800" z="2564" />
+      <pos x="8628" z="1904" />
+      <pos x="8784" z="2140" />
+      <pos x="8196" z="2864" />
+      <pos x="8224" z="2544" />
+      <pos x="10528" z="5412" />
+      <pos x="10504" z="5140" />
+      <pos x="10512" z="4692" />
+      <pos x="10604" z="4372" />
+      <pos x="10132" z="3828" />
+      <pos x="9952" z="3416" />
+      <pos x="8816" z="2296" />
+      <pos x="8504" z="2520" />
+      <pos x="8728" z="2004" />
+      <pos x="8100" z="2720" />
     </generator_posbubbles>
   </hop>
   <travel>
     <generator_posbubbles>
-      <pos x="10496" z="4292" />
-      <pos x="10832" z="4384" />
-      <pos x="10880" z="4660" />
-      <pos x="10468" z="4656" />
-      <pos x="10632" z="4940" />
-      <pos x="10660" z="5252" />
-      <pos x="10488" z="5628" />
-      <pos x="10148" z="5664" />
-      <pos x="10648" z="4560" />
-      <pos x="10544" z="5420" />
-      <pos x="10232" z="4288" />
-      <pos x="10512" z="5144" />
-      <pos x="10364" z="5620" />
-      <pos x="10620" z="4732" />
-      <pos x="10896" z="4516" />
-      <pos x="10332" z="3992" />
-      <pos x="9900" z="5828" />
-      <pos x="11216" z="3296" />
-      <pos x="10380" z="4560" />
-      <pos x="10460" z="5028" />
-      <pos x="10368" z="5260" />
-      <pos x="10376" z="5456" />
-      <pos x="9972" z="5664" />
-      <pos x="8328" z="5420" />
-      <pos x="8476" z="4748" />
-      <pos x="9824" z="5076" />
-      <pos x="10004" z="4784" />
-      <pos x="9768" z="4728" />
-      <pos x="9968" z="5320" />
-      <pos x="6104" z="15508" />
-      <pos x="10028" z="4628" />
-      <pos x="10096" z="5388" />
-      <pos x="9732" z="5732" />
-      <pos x="9280" z="5136" />
-      <pos x="9444" z="4560" />
+      <pos x="10840" z="4628" />
+      <pos x="10588" z="4948" />
+      <pos x="10644" z="5248" />
+      <pos x="10340" z="3988" />
+      <pos x="10016" z="3588" />
+      <pos x="9552" z="3140" />
+      <pos x="9792" z="3244" />
+      <pos x="10488" z="5620" />
+      <pos x="10112" z="4064" />
+      <pos x="10820" z="4428" />
+      <pos x="8800" z="2564" />
+      <pos x="8628" z="1904" />
+      <pos x="8784" z="2140" />
+      <pos x="8196" z="2864" />
+      <pos x="8224" z="2544" />
+      <pos x="10528" z="5412" />
+      <pos x="10504" z="5140" />
+      <pos x="10512" z="4692" />
+      <pos x="10604" z="4372" />
+      <pos x="10132" z="3828" />
+      <pos x="9952" z="3416" />
+      <pos x="8816" z="2296" />
+      <pos x="8504" z="2520" />
+      <pos x="8728" z="2004" />
+      <pos x="8100" z="2720" />
     </generator_posbubbles>
   </travel>
 </playerspawnpoints>
