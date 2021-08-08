@@ -15,7 +15,9 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="15" min="9" type="CivilianSedan"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Black"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Wine"/>
         </children>
     </event>
     <event name="VehicleHatchback02">
@@ -32,7 +34,14 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="15" min="9" type="Hatchback_02"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Black"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_BlackRust"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Blue"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_BlueRust"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Red"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_RedRust"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_BanditKitty"/>
         </children>
     </event>
     <event name="VehicleOffroadHatchback">
@@ -49,7 +58,13 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="15" min="9" type="OffroadHatchback"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_Blue"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_BlueRust"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_White"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_WhiteRust"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_Green" />
+            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_GreenRust" />
         </children>
     </event>
     <event name="VehicleSedan02">
@@ -66,7 +81,17 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="15" min="9" type="Sedan_02"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Grey"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_GreyRust"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Red"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_RedRust"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Yellow"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_YellowRust"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_YellowBright"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_YellowBrightRust"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Blue"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_BlueRust"/>
         </children>
     </event>
     <event name="VehicleTruck01">
@@ -83,7 +108,16 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="15" min="9" type="Truck_01_Covered"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Blue"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Red"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_White"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Black"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Wine"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Lime"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Yellow"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_YellowBright"/>
         </children>
     </event>
     <!-- Expansion content -->
@@ -103,9 +137,17 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZ"/>
+            <child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZ_Black"/>
+            <child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZ_LightGreen"/>
 			<child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZRoofless"/>
+            <child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZRoofless_Black"/>
+            <child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZRoofless_LightGreen"/>
 			<child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZCargo"/>
+            <child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZCargo_Black"/>
+            <child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZCargo_LightGreen"/>
 			<child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZCargoRoofless"/>
+            <child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZCargoRoofless_Black"/>
+            <child lootmax="0" lootmin="0" max="7" min="1" type="ExpansionUAZCargoRoofless_LightGreen"/>
         </children>
     </event>
 	<event name="VehicleVodnik">
@@ -140,6 +182,8 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="5" min="1" type="ExpansionBus"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="ExpansionBus_Weeb"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="ExpansionBus_Red"/>
         </children>
     </event>
     <event name="VehicleTractor">
@@ -157,6 +201,8 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="5" min="1" type="ExpansionTractor"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="ExpansionTractor_Blue"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="ExpansionTractor_Green"/>
         </children>
     </event>
 	<!-- HELICOPTERS -->
@@ -175,6 +221,20 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Blueline"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Digital"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Elliptical"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Furious"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_GrayWatcher"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Jeans"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Resistance"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Shadow"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Sheriff"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Speedy"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Sunset"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Vrana"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Wasp"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Wave"/>
         </children>
     </event>
 	<event name="VehicleMerlinHelicopter">
@@ -192,6 +252,11 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionMerlin"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionMerlin_Dahoman"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionMerlin_Ion"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionMerlin_President"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionMerlin_Vrana"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionMerlin_Wave"/>
         </children>
     </event>
 	<event name="VehicleUh1hHelicopter">
@@ -209,6 +274,9 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="3" min="1" type="ExpansionUh1h"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="ExpansionUh1h_Medical"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="ExpansionUh1h_Uber"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="ExpansionUh1h_Resistance"/>
         </children>
     </event>
 	<!-- BOATS -->
@@ -244,41 +312,8 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="19" min="1" type="ExpansionZodiacBoat"/>
-        </children>
-    </event>
-	<!-- PLANES -->
-	<event name="VehicleAn2Plane">
-        <nominal>1</nominal>
-        <min>0</min>
-        <max>1</max>
-        <lifetime>300</lifetime>
-        <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>0</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionAn2"/>
-        </children>
-    </event>
-	<event name="VehicleC130JPlane">
-        <nominal>1</nominal>
-        <min>0</min>
-        <max>1</max>
-        <lifetime>300</lifetime>
-        <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>0</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionC130J"/>
+            <child lootmax="0" lootmin="0" max="19" min="1" type="ExpansionZodiacBoat_Black"/>
+            <child lootmax="0" lootmin="0" max="19" min="1" type="ExpansionZodiacBoat_Green"/>
         </children>
     </event>
     <!-- ANIMALS -->
