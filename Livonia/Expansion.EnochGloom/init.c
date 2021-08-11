@@ -9,7 +9,6 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  *
 */
-#include "$CurrentDir:\\mpmissions\\Expansion.EnochGloom\\expansion\\ExpansionObjectSpawnTools.c"
 #include "$CurrentDir:\\mpmissions\\Expansion.EnochGloom\\expansion\\missions\\MissionConstructor.c"
 
 void main()
@@ -23,7 +22,7 @@ void main()
 	if (MissionWorldName != "empty")
 	{
 		//! Spawn mission objects and traders
-		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
+		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\Expansion." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
@@ -67,6 +66,16 @@ void main()
 
 class CustomMission: MissionServer
 {	
+	// ------------------------------------------------------------
+	// CustomMission constructor
+	// ------------------------------------------------------------
+	void CustomMission()
+	{
+		//! Set to true if you want to create a JSON dump list with all class names from all
+		// loaded mods in the server profile directory (ClassNames.JSON and ExpansionClassNames.JSON)
+		EXPANSION_CLASSNAME_DUMP = false;
+	}
+
 	// ------------------------------------------------------------
 	// Override OnInit
 	// ------------------------------------------------------------

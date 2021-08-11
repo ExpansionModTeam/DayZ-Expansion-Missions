@@ -9,7 +9,6 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  *
 */
-#include "$CurrentDir:\\mpmissions\\Expansion.MYWORLD\\expansion\\ExpansionObjectSpawnTools.c"
 #include "$CurrentDir:\\mpmissions\\Expansion.MYWORLD\\expansion\\missions\\MissionConstructor.c"
 
 void main()
@@ -23,14 +22,17 @@ void main()
 	if (MissionWorldName != "empty")
 	{
 		//! Spawn mission objects and traders
-		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
+		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\Expansion." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 
 	//! This code need to be on the top of the function "main", everything else will be under this line
 }
 
 class CustomMission: MissionServer
-{
+{	
+	// ------------------------------------------------------------
+	// SetRandomHealth
+	// ------------------------------------------------------------
 	void SetRandomHealth(EntityAI itemEnt)
 	{
 		if ( itemEnt )

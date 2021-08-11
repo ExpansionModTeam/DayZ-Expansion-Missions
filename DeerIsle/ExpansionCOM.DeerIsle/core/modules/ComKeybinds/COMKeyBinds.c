@@ -96,7 +96,7 @@ class COMKeyBinds extends COM_Module
 
 	void ShowCOMEditor()
 	{
-		GetGame().GetUIManager().ShowScriptedMenu( new EditorMenu() , NULL );
+		GetGame().GetUIManager().ShowScriptedMenu( new COMEditorMenu() , NULL );
 	}
 
 	void TeleportCursor()

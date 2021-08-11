@@ -1,0 +1,1356 @@
+{
+    "Version": 1,
+    "MapName": "ChernarusPlus",
+    "CameraPosition": [
+        13084.900390625,
+        8.2540283203125,
+        7938.60009765625
+    ],
+    "EditorObjects": [
+        {
+            "Type": "Land_CementWorks_ExpeditionB",
+            "DisplayName": "Land_CementWorks_ExpeditionB",
+            "Position": [
+                12974.48046875,
+                -0.28999999165534975,
+                -264.7000732421875
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_CementWorks_ExpeditionB",
+            "DisplayName": "Land_CementWorks_ExpeditionB",
+            "Position": [
+                12974.501953125,
+                -0.29141899943351748,
+                -293.60009765625
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Tower_TC3_Grey",
+            "DisplayName": "Land_Tower_TC3_Grey",
+            "Position": [
+                12980.333984375,
+                -5.702639102935791,
+                -304.6473083496094
+            ],
+            "Orientation": [
+                -0.06151999905705452,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Airfield_ServiceHangar_L",
+            "DisplayName": "Land_Airfield_ServiceHangar_L",
+            "Position": [
+                12998.3779296875,
+                1.0,
+                -329.2186279296875
+            ],
+            "Orientation": [
+                -90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Airfield_ServiceHangar_R",
+            "DisplayName": "Land_Airfield_ServiceHangar_R",
+            "Position": [
+                12948.40625,
+                1.0,
+                -329.218994140625
+            ],
+            "Orientation": [
+                -90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12992.8193359375,
+                -22.85902214050293,
+                -240.45599365234376
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12992.7998046875,
+                -22.858999252319337,
+                -221.7835693359375
+            ],
+            "Orientation": [
+                -0.06025099754333496,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12952.80859375,
+                -22.858999252319337,
+                -221.78399658203126
+            ],
+            "Orientation": [
+                -0.07102499157190323,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12952.849609375,
+                -22.858999252319337,
+                -240.45599365234376
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                13032.763671875,
+                -22.858999252319337,
+                -240.45599365234376
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                13032.7080078125,
+                -22.858999252319337,
+                -221.7768096923828
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                13072.7685546875,
+                -22.858999252319337,
+                -240.45008850097657
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                13072.7021484375,
+                -22.858999252319337,
+                -221.77000427246095
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12913.017578125,
+                -22.858999252319337,
+                -221.8016815185547
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12873.0380859375,
+                -22.858999252319337,
+                -221.78955078125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12912.9150390625,
+                -22.858999252319337,
+                -240.4529571533203
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12872.9921875,
+                -22.858999252319337,
+                -240.44985961914063
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                13112.6669921875,
+                -22.858999252319337,
+                -221.7706298828125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                13112.5634765625,
+                -22.858999252319337,
+                -240.4604034423828
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2_end",
+            "DisplayName": "bldr_pier_concrete2_end",
+            "Position": [
+                12848.1240234375,
+                -22.858999252319337,
+                -221.78416442871095
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2_end",
+            "DisplayName": "bldr_pier_concrete2_end",
+            "Position": [
+                12848.15625,
+                -22.858999252319337,
+                -240.43833923339845
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_misc_concreteblock2_stripes",
+            "DisplayName": "bldr_misc_concreteblock2_stripes",
+            "Position": [
+                12844.7763671875,
+                1.5192019939422608,
+                -248.29014587402345
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_misc_concreteblock2_stripes",
+            "DisplayName": "bldr_misc_concreteblock2_stripes",
+            "Position": [
+                12844.7763671875,
+                1.5099999904632569,
+                -239.9472198486328
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_misc_concreteblock2_stripes",
+            "DisplayName": "bldr_misc_concreteblock2_stripes",
+            "Position": [
+                12844.7763671875,
+                1.5099999904632569,
+                -242.79739379882813
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_misc_concreteblock2_stripes",
+            "DisplayName": "bldr_misc_concreteblock2_stripes",
+            "Position": [
+                12844.7763671875,
+                1.5099999904632569,
+                -245.54754638671876
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_misc_concreteblock2_stripes",
+            "DisplayName": "bldr_misc_concreteblock2_stripes",
+            "Position": [
+                12844.7998046875,
+                1.526676058769226,
+                -213.54991149902345
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_misc_concreteblock2_stripes",
+            "DisplayName": "bldr_misc_concreteblock2_stripes",
+            "Position": [
+                12844.7998046875,
+                1.526676058769226,
+                -221.72979736328126
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_misc_concreteblock2_stripes",
+            "DisplayName": "bldr_misc_concreteblock2_stripes",
+            "Position": [
+                12844.7998046875,
+                1.526676058769226,
+                -218.97962951660157
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_misc_concreteblock2_stripes",
+            "DisplayName": "bldr_misc_concreteblock2_stripes",
+            "Position": [
+                12844.7998046875,
+                1.526676058769226,
+                -216.2794647216797
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete1_r",
+            "DisplayName": "bldr_pier_concrete1_r",
+            "Position": [
+                12852.3056640625,
+                -22.858999252319337,
+                -255.7980499267578
+            ],
+            "Orientation": [
+                30.00963020324707,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete1_r",
+            "DisplayName": "bldr_pier_concrete1_r",
+            "Position": [
+                12845.8095703125,
+                -22.858999252319337,
+                -269.53143310546877
+            ],
+            "Orientation": [
+                59.99999237060547,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_C130J",
+            "DisplayName": "Land_Wreck_C130J",
+            "Position": [
+                12859.7431640625,
+                6.325141906738281,
+                -231.24142456054688
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Mil_ATC_Small",
+            "DisplayName": "Land_Mil_ATC_Small",
+            "Position": [
+                12852.7841796875,
+                11.559086799621582,
+                -267.3053283691406
+            ],
+            "Orientation": [
+                -59.993350982666019,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Aoh",
+            "DisplayName": "Land_Container_1Aoh",
+            "Position": [
+                12843.779296875,
+                2.3377819061279299,
+                -278.597900390625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete1_r",
+            "DisplayName": "bldr_pier_concrete1_r",
+            "Position": [
+                12835.6279296875,
+                -22.858999252319337,
+                -325.54864501953127
+            ],
+            "Orientation": [
+                148.00759887695313,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete1_r",
+            "DisplayName": "bldr_pier_concrete1_r",
+            "Position": [
+                12830.6162109375,
+                -22.858999252319337,
+                -283.4681396484375
+            ],
+            "Orientation": [
+                -120.99993896484375,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete1_r",
+            "DisplayName": "bldr_pier_concrete1_r",
+            "Position": [
+                12824.482421875,
+                -22.858999252319337,
+                -297.55303955078127
+            ],
+            "Orientation": [
+                -152.00001525878907,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete1_r",
+            "DisplayName": "bldr_pier_concrete1_r",
+            "Position": [
+                12826.28515625,
+                -22.858999252319337,
+                -313.0514221191406
+            ],
+            "Orientation": [
+                178.00001525878907,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12857.6357421875,
+                -22.858999252319337,
+                -338.2085876464844
+            ],
+            "Orientation": [
+                -151.99636840820313,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12892.9189453125,
+                -22.858999252319337,
+                -356.9908752441406
+            ],
+            "Orientation": [
+                28.00843620300293,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete1_r",
+            "DisplayName": "bldr_pier_concrete1_r",
+            "Position": [
+                12920.267578125,
+                -22.858999252319337,
+                -368.9478454589844
+            ],
+            "Orientation": [
+                117.04560089111328,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12944.1943359375,
+                -22.858999252319337,
+                -370.94952392578127
+            ],
+            "Orientation": [
+                3.999999761581421,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2",
+            "DisplayName": "bldr_pier_concrete2",
+            "Position": [
+                12983.8837890625,
+                -22.858999252319337,
+                -374.0832214355469
+            ],
+            "Orientation": [
+                4.930749893188477,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pier_concrete2_end",
+            "DisplayName": "bldr_pier_concrete2_end",
+            "Position": [
+                13008.6337890625,
+                -22.858999252319337,
+                -376.1009216308594
+            ],
+            "Orientation": [
+                -86.00003051757813,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Moh",
+            "DisplayName": "Land_Container_1Moh",
+            "Position": [
+                12824.8564453125,
+                2.2877819538116457,
+                -280.04791259765627
+            ],
+            "Orientation": [
+                -0.9999999403953552,
+                -0.00000199999976757681,
+                0.0000029999998787388906
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_Uaz",
+            "DisplayName": "Land_Wreck_Uaz",
+            "Position": [
+                12838.66796875,
+                1.971727967262268,
+                -287.6960144042969
+            ],
+            "Orientation": [
+                -17.000003814697267,
+                9.99999713897705,
+                -0.9999998211860657
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wreck_brdm",
+            "DisplayName": "bldr_wreck_brdm",
+            "Position": [
+                12823.5166015625,
+                1.675868034362793,
+                -290.324951171875
+            ],
+            "Orientation": [
+                42.999996185302737,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_2e",
+            "DisplayName": "bldr_container_2e",
+            "Position": [
+                12820.404296875,
+                3.723020076751709,
+                -304.9204406738281
+            ],
+            "Orientation": [
+                28.000009536743165,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_2c",
+            "DisplayName": "bldr_container_2c",
+            "Position": [
+                12831.8720703125,
+                3.723020076751709,
+                -308.4872741699219
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_V3S",
+            "DisplayName": "Land_Wreck_V3S",
+            "Position": [
+                12822.5712890625,
+                2.611931085586548,
+                -317.8622741699219
+            ],
+            "Orientation": [
+                0.0,
+                -0.0000029999998787388906,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Moh",
+            "DisplayName": "Land_Container_1Moh",
+            "Position": [
+                12835.1455078125,
+                2.3377819061279299,
+                -323.7102966308594
+            ],
+            "Orientation": [
+                0.0,
+                -0.0000029999998787388906,
+                -0.00000199999976757681
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Aoh",
+            "DisplayName": "Land_Container_1Aoh",
+            "Position": [
+                12842.9248046875,
+                2.3502449989318849,
+                -337.1949462890625
+            ],
+            "Orientation": [
+                -106.9999771118164,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Misc_RoadBarrier",
+            "DisplayName": "bldr_Misc_RoadBarrier",
+            "Position": [
+                12850.2802734375,
+                1.7193009853363038,
+                -326.34600830078127
+            ],
+            "Orientation": [
+                -155.00001525878907,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Misc_RoadBarrier",
+            "DisplayName": "bldr_Misc_RoadBarrier",
+            "Position": [
+                12851.126953125,
+                1.5874799489974976,
+                -342.4315490722656
+            ],
+            "Orientation": [
+                25.004955291748048,
+                -1.4563099145889283,
+                -0.19519798457622529
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wreck_hmmwv",
+            "DisplayName": "bldr_wreck_hmmwv",
+            "Position": [
+                12844.6650390625,
+                2.035646915435791,
+                -328.37371826171877
+            ],
+            "Orientation": [
+                -85.00001525878906,
+                0.000040999995690071958,
+                0.00002599999788799323
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_Volha_Grey",
+            "DisplayName": "Land_Wreck_Volha_Grey",
+            "Position": [
+                12856.080078125,
+                1.8779469728469849,
+                -341.9846496582031
+            ],
+            "Orientation": [
+                127.99993896484375,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Moh",
+            "DisplayName": "Land_Container_1Moh",
+            "Position": [
+                12868.0283203125,
+                2.3502449989318849,
+                -339.23175048828127
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Aoh",
+            "DisplayName": "Land_Container_1Aoh",
+            "Position": [
+                12873.296875,
+                2.3502449989318849,
+                -352.4508056640625
+            ],
+            "Orientation": [
+                79.99998474121094,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_2c",
+            "DisplayName": "bldr_container_2c",
+            "Position": [
+                12861.91796875,
+                3.7354819774627687,
+                -334.2486572265625
+            ],
+            "Orientation": [
+                -33.00000762939453,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_1c",
+            "DisplayName": "bldr_container_1c",
+            "Position": [
+                12880.3310546875,
+                2.2831931114196779,
+                -342.6457214355469
+            ],
+            "Orientation": [
+                -36.99050521850586,
+                -1.7754188776016236,
+                -0.3067200183868408
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_roadblock_cncblocks_long",
+            "DisplayName": "bldr_roadblock_cncblocks_long",
+            "Position": [
+                12886.037109375,
+                1.9189269542694092,
+                -346.2630310058594
+            ],
+            "Orientation": [
+                17.000003814697267,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Aoh",
+            "DisplayName": "Land_Container_1Aoh",
+            "Position": [
+                12888.6337890625,
+                2.3502449989318849,
+                -361.76025390625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Moh",
+            "DisplayName": "Land_Container_1Moh",
+            "Position": [
+                12896.716796875,
+                2.3502449989318849,
+                -353.759765625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_2b",
+            "DisplayName": "bldr_container_2b",
+            "Position": [
+                12902.7236328125,
+                3.6906590461730959,
+                -368.1846008300781
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wreck_bmp1",
+            "DisplayName": "bldr_wreck_bmp1",
+            "Position": [
+                12901.421875,
+                2.0948829650878908,
+                -359.18267822265627
+            ],
+            "Orientation": [
+                0.0,
+                -1.9567487239837647,
+                -0.5320270657539368
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_cementworks_silobig1bridge",
+            "DisplayName": "bldr_cementworks_silobig1bridge",
+            "Position": [
+                12997.55078125,
+                -0.15003900229930879,
+                -358.4884338378906
+            ],
+            "Orientation": [
+                -90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_cementworks_silobig1bridge",
+            "DisplayName": "bldr_cementworks_silobig1bridge",
+            "Position": [
+                12938.4560546875,
+                -0.15000000596046449,
+                -354.3501892089844
+            ],
+            "Orientation": [
+                -90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Misc_Toilet_Mobile",
+            "DisplayName": "Land_Misc_Toilet_Mobile",
+            "Position": [
+                12927.671875,
+                2.361661911010742,
+                -361.1430358886719
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Misc_Toilet_Mobile",
+            "DisplayName": "Land_Misc_Toilet_Mobile",
+            "Position": [
+                12926.376953125,
+                2.361661911010742,
+                -361.1430358886719
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Pier_Crane_B",
+            "DisplayName": "Land_Pier_Crane_B",
+            "Position": [
+                12940.62109375,
+                9.199996948242188,
+                -384.800048828125
+            ],
+            "Orientation": [
+                92.00003051757813,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Pier_Crane_B",
+            "DisplayName": "Land_Pier_Crane_B",
+            "Position": [
+                12996.513671875,
+                9.199999809265137,
+                -389.0999755859375
+            ],
+            "Orientation": [
+                93.0000228881836,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_2e",
+            "DisplayName": "bldr_container_2e",
+            "Position": [
+                12950.0302734375,
+                3.7354819774627687,
+                -376.1849060058594
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Aoh",
+            "DisplayName": "Land_Container_1Aoh",
+            "Position": [
+                12934.544921875,
+                2.3502449989318849,
+                -364.488037109375
+            ],
+            "Orientation": [
+                -30.000001907348634,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_Volha_Grey",
+            "DisplayName": "Land_Wreck_Volha_Grey",
+            "Position": [
+                12948.9638671875,
+                1.8736460208892823,
+                -361.7190246582031
+            ],
+            "Orientation": [
+                -15.000000953674317,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Moh",
+            "DisplayName": "Land_Container_1Moh",
+            "Position": [
+                12959.3662109375,
+                2.3502449989318849,
+                -366.2315979003906
+            ],
+            "Orientation": [
+                -23.000011444091798,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Guardhouse",
+            "DisplayName": "Land_Guardhouse",
+            "Position": [
+                12968.9814453125,
+                2.2106480598449709,
+                -378.75732421875
+            ],
+            "Orientation": [
+                94.00001525878906,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_S1023_Beige",
+            "DisplayName": "Land_Wreck_S1023_Beige",
+            "Position": [
+                12972.1982421875,
+                2.1401379108428957,
+                -366.2666320800781
+            ],
+            "Orientation": [
+                -26.000009536743165,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Aoh",
+            "DisplayName": "Land_Container_1Aoh",
+            "Position": [
+                12980.7314453125,
+                2.3502449989318849,
+                -380.9276123046875
+            ],
+            "Orientation": [
+                113.99995422363281,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Wreck_Uaz",
+            "DisplayName": "Land_Wreck_Uaz",
+            "Position": [
+                12928.1083984375,
+                1.9841899871826172,
+                -373.7242736816406
+            ],
+            "Orientation": [
+                -38.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_1b",
+            "DisplayName": "bldr_container_1b",
+            "Position": [
+                12923.9814453125,
+                2.408888101577759,
+                -368.1796875
+            ],
+            "Orientation": [
+                -24.0000057220459,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_2a",
+            "DisplayName": "bldr_container_2a",
+            "Position": [
+                12957.97265625,
+                3.688513994216919,
+                -378.0002746582031
+            ],
+            "Orientation": [
+                46.99999237060547,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_1c",
+            "DisplayName": "bldr_container_1c",
+            "Position": [
+                13007.8154296875,
+                2.408885955810547,
+                -380.3587646484375
+            ],
+            "Orientation": [
+                -34.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Land_Container_1Bo",
+            "DisplayName": "Land_Container_1Bo",
+            "Position": [
+                12993.03515625,
+                2.3502449989318849,
+                -368.964599609375
+            ],
+            "Orientation": [
+                -38.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_container_1c",
+            "DisplayName": "bldr_container_1c",
+            "Position": [
+                12982.7216796875,
+                2.408888101577759,
+                -370.7827453613281
+            ],
+            "Orientation": [
+                -140.99996948242188,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        }
+    ],
+    "EditorDeletedObjects": []
+}

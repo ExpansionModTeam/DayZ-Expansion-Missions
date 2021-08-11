@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="ER7_Gauss">
+		<attachments chance="0.05">
+			<item name="ER7_Scope" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="ER7_Gauss_Battery" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="ER7_Gauss_Magazine" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ER7_Gauss_T5">
+		<attachments chance="0.05">
+			<item name="ER7_Scope" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="ER7_Gauss_Battery" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="ER7_Gauss_Magazine" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>

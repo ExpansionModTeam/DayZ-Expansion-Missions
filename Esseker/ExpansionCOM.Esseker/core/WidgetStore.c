@@ -14,12 +14,12 @@ class COMWidgetStore
 	{
 		layoutRoot = root;
 
-		textWidgets = new ref array< TextWidget >;
-		buttonWidgets = new ref array < ButtonWidget >;
-		editBoxWidgets = new ref array < EditBoxWidget >;
-		sliderWidgets = new ref array < SliderWidget >;
-		textListBoxWidgets = new ref array < TextListboxWidget >;
-		allWidgets = new ref array < Widget >;
+		textWidgets = new array< TextWidget >;
+		buttonWidgets = new array < ButtonWidget >;
+		editBoxWidgets = new array < EditBoxWidget >;
+		sliderWidgets = new array < SliderWidget >;
+		textListBoxWidgets = new array < TextListboxWidget >;
+		allWidgets = new array < Widget >;
 
 		Init();
 	} 
@@ -118,7 +118,7 @@ class COMWidgetStore
 
 	ref Widget GetWidget( string name ) 
 	{
-		foreach( ref Widget widget : allWidgets ) 
+		foreach(  Widget widget : allWidgets ) 
 		{
 			if ( widget.GetName() == name ) 
 			{
@@ -130,7 +130,7 @@ class COMWidgetStore
 
 	ref TextWidget GetTextWidget( string name ) 
 	{
-		foreach( ref Widget widget : textWidgets ) 
+		foreach(  Widget widget : textWidgets ) 
 		{
 			if ( widget.GetName() == name ) 
 			{
@@ -142,7 +142,7 @@ class COMWidgetStore
 
 	ref ButtonWidget GetButtonWidget( string name ) 
 	{
-		foreach( ref Widget widget : buttonWidgets ) 
+		foreach(  Widget widget : buttonWidgets ) 
 		{
 			if ( widget.GetName() == name ) 
 			{
@@ -154,7 +154,7 @@ class COMWidgetStore
 
 	ref EditBoxWidget GetEditBoxWidget( string name ) 
 	{
-		foreach( ref Widget widget : editBoxWidgets ) 
+		foreach(  Widget widget : editBoxWidgets ) 
 		{
 			if ( widget.GetName() == name ) 
 			{
@@ -166,7 +166,7 @@ class COMWidgetStore
 
 	ref SliderWidget GetSliderWidget( string name ) 
 	{
-		foreach( ref Widget widget : sliderWidgets ) 
+		foreach(  Widget widget : sliderWidgets ) 
 		{
 			if ( widget.GetName() == name ) 
 			{
@@ -178,7 +178,7 @@ class COMWidgetStore
 
 	ref TextListboxWidget GetListboxWidget( string name ) 
 	{
-		foreach( ref Widget widget : textListBoxWidgets ) 
+		foreach(  Widget widget : textListBoxWidgets ) 
 		{
 			if ( widget.GetName() == name ) 
 			{

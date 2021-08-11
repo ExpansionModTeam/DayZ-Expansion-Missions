@@ -34,7 +34,7 @@ class COM_ModuleManager
 		delete m_Modules;
 	}
 
-	void RegisterModule( ref COM_Module module )
+	void RegisterModule(  COM_Module module )
 	{
 		m_Modules.Insert( module );
 	}

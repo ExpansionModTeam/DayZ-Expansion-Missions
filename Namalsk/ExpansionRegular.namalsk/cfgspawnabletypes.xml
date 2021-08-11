@@ -161,11 +161,24 @@
             <item name="Mag_STANAG_30Rnd" chance="0.25" />
             <item name="Mag_CMAG_30Rnd" chance="0.25" />
             <item name="Mag_CMAG_40Rnd" chance="0.15" />
-            <item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
+            <item name="Mag_STANAG_60Rnd" chance="0.10" />
         </attachments>
         <attachments chance="0.1">
             <item name="M9A1_Bayonet" chance="0.50" />
             <item name="M4_Suppressor" chance="0.50" />
+        </attachments>
+    </type>
+    <type name="M16A2">
+        <attachments chance="1.0">
+            <item name="Mag_CMAG_10Rnd" chance="0.10" />
+            <item name="Mag_CMAG_20Rnd" chance="0.15" />
+            <item name="Mag_STANAG_30Rnd" chance="0.25" />
+            <item name="Mag_CMAG_30Rnd" chance="0.25" />
+            <item name="Mag_CMAG_40Rnd" chance="0.15" />
+            <item name="Mag_STANAG_60Rnd" chance="0.10" />
+        </attachments>
+        <attachments chance="0.1">
+            <item name="M4_Suppressor" chance="1.00" />
         </attachments>
     </type>
     <type name="Mosin9130">
@@ -288,9 +301,10 @@
         <attachments chance="0.30">
             <item name="Mag_Scout_5Rnd" chance="1.00" />
         </attachments>
-        <attachments chance="0.20">
+        <attachments chance="0.30">
             <item name="M68Optic" chance="0.60" />
-            <item name="ACOGOptic" chance="0.40" />
+            <item name="ACOGOptic" chance="0.30" />
+            <item name="ACOGOptic_6x" chance="0.10" />
         </attachments>
         <attachments chance="0.10">
             <item name="M4_Suppressor" chance="1.00" />
@@ -2212,11 +2226,12 @@
     <type name="ZmbM_SurvivorDean_Grey">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="ZmbM_usSoldier_normal_Desert">
+    <type name="ZmbM_usSoldier_Officer_Desert">
         <cargo preset="toolsmilitary" />
         <cargo preset="ammomilitary" />
-        <attachments preset="headsUS" />
-        <attachments preset="vestsUS" />
+        <attachments chance="1.00">
+            <item name="OfficerHat" chance="1.00" />
+        </attachments>
     </type>
     <type name="ZmbM_usSoldier_normal_Woodland">
         <cargo preset="toolsmilitary" />

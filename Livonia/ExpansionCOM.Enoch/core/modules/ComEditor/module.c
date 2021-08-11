@@ -1,6 +1,6 @@
 #include "$CurrentDir:missions\\ExpansionCOM.Enoch\\core\\modules\\ComEditor\\ObjectEditor.c"
 
-#include "$CurrentDir:missions\\ExpansionCOM.Enoch\\core\\modules\\ComEditor\\gui\\EditorMenu.c"
+#include "$CurrentDir:missions\\ExpansionCOM.Enoch\\core\\modules\\ComEditor\\gui\\COMEditorMenu.c"
 #include "$CurrentDir:missions\\ExpansionCOM.Enoch\\core\\modules\\ComEditor\\gui\\ObjectMenu.c"
 #include "$CurrentDir:missions\\ExpansionCOM.Enoch\\core\\modules\\ComEditor\\gui\\MatMenu.c"
 #include "$CurrentDir:missions\\ExpansionCOM.Enoch\\core\\modules\\ComEditor\\gui\\PositionMenu.c"

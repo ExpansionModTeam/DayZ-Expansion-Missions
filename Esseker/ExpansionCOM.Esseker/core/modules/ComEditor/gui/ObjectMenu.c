@@ -210,7 +210,7 @@ class COM_ObjectMenu extends PopupMenu
 		
 		if ( w == m_btnDOJToggle)
 		{
-			EditorMenu menu = EditorMenu.Cast( GetGame().GetUIManager().GetMenu() );
+			COMEditorMenu menu = COMEditorMenu.Cast( GetGame().GetUIManager().GetMenu() );
 			if ( menu )
 			{
 				if ( !menu.GetDOJBoolState() )
@@ -232,7 +232,7 @@ class COM_ObjectMenu extends PopupMenu
 
 		if ( w == m_btnDOJPrecision)
 		{
-			EditorMenu menu2 = EditorMenu.Cast( GetGame().GetUIManager().GetMenu() );
+			COMEditorMenu menu2 = COMEditorMenu.Cast( GetGame().GetUIManager().GetMenu() );
 			if ( menu2 )
 			{
 				if ( !menu2.GetDOJPrecision() )

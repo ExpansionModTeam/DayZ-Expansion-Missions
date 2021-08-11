@@ -6,4 +6,4 @@ RD /s /q "storage_-1" > nul 2>&1
 
 cd ../../
 
-start DayZ_x64.exe -mission=.\Missions\ExpansionCOM.ChernarusPlus -nosplash -noPause -noBenchmark -filePatching -doLogs -scriptDebug=true "-mod=!Workshop\@CF;!Workshop\@Community-Online-Tools;!Workshop\@DayZ-Expansion;!Workshop\@DayZ-Expansion-Licensed;!Workshop\@DayZ-Expansion-Vehicles;!Workshop\@DayZ-Expansion-Core;!Workshop\@TakistanPlus;"
+start DayZ_x64.exe -mission=.\Missions\ExpansionCOM.TakistanPlus -nosplash -noPause -noBenchmark -filePatching -doLogs -scriptDebug=true "-mod=P:/Mods/@Community-Framework;P:/Mods/@Community-Online-Tools;P:/Mods/@Dabs-Framework;P:/Mods/@DayZ-Expansion-Core;P:/Mods/@DayZ-Expansion;P:/Mods/@DayZ-Expansion-Vehicles;P:/Mods/@DayZ-Expansion-Licensed;P:/Mods/@DayZ-Expansion-Book;P:/Mods/@DayZ-Expansion-Market;P:/Mods/@TakistanPlus"

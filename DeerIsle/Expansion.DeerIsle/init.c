@@ -10,7 +10,6 @@
  *
 */
 
-#include "$CurrentDir:\\mpmissions\\Expansion.DeerIsle\\expansion\\ExpansionObjectSpawnTools.c"
 #include "$CurrentDir:\\mpmissions\\Expansion.DeerIsle\\expansion\\missions\\MissionConstructor.c"
 
 //BBP Cement Mixers -Begin Part1-
@@ -29,8 +28,8 @@ void SpawnObject( string type, vector position, vector orientation )
 
 void main()
 {
-	bool loadTraderObjects = false;
-	bool loadTraderNPCs = false;
+	bool loadTraderObjects = true;
+	bool loadTraderNPCs = true;
 
 	string MissionWorldName = "empty";
 	GetGame().GetWorldName(MissionWorldName);
@@ -38,7 +37,7 @@ void main()
 	if (MissionWorldName != "empty")
 	{
 		//! Spawn mission objects and traders
-		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
+		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\Expansion." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 	
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
@@ -87,6 +86,16 @@ void main()
 
 class CustomMission: MissionServer
 {
+	// ------------------------------------------------------------
+	// CustomMission constructor
+	// ------------------------------------------------------------
+	void CustomMission()
+	{
+		//! Set to true if you want to create a JSON dump list with all class names from all
+		// loaded mods in the server profile directory (ClassNames.JSON and ExpansionClassNames.JSON)
+		EXPANSION_CLASSNAME_DUMP = false;
+	}
+	
 	// ------------------------------------------------------------
 	// Override OnInit
 	// ------------------------------------------------------------

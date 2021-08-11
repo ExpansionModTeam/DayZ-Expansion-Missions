@@ -10,7 +10,6 @@
  *
 */
 
-#include "$CurrentDir:\\mpmissions\\ExpansionHard.namalsk\\expansion\\ExpansionObjectSpawnTools.c"
 #include "$CurrentDir:\\mpmissions\\ExpansionHard.namalsk\\expansion\\missions\\MissionConstructor.c"
 
 void main()
@@ -24,7 +23,7 @@ void main()
 	if (MissionWorldName != "empty")
 	{
 		//! Spawn mission objects and traders
-		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
+		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\ExpansionHard." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 	/*
 	  [Namalsk] CE init (offline)
@@ -77,6 +76,19 @@ void main()
 
 class CustomMission: MissionServer
 {
+	// ------------------------------------------------------------
+	// CustomMission constructor
+	// ------------------------------------------------------------
+	void CustomMission()
+	{
+		//! Set to true if you want to create a JSON dump list with all class names from all
+		// loaded mods in the server profile directory (ClassNames.JSON and ExpansionClassNames.JSON)
+		EXPANSION_CLASSNAME_DUMP = false;
+	}
+
+	// ------------------------------------------------------------
+	// Override OnInit
+	// ------------------------------------------------------------
 	override void OnInit()
 	{
 		ExpansionMissionModule missionModule;
@@ -116,7 +128,10 @@ class CustomMission: MissionServer
 
 		return m_player;
 	}
-
+	
+	// ------------------------------------------------------------
+	// SetRandomHealth
+	// ------------------------------------------------------------
 	void SetRandomHealth(EntityAI itemEnt)
 	{
 		if (itemEnt)
@@ -126,6 +141,9 @@ class CustomMission: MissionServer
 		}
 	}
 
+	// ------------------------------------------------------------
+	// Override StartingEquipSetup
+	// ------------------------------------------------------------
 	override void StartingEquipSetup( PlayerBase player, bool clothesChosen )
 	{
 		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )

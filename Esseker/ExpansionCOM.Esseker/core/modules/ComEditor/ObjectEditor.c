@@ -9,7 +9,7 @@ class ObjectEditor extends COM_Module
 	protected ref COM_ObjectMenu m_ObjectMenu;
 
 	// protected ref Scene active_Scene;
-	ref array< ref Object> m_Objects = new array< ref Object>;
+	ref array< Object> m_Objects = new array< Object>;
 
 	string BASE_COM_DIR = "$saves:CommunityOfflineMode";
 	string BASE_SCENE_DIR = BASE_COM_DIR + "\\Scenes";

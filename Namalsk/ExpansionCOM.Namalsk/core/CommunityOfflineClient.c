@@ -133,7 +133,6 @@ class CommunityOfflineClient : MissionGameplay
 			item = player.GetInventory().CreateInInventory("Shovel");
 
 			item = player.GetInventory().CreateInInventory("Expansion_M16");
-			item = item.GetInventory().CreateAttachment("Expansion_ANPEQ15_Green");
 			item.GetInventory().CreateAttachment("Battery9V");
 
 			player.COTSetGodMode(true);

@@ -1,0 +1,1468 @@
+{
+    "Version": 1,
+    "MapName": "ChernarusPlus",
+    "CameraPosition": [
+        12428.451171875,
+        22.831066131591798,
+        9688.0390625
+    ],
+    "EditorObjects": [
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5708.18994140625,
+                71.84259796142578,
+                2565.330322265625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5709.69140625,
+                71.84420013427735,
+                2565.31787109375
+            ],
+            "Orientation": [
+                1.9999998807907105,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5711.10986328125,
+                71.79973602294922,
+                2565.193603515625
+            ],
+            "Orientation": [
+                3.999999761581421,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5712.58642578125,
+                71.822998046875,
+                2565.0712890625
+            ],
+            "Orientation": [
+                3.999999761581421,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5715.4951171875,
+                72.13735961914063,
+                2564.977783203125
+            ],
+            "Orientation": [
+                0.9999999403953552,
+                0.0,
+                85.00001525878906
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5714.2001953125,
+                71.78733825683594,
+                2564.977783203125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_medical_table",
+            "DisplayName": "bldr_medical_table",
+            "Position": [
+                5719.0517578125,
+                71.79973602294922,
+                2584.739990234375
+            ],
+            "Orientation": [
+                60.99998474121094,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_hospital_transport_bed",
+            "DisplayName": "bldr_hospital_transport_bed",
+            "Position": [
+                5718.8154296875,
+                71.79973602294922,
+                2584.999267578125
+            ],
+            "Orientation": [
+                90.00003814697266,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_hospital_transport_bed",
+            "DisplayName": "bldr_hospital_transport_bed",
+            "Position": [
+                5718.78076171875,
+                71.79973602294922,
+                2581.84912109375
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_medical_table",
+            "DisplayName": "bldr_medical_table",
+            "Position": [
+                5718.95166015625,
+                71.79973602294922,
+                2581.07373046875
+            ],
+            "Orientation": [
+                14.000001907348633,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_case_d",
+            "DisplayName": "bldr_case_d",
+            "Position": [
+                5718.68603515625,
+                71.79973602294922,
+                2579.251708984375
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_case_d",
+            "DisplayName": "bldr_case_d",
+            "Position": [
+                5719.47412109375,
+                71.79973602294922,
+                2579.237548828125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_case_d",
+            "DisplayName": "bldr_case_d",
+            "Position": [
+                5718.6865234375,
+                71.79973602294922,
+                2577.824462890625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_case_d",
+            "DisplayName": "bldr_case_d",
+            "Position": [
+                5719.47021484375,
+                71.79973602294922,
+                2577.803955078125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_case_d",
+            "DisplayName": "bldr_case_d",
+            "Position": [
+                5717.880859375,
+                71.79973602294922,
+                2579.26513671875
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_case_d",
+            "DisplayName": "bldr_case_d",
+            "Position": [
+                5717.79150390625,
+                71.93450164794922,
+                2577.86083984375
+            ],
+            "Orientation": [
+                -167.99998474121095,
+                90.0,
+                179.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tv_a",
+            "DisplayName": "bldr_tv_a",
+            "Position": [
+                5706.75390625,
+                72.29976654052735,
+                2581.814697265625
+            ],
+            "Orientation": [
+                -90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_fridge",
+            "DisplayName": "bldr_fridge",
+            "Position": [
+                5708.38818359375,
+                71.79973602294922,
+                2586.62939453125
+            ],
+            "Orientation": [
+                -179.99996948242188,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_fridge",
+            "DisplayName": "bldr_fridge",
+            "Position": [
+                5708.9697265625,
+                71.79973602294922,
+                2586.640625
+            ],
+            "Orientation": [
+                -179.99996948242188,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_fridge",
+            "DisplayName": "bldr_fridge",
+            "Position": [
+                5709.55859375,
+                71.79973602294922,
+                2586.647705078125
+            ],
+            "Orientation": [
+                -179.99996948242188,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_kitchenstove_elec",
+            "DisplayName": "bldr_kitchenstove_elec",
+            "Position": [
+                5710.251953125,
+                71.79973602294922,
+                2586.606201171875
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_patient_monitor",
+            "DisplayName": "bldr_patient_monitor",
+            "Position": [
+                5718.75,
+                71.79973602294922,
+                2586.010009765625
+            ],
+            "Orientation": [
+                130.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_patient_monitor",
+            "DisplayName": "bldr_patient_monitor",
+            "Position": [
+                5719.548828125,
+                71.79973602294922,
+                2582.58984375
+            ],
+            "Orientation": [
+                144.99998474121095,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_anatomy_poster_1",
+            "DisplayName": "bldr_anatomy_poster_1",
+            "Position": [
+                5720.04296875,
+                73.6998519897461,
+                2586.054443359375
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_table",
+            "DisplayName": "bldr_tent_table",
+            "Position": [
+                5711.748046875,
+                72.24991607666016,
+                2586.420166015625
+            ],
+            "Orientation": [
+                3.9999988079071047,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_chair",
+            "DisplayName": "bldr_tent_chair",
+            "Position": [
+                5709.03564453125,
+                72.2953872680664,
+                2580.437744140625
+            ],
+            "Orientation": [
+                107.99998474121094,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_chair",
+            "DisplayName": "bldr_tent_chair",
+            "Position": [
+                5708.61328125,
+                72.2953872680664,
+                2583.160400390625
+            ],
+            "Orientation": [
+                68.00005340576172,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_chair",
+            "DisplayName": "bldr_tent_chair",
+            "Position": [
+                5709.0947265625,
+                72.2953872680664,
+                2581.322509765625
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_chair",
+            "DisplayName": "bldr_tent_chair",
+            "Position": [
+                5708.9970703125,
+                72.2953872680664,
+                2582.302734375
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_chair",
+            "DisplayName": "bldr_tent_chair",
+            "Position": [
+                5710.11376953125,
+                72.2953872680664,
+                2580.03857421875
+            ],
+            "Orientation": [
+                100.9999771118164,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_chair",
+            "DisplayName": "bldr_tent_chair",
+            "Position": [
+                5710.17431640625,
+                72.2953872680664,
+                2580.73388671875
+            ],
+            "Orientation": [
+                102.99999237060547,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_chair",
+            "DisplayName": "bldr_tent_chair",
+            "Position": [
+                5710.703125,
+                72.09537506103516,
+                2581.4140625
+            ],
+            "Orientation": [
+                -89.99998474121094,
+                -76.00004577636719,
+                179.99996948242188
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_chair",
+            "DisplayName": "bldr_tent_chair",
+            "Position": [
+                5710.126953125,
+                72.09537506103516,
+                2583.143310546875
+            ],
+            "Orientation": [
+                65.00001525878906,
+                0.0,
+                -90.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_chair",
+            "DisplayName": "bldr_tent_chair",
+            "Position": [
+                5710.22607421875,
+                72.2953872680664,
+                2582.14599609375
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_stretcher",
+            "DisplayName": "bldr_tent_stretcher",
+            "Position": [
+                5716.310546875,
+                72.79979705810547,
+                2586.603759765625
+            ],
+            "Orientation": [
+                -0.000004999999418942025,
+                71.0,
+                -0.000009000000318337698
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_tent_stretcher",
+            "DisplayName": "bldr_tent_stretcher",
+            "Position": [
+                5715.716796875,
+                72.79979705810547,
+                2586.606201171875
+            ],
+            "Orientation": [
+                -0.000009000000318337698,
+                71.0,
+                0.000009000000318337698
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_box_c",
+            "DisplayName": "bldr_box_c",
+            "Position": [
+                5707.46337890625,
+                72.0997543334961,
+                2586.527587890625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_box_c",
+            "DisplayName": "bldr_box_c",
+            "Position": [
+                5707.45751953125,
+                72.69979095458985,
+                2586.486328125
+            ],
+            "Orientation": [
+                14.000001907348633,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_box_c",
+            "DisplayName": "bldr_box_c",
+            "Position": [
+                5713.248046875,
+                72.08821105957031,
+                2586.517578125
+            ],
+            "Orientation": [
+                21.0000057220459,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5708.03515625,
+                71.78819274902344,
+                2568.763916015625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5709.8388671875,
+                71.78819274902344,
+                2568.8134765625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5711.11279296875,
+                71.78819274902344,
+                2568.8251953125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5712.5068359375,
+                71.78819274902344,
+                2568.73583984375
+            ],
+            "Orientation": [
+                4.999998092651367,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5714.19677734375,
+                71.78819274902344,
+                2568.697509765625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5715.8076171875,
+                71.78819274902344,
+                2568.610107421875
+            ],
+            "Orientation": [
+                3.999999761581421,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5708.56689453125,
+                71.78819274902344,
+                2576.4345703125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5709.73583984375,
+                72.18821716308594,
+                2576.419921875
+            ],
+            "Orientation": [
+                -0.9999999403953552,
+                0.0,
+                -179.99996948242188
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5711.59814453125,
+                71.78819274902344,
+                2576.420654296875
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5712.318359375,
+                72.33822631835938,
+                2576.542724609375
+            ],
+            "Orientation": [
+                177.0000457763672,
+                0.0,
+                136.9999542236328
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5715.09375,
+                71.78819274902344,
+                2576.29052734375
+            ],
+            "Orientation": [
+                15.000000953674317,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5713.48583984375,
+                71.7574462890625,
+                2576.49853515625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5708.28466796875,
+                71.78819274902344,
+                2572.2421875
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5709.7626953125,
+                71.78819274902344,
+                2572.3017578125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5711.39404296875,
+                71.78819274902344,
+                2572.2275390625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5712.9638671875,
+                71.78819274902344,
+                2572.2587890625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5714.43994140625,
+                71.78819274902344,
+                2572.259765625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_foldingbed_open",
+            "DisplayName": "bldr_foldingbed_open",
+            "Position": [
+                5715.90771484375,
+                71.78819274902344,
+                2572.2275390625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Misc_Table_Camp",
+            "DisplayName": "bldr_Misc_Table_Camp",
+            "Position": [
+                5713.35546875,
+                72.15762329101563,
+                2582.173095703125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Misc_Table_Camp",
+            "DisplayName": "bldr_Misc_Table_Camp",
+            "Position": [
+                5714.48974609375,
+                72.15762329101563,
+                2580.7099609375
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Misc_Table_Camp",
+            "DisplayName": "bldr_Misc_Table_Camp",
+            "Position": [
+                5712.25244140625,
+                72.15762329101563,
+                2580.72998046875
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_Misc_Table_Camp",
+            "DisplayName": "bldr_Misc_Table_Camp",
+            "Position": [
+                5713.40869140625,
+                72.15762329101563,
+                2579.048583984375
+            ],
+            "Orientation": [
+                -165.0000457763672,
+                90.0,
+                179.99998474121095
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_canister_dz",
+            "DisplayName": "bldr_canister_dz",
+            "Position": [
+                5711.3125,
+                72.97184753417969,
+                2586.340087890625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_canister_dz",
+            "DisplayName": "bldr_canister_dz",
+            "Position": [
+                5711.755859375,
+                72.97184753417969,
+                2586.31005859375
+            ],
+            "Orientation": [
+                90.0,
+                -0.9999999403953552,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_bag_dz",
+            "DisplayName": "bldr_bag_dz",
+            "Position": [
+                5719.49658203125,
+                72.17457580566406,
+                2574.66064453125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_bag_dz",
+            "DisplayName": "bldr_bag_dz",
+            "Position": [
+                5719.4912109375,
+                72.17457580566406,
+                2573.99755859375
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_bag_dz",
+            "DisplayName": "bldr_bag_dz",
+            "Position": [
+                5719.689453125,
+                72.17457580566406,
+                2573.368896484375
+            ],
+            "Orientation": [
+                24.000009536743165,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_bag_dz",
+            "DisplayName": "bldr_bag_dz",
+            "Position": [
+                5718.94482421875,
+                72.17457580566406,
+                2573.342041015625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_box_c_multi",
+            "DisplayName": "bldr_box_c_multi",
+            "Position": [
+                5718.654296875,
+                71.7574462890625,
+                2576.466796875
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_vaulting_box_large",
+            "DisplayName": "bldr_vaulting_box_large",
+            "Position": [
+                5707.49951171875,
+                71.7574462890625,
+                2578.585205078125
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_vaulting_box_large",
+            "DisplayName": "bldr_vaulting_box_large",
+            "Position": [
+                5708.7578125,
+                71.7574462890625,
+                2578.557861328125
+            ],
+            "Orientation": [
+                92.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_vaulting_box_large",
+            "DisplayName": "bldr_vaulting_box_large",
+            "Position": [
+                5710.009765625,
+                71.7574462890625,
+                2578.499267578125
+            ],
+            "Orientation": [
+                93.0000228881836,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_radar_electronics",
+            "DisplayName": "bldr_radar_electronics",
+            "Position": [
+                5713.48291015625,
+                72.60193634033203,
+                2581.2578125
+            ],
+            "Orientation": [
+                -179.99996948242188,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_radar_rack",
+            "DisplayName": "bldr_radar_rack",
+            "Position": [
+                5713.20556640625,
+                71.7574462890625,
+                2580.389404296875
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pc",
+            "DisplayName": "bldr_pc",
+            "Position": [
+                5714.46875,
+                72.5574951171875,
+                2580.220947265625
+            ],
+            "Orientation": [
+                -179.99996948242188,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pc",
+            "DisplayName": "bldr_pc",
+            "Position": [
+                5712.82958984375,
+                72.5574951171875,
+                2582.151611328125
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pc",
+            "DisplayName": "bldr_pc",
+            "Position": [
+                5713.740234375,
+                72.5574951171875,
+                2582.183349609375
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pc",
+            "DisplayName": "bldr_pc",
+            "Position": [
+                5712.22216796875,
+                72.5574951171875,
+                2581.197265625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pc",
+            "DisplayName": "bldr_pc",
+            "Position": [
+                5712.24658203125,
+                72.5574951171875,
+                2580.27001953125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_pc",
+            "DisplayName": "bldr_pc",
+            "Position": [
+                5714.48828125,
+                72.5574951171875,
+                2581.171630859375
+            ],
+            "Orientation": [
+                -179.99996948242188,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_box_c",
+            "DisplayName": "bldr_box_c",
+            "Position": [
+                5707.55517578125,
+                72.05746459960938,
+                2574.19384765625
+            ],
+            "Orientation": [
+                26.000009536743165,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_box_c",
+            "DisplayName": "bldr_box_c",
+            "Position": [
+                5707.56689453125,
+                72.05746459960938,
+                2574.846923828125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_box_c",
+            "DisplayName": "bldr_box_c",
+            "Position": [
+                5709.7392578125,
+                72.05746459960938,
+                2574.461181640625
+            ],
+            "Orientation": [
+                66.99999237060547,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wall_fen2_pole",
+            "DisplayName": "bldr_wall_fen2_pole",
+            "Position": [
+                5717.55029296875,
+                72.76806640625,
+                2581.289306640625
+            ],
+            "Orientation": [
+                179.99996948242188,
+                0.0,
+                179.99996948242188
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wall_fen2_pole",
+            "DisplayName": "bldr_wall_fen2_pole",
+            "Position": [
+                5717.50537109375,
+                72.76806640625,
+                2579.72998046875
+            ],
+            "Orientation": [
+                40.0,
+                0.0,
+                179.99996948242188
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wall_fen2_pole",
+            "DisplayName": "bldr_wall_fen2_pole",
+            "Position": [
+                5717.521484375,
+                72.76806640625,
+                2582.50634765625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                179.99996948242188
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wall_fen2_pole",
+            "DisplayName": "bldr_wall_fen2_pole",
+            "Position": [
+                5717.36572265625,
+                72.76806640625,
+                2583.3427734375
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                179.99996948242188
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wall_fen2_pole",
+            "DisplayName": "bldr_wall_fen2_pole",
+            "Position": [
+                5718.29248046875,
+                72.76806640625,
+                2583.374755859375
+            ],
+            "Orientation": [
+                -90.0,
+                0.0,
+                179.99996948242188
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wall_fen2_pole",
+            "DisplayName": "bldr_wall_fen2_pole",
+            "Position": [
+                5718.48046875,
+                72.76806640625,
+                2583.40869140625
+            ],
+            "Orientation": [
+                90.0,
+                0.0,
+                -179.99993896484376
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wall_fen2_pole",
+            "DisplayName": "bldr_wall_fen2_pole",
+            "Position": [
+                5717.46533203125,
+                72.76806640625,
+                2584.18017578125
+            ],
+            "Orientation": [
+                -179.99996948242188,
+                0.0,
+                179.99996948242188
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wall_fen2_pole",
+            "DisplayName": "bldr_wall_fen2_pole",
+            "Position": [
+                5719.0,
+                72.76806640625,
+                2579.943359375
+            ],
+            "Orientation": [
+                179.99996948242188,
+                0.0,
+                179.99996948242188
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_wall_fen2_pole",
+            "DisplayName": "bldr_wall_fen2_pole",
+            "Position": [
+                5719.73876953125,
+                72.76806640625,
+                2579.93798828125
+            ],
+            "Orientation": [
+                -179.99996948242188,
+                0.0,
+                179.99996948242188
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        }
+    ],
+    "EditorDeletedObjects": []
+}

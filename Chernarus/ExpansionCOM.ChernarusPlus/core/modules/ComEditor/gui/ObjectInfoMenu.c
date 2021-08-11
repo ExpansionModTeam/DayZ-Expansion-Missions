@@ -25,7 +25,7 @@ class ObjectInfoMenu extends PopupMenu
 	{
 		listBox.ClearItems();
 
-		ref array<ref Object> objects = ((ObjectEditor) GetCOMModuleManager().GetModule(ObjectEditor)).m_Objects;
+		ref array<Object> objects = ((ObjectEditor) GetCOMModuleManager().GetModule(ObjectEditor)).m_Objects;
 
 		foreach( Object obj : objects )
 		{
@@ -88,7 +88,7 @@ class ObjectInfoMenu extends PopupMenu
 		}
 		if ( w.GetName() == "object_editor_info_clear")
 		{
-			ref array< ref Object> objects = ((ObjectEditor) GetCOMModuleManager().GetModule(ObjectEditor)).m_Objects;
+			ref array< Object> objects = ((ObjectEditor) GetCOMModuleManager().GetModule(ObjectEditor)).m_Objects;
 			GetNotificationSystem().CreateNotification( new StringLocaliser( "Object Editor" ), new StringLocaliser( "Cleared all objects from current scene." ), EXPANSION_NOTIFICATION_ICON_T_Empty_Can, COLOR_EXPANSION_NOTIFICATION_INFO, 7 );
 
 			foreach( Object obj : objects )
@@ -133,7 +133,7 @@ class ObjectInfoMenu extends PopupMenu
 		bool up = wheel < 0;
 		int value = 1;
 
-		EditorMenu editor_menu = EditorMenu.Cast( GetGame().GetUIManager().GetMenu() );
+		COMEditorMenu editor_menu = COMEditorMenu.Cast( GetGame().GetUIManager().GetMenu() );
 
 		if ( up ) value = -1;
 

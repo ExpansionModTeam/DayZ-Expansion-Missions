@@ -1,0 +1,1196 @@
+{
+    "Version": 1,
+    "MapName": "ChernarusPlus",
+    "CameraPosition": [
+        13084.900390625,
+        8.2540283203125,
+        7938.60009765625
+    ],
+    "EditorObjects": [
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                1500.08935546875,
+                441.459228515625,
+                13629.6708984375
+            ],
+            "Orientation": [
+                68.67332458496094,
+                0.6078958511352539,
+                0.6857409477233887
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                1511.6063232421876,
+                441.5599670410156,
+                13625.0595703125
+            ],
+            "Orientation": [
+                60.730411529541019,
+                0.5112299919128418,
+                0.025741996243596078
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1508.6546630859376,
+                441.253173828125,
+                13619.2177734375
+            ],
+            "Orientation": [
+                -111.04289245605469,
+                0.31217196583747866,
+                0.6496809124946594
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1506.7218017578126,
+                441.0776672363281,
+                13609.1474609375
+            ],
+            "Orientation": [
+                145.0216064453125,
+                0.4939039647579193,
+                0.36010998487472536
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1522.4774169921876,
+                439.855224609375,
+                13594.451171875
+            ],
+            "Orientation": [
+                167.56118774414063,
+                0.4941609501838684,
+                0.20097999274730683
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_2s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_2s",
+            "Position": [
+                1636.9830322265626,
+                434.9309387207031,
+                13505.7138671875
+            ],
+            "Orientation": [
+                65.2208251953125,
+                0.39576396346092226,
+                0.3488519787788391
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1602.1632080078126,
+                433.8812561035156,
+                13495.998046875
+            ],
+            "Orientation": [
+                -2.289196014404297,
+                0.6974689364433289,
+                0.2215309888124466
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_2s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_2s",
+            "Position": [
+                1491.4573974609376,
+                445.7691650390625,
+                13666.21484375
+            ],
+            "Orientation": [
+                -107.4920425415039,
+                0.34402400255203249,
+                0.5253499746322632
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1481.32763671875,
+                444.59930419921877,
+                13661.8837890625
+            ],
+            "Orientation": [
+                98.7078628540039,
+                0.48486796021461489,
+                0.6062290072441101
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1518.506103515625,
+                442.1498107910156,
+                13624.08203125
+            ],
+            "Orientation": [
+                82.81107330322266,
+                0.46211695671081545,
+                0.2984999716281891
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_2s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_2s",
+            "Position": [
+                1504.358642578125,
+                442.2853698730469,
+                13584.3701171875
+            ],
+            "Orientation": [
+                149.06407165527345,
+                0.2930099666118622,
+                0.5345150232315064
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_prunusSpinosa_2s",
+            "DisplayName": "bldr_plnt_b_prunusSpinosa_2s",
+            "Position": [
+                1590.7659912109376,
+                441.2345886230469,
+                13586.4814453125
+            ],
+            "Orientation": [
+                74.79166412353516,
+                0.5260979533195496,
+                0.1384509801864624
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1512.800048828125,
+                439.9319763183594,
+                13595.5712890625
+            ],
+            "Orientation": [
+                -24.348051071166993,
+                0.18247999250888825,
+                0.005382999777793884
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1538.3575439453126,
+                439.855224609375,
+                13584.541015625
+            ],
+            "Orientation": [
+                -64.59805297851563,
+                0.1046769767999649,
+                0.44936296343803408
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1450.1971435546876,
+                461.18377685546877,
+                14448.51953125
+            ],
+            "Orientation": [
+                135.6583251953125,
+                0.16504798829555512,
+                0.14945296943187715
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1457.2030029296876,
+                463.50274658203127,
+                14424.0302734375
+            ],
+            "Orientation": [
+                -63.210479736328128,
+                0.5575219392776489,
+                0.5978979468345642
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1434.640625,
+                461.2516174316406,
+                14438.724609375
+            ],
+            "Orientation": [
+                -56.283634185791019,
+                0.25019893050193789,
+                0.018821001052856447
+            ],
+            "Scale": 0.9999998807907105,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1428.5350341796876,
+                461.5514221191406,
+                14430.029296875
+            ],
+            "Orientation": [
+                159.23582458496095,
+                0.42116495966911318,
+                0.06889499723911286
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1419.7451171875,
+                461.02093505859377,
+                14440.912109375
+            ],
+            "Orientation": [
+                16.612722396850587,
+                0.45260998606681826,
+                0.3214010000228882
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_2s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_2s",
+            "Position": [
+                1437.392578125,
+                463.72247314453127,
+                14442.501953125
+            ],
+            "Orientation": [
+                57.12494659423828,
+                0.3643830418586731,
+                0.11736598610877991
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_2s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_2s",
+            "Position": [
+                1450.8857421875,
+                462.7538146972656,
+                14468.5341796875
+            ],
+            "Orientation": [
+                118.8219223022461,
+                0.47215697169303896,
+                0.4277869760990143
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1432.1356201171876,
+                461.50103759765627,
+                14457.388671875
+            ],
+            "Orientation": [
+                -155.87071228027345,
+                0.621588945388794,
+                0.15291397273540498
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1431.8104248046876,
+                461.2865295410156,
+                14475.06640625
+            ],
+            "Orientation": [
+                79.88302612304688,
+                0.6256909966468811,
+                0.3845280110836029
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1442.717041015625,
+                460.7625427246094,
+                14496.162109375
+            ],
+            "Orientation": [
+                -10.680109024047852,
+                0.10869299620389939,
+                0.49781402945518496
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_1f",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_1f",
+            "Position": [
+                1442.162109375,
+                460.5361022949219,
+                14481.2021484375
+            ],
+            "Orientation": [
+                -105.84227752685547,
+                0.6053109169006348,
+                0.4777969419956207
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_1f",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_1f",
+            "Position": [
+                1445.197265625,
+                461.2536926269531,
+                14451.5595703125
+            ],
+            "Orientation": [
+                -52.459659576416019,
+                0.08965899795293808,
+                0.27119895815849306
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_2s",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_2s",
+            "Position": [
+                1466.47314453125,
+                461.9120178222656,
+                14474.634765625
+            ],
+            "Orientation": [
+                -83.72882080078125,
+                0.3666900098323822,
+                0.2871779799461365
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_2s",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_2s",
+            "Position": [
+                1451.7125244140626,
+                464.0211181640625,
+                14437.513671875
+            ],
+            "Orientation": [
+                63.19959259033203,
+                0.25705698132514956,
+                0.698280930519104
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1733.9429931640626,
+                452.56207275390627,
+                14225.1513671875
+            ],
+            "Orientation": [
+                -130.6434326171875,
+                0.6542310118675232,
+                0.0738929957151413
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1721.652587890625,
+                452.5652160644531,
+                14234.03125
+            ],
+            "Orientation": [
+                74.22354888916016,
+                0.2010439783334732,
+                0.3208880126476288
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1710.90576171875,
+                452.5652160644531,
+                14234.0576171875
+            ],
+            "Orientation": [
+                120.82135772705078,
+                0.3796570301055908,
+                0.3172140121459961
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1703.086181640625,
+                452.5652160644531,
+                14238.7119140625
+            ],
+            "Orientation": [
+                -121.76091766357422,
+                0.5823249220848084,
+                0.4500899612903595
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1708.387939453125,
+                452.56683349609377,
+                14220.388671875
+            ],
+            "Orientation": [
+                -106.95670318603516,
+                0.551647961139679,
+                0.27532196044921877
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1712.91943359375,
+                452.5752258300781,
+                14203.8466796875
+            ],
+            "Orientation": [
+                59.08063507080078,
+                0.488584965467453,
+                0.515330970287323
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1720.16845703125,
+                452.5680847167969,
+                14199.6572265625
+            ],
+            "Orientation": [
+                75.42536926269531,
+                0.3346669673919678,
+                0.552374005317688
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1718.8680419921876,
+                452.57208251953127,
+                14189.6025390625
+            ],
+            "Orientation": [
+                66.07304382324219,
+                0.047019001096487048,
+                0.09946499764919281
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_2s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_2s",
+            "Position": [
+                1708.6845703125,
+                455.0095520019531,
+                14254.322265625
+            ],
+            "Orientation": [
+                -150.76844787597657,
+                0.06701499968767166,
+                0.3125569820404053
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1704.4110107421876,
+                452.5688781738281,
+                14222.8486328125
+            ],
+            "Orientation": [
+                -127.93390655517578,
+                0.19172997772693635,
+                0.5392360091209412
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1706.1378173828126,
+                452.5752258300781,
+                14204.7412109375
+            ],
+            "Orientation": [
+                130.9056854248047,
+                0.5382959246635437,
+                0.6541669368743897
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1724.462890625,
+                452.5652160644531,
+                14213.1171875
+            ],
+            "Orientation": [
+                -134.93724060058595,
+                0.28234994411468508,
+                0.3975379467010498
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1714.1778564453126,
+                453.5043640136719,
+                14214.328125
+            ],
+            "Orientation": [
+                91.67176818847656,
+                0.29794496297836306,
+                0.5403469800949097
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1713.55810546875,
+                453.51239013671877,
+                14191.7802734375
+            ],
+            "Orientation": [
+                -14.973869323730469,
+                0.32311001420021059,
+                0.5700409412384033
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1733.9853515625,
+                453.4723815917969,
+                14189.80859375
+            ],
+            "Orientation": [
+                130.4249725341797,
+                0.49881798028945925,
+                0.5440210103988648
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1725.8070068359376,
+                453.51129150390627,
+                14171.5654296875
+            ],
+            "Orientation": [
+                -89.78160858154297,
+                0.25340399146080019,
+                0.1349480003118515
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_2s",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_2s",
+            "Position": [
+                1689.826416015625,
+                454.3861999511719,
+                14267.3212890625
+            ],
+            "Orientation": [
+                128.95001220703126,
+                0.5133230090141296,
+                0.004827999509871006
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                1671.71435546875,
+                452.75946044921877,
+                14204.671875
+            ],
+            "Orientation": [
+                -33.97354507446289,
+                0.13291800022125245,
+                0.47078996896743777
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                1669.661376953125,
+                452.75946044921877,
+                14212.7431640625
+            ],
+            "Orientation": [
+                -8.396615028381348,
+                0.6607889533042908,
+                0.11948098987340927
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1671.747314453125,
+                452.5752258300781,
+                14203.509765625
+            ],
+            "Orientation": [
+                77.71974182128906,
+                0.009335000067949295,
+                0.5895659327507019
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_1s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_1s",
+            "Position": [
+                1667.0150146484376,
+                453.51239013671877,
+                14216.421875
+            ],
+            "Orientation": [
+                -37.863037109375,
+                0.571899950504303,
+                0.41684892773628237
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_2s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_2s",
+            "Position": [
+                1682.986083984375,
+                455.0195617675781,
+                14166.7421875
+            ],
+            "Orientation": [
+                -45.33615493774414,
+                0.06333999335765839,
+                0.08404099196195603
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1586.603271484375,
+                452.3729553222656,
+                14213.46484375
+            ],
+            "Orientation": [
+                161.257080078125,
+                0.2267649918794632,
+                0.2282169610261917
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1589.2073974609376,
+                452.4217529296875,
+                14198.388671875
+            ],
+            "Orientation": [
+                -87.56375122070313,
+                0.5976199507713318,
+                0.23862093687057496
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                1585.84765625,
+                452.58343505859377,
+                14205.1767578125
+            ],
+            "Orientation": [
+                166.9056396484375,
+                0.6625630259513855,
+                0.19839496910572053
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                1587.926025390625,
+                452.623046875,
+                14190.64453125
+            ],
+            "Orientation": [
+                14.755362510681153,
+                0.17530198395252229,
+                0.15263600647449494
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1578.1219482421876,
+                452.5977478027344,
+                14129.9091796875
+            ],
+            "Orientation": [
+                -86.37279510498047,
+                0.06274200230836868,
+                0.0385809950530529
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1589.593505859375,
+                452.5752258300781,
+                14145.1669921875
+            ],
+            "Orientation": [
+                -141.9296417236328,
+                0.37766996026039126,
+                0.3694239854812622
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1587.4810791015626,
+                452.5752258300781,
+                14158.4833984375
+            ],
+            "Orientation": [
+                60.11854934692383,
+                0.5243250131607056,
+                0.5423979163169861
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1603.236328125,
+                452.56640625,
+                14170.5986328125
+            ],
+            "Orientation": [
+                154.31930541992188,
+                0.2909170091152191,
+                0.14054496586322785
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_2s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_2s",
+            "Position": [
+                1609.313720703125,
+                455.0110778808594,
+                14178.6728515625
+            ],
+            "Orientation": [
+                -31.952272415161134,
+                0.6514539122581482,
+                0.06436599045991898
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_1f",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_1f",
+            "Position": [
+                1603.8656005859376,
+                452.8669738769531,
+                14197.5712890625
+            ],
+            "Orientation": [
+                141.4052276611328,
+                0.15135399997234345,
+                0.6624559164047241
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_1f",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_1f",
+            "Position": [
+                1613.0489501953126,
+                452.90533447265627,
+                14191.4150390625
+            ],
+            "Orientation": [
+                -171.05735778808595,
+                0.5820889472961426,
+                0.6417339444160461
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_1f",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_1f",
+            "Position": [
+                1613.378173828125,
+                452.91461181640627,
+                14219.9130859375
+            ],
+            "Orientation": [
+                37.065486907958987,
+                0.4082399606704712,
+                0.6645280122756958
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_2s",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_2s",
+            "Position": [
+                1630.1905517578126,
+                454.3861999511719,
+                14217.46484375
+            ],
+            "Orientation": [
+                102.78311920166016,
+                0.40574097633361819,
+                0.21217398345470429
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1625.361328125,
+                452.5752258300781,
+                14209.8935546875
+            ],
+            "Orientation": [
+                -55.32218551635742,
+                0.509584903717041,
+                0.5546809434890747
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_crataegusLaevigata_2s",
+            "DisplayName": "bldr_plnt_b_crataegusLaevigata_2s",
+            "Position": [
+                1721.9197998046876,
+                448.15399169921877,
+                13853.2236328125
+            ],
+            "Orientation": [
+                -129.78033447265626,
+                0.6240889430046082,
+                0.6863819360733032
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_2s",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_2s",
+            "Position": [
+                1718.381103515625,
+                447.894287109375,
+                13869.9423828125
+            ],
+            "Orientation": [
+                16.962339401245118,
+                0.6933889985084534,
+                0.24473097920417787
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_1f",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_1f",
+            "Position": [
+                1729.5836181640626,
+                445.75885009765627,
+                13870.611328125
+            ],
+            "Orientation": [
+                143.0331268310547,
+                0.32479795813560488,
+                0.20382098853588105
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_1f",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_1f",
+            "Position": [
+                1712.4866943359376,
+                445.740234375,
+                13831.9833984375
+            ],
+            "Orientation": [
+                -120.99615478515625,
+                0.1699189841747284,
+                0.042810991406440738
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_corylusAvellana_2s",
+            "DisplayName": "bldr_plnt_b_corylusAvellana_2s",
+            "Position": [
+                1725.5848388671876,
+                444.77362060546877,
+                13817.8759765625
+            ],
+            "Orientation": [
+                -69.31790161132813,
+                0.18888899683952332,
+                0.3939490020275116
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1720.6109619140626,
+                442.9465026855469,
+                13796.7734375
+            ],
+            "Orientation": [
+                66.66300201416016,
+                0.2813459634780884,
+                0.3527609407901764
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1712.079345703125,
+                444.3226318359375,
+                13818.2587890625
+            ],
+            "Orientation": [
+                177.98422241210938,
+                0.3634209930896759,
+                0.6196659803390503
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1707.4683837890626,
+                446.1519470214844,
+                13846.6142578125
+            ],
+            "Orientation": [
+                152.53843688964845,
+                0.5490198731422424,
+                0.16993997991085053
+            ],
+            "Scale": 0.9999998211860657,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                1717.039794921875,
+                446.006103515625,
+                13844.7373046875
+            ],
+            "Orientation": [
+                -96.42437744140625,
+                0.16737599670886994,
+                0.11339299380779267
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                1711.3590087890626,
+                444.53924560546877,
+                13817.8681640625
+            ],
+            "Orientation": [
+                156.8977508544922,
+                0.45878398418426516,
+                0.0124759990721941
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        }
+    ],
+    "EditorDeletedObjects": []
+}

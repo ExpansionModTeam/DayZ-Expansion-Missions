@@ -1,4 +1,4 @@
-class EditorMenu extends UIScriptedMenu 
+class COMEditorMenu extends UIScriptedMenu 
 {
 	protected ButtonWidget m_MatButton;
 	protected ButtonWidget m_ObjectButton;
@@ -17,7 +17,7 @@ class EditorMenu extends UIScriptedMenu
 	protected bool m_toggleDOJCode;
 	protected bool m_toggleDOJPrecision;
 
-	void EditorMenu()
+	void COMEditorMenu()
 	{
 		SetID( 133742 );
 		
@@ -25,7 +25,7 @@ class EditorMenu extends UIScriptedMenu
 		m_toggleDOJPrecision = false;
 	}
 	
-	void ~EditorMenu()
+	void ~COMEditorMenu()
 	{
 	}
 	

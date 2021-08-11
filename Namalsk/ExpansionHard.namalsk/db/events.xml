@@ -71,12 +71,12 @@
             <child lootmax="0" lootmin="0" max="0" min="5" type="ZmbM_PatrolNormal_Flat"/>
             <child lootmax="0" lootmin="0" max="0" min="5" type="ZmbM_PatrolNormal_PautRev"/>
             <child lootmax="0" lootmin="0" max="0" min="5" type="ZmbM_PatrolNormal_Summer"/>
-            <child lootmax="0" lootmin="0" max="0" min="10" type="ZmbM_SoldierNormal"/>
-            <child lootmax="0" lootmin="0" max="0" min="20" type="ZmbM_nacSoldier_normal"/>
-            <child lootmax="0" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
-            <child lootmax="0" lootmin="0" max="0" min="15" type="ZmbM_usSoldier_normal_Woodland"/>
+            <child lootmax="0" lootmin="0" max="0" min="5" type="ZmbM_SoldierNormal"/>
+            <child lootmax="0" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_Officer_Desert"/>
             <child lootmax="0" lootmin="0" max="0" min="15" type="ZmbM_ruSoldier_normal_Woodland1"/>
             <child lootmax="0" lootmin="0" max="0" min="15" type="ZmbM_ruSoldier_normal_Woodland2"/>
+            <child lootmax="0" lootmin="0" max="0" min="20" type="ZmbM_usSoldier_normal_Woodland"/>
+            <child lootmax="0" lootmin="0" max="0" min="20" type="ZmbM_nacSoldier_normal"/>
         </children>
     </event>
     <event name="InfectedIndustrial">

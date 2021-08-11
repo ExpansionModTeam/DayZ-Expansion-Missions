@@ -1,6 +1,4 @@
 #include "$CurrentDir:\\Missions\\ExpansionCOM.Namalsk\\core\\BaseModuleInclude.c"
-
-#include "$CurrentDir:\\Missions\\ExpansionCOM.Namalsk\\expansion\\ExpansionObjectSpawnTools.c"
 #include "$CurrentDir:\\Missions\\ExpansionCOM.Namalsk\\expansion\\missions\\MissionConstructor.c"
 
 Mission CreateCustomMission(string path)
@@ -10,8 +8,8 @@ Mission CreateCustomMission(string path)
 
 void main()
 {
-	bool loadTraderObjects = false;
-	bool loadTraderNPCs = false;
+	bool loadTraderObjects = true;
+	bool loadTraderNPCs = true;
 
 	string MissionWorldName = "empty";
 	GetGame().GetWorldName(MissionWorldName);
@@ -19,7 +17,7 @@ void main()
 	if (MissionWorldName != "empty")
 	{
 		//! Spawn mission objects and traders
-		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
+		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\ExpansionCOM." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 	
 	//! Init server central economy

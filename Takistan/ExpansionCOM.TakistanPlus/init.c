@@ -17,7 +17,7 @@ void main()
 	if (MissionWorldName != "empty")
 	{
 		//! Spawn mission objects and traders
-		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
+		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\ExpansionCOM." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 	
 	//! Init server central economy

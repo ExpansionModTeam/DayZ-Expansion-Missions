@@ -1,0 +1,4060 @@
+{
+    "Version": 1,
+    "MapName": "ChernarusPlus",
+    "CameraPosition": [
+        13084.900390625,
+        8.2540283203125,
+        7938.60009765625
+    ],
+    "EditorObjects": [
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13249.0439453125,
+                17.87083625793457,
+                6341.99853515625
+            ],
+            "Orientation": [
+                1.863124966621399,
+                0.5838199257850647,
+                0.15575498342514039
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fe",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fe",
+            "Position": [
+                13249.453125,
+                20.597335815429689,
+                6350.5048828125
+            ],
+            "Orientation": [
+                165.73658752441407,
+                0.07273999601602555,
+                0.3313559591770172
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fe",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fe",
+            "Position": [
+                13249.8193359375,
+                18.06460189819336,
+                6333.1474609375
+            ],
+            "Orientation": [
+                -8.746261596679688,
+                0.38617298007011416,
+                0.306831955909729
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fd",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fd",
+            "Position": [
+                13256.5908203125,
+                18.196247100830079,
+                6343.45849609375
+            ],
+            "Orientation": [
+                76.92216491699219,
+                0.35429999232292178,
+                0.5742279887199402
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fc",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fc",
+            "Position": [
+                13247.7138671875,
+                18.484146118164064,
+                6325.63720703125
+            ],
+            "Orientation": [
+                95.49574279785156,
+                0.4284919798374176,
+                0.0005129999481141567
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fd",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fd",
+            "Position": [
+                13242.6064453125,
+                19.044506072998048,
+                6330.392578125
+            ],
+            "Orientation": [
+                176.83700561523438,
+                0.3447290062904358,
+                0.32095199823379519
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fd",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fd",
+            "Position": [
+                13258.697265625,
+                17.1787109375,
+                6338.75146484375
+            ],
+            "Orientation": [
+                -148.02613830566407,
+                0.010082999244332314,
+                0.10963299125432968
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fe",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fe",
+            "Position": [
+                13255.82421875,
+                16.856128692626954,
+                6333.21875
+            ],
+            "Orientation": [
+                -47.4666633605957,
+                0.21215198934078217,
+                0.4485509991645813
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13242.248046875,
+                16.64431381225586,
+                6324.26416015625
+            ],
+            "Orientation": [
+                154.8765106201172,
+                0.6601489782333374,
+                0.2423589825630188
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fc",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fc",
+            "Position": [
+                13266.5771484375,
+                17.4151554107666,
+                6339.35595703125
+            ],
+            "Orientation": [
+                1.1538598537445069,
+                9.322673797607422,
+                7.087432384490967
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13252.4296875,
+                15.235710144042969,
+                6328.1767578125
+            ],
+            "Orientation": [
+                163.2455291748047,
+                0.6222089529037476,
+                0.3995029628276825
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13256.8388671875,
+                17.29892921447754,
+                6350.15380859375
+            ],
+            "Orientation": [
+                160.87469482421876,
+                0.3663909435272217,
+                0.5676480531692505
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13264.7802734375,
+                14.11825180053711,
+                6333.81201171875
+            ],
+            "Orientation": [
+                103.89754486083985,
+                0.4878799617290497,
+                0.46769291162490847
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13232.8193359375,
+                17.42041778564453,
+                6320.58740234375
+            ],
+            "Orientation": [
+                99.41802215576172,
+                0.030590998008847238,
+                0.484205961227417
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13257.490234375,
+                14.27612590789795,
+                6245.73583984375
+            ],
+            "Orientation": [
+                -125.66134643554688,
+                0.29296696186065676,
+                0.5429959893226624
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13261.2421875,
+                13.522466659545899,
+                6255.81103515625
+            ],
+            "Orientation": [
+                136.43406677246095,
+                0.020123999565839769,
+                0.4712599217891693
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13257.1611328125,
+                12.81577205657959,
+                6265.45947265625
+            ],
+            "Orientation": [
+                -90.2623291015625,
+                0.4134949743747711,
+                0.027044998481869699
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13271.904296875,
+                12.849761009216309,
+                6257.28857421875
+            ],
+            "Orientation": [
+                -95.6923828125,
+                0.13197799026966096,
+                0.4913199841976166
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13268.5302734375,
+                12.373126029968262,
+                6269.1904296875
+            ],
+            "Orientation": [
+                -167.8343048095703,
+                0.3165299594402313,
+                0.25318998098373415
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13265.841796875,
+                12.429487228393555,
+                6277.8720703125
+            ],
+            "Orientation": [
+                24.566574096679689,
+                0.46547096967697146,
+                0.5329980254173279
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13262.8837890625,
+                12.522865295410157,
+                6289.6044921875
+            ],
+            "Orientation": [
+                -56.04328918457031,
+                0.561710000038147,
+                0.28484997153282168
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13272.765625,
+                12.241024017333985,
+                6288.0810546875
+            ],
+            "Orientation": [
+                44.96472930908203,
+                0.028689997270703317,
+                0.43932297825813296
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13283.044921875,
+                12.41037368774414,
+                6294.291015625
+            ],
+            "Orientation": [
+                94.14096069335938,
+                0.43786996603012087,
+                0.3120439648628235
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13292.400390625,
+                12.156715393066407,
+                6278.1708984375
+            ],
+            "Orientation": [
+                -177.83123779296876,
+                0.4216349720954895,
+                0.4258219301700592
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13277.8125,
+                11.958731651306153,
+                6286.69482421875
+            ],
+            "Orientation": [
+                141.85317993164063,
+                0.23838597536087037,
+                0.32035398483276369
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13258.7431640625,
+                12.473516464233399,
+                6272.94384765625
+            ],
+            "Orientation": [
+                -8.582368850708008,
+                0.22817398607730866,
+                0.4412670135498047
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13274.841796875,
+                13.436590194702149,
+                6237.779296875
+            ],
+            "Orientation": [
+                -91.82470703125,
+                0.13748998939990998,
+                0.1936739832162857
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13303.9404296875,
+                12.754199981689454,
+                6274.67578125
+            ],
+            "Orientation": [
+                -13.083708763122559,
+                0.22106099128723145,
+                0.42022496461868288
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_prunusDomestica_2s",
+            "DisplayName": "bldr_plnt_t_prunusDomestica_2s",
+            "Position": [
+                13265.3935546875,
+                9.985315322875977,
+                6264.52685546875
+            ],
+            "Orientation": [
+                -167.2224578857422,
+                0.0781019926071167,
+                0.13607998192310334
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13263.5673828125,
+                9.485906600952149,
+                6251.0712890625
+            ],
+            "Orientation": [
+                81.62018585205078,
+                0.22257699072360993,
+                0.2898060083389282
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13284.287109375,
+                10.914071083068848,
+                6260.52783203125
+            ],
+            "Orientation": [
+                -54.098533630371097,
+                0.26684099435806277,
+                0.4533799886703491
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13267.4443359375,
+                10.851990699768067,
+                6285.36962890625
+            ],
+            "Orientation": [
+                -175.53684997558595,
+                0.1166829988360405,
+                0.2671189606189728
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13251.28515625,
+                11.187368392944336,
+                6266.49462890625
+            ],
+            "Orientation": [
+                -166.17356872558595,
+                0.0567609965801239,
+                0.285319983959198
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13253.9267578125,
+                15.365174293518067,
+                6340.43701171875
+            ],
+            "Orientation": [
+                155.4665069580078,
+                0.6388289332389832,
+                0.15823300182819367
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13260.0849609375,
+                10.276374816894532,
+                6329.63916015625
+            ],
+            "Orientation": [
+                69.56922149658203,
+                0.3648529648780823,
+                0.0730389878153801
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13235.5654296875,
+                13.291088104248047,
+                6322.220703125
+            ],
+            "Orientation": [
+                -50.49306106567383,
+                0.40836796164512637,
+                0.09728599339723587
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13340.376953125,
+                14.917357444763184,
+                6177.87255859375
+            ],
+            "Orientation": [
+                0.09295198321342468,
+                0.8298689126968384,
+                6.391168594360352
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13339.5400390625,
+                14.512540817260743,
+                6191.20751953125
+            ],
+            "Orientation": [
+                -0.04501799866557121,
+                -0.2987920045852661,
+                8.568232536315918
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13354.765625,
+                13.819901466369629,
+                6212.189453125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13280.296875,
+                13.159017562866211,
+                6241.859375
+            ],
+            "Orientation": [
+                -0.05701500177383423,
+                -2.6706480979919435,
+                1.2234549522399903
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13336.5966796875,
+                13.62419319152832,
+                6225.84619140625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.1527879685163498
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2s",
+            "Position": [
+                13345.64453125,
+                15.670000076293946,
+                6244.45849609375
+            ],
+            "Orientation": [
+                0.003666999749839306,
+                -0.6874939203262329,
+                -0.30559995770454409
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1s",
+            "Position": [
+                13341.939453125,
+                9.403173446655274,
+                6237.818359375
+            ],
+            "Orientation": [
+                0.0030549997463822366,
+                -0.22914299368858338,
+                -0.7639039754867554
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2sb",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2sb",
+            "Position": [
+                13336.6572265625,
+                15.702762603759766,
+                6267.11279296875
+            ],
+            "Orientation": [
+                -0.002749999752268195,
+                0.6875060200691223,
+                -0.22919994592666627
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2sb",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2sb",
+            "Position": [
+                13275.6708984375,
+                14.586145401000977,
+                6257.216796875
+            ],
+            "Orientation": [
+                37.393253326416019,
+                0.5641019940376282,
+                0.15007300674915315
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13342.90625,
+                13.80101203918457,
+                6231.99755859375
+            ],
+            "Orientation": [
+                -175.5413360595703,
+                0.623553991317749,
+                0.18401798605918885
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13331.736328125,
+                13.764013290405274,
+                6245.7841796875
+            ],
+            "Orientation": [
+                -59.73839569091797,
+                0.338191956281662,
+                0.057252004742622378
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2s",
+            "Position": [
+                13348.294921875,
+                13.235943794250489,
+                6269.21484375
+            ],
+            "Orientation": [
+                141.80947875976563,
+                0.4018959105014801,
+                0.5514769554138184
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13306.2216796875,
+                12.869537353515625,
+                6249.71875
+            ],
+            "Orientation": [
+                -102.96765899658203,
+                0.10523199290037155,
+                0.41131696105003359
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13304.513671875,
+                12.799951553344727,
+                6269.509765625
+            ],
+            "Orientation": [
+                -18.881481170654298,
+                0.354748010635376,
+                0.14058798551559449
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13305.6591796875,
+                12.673993110656739,
+                6278.44091796875
+            ],
+            "Orientation": [
+                49.87032699584961,
+                0.5519469976425171,
+                0.1352040022611618
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fe",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fe",
+            "Position": [
+                13293.7939453125,
+                13.715516090393067,
+                6279.78564453125
+            ],
+            "Orientation": [
+                32.301918029785159,
+                0.47713494300842287,
+                0.5620299577713013
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1fe",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1fe",
+            "Position": [
+                13304.0849609375,
+                16.347265243530275,
+                6226.90673828125
+            ],
+            "Orientation": [
+                -52.481510162353519,
+                0.34630995988845827,
+                0.33569300174713137
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1s",
+            "Position": [
+                13324.015625,
+                9.860055923461914,
+                6269.0224609375
+            ],
+            "Orientation": [
+                36.75957489013672,
+                0.4106329679489136,
+                0.16731199622154237
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13339.9853515625,
+                15.04635238647461,
+                6172.8466796875
+            ],
+            "Orientation": [
+                -146.93357849121095,
+                0.4115089774131775,
+                0.30445992946624758
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13331.5048828125,
+                15.59813117980957,
+                6192.37353515625
+            ],
+            "Orientation": [
+                -176.05035400390626,
+                0.6582049131393433,
+                0.36613497138023379
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13341.765625,
+                14.094491958618164,
+                6192.0546875
+            ],
+            "Orientation": [
+                81.51093292236328,
+                0.3270619809627533,
+                0.15007300674915315
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13343.6298828125,
+                13.807331085205079,
+                6184.49658203125
+            ],
+            "Orientation": [
+                90.6447525024414,
+                0.5738219618797302,
+                0.15626798570156098
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1s",
+            "Position": [
+                13330.81640625,
+                12.026477813720704,
+                6187.8828125
+            ],
+            "Orientation": [
+                -67.25296783447266,
+                0.6687579154968262,
+                0.07370099425315857
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13359.14453125,
+                13.819901466369629,
+                6232.55126953125
+            ],
+            "Orientation": [
+                -103.76264953613281,
+                0.6655539274215698,
+                0.2023259699344635
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_1s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_1s",
+            "Position": [
+                13352.716796875,
+                10.065752029418946,
+                6235.18701171875
+            ],
+            "Orientation": [
+                -38.059722900390628,
+                0.6580979228019714,
+                0.40836793184280398
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1fb",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1fb",
+            "Position": [
+                13343.8916015625,
+                8.455117225646973,
+                6235.9794921875
+            ],
+            "Orientation": [
+                89.19165802001953,
+                0.03872999548912048,
+                0.36087900400161745
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1fb",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1fb",
+            "Position": [
+                13337.390625,
+                8.456594467163086,
+                6263.72705078125
+            ],
+            "Orientation": [
+                -122.4710922241211,
+                0.31202298402786257,
+                0.2913219928741455
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1s",
+            "Position": [
+                13343.384765625,
+                9.443557739257813,
+                6271.30224609375
+            ],
+            "Orientation": [
+                61.85573196411133,
+                0.4671800136566162,
+                0.14509499073028565
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2s",
+            "Position": [
+                13382.287109375,
+                15.385137557983399,
+                6198.95751953125
+            ],
+            "Orientation": [
+                87.46540832519531,
+                0.5837129354476929,
+                0.44165098667144778
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13333.650390625,
+                9.603240013122559,
+                6264.37451171875
+            ],
+            "Orientation": [
+                4.430646896362305,
+                0.2531470060348511,
+                0.4700849652290344
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13341.1220703125,
+                12.292963981628418,
+                6289.0947265625
+            ],
+            "Orientation": [
+                73.20745849609375,
+                0.1126449927687645,
+                0.26889196038246157
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13319.572265625,
+                11.897594451904297,
+                6272.443359375
+            ],
+            "Orientation": [
+                -25.98689079284668,
+                0.5650419592857361,
+                0.661558985710144
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13327.8701171875,
+                9.532268524169922,
+                6245.53515625
+            ],
+            "Orientation": [
+                115.7737045288086,
+                0.09491398930549622,
+                0.6310529708862305
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13264.46875,
+                13.356224060058594,
+                6254.68359375
+            ],
+            "Orientation": [
+                -65.01322174072266,
+                0.02142699621617794,
+                0.6653609871864319
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13267.826171875,
+                12.70193862915039,
+                6262.92041015625
+            ],
+            "Orientation": [
+                -148.780029296875,
+                0.1288599818944931,
+                0.08532199263572693
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13257.6083984375,
+                12.807908058166504,
+                6265.66943359375
+            ],
+            "Orientation": [
+                48.83238983154297,
+                0.41471296548843386,
+                0.4526529312133789
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13255.130859375,
+                12.655008316040039,
+                6275.25634765625
+            ],
+            "Orientation": [
+                135.92054748535157,
+                0.3167229890823364,
+                0.06477199494838715
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13264.796875,
+                12.46432113647461,
+                6273.60302734375
+            ],
+            "Orientation": [
+                27.898887634277345,
+                0.2860029637813568,
+                0.0666939914226532
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13264.53125,
+                12.478133201599121,
+                6287.43798828125
+            ],
+            "Orientation": [
+                -43.27123260498047,
+                0.5310750007629395,
+                0.41152995824813845
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13260.3623046875,
+                12.441471099853516,
+                6282.638671875
+            ],
+            "Orientation": [
+                9.281623840332032,
+                0.6727099418640137,
+                0.1879909783601761
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13273.052734375,
+                12.084938049316407,
+                6269.47900390625
+            ],
+            "Orientation": [
+                112.02619171142578,
+                0.5669220089912415,
+                0.27010902762413027
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13269.404296875,
+                8.130825996398926,
+                6276.35595703125
+            ],
+            "Orientation": [
+                126.42617797851563,
+                0.2574629783630371,
+                0.09991298615932465
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13269.173828125,
+                10.795021057128907,
+                6280.43994140625
+            ],
+            "Orientation": [
+                -23.3210391998291,
+                0.06667300313711167,
+                0.3305019736289978
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13260.9755859375,
+                11.676020622253418,
+                6259.03173828125
+            ],
+            "Orientation": [
+                6.462812900543213,
+                0.014269998297095299,
+                0.5674128532409668
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13250.998046875,
+                12.394424438476563,
+                6250.74951171875
+            ],
+            "Orientation": [
+                16.11014175415039,
+                0.6884539723396301,
+                0.2958509624004364
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13255.2626953125,
+                9.325190544128418,
+                6252.6787109375
+            ],
+            "Orientation": [
+                109.13093566894531,
+                0.43101295828819277,
+                0.4840559661388397
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13273.123046875,
+                8.123659133911133,
+                6291.96142578125
+            ],
+            "Orientation": [
+                -142.30111694335938,
+                0.31125396490097048,
+                0.08395498991012573
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13347.294921875,
+                13.767486572265625,
+                6019.80322265625
+            ],
+            "Orientation": [
+                62.69701385498047,
+                0.6866380572319031,
+                0.0313819944858551
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13359.9560546875,
+                13.833377838134766,
+                6020.408203125
+            ],
+            "Orientation": [
+                -87.35614013671875,
+                0.19339600205421449,
+                0.08141299337148667
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13350.8017578125,
+                13.810976028442383,
+                6047.5498046875
+            ],
+            "Orientation": [
+                158.48196411132813,
+                0.6446819305419922,
+                0.2480839490890503
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13346.2421875,
+                14.413522720336914,
+                6071.8671875
+            ],
+            "Orientation": [
+                -48.613853454589847,
+                0.043365996330976489,
+                0.18532100319862367
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13359.3369140625,
+                13.819901466369629,
+                6084.3310546875
+            ],
+            "Orientation": [
+                -59.76891326904297,
+                0.3197779655456543,
+                0.33142003417015078
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13362.236328125,
+                13.819901466369629,
+                6044.47900390625
+            ],
+            "Orientation": [
+                -130.7745819091797,
+                0.31108298897743227,
+                0.5627559423446655
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_3s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_3s",
+            "Position": [
+                13350.2255859375,
+                19.670879364013673,
+                6099.5185546875
+            ],
+            "Orientation": [
+                101.5594482421875,
+                0.6228489875793457,
+                0.43229493498802187
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_3s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_3s",
+            "Position": [
+                13353.615234375,
+                17.780681610107423,
+                6030.5576171875
+            ],
+            "Orientation": [
+                37.74287796020508,
+                0.45844295620918276,
+                0.6546369194984436
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_3s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_3s",
+            "Position": [
+                13392.95703125,
+                17.71752166748047,
+                6019.72509765625
+            ],
+            "Orientation": [
+                3.228827714920044,
+                0.28895100951194765,
+                0.23494595289230348
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_3s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_3s",
+            "Position": [
+                13354.80078125,
+                17.791627883911134,
+                6001.6259765625
+            ],
+            "Orientation": [
+                167.539306640625,
+                0.6337230205535889,
+                0.020871000364422799
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_3s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_3s",
+            "Position": [
+                13353.4482421875,
+                17.780458450317384,
+                6058.26611328125
+            ],
+            "Orientation": [
+                107.94001770019531,
+                0.034863997250795367,
+                0.3711329996585846
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13359.677734375,
+                13.64842700958252,
+                6078.990234375
+            ],
+            "Orientation": [
+                28.772937774658204,
+                0.06970600038766861,
+                0.43556296825408938
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13366.154296875,
+                13.64842700958252,
+                6033.18115234375
+            ],
+            "Orientation": [
+                -30.826953887939454,
+                0.04257600009441376,
+                0.14120697975158692
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13336.3876953125,
+                13.778940200805664,
+                6039.3212890625
+            ],
+            "Orientation": [
+                -41.992916107177737,
+                0.285084992647171,
+                0.5246239900588989
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13354.4208984375,
+                13.652116775512696,
+                6011.6435546875
+            ],
+            "Orientation": [
+                22.425151824951173,
+                0.24778497219085694,
+                0.45085904002189639
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13359.5517578125,
+                13.662979125976563,
+                5986.2490234375
+            ],
+            "Orientation": [
+                -43.26030349731445,
+                0.04219099506735802,
+                0.372905969619751
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2s",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2s",
+            "Position": [
+                13380.31640625,
+                13.64842700958252,
+                5997.5478515625
+            ],
+            "Orientation": [
+                24.326210021972658,
+                0.14139898121356965,
+                0.23703999817371369
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13404.6923828125,
+                13.727510452270508,
+                6023.775390625
+            ],
+            "Orientation": [
+                128.87353515625,
+                0.49994996190071108,
+                0.011919998563826085
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13385.548828125,
+                13.746596336364746,
+                6009.83544921875
+            ],
+            "Orientation": [
+                32.07248306274414,
+                0.10506199300289154,
+                0.1375969797372818
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13400.3662109375,
+                13.687557220458985,
+                6001.451171875
+            ],
+            "Orientation": [
+                -131.81251525878907,
+                0.1597289741039276,
+                0.21289998292922975
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2sc",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2sc",
+            "Position": [
+                13379.1513671875,
+                15.231024742126465,
+                6017.763671875
+            ],
+            "Orientation": [
+                -160.1317138671875,
+                0.5060599446296692,
+                0.2131349891424179
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2s",
+            "Position": [
+                13392.0830078125,
+                15.551239013671875,
+                5998.9912109375
+            ],
+            "Orientation": [
+                -14.132606506347657,
+                0.23184899985790254,
+                0.6419900059700012
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_2sb",
+            "DisplayName": "bldr_plnt_t_quercusRobur_2sb",
+            "Position": [
+                13408.208984375,
+                15.349422454833985,
+                6009.6875
+            ],
+            "Orientation": [
+                90.36068725585938,
+                0.5286189913749695,
+                0.509797990322113
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1s",
+            "Position": [
+                13361.796875,
+                9.40822982788086,
+                6063.68212890625
+            ],
+            "Orientation": [
+                61.64815139770508,
+                0.6302619576454163,
+                0.12392500787973404
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_quercusRobur_1s",
+            "DisplayName": "bldr_plnt_t_quercusRobur_1s",
+            "Position": [
+                13384.337890625,
+                9.379060745239258,
+                6020.28955078125
+            ],
+            "Orientation": [
+                110.61681365966797,
+                0.38704898953437807,
+                0.2415689378976822
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13412.69921875,
+                13.588714599609375,
+                6018.6259765625
+            ],
+            "Orientation": [
+                -149.14053344726563,
+                0.254086971282959,
+                0.313946008682251
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_FagusSylvatica_2sb",
+            "DisplayName": "bldr_plnt_t_FagusSylvatica_2sb",
+            "Position": [
+                13409.02734375,
+                13.435052871704102,
+                5995.07080078125
+            ],
+            "Orientation": [
+                62.64238739013672,
+                0.3413969576358795,
+                0.4254589378833771
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_robiniaPseudoacacia_2s",
+            "DisplayName": "bldr_plnt_t_robiniaPseudoacacia_2s",
+            "Position": [
+                13380.107421875,
+                15.63495922088623,
+                6032.3369140625
+            ],
+            "Orientation": [
+                172.72897338867188,
+                0.6430589556694031,
+                0.691038966178894
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_robiniaPseudoacacia_1f",
+            "DisplayName": "bldr_plnt_t_robiniaPseudoacacia_1f",
+            "Position": [
+                13389.4755859375,
+                8.552549362182618,
+                6028.2421875
+            ],
+            "Orientation": [
+                -28.204790115356447,
+                0.6124250292778015,
+                0.27694496512413027
+            ],
+            "Scale": 1.0000001192092896,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2f",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2f",
+            "Position": [
+                13415.705078125,
+                13.378236770629883,
+                6011.9775390625
+            ],
+            "Orientation": [
+                -0.0005089999176561832,
+                0.3819670081138611,
+                -0.07639799267053604
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1s",
+            "Position": [
+                13414.5322265625,
+                9.300335884094239,
+                6004.14013671875
+            ],
+            "Orientation": [
+                127.45320892333985,
+                0.6937519311904907,
+                0.32214897871017458
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1fb",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1fb",
+            "Position": [
+                13413.1513671875,
+                8.124963760375977,
+                6022.84423828125
+            ],
+            "Orientation": [
+                27.374460220336915,
+                0.43821197748184206,
+                0.550386905670166
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1f",
+            "Position": [
+                13401.330078125,
+                11.12988567352295,
+                6013.11865234375
+            ],
+            "Orientation": [
+                -114.44075012207031,
+                0.6776660084724426,
+                0.48170599341392519
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2s",
+            "Position": [
+                13364.19921875,
+                13.228910446166993,
+                6012.02392578125
+            ],
+            "Orientation": [
+                -137.61398315429688,
+                0.2600899636745453,
+                0.31251397728919985
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1s",
+            "Position": [
+                13352.4384765625,
+                9.702343940734864,
+                6005.28271484375
+            ],
+            "Orientation": [
+                -68.5094223022461,
+                0.05515799671411514,
+                0.17209798097610475
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1fb",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1fb",
+            "Position": [
+                13361.3720703125,
+                8.32282829284668,
+                6004.02001953125
+            ],
+            "Orientation": [
+                -154.2646484375,
+                0.08987300097942352,
+                0.5719000101089478
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13348.2001953125,
+                18.400070190429689,
+                5742.7333984375
+            ],
+            "Orientation": [
+                136.99127197265626,
+                0.45694699883461,
+                0.6377388834953308
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13351.1259765625,
+                18.239105224609376,
+                5763.0361328125
+            ],
+            "Orientation": [
+                44.680641174316409,
+                0.4513709843158722,
+                0.2638929784297943
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13367.099609375,
+                18.239105224609376,
+                5756.66943359375
+            ],
+            "Orientation": [
+                141.05560302734376,
+                0.09809698909521103,
+                0.36090099811553957
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13375.7578125,
+                18.239105224609376,
+                5760.6474609375
+            ],
+            "Orientation": [
+                -114.68112182617188,
+                0.17792998254299165,
+                0.44000694155693056
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13372.841796875,
+                18.239105224609376,
+                5769.30224609375
+            ],
+            "Orientation": [
+                127.49687957763672,
+                0.5494899153709412,
+                0.5058249235153198
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13376.6494140625,
+                18.239105224609376,
+                5783.939453125
+            ],
+            "Orientation": [
+                -164.52381896972657,
+                0.17186300456523896,
+                0.18771398067474366
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13347.076171875,
+                18.76735496520996,
+                5768.818359375
+            ],
+            "Orientation": [
+                33.33985137939453,
+                0.4318459630012512,
+                0.39698198437690737
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13371.6904296875,
+                18.239105224609376,
+                5776.66357421875
+            ],
+            "Orientation": [
+                12.428206443786621,
+                0.32806596159935,
+                0.38358795642852785
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13383.970703125,
+                17.867061614990236,
+                5826.55029296875
+            ],
+            "Orientation": [
+                -114.7575912475586,
+                0.2508399784564972,
+                0.10369399189949036
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13383.2919921875,
+                17.929306030273439,
+                5810.98828125
+            ],
+            "Orientation": [
+                -47.27006149291992,
+                0.2014709860086441,
+                0.13951900601387025
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13373.6396484375,
+                18.239105224609376,
+                5808.15625
+            ],
+            "Orientation": [
+                74.78076171875,
+                0.6426100134849548,
+                0.0008969999616965652
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13376.0546875,
+                18.239105224609376,
+                5818.50390625
+            ],
+            "Orientation": [
+                -165.43064880371095,
+                0.05930299311876297,
+                0.08707398176193237
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13382.0107421875,
+                18.084850311279298,
+                5792.0556640625
+            ],
+            "Orientation": [
+                106.33395385742188,
+                0.3538939952850342,
+                0.3127489984035492
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13350.99609375,
+                18.404651641845704,
+                5809.30322265625
+            ],
+            "Orientation": [
+                -134.1724395751953,
+                0.17004701495170594,
+                0.2475079745054245
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13350.478515625,
+                18.239105224609376,
+                5788.63720703125
+            ],
+            "Orientation": [
+                99.52727508544922,
+                0.014803999103605748,
+                0.6466259956359863
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13357.8359375,
+                18.239105224609376,
+                5786.59423828125
+            ],
+            "Orientation": [
+                156.1875762939453,
+                0.6271010041236877,
+                0.33043697476387026
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13347.92578125,
+                18.45329475402832,
+                5829.138671875
+            ],
+            "Orientation": [
+                -173.34078979492188,
+                0.3274889588356018,
+                0.0379829965531826
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13354.037109375,
+                18.281532287597658,
+                5818.5234375
+            ],
+            "Orientation": [
+                38.47489929199219,
+                0.06848900020122528,
+                0.20862799882888795
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13371.8916015625,
+                18.239105224609376,
+                5829.412109375
+            ],
+            "Orientation": [
+                167.5174560546875,
+                0.3800419569015503,
+                0.5250939130783081
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13377.330078125,
+                18.239105224609376,
+                5836.8876953125
+            ],
+            "Orientation": [
+                -35.470306396484378,
+                0.6734789609909058,
+                0.5527589321136475
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13387.4267578125,
+                17.46605682373047,
+                5844.212890625
+            ],
+            "Orientation": [
+                114.04744720458985,
+                0.11185499280691147,
+                0.36004596948623659
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13376.224609375,
+                18.239105224609376,
+                5845.513671875
+            ],
+            "Orientation": [
+                48.340736389160159,
+                0.5787999629974365,
+                0.27474498748779299
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13352.82421875,
+                18.240589141845704,
+                5838.57763671875
+            ],
+            "Orientation": [
+                -46.96409606933594,
+                0.022985998541116716,
+                0.6118259429931641
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13353.443359375,
+                18.233707427978517,
+                5879.234375
+            ],
+            "Orientation": [
+                69.08848571777344,
+                0.432358980178833,
+                0.5139210820198059
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13357.529296875,
+                18.239105224609376,
+                5890.1318359375
+            ],
+            "Orientation": [
+                134.71871948242188,
+                0.23332296311855317,
+                0.6530349254608154
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13377.390625,
+                18.239105224609376,
+                5889.357421875
+            ],
+            "Orientation": [
+                115.43501281738281,
+                0.1645989716053009,
+                0.605139970779419
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13383.7060546875,
+                18.09208106994629,
+                5879.705078125
+            ],
+            "Orientation": [
+                -165.7037811279297,
+                0.17542998492717744,
+                0.08803499490022659
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13384.8642578125,
+                17.99802017211914,
+                5864.0908203125
+            ],
+            "Orientation": [
+                81.0848388671875,
+                0.4543619751930237,
+                0.47343897819519045
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13390.9755859375,
+                17.7485294342041,
+                5869.60009765625
+            ],
+            "Orientation": [
+                53.57412338256836,
+                0.13388000428676606,
+                0.5962529182434082
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13379.599609375,
+                18.239105224609376,
+                5855.8798828125
+            ],
+            "Orientation": [
+                -178.46490478515626,
+                0.06940700113773346,
+                0.5554720163345337
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13377.3818359375,
+                18.239105224609376,
+                5871.2119140625
+            ],
+            "Orientation": [
+                -31.82118797302246,
+                0.20973798632621766,
+                0.054837994277477267
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_3f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_3f",
+            "Position": [
+                13359.4072265625,
+                18.239105224609376,
+                5874.4677734375
+            ],
+            "Orientation": [
+                119.25898742675781,
+                0.0853009968996048,
+                0.468097984790802
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13359.2822265625,
+                15.701544761657715,
+                5883.68701171875
+            ],
+            "Orientation": [
+                -70.00621795654297,
+                0.027920998632907869,
+                0.4945239722728729
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13359.05078125,
+                15.701544761657715,
+                5904.93798828125
+            ],
+            "Orientation": [
+                9.161442756652832,
+                0.10127998888492584,
+                0.004592999815940857
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13376.2294921875,
+                15.701544761657715,
+                5882.4912109375
+            ],
+            "Orientation": [
+                -101.86536407470703,
+                0.17594300210475923,
+                0.3272329270839691
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13392.6884765625,
+                15.11392593383789,
+                5863.927734375
+            ],
+            "Orientation": [
+                62.28184127807617,
+                0.3330649733543396,
+                0.1635739803314209
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13386.2880859375,
+                15.12109088897705,
+                5850.482421875
+            ],
+            "Orientation": [
+                82.4723892211914,
+                0.06660900264978409,
+                0.3423149883747101
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13375.52734375,
+                15.701544761657715,
+                5862.380859375
+            ],
+            "Orientation": [
+                132.34786987304688,
+                0.5695279240608215,
+                0.4134099781513214
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13352.2919921875,
+                15.74020767211914,
+                5824.6220703125
+            ],
+            "Orientation": [
+                40.7037239074707,
+                0.6217389702796936,
+                0.255731999874115
+            ],
+            "Scale": 1.0000001192092896,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13382.6484375,
+                15.451292037963868,
+                5804.9619140625
+            ],
+            "Orientation": [
+                -132.555419921875,
+                0.5440849661827087,
+                0.5322719812393189
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13375.796875,
+                15.701544761657715,
+                5792.98486328125
+            ],
+            "Orientation": [
+                -90.13123321533203,
+                0.2884809672832489,
+                0.15022200345993043
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2f",
+            "Position": [
+                13358.6103515625,
+                15.701544761657715,
+                5775.0361328125
+            ],
+            "Orientation": [
+                76.4960708618164,
+                0.42477500438690188,
+                0.4507729709148407
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                13370.583984375,
+                16.45738983154297,
+                5786.22265625
+            ],
+            "Orientation": [
+                -129.4525604248047,
+                0.1397329866886139,
+                0.24831898510456086
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                13373.1591796875,
+                16.45738983154297,
+                5823.09912109375
+            ],
+            "Orientation": [
+                66.6302490234375,
+                0.08799299597740174,
+                0.54060298204422
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                13384.5439453125,
+                16.09322738647461,
+                5854.4462890625
+            ],
+            "Orientation": [
+                -176.0394287109375,
+                0.5042009353637695,
+                0.273078978061676
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                13383.427734375,
+                16.308795928955079,
+                5873.828125
+            ],
+            "Orientation": [
+                -164.85159301757813,
+                0.6567090153694153,
+                0.47679296135902407
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2fb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2fb",
+            "Position": [
+                13360.9287109375,
+                16.357391357421876,
+                5878.6279296875
+            ],
+            "Orientation": [
+                109.52423095703125,
+                0.5964670181274414,
+                0.432358980178833
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                13388.68359375,
+                13.44211196899414,
+                5887.6396484375
+            ],
+            "Orientation": [
+                -30.28064727783203,
+                0.3441949784755707,
+                0.22054797410964967
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                13387.6875,
+                13.003188133239746,
+                5855.9599609375
+            ],
+            "Orientation": [
+                18.579330444335939,
+                0.37162500619888308,
+                0.049817997962236407
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                13372.953125,
+                13.490550994873047,
+                5843.01513671875
+            ],
+            "Orientation": [
+                -160.63429260253907,
+                0.29538097977638247,
+                0.05079999566078186
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                13386.671875,
+                12.808141708374024,
+                5833.64892578125
+            ],
+            "Orientation": [
+                -69.38347625732422,
+                0.10098098963499069,
+                0.5205219388008118
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                13377.2958984375,
+                13.785810470581055,
+                5831.02001953125
+            ],
+            "Orientation": [
+                -1.0655269622802735,
+                0.5192409157752991,
+                0.45237499475479128
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                13377.783203125,
+                13.785810470581055,
+                5810.5390625
+            ],
+            "Orientation": [
+                63.27607727050781,
+                0.5868750214576721,
+                0.07735399901866913
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                13370.2919921875,
+                13.785810470581055,
+                5793.45166015625
+            ],
+            "Orientation": [
+                170.03033447265626,
+                0.30155500769615176,
+                0.13388000428676606
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                13384.2421875,
+                13.040182113647461,
+                5787.6484375
+            ],
+            "Orientation": [
+                -52.4705810546875,
+                0.00835299864411354,
+                0.25912895798683169
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                13351.1708984375,
+                13.490550994873047,
+                5776.49609375
+            ],
+            "Orientation": [
+                -96.63197326660156,
+                0.32255497574806216,
+                0.4321659505367279
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                13358.619140625,
+                13.785810470581055,
+                5806.11181640625
+            ],
+            "Orientation": [
+                133.79006958007813,
+                0.6531199216842651,
+                0.6244089603424072
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13354.3486328125,
+                9.688851356506348,
+                5801.9794921875
+            ],
+            "Orientation": [
+                -22.86213493347168,
+                0.007818999700248242,
+                0.41610196232795718
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13375.9365234375,
+                9.59053897857666,
+                5801.6767578125
+            ],
+            "Orientation": [
+                -82.9312744140625,
+                0.19542598724365235,
+                0.30507999658584597
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13382.5166015625,
+                9.322669982910157,
+                5821.85546875
+            ],
+            "Orientation": [
+                -173.32986450195313,
+                0.22847400605678559,
+                0.06410899013280869
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13373.6259765625,
+                9.59053897857666,
+                5820.32177734375
+            ],
+            "Orientation": [
+                -152.5602569580078,
+                0.5772399306297302,
+                0.6973409056663513
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13382.7392578125,
+                9.325039863586426,
+                5843.10400390625
+            ],
+            "Orientation": [
+                50.198097229003909,
+                0.46538496017456057,
+                0.42347195744514468
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13375.02734375,
+                9.59053897857666,
+                5857.4501953125
+            ],
+            "Orientation": [
+                70.37772369384766,
+                0.5400049686431885,
+                0.5534639358520508
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13398.064453125,
+                8.911460876464844,
+                5864.396484375
+            ],
+            "Orientation": [
+                -172.96934509277345,
+                0.6746538877487183,
+                0.5488709807395935
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13389.42578125,
+                9.193090438842774,
+                5878.48095703125
+            ],
+            "Orientation": [
+                -39.545616149902347,
+                0.6685010194778442,
+                0.6784349679946899
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13384.6494140625,
+                9.407411575317383,
+                5900.4169921875
+            ],
+            "Orientation": [
+                72.6502685546875,
+                0.3819429576396942,
+                0.22225698828697205
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13394.255859375,
+                7.190924167633057,
+                5915.30224609375
+            ],
+            "Orientation": [
+                -95.98735809326172,
+                0.5840119123458862,
+                0.1226859986782074
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13377.0830078125,
+                7.554922103881836,
+                5898.00146484375
+            ],
+            "Orientation": [
+                130.21737670898438,
+                0.2049959897994995,
+                0.130311980843544
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13388.568359375,
+                7.22129487991333,
+                5894.19091796875
+            ],
+            "Orientation": [
+                169.8773956298828,
+                0.08425399661064148,
+                0.6671130061149597
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13379.626953125,
+                7.554922103881836,
+                5878.05810546875
+            ],
+            "Orientation": [
+                70.1701431274414,
+                0.6668350100517273,
+                0.09247900545597077
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13394.146484375,
+                6.975994110107422,
+                5877.77001953125
+            ],
+            "Orientation": [
+                -17.6287899017334,
+                0.3330649733543396,
+                0.06821100413799286
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13386.0751953125,
+                7.259077072143555,
+                5869.865234375
+            ],
+            "Orientation": [
+                -61.62629318237305,
+                0.5922369956970215,
+                0.43891698122024538
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13377.28515625,
+                7.554922103881836,
+                5854.09375
+            ],
+            "Orientation": [
+                -41.839969635009769,
+                0.3873899579048157,
+                0.6788840293884277
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13384.7060546875,
+                7.083285808563232,
+                5847.80859375
+            ],
+            "Orientation": [
+                104.15975952148438,
+                0.2592790126800537,
+                0.3749149739742279
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13379.0,
+                7.554922103881836,
+                5839.44775390625
+            ],
+            "Orientation": [
+                -109.02165222167969,
+                0.037320997565984729,
+                0.35378697514533999
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13386.9912109375,
+                6.75425386428833,
+                5820.5322265625
+            ],
+            "Orientation": [
+                -147.69834899902345,
+                0.6794388294219971,
+                0.530113935470581
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13373.974609375,
+                7.554922103881836,
+                5814.14697265625
+            ],
+            "Orientation": [
+                -57.72583770751953,
+                0.05028799548745155,
+                0.6889669895172119
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13378.1298828125,
+                7.554922103881836,
+                5787.95751953125
+            ],
+            "Orientation": [
+                94.96038055419922,
+                0.20580798387527467,
+                0.6983659267425537
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13377.5146484375,
+                7.554922103881836,
+                5766.87109375
+            ],
+            "Orientation": [
+                -24.719507217407228,
+                0.6996699571609497,
+                0.5855289697647095
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13371.1337890625,
+                7.554922103881836,
+                5754.4970703125
+            ],
+            "Orientation": [
+                -129.43069458007813,
+                0.5470979809761047,
+                0.13434998691082
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13377.0498046875,
+                7.554922103881836,
+                5739.06201171875
+            ],
+            "Orientation": [
+                41.064266204833987,
+                0.6304969191551209,
+                0.32340896129608157
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13370.8955078125,
+                7.65214204788208,
+                5737.95703125
+            ],
+            "Orientation": [
+                108.77035522460938,
+                0.5576720237731934,
+                0.0189059991389513
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13373.646484375,
+                7.65214204788208,
+                5748.26904296875
+            ],
+            "Orientation": [
+                -73.7427978515625,
+                0.07703398913145066,
+                0.005190999712795019
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13387.5234375,
+                6.938995838165283,
+                5749.322265625
+            ],
+            "Orientation": [
+                -91.02714538574219,
+                0.6238109469413757,
+                0.6082799434661865
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13382.9619140625,
+                7.352944850921631,
+                5762.19091796875
+            ],
+            "Orientation": [
+                145.68804931640626,
+                0.4084329605102539,
+                0.013608000241219998
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13372.568359375,
+                7.65214204788208,
+                5800.80322265625
+            ],
+            "Orientation": [
+                140.1706085205078,
+                0.6150950193405151,
+                0.698686957359314
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13382.2265625,
+                7.527119159698486,
+                5861.65869140625
+            ],
+            "Orientation": [
+                94.72002410888672,
+                0.28243598341941836,
+                0.35677799582481387
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13382.1689453125,
+                7.563838958740234,
+                5888.65576171875
+            ],
+            "Orientation": [
+                139.13267517089845,
+                0.5525659322738648,
+                0.0010890000266954303
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13381.494140625,
+                7.5936479568481449,
+                5906.8798828125
+            ],
+            "Orientation": [
+                20.698902130126954,
+                0.31432998180389407,
+                0.16120299696922303
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13354.40625,
+                7.55079984664917,
+                5883.46728515625
+            ],
+            "Orientation": [
+                113.56670379638672,
+                0.6404950022697449,
+                0.5841189622879028
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13359.380859375,
+                7.554922103881836,
+                5868.724609375
+            ],
+            "Orientation": [
+                74.01594543457031,
+                0.5959749817848206,
+                0.38363000750541689
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13355.4189453125,
+                9.5877685546875,
+                5876.94189453125
+            ],
+            "Orientation": [
+                -46.49428176879883,
+                0.11146999150514603,
+                0.35088199377059939
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2f",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2f",
+            "Position": [
+                13415.705078125,
+                13.378236770629883,
+                6011.9775390625
+            ],
+            "Orientation": [
+                -0.0005089999176561832,
+                0.3819670081138611,
+                -0.07639799267053604
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1s",
+            "Position": [
+                13414.5322265625,
+                9.300335884094239,
+                6004.14013671875
+            ],
+            "Orientation": [
+                127.45320892333985,
+                0.6937519311904907,
+                0.32214897871017458
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1fb",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1fb",
+            "Position": [
+                13413.1513671875,
+                8.124963760375977,
+                6022.84423828125
+            ],
+            "Orientation": [
+                27.374460220336915,
+                0.43821197748184206,
+                0.550386905670166
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1f",
+            "Position": [
+                13401.330078125,
+                11.12988567352295,
+                6013.11865234375
+            ],
+            "Orientation": [
+                -114.44075012207031,
+                0.6776660084724426,
+                0.48170599341392519
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_2s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_2s",
+            "Position": [
+                13364.19921875,
+                13.228910446166993,
+                6012.02392578125
+            ],
+            "Orientation": [
+                -137.61398315429688,
+                0.2600899636745453,
+                0.31251397728919985
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1s",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1s",
+            "Position": [
+                13352.4384765625,
+                9.702343940734864,
+                6005.28271484375
+            ],
+            "Orientation": [
+                -68.5094223022461,
+                0.05515799671411514,
+                0.17209798097610475
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_BetulaPendula_1fb",
+            "DisplayName": "bldr_plnt_t_BetulaPendula_1fb",
+            "Position": [
+                13361.3720703125,
+                8.32282829284668,
+                6004.02001953125
+            ],
+            "Orientation": [
+                -154.2646484375,
+                0.08987300097942352,
+                0.5719000101089478
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13395.837890625,
+                9.542977333068848,
+                6027.42919921875
+            ],
+            "Orientation": [
+                45.063053131103519,
+                0.17457598447799684,
+                0.6223368644714356
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13405.49609375,
+                12.035476684570313,
+                6002.0068359375
+            ],
+            "Orientation": [
+                78.09122467041016,
+                0.33088597655296328,
+                0.30516499280929568
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13386.3056640625,
+                12.175780296325684,
+                5991.2294921875
+            ],
+            "Orientation": [
+                28.60905647277832,
+                0.18752098083496095,
+                0.5172109603881836
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13379.2607421875,
+                12.277578353881836,
+                5966.73388671875
+            ],
+            "Orientation": [
+                -141.41612243652345,
+                0.5959749817848206,
+                0.48899105191230776
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13392.9453125,
+                12.087236404418946,
+                5972.83544921875
+            ],
+            "Orientation": [
+                147.64373779296876,
+                0.08920999616384506,
+                0.6776450276374817
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13383.6796875,
+                9.572822570800782,
+                5976.5703125
+            ],
+            "Orientation": [
+                -149.0640411376953,
+                0.31031399965286257,
+                0.5878569483757019
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13394.62109375,
+                9.48876953125,
+                5993.19287109375
+            ],
+            "Orientation": [
+                -22.545318603515626,
+                0.48896995186805727,
+                0.6749739050865173
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13411.046875,
+                9.203039169311524,
+                5987.52392578125
+            ],
+            "Orientation": [
+                153.29229736328126,
+                0.6988359689712524,
+                0.6237039566040039
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13420.6494140625,
+                11.869415283203125,
+                6004.43017578125
+            ],
+            "Orientation": [
+                79.80652618408203,
+                0.39010298252105715,
+                0.09551199525594711
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13420.037109375,
+                12.095666885375977,
+                6040.87451171875
+            ],
+            "Orientation": [
+                146.1797332763672,
+                0.6531199216842651,
+                0.3104209899902344
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13427.462890625,
+                9.476919174194336,
+                6048.93896484375
+            ],
+            "Orientation": [
+                45.073978424072269,
+                0.47850194573402407,
+                0.5519029498100281
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13417.755859375,
+                11.992815017700196,
+                6024.76416015625
+            ],
+            "Orientation": [
+                -128.89537048339845,
+                0.02894599922001362,
+                0.47053393721580508
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13375.986328125,
+                12.277578353881836,
+                6044.0087890625
+            ],
+            "Orientation": [
+                159.47621154785157,
+                0.5534848570823669,
+                0.1789979636669159
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_3s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_3s",
+            "Position": [
+                13357.38671875,
+                12.277578353881836,
+                6039.81103515625
+            ],
+            "Orientation": [
+                59.84540939331055,
+                0.22097498178482057,
+                0.2518230080604553
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13362.8681640625,
+                9.626401901245118,
+                6056.20263671875
+            ],
+            "Orientation": [
+                -122.4710922241211,
+                0.6536970138549805,
+                0.5950570106506348
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13356.0966796875,
+                9.634154319763184,
+                6026.3974609375
+            ],
+            "Orientation": [
+                -47.46665573120117,
+                0.5324000120162964,
+                0.6055029630661011
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13363.1826171875,
+                9.63125991821289,
+                6017.3193359375
+            ],
+            "Orientation": [
+                -6.648549556732178,
+                0.3858739733695984,
+                0.6367989182472229
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_pyrusCommunis_2s",
+            "DisplayName": "bldr_plnt_t_pyrusCommunis_2s",
+            "Position": [
+                13356.4755859375,
+                9.64099407196045,
+                5978.251953125
+            ],
+            "Orientation": [
+                164.7860565185547,
+                0.6507919430732727,
+                0.2723739743232727
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                13356.044921875,
+                13.798158645629883,
+                5968.5751953125
+            ],
+            "Orientation": [
+                91.81381225585938,
+                0.1972629874944687,
+                0.6836259365081787
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                13364.7138671875,
+                13.786598205566407,
+                5975.02392578125
+            ],
+            "Orientation": [
+                -161.31170654296876,
+                0.24688798189163209,
+                0.24317099153995515
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2sb",
+            "Position": [
+                13381.8447265625,
+                13.785810470581055,
+                5955.95458984375
+            ],
+            "Orientation": [
+                83.8708724975586,
+                0.5884769558906555,
+                0.6914448738098145
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                13356.5703125,
+                13.498098373413086,
+                5959.67626953125
+            ],
+            "Orientation": [
+                166.27194213867188,
+                0.19352398812770844,
+                0.4737599790096283
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                13379.841796875,
+                13.490550994873047,
+                5947.1474609375
+            ],
+            "Orientation": [
+                -161.74868774414063,
+                0.3753419816493988,
+                0.3965759575366974
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_2s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_2s",
+            "Position": [
+                13365.958984375,
+                13.490550994873047,
+                5965.2861328125
+            ],
+            "Orientation": [
+                125.27899169921875,
+                0.28115400671958926,
+                0.3608359694480896
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13364.5888671875,
+                9.591089248657227,
+                5956.8037109375
+            ],
+            "Orientation": [
+                -10.745652198791504,
+                0.523341953754425,
+                0.6823019981384277
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13389.5810546875,
+                9.507545471191407,
+                5951.26416015625
+            ],
+            "Orientation": [
+                -152.38546752929688,
+                0.42142096161842348,
+                0.337166965007782
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13385.4990234375,
+                9.59053897857666,
+                5966.49853515625
+            ],
+            "Orientation": [
+                140.9900360107422,
+                0.22979798913002015,
+                0.5880069732666016
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1f",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1f",
+            "Position": [
+                13365.8955078125,
+                9.59053897857666,
+                5984.06640625
+            ],
+            "Orientation": [
+                141.01190185546876,
+                0.3532739579677582,
+                0.07239799201488495
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13358.302734375,
+                7.659276008605957,
+                5952.849609375
+            ],
+            "Orientation": [
+                -97.70271301269531,
+                0.6891589760780335,
+                0.19523300230503083
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13362.6201171875,
+                7.65214204788208,
+                5944.1123046875
+            ],
+            "Orientation": [
+                -179.4810028076172,
+                0.12210899591445923,
+                0.4622879922389984
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13386.0166015625,
+                7.65214204788208,
+                5951.01904296875
+            ],
+            "Orientation": [
+                -141.64556884765626,
+                0.20632001757621766,
+                0.6464118957519531
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1s",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1s",
+            "Position": [
+                13398.0263671875,
+                7.365579128265381,
+                5955.27685546875
+            ],
+            "Orientation": [
+                -130.54510498046876,
+                0.1159990057349205,
+                0.4519059360027313
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13391.9296875,
+                7.355960845947266,
+                5944.28076171875
+            ],
+            "Orientation": [
+                -63.013832092285159,
+                0.15690898895263673,
+                0.1789339780807495
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13394.095703125,
+                7.301239013671875,
+                5952.87060546875
+            ],
+            "Orientation": [
+                45.55469512939453,
+                0.15795500576496125,
+                0.3551109731197357
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_t_PiceaAbies_1sb",
+            "DisplayName": "bldr_plnt_t_PiceaAbies_1sb",
+            "Position": [
+                13380.2177734375,
+                7.554922103881836,
+                5934.5
+            ],
+            "Orientation": [
+                101.60316467285156,
+                0.33637598156929018,
+                0.4833729863166809
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        }
+    ],
+    "EditorDeletedObjects": []
+}

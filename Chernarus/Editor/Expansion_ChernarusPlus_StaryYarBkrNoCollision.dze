@@ -1,0 +1,588 @@
+{
+    "Version": 1,
+    "MapName": "ChernarusPlus",
+    "CameraPosition": [
+        13084.900390625,
+        8.2540283203125,
+        7938.60009765625
+    ],
+    "EditorObjects": [
+        {
+            "Type": "ExpansionBunkerGrassL",
+            "DisplayName": "ExpansionBunkerGrassL",
+            "Position": [
+                4414.5478515625,
+                474.1709899902344,
+                15039.1689453125
+            ],
+            "Orientation": [
+                -36.999996185302737,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "ExpansionBunkerGrassR",
+            "DisplayName": "ExpansionBunkerGrassR",
+            "Position": [
+                4414.5498046875,
+                474.1709899902344,
+                15039.2001953125
+            ],
+            "Orientation": [
+                -36.999996185302737,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_prunusSpinosa_1s",
+            "DisplayName": "bldr_plnt_b_prunusSpinosa_1s",
+            "Position": [
+                4397.30029296875,
+                480.3809814453125,
+                15044.658203125
+            ],
+            "Orientation": [
+                -121.16001892089844,
+                0.31091198325157168,
+                0.411486953496933
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_prunusSpinosa_1s",
+            "DisplayName": "bldr_plnt_b_prunusSpinosa_1s",
+            "Position": [
+                4397.87548828125,
+                483.2823486328125,
+                15060.357421875
+            ],
+            "Orientation": [
+                78.62657165527344,
+                0.2238379865884781,
+                0.6373969316482544
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_prunusSpinosa_1s",
+            "DisplayName": "bldr_plnt_b_prunusSpinosa_1s",
+            "Position": [
+                4413.97509765625,
+                482.2180480957031,
+                15048.3798828125
+            ],
+            "Orientation": [
+                12.209698677062989,
+                0.5486569404602051,
+                0.17568600177764893
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_prunusSpinosa_1s",
+            "DisplayName": "bldr_plnt_b_prunusSpinosa_1s",
+            "Position": [
+                4395.73486328125,
+                476.3880310058594,
+                15081.171875
+            ],
+            "Orientation": [
+                -155.78330993652345,
+                1.3748078346252442,
+                7.543038368225098
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_prunusSpinosa_2s",
+            "DisplayName": "bldr_plnt_b_prunusSpinosa_2s",
+            "Position": [
+                4407.11376953125,
+                483.10205078125,
+                15058.4111328125
+            ],
+            "Orientation": [
+                -153.8822479248047,
+                0.4686749577522278,
+                0.35573095083236697
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                4417.6728515625,
+                479.8769836425781,
+                15054.1357421875
+            ],
+            "Orientation": [
+                -22.94955825805664,
+                0.21582698822021485,
+                0.42020300030708315
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                4401.0,
+                480.61981201171877,
+                15043.0498046875
+            ],
+            "Orientation": [
+                77.83992767333985,
+                0.0030759996734559538,
+                0.5664729475975037
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_BetulaPendula_1f",
+            "DisplayName": "bldr_plnt_b_BetulaPendula_1f",
+            "Position": [
+                4390.498046875,
+                477.9510803222656,
+                15073.80859375
+            ],
+            "Orientation": [
+                -33.25240707397461,
+                0.3474849760532379,
+                0.0002139999851351604
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                4413.98193359375,
+                478.77410888671877,
+                15096.408203125
+            ],
+            "Orientation": [
+                -0.16617299616336823,
+                1.3543999195098878,
+                -6.995409965515137
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_b_betulaHumilis_1s",
+            "DisplayName": "bldr_plnt_b_betulaHumilis_1s",
+            "Position": [
+                4420.8125,
+                479.4209289550781,
+                15101.478515625
+            ],
+            "Orientation": [
+                0.16486398875713349,
+                -1.7410038709640504,
+                -5.410325050354004
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_vise",
+            "DisplayName": "bldr_vise",
+            "Position": [
+                4400.64013671875,
+                474.8760070800781,
+                15062.7724609375
+            ],
+            "Orientation": [
+                -37.999996185302737,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_anvil",
+            "DisplayName": "bldr_anvil",
+            "Position": [
+                4402.67529296875,
+                475.0660095214844,
+                15059.1416015625
+            ],
+            "Orientation": [
+                -38.00001907348633,
+                0.0,
+                0.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_carpet_big",
+            "DisplayName": "bldr_carpet_big",
+            "Position": [
+                4405.54443359375,
+                474.19000244140627,
+                15057.2197265625
+            ],
+            "Orientation": [
+                141.47088623046876,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_carpet_big",
+            "DisplayName": "bldr_carpet_big",
+            "Position": [
+                4407.16162109375,
+                474.20001220703127,
+                15056.83203125
+            ],
+            "Orientation": [
+                35.82087326049805,
+                0.0,
+                0.9999999403953552
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_grinder",
+            "DisplayName": "bldr_grinder",
+            "Position": [
+                4402.0009765625,
+                475.1070251464844,
+                15060.3486328125
+            ],
+            "Orientation": [
+                -125.99992370605469,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_flowers_01",
+            "DisplayName": "bldr_flowers_01",
+            "Position": [
+                4407.96142578125,
+                474.2099914550781,
+                15057.9462890625
+            ],
+            "Orientation": [
+                0.0032129997853189708,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_flag_chernarus_wall",
+            "DisplayName": "bldr_flag_chernarus_wall",
+            "Position": [
+                4404.6572265625,
+                476.1221923828125,
+                15059.099609375
+            ],
+            "Orientation": [
+                -37.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_carpet_big",
+            "DisplayName": "bldr_carpet_big",
+            "Position": [
+                4410.63037109375,
+                474.22198486328127,
+                15051.7431640625
+            ],
+            "Orientation": [
+                51.99998474121094,
+                0.0,
+                -0.9999999403953552
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_carpet_big",
+            "DisplayName": "bldr_carpet_big",
+            "Position": [
+                4409.42822265625,
+                474.2229919433594,
+                15053.384765625
+            ],
+            "Orientation": [
+                -128.9999542236328,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_flowers_01",
+            "DisplayName": "bldr_flowers_01",
+            "Position": [
+                4410.873046875,
+                474.62255859375,
+                15049.5537109375
+            ],
+            "Orientation": [
+                0.0,
+                -0.000006999999641266186,
+                -0.000004999999418942025
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "ExpansionPropRadio",
+            "DisplayName": "ExpansionPropRadio",
+            "Position": [
+                4409.91455078125,
+                474.7733154296875,
+                15053.6005859375
+            ],
+            "Orientation": [
+                38.99998474121094,
+                0.0,
+                -90.0
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "ExpansionPropCase1",
+            "DisplayName": "ExpansionPropCase1",
+            "Position": [
+                4402.13671875,
+                474.9670104980469,
+                15059.8408203125
+            ],
+            "Orientation": [
+                117.99996948242188,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "ExpansionPropDrill",
+            "DisplayName": "ExpansionPropDrill",
+            "Position": [
+                4401.080078125,
+                474.9739990234375,
+                15061.203125
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "ExpansionPropGloves",
+            "DisplayName": "ExpansionPropGloves",
+            "Position": [
+                4401.056640625,
+                474.9531555175781,
+                15061.48046875
+            ],
+            "Orientation": [
+                -0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "ExpansionPropBoltCutters1",
+            "DisplayName": "ExpansionPropBoltCutters1",
+            "Position": [
+                4401.8701171875,
+                474.57257080078127,
+                15059.322265625
+            ],
+            "Orientation": [
+                -37.999996185302737,
+                0.0,
+                109.9999771118164
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "ExpansionPropStool1",
+            "DisplayName": "ExpansionPropStool1",
+            "Position": [
+                4401.00830078125,
+                474.47442626953127,
+                15062.4951171875
+            ],
+            "Orientation": [
+                -24.000019073486329,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_school_map",
+            "DisplayName": "bldr_school_map",
+            "Position": [
+                4404.927734375,
+                475.73699951171877,
+                15044.5068359375
+            ],
+            "Orientation": [
+                142.99998474121095,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_mil_enoch_map",
+            "DisplayName": "bldr_mil_enoch_map",
+            "Position": [
+                4406.4697265625,
+                475.66400146484377,
+                15045.67578125
+            ],
+            "Orientation": [
+                -37.0000114440918,
+                0.0,
+                1.9999998807907105
+            ],
+            "Scale": 0.9999999403953552,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_radio_b",
+            "DisplayName": "bldr_radio_b",
+            "Position": [
+                4401.39111328125,
+                475.1300048828125,
+                15063.328125
+            ],
+            "Orientation": [
+                -145.99998474121095,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "Expansion_ChernarusMap_Open",
+            "DisplayName": "Expansion_ChernarusMap_Open",
+            "Position": [
+                4404.03515625,
+                475.010009765625,
+                15045.486328125
+            ],
+            "Orientation": [
+                -37.0000114440918,
+                2.200000047683716,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_picture_c",
+            "DisplayName": "bldr_picture_c",
+            "Position": [
+                4412.11669921875,
+                474.5823974609375,
+                15049.9296875
+            ],
+            "Orientation": [
+                -37.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_desk_globe",
+            "DisplayName": "bldr_desk_globe",
+            "Position": [
+                4404.455078125,
+                475.2062072753906,
+                15046.15234375
+            ],
+            "Orientation": [
+                105.99998474121094,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_l_long_pile_b",
+            "DisplayName": "bldr_plnt_l_long_pile_b",
+            "Position": [
+                4402.36669921875,
+                473.4773254394531,
+                15070.3837890625
+            ],
+            "Orientation": [
+                44.99998092651367,
+                0.0,
+                3.0000007152557375
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        },
+        {
+            "Type": "bldr_plnt_l_long_pile_a",
+            "DisplayName": "bldr_plnt_l_long_pile_a",
+            "Position": [
+                4399.47509765625,
+                473.69024658203127,
+                15072.9287109375
+            ],
+            "Orientation": [
+                0.0,
+                7.508202075958252,
+                -1.680203914642334
+            ],
+            "Scale": 1.0,
+            "Flags": 2147483647
+        }
+    ],
+    "EditorDeletedObjects": []
+}

@@ -144,6 +144,20 @@
     <category name="rifles" />
     <tag name="military" />
   </type>
+  <type name="M16A2">
+    <nominal>3</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier34" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
   <type name="Mosin9130">
     <nominal>10</nominal>
     <lifetime>3600</lifetime>
@@ -765,10 +779,40 @@
     <tag name="hunting" />
   </type>
   <type name="Machete">
-    <nominal>12</nominal>
+    <nominal>6</nominal>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <min>10</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+    <tag name="farm" />
+  </type>
+  <type name="CrudeMachete">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+    <tag name="farm" />
+  </type>
+  <type name="OrientalMachete">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1750,7 +1794,7 @@
     <category name="weapons" />
     <tag name="military" />
   </type>
-  <type name="Mag_STANAGCoupled_30Rnd">
+  <type name="Mag_STANAG_60Rnd">
     <nominal>2</nominal>
     <min>1</min>
     <lifetime>2700</lifetime>
@@ -1837,6 +1881,20 @@
   <type name="Mag_AK74_30Rnd">
     <nominal>5</nominal>
     <min>4</min>
+    <lifetime>2700</lifetime>
+    <restock>1500</restock>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier34" />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Mag_AK74_45Rnd">
+    <nominal>3</nominal>
+    <min>2</min>
     <lifetime>2700</lifetime>
     <restock>1500</restock>
     <quantmin>25</quantmin>
@@ -2212,6 +2270,20 @@
   <type name="ACOGOptic">
     <nominal>6</nominal>
     <min>4</min>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="ACOGOptic_6x">
+    <nominal>3</nominal>
+    <min>2</min>
     <lifetime>2700</lifetime>
     <restock>300</restock>
     <quantmin>-1</quantmin>
@@ -2799,6 +2871,20 @@
     <category name="tools" />
     <tag name="civilian" />
   </type>
+  <type name="IodineTincture">
+    <nominal>8</nominal>
+    <min>6</min>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="medical" />
+  </type>
   <type name="PurificationTablets">
     <nominal>30</nominal>
     <min>25</min>
@@ -2835,7 +2921,7 @@
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>20</quantmin>
-    <quantmax>100</quantmax>
+    <quantmax>50</quantmax>
     <cost>100</cost>
     <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
     <usage />

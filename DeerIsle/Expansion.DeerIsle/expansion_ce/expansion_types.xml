@@ -2932,9 +2932,15 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <!-- OTHER MARKET ITEMS -->
-    <type name="ExpansionTemporaryOwnedContainer">
+   <type name="ExpansionTemporaryOwnedContainer">
+        <nominal>0</nominal>
         <!-- NOTE: Lifetime is not controlled by CE, this is just here to prevent it from despawning before it expires -->
         <lifetime>3888000</lifetime>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
     </type>
 	<!-- ITEM END -->
 	<!-- BASE BUILDING -->	
@@ -3603,5 +3609,15 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="ExpansionTripwireTrap">
+        <nominal>10</nominal>
+        <lifetime>604800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
 </types>
