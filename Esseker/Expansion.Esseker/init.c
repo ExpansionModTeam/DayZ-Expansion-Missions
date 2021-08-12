@@ -10,7 +10,7 @@
  *
 */
 
-#include "$CurrentDir:\\mpmissions\\Expansion.ChernarusPlus\\expansion\\missions\\MissionConstructor.c"
+#include "$CurrentDir:\\mpmissions\\Expansion.Esseker\\expansion\\missions\\MissionConstructor.c"
 
 void main()
 {
