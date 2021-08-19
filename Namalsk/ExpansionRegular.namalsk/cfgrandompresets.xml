@@ -166,7 +166,7 @@
 		<item name="dzn_milberet_black" chance="0.10" />
 	</attachments>
 	<attachments chance="0.25" name="vestsNAC">
-		<item name="HighCapacityVest_Black" chance="0.25" />
+		<item name="dzn_ballisticvest_nac" chance="0.25" />
 		<item name="dzn_highcapacityvest_nac" chance="0.25" />
 		<item name="dzn_smershvest_black" chance="0.25" />
 		<item name="UKAssVest_Black" chance="0.25" />

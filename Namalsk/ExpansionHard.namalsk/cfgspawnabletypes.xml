@@ -109,7 +109,7 @@
             <item name="Mag_CZ61_20Rnd" chance="1.00" />
         </attachments>
         <attachments chance="0.10">
-            <item name="AK_Suppressor" chance="1.00" />
+            <item name="PistolSuppressor" chance="1.00" />
         </attachments>
     </type>
     <type name="CZ527">
@@ -1308,6 +1308,24 @@
         <cargo preset="ammomilitary" />
         <cargo preset="magsmilitary" />
     </type>
+    <type name="dzn_ballisticvest_nac">
+        <cargo preset="toolsmilitary" />
+        <cargo preset="ammomilitary" />
+        <cargo preset="magsmilitary" />
+    </type>
+    <type name="dzn_platecarriervest_nac">
+        <attachments chance="1.00">
+            <item name="dzn_platecarrierholster_nac" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="dzn_platecarrierpouches_nac" chance="1.00" />
+        </attachments>
+        <cargo preset="toolsmilitary" />
+        <cargo preset="ammomilitary" />
+        <cargo preset="magsmilitary" />
+    </type>
+    <type name="dzn_platecarrierholster_nac" />
+    <type name="dzn_platecarrierpouches_nac" />
 
 
     <!-- NAMALSK - CLOTHES - BAGS -->

@@ -376,7 +376,7 @@
   <type name="dzn_athena3_august">
     <nominal>1</nominal>
     <min>1</min>
-    <lifetime>2700</lifetime>
+    <lifetime>5400</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
@@ -389,7 +389,7 @@
   <type name="dzn_athena3_exp1">
     <nominal>1</nominal>
     <min>1</min>
-    <lifetime>2700</lifetime>
+    <lifetime>5400</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
@@ -402,7 +402,7 @@
   <type name="dzn_athena3_exp2">
     <nominal>1</nominal>
     <min>1</min>
-    <lifetime>2700</lifetime>
+    <lifetime>5400</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
@@ -415,7 +415,7 @@
   <type name="dzn_athena3_october">
     <nominal>1</nominal>
     <min>1</min>
-    <lifetime>2700</lifetime>
+    <lifetime>5400</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
@@ -423,6 +423,58 @@
     <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
     <usage />
     <value user="Tier5" />
+    <category name="lore" />
+  </type>
+  <type name="dzn_module_card">
+    <nominal>1</nominal>
+    <min>1</min>
+    <lifetime>5400</lifetime>
+    <restock>600</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier4" />
+    <category name="lore" />
+  </type>
+  <type name="dzn_module_lantia">
+    <nominal>1</nominal>
+    <min>1</min>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier3" />
+    <category name="lore" />
+  </type>
+  <type name="dzn_module_surge">
+    <nominal>1</nominal>
+    <min>1</min>
+    <lifetime>5400</lifetime>
+    <restock>600</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier6" />
+    <category name="lore" />
+  </type>
+  <type name="dzn_module_ext">
+    <nominal>1</nominal>
+    <min>1</min>
+    <lifetime>5400</lifetime>
+    <restock>600</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier6" />
     <category name="lore" />
   </type>
   <type name="dzn_tool_watch">
@@ -736,6 +788,63 @@
     <usage />
     <value user="Tier234" />
     <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_ballisticvest_nac">
+    <nominal>0</nominal>
+    <min>0</min>
+    <lifetime>3600</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier234" />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_platecarriervest_nac">
+    <nominal>2</nominal>
+    <min>2</min>
+    <lifetime>3600</lifetime>
+    <restock>800</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier6" />
+    <category name="lore" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_platecarrierholster_nac">
+    <nominal>0</nominal>
+    <min>0</min>
+    <lifetime>3600</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier6" />
+    <category name="containers" />
+    <tag name="military" />
+    <tag name="police" />
+  </type>
+  <type name="dzn_platecarrierpouches_nac">
+    <nominal>0</nominal>
+    <min>0</min>
+    <lifetime>3600</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier6" />
+    <category name="containers" />
     <tag name="military" />
   </type>
   <type name="dzn_highcapacityvest_nac">

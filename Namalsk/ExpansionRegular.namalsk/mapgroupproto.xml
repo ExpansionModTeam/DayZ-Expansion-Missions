@@ -10285,4 +10285,13 @@
 						<point pos="1.902466 -1.698328 1.959747" range="1.199997" height="2.000000" />
 				</container>
 		</group>
+		<group name="land_supplycrates_spawn" lootmax="2">
+				<value name="Tier6" />
+				<container name="Storage" lootmax="2">
+						<category name="lore" />
+						<tag name="military" />
+						<point pos="0.009155 0.401626 0.251648" range="0.506250" height="0.765625" />
+						<point pos="0.027496 0.401626 -0.309692" range="0.505390" height="0.679688" />
+				</container>
+		</group>
 </prototype>
