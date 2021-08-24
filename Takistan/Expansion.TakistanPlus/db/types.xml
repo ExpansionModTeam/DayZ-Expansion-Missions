@@ -1959,7 +1959,7 @@
     <category name="clothes" />
   </type>
   <type name="B95">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>8</min>
@@ -3874,11 +3874,11 @@
     <usage name="Town" />
     <usage name="Village" />
   </type>
-  <type name="TakistanPlusMap">
+  <type name="ChernarusMap">
     <nominal>50</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>40</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11174,7 +11174,7 @@
     <usage name="Military" />
     <usage name="Police" />
   </type>
-  <type name="TownrHat">
+  <type name="OfficerHat">
     <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>

@@ -9,7 +9,6 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  *
 */
-
 #include "$CurrentDir:\\mpmissions\\Expansion.TakistanPlus\\expansion\\missions\\MissionConstructor.c"
 
 void main()
@@ -96,6 +95,12 @@ class CustomMission: MissionServer
 	// ------------------------------------------------------------
 	override void OnInit()
 	{
+		ExpansionMissionModule missionModule;
+		if ( Class.CastTo( missionModule, GetModuleManager().GetModule( ExpansionMissionModule ) ) )
+		{
+			missionModule.SetMissionConstructor( COMMissionConstructor );
+		}
+
 		super.OnInit();
 
 		// this piece of code is recommended otherwise the event system is switched on automatically and runs from default values
@@ -105,12 +110,6 @@ class CustomMission: MissionServer
 			m_EventManager.Run( 900, 2700, 1 );
 			// registering events and their probability
 			m_EventManager.RegisterEvent( Sandstorm, 1.0 );
-		}
-
-		ExpansionMissionModule missionModule;
-		if ( Class.CastTo( missionModule, GetModuleManager().GetModule( ExpansionMissionModule ) ) )
-		{
-			missionModule.SetMissionConstructor( COMMissionConstructor );
 		}
 	}
 
