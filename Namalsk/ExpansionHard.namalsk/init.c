@@ -9,7 +9,6 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  *
 */
-
 #include "$CurrentDir:\\mpmissions\\ExpansionHard.namalsk\\expansion\\missions\\MissionConstructor.c"
 
 void main()
@@ -90,7 +89,7 @@ class CustomMission: MissionServer
 	// Override OnInit
 	// ------------------------------------------------------------
 	override void OnInit()
-	{
+	{	
 		ExpansionMissionModule missionModule;
 		if ( Class.CastTo( missionModule, GetModuleManager().GetModule( ExpansionMissionModule ) ) )
 		{

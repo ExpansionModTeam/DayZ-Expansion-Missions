@@ -9,7 +9,6 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  *
 */
-
 #include "$CurrentDir:\\mpmissions\\ExpansionRegular.namalsk\\expansion\\missions\\MissionConstructor.c"
 
 void main()
@@ -91,6 +90,12 @@ class CustomMission: MissionServer
 	// ------------------------------------------------------------
 	override void OnInit()
 	{
+		ExpansionMissionModule missionModule;
+		if ( Class.CastTo( missionModule, GetModuleManager().GetModule( ExpansionMissionModule ) ) )
+		{
+			missionModule.SetMissionConstructor( COMMissionConstructor );
+		}
+
 		super.OnInit();
 
 		// this piece of code is recommended otherwise event system is switched on automatically and runs from default values
