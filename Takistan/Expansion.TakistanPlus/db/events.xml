@@ -590,7 +590,25 @@
             <child lootmax="20" lootmin="10" max="3" min="1" type="Wreck_UH1Y"/>
         </children>
     </event>
-	<event name="StaticPoliceCar">
+	<event name="StaticWreck_C130J">
+        <nominal>2</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="10" lootmin="5" max="3" min="1" type="Land_Wreck_C130J"/>
+        </children>
+    </event>
+    <event name="StaticPoliceCar">
         <nominal>10</nominal>
         <min>5</min>
         <max>15</max>
