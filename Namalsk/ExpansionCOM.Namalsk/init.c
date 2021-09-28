@@ -1,5 +1,4 @@
 #include "$CurrentDir:\\Missions\\ExpansionCOM.Namalsk\\core\\BaseModuleInclude.c"
-#include "$CurrentDir:\\Missions\\ExpansionCOM.Namalsk\\expansion\\missions\\MissionConstructor.c"
 
 Mission CreateCustomMission(string path)
 {

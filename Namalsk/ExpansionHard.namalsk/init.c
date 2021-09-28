@@ -9,12 +9,11 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  *
 */
-#include "$CurrentDir:\\mpmissions\\ExpansionHard.namalsk\\expansion\\missions\\MissionConstructor.c"
 
 void main()
 {
-	bool loadTraderObjects = false;
-	bool loadTraderNPCs = false;
+	bool loadTraderObjects = true;
+	bool loadTraderNPCs = true;
 
 	string MissionWorldName = "empty";
 	GetGame().GetWorldName(MissionWorldName);
@@ -89,13 +88,7 @@ class CustomMission: MissionServer
 	// Override OnInit
 	// ------------------------------------------------------------
 	override void OnInit()
-	{	
-		ExpansionMissionModule missionModule;
-		if ( Class.CastTo( missionModule, GetModuleManager().GetModule( ExpansionMissionModule ) ) )
-		{
-			missionModule.SetMissionConstructor( COMMissionConstructor );
-		}
-
+	{
 		super.OnInit();
 
 		// this piece of code is recommended otherwise event system is switched on automatically and runs from default values
@@ -145,61 +138,63 @@ class CustomMission: MissionServer
 	// ------------------------------------------------------------
 	override void StartingEquipSetup( PlayerBase player, bool clothesChosen )
 	{
-		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )
+		//! NOTE: If you are using Expansion-Main, StartingEquipSetup will only be used if you have EnableCustomClothing set to 0 in SpawnSettings.json
+
+		EntityAI itemClothing;
+		EntityAI itemEnt;
+		ItemBase itemBs;
+		float rand;
+		
+		// top
+		itemClothing = player.FindAttachmentBySlotName( "Body" );
+		if ( itemClothing )
 		{
-			EntityAI itemClothing;
-			EntityAI itemEnt;
-			ItemBase itemBs;
-			float rand;
+			SetRandomHealth( itemClothing );
+
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
+			if ( Class.CastTo( itemBs, itemEnt ) )
+			{
+				itemBs.SetQuantity( 4 );
+				itemBs.SetCleanness( 1 );
+			}
+			player.SetQuickBarEntityShortcut( itemEnt, 0 );
+
+			SetRandomHealth( itemEnt );
 			
-			// top
-			itemClothing = player.FindAttachmentBySlotName( "Body" );
-			if ( itemClothing )
-			{
-				SetRandomHealth( itemClothing );
-
-				itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
-				if ( Class.CastTo( itemBs, itemEnt ) )
-					itemBs.SetQuantity( 4 );
-				player.SetQuickBarEntityShortcut( itemEnt, 0 );
-
-				SetRandomHealth( itemEnt );
-				
-				itemEnt = itemClothing.GetInventory().CreateInInventory( "RoadFlare" );
-				SetRandomHealth( itemEnt );
-				itemEnt = itemClothing.GetInventory().CreateInInventory( "RoadFlare" );
-				SetRandomHealth( itemEnt );
-				player.SetQuickBarEntityShortcut( itemEnt, 1 );
-			}
-
-			// pants
-			itemClothing = player.FindAttachmentBySlotName( "Legs" );
-			if ( itemClothing )
-			{
-				SetRandomHealth( itemClothing );
-
-				itemEnt = itemClothing.GetInventory().CreateInInventory( "Heatpack" );
-				SetRandomHealth( itemEnt );
-
-				int throwDice = Math.RandomInt( 0, 2 );
-				if ( throwDice == 0 )
-					itemEnt = itemClothing.GetInventory().CreateInInventory( "dzn_tool_watch" );
-				else
-					itemEnt = itemClothing.GetInventory().CreateInInventory( "dzn_tool_watch2" );
-				player.SetQuickBarEntityShortcut( itemEnt, 2 );
-			}
-
-			// shoes
-			itemClothing = player.FindAttachmentBySlotName( "Feet" );
-			if ( itemClothing )
-			{
-				SetRandomHealth( itemClothing );
-			}
-
-			// bump fresh spawn water and energy values (to compensate for the frozen food and harder-to-get wells)
-			player.GetStatWater().Set( 900 );
-			player.GetStatEnergy().Set( 1100 );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "RoadFlare" );
+			SetRandomHealth( itemEnt );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "RoadFlare" );
+			SetRandomHealth( itemEnt );
+			player.SetQuickBarEntityShortcut( itemEnt, 1 );
 		}
+
+		// pants
+		itemClothing = player.FindAttachmentBySlotName( "Legs" );
+		if ( itemClothing )
+		{
+			SetRandomHealth( itemClothing );
+
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Heatpack" );
+			SetRandomHealth( itemEnt );
+
+			int throwDice = Math.RandomInt( 0, 2 );
+			if ( throwDice == 0 )
+				itemEnt = itemClothing.GetInventory().CreateInInventory( "dzn_tool_watch" );
+			else
+				itemEnt = itemClothing.GetInventory().CreateInInventory( "dzn_tool_watch2" );
+			player.SetQuickBarEntityShortcut( itemEnt, 2 );
+		}
+
+		// shoes
+		itemClothing = player.FindAttachmentBySlotName( "Feet" );
+		if ( itemClothing )
+		{
+			SetRandomHealth( itemClothing );
+		}
+
+		// bump fresh spawn water and energy values (to compensate for the frozen food and harder-to-get wells)
+		player.GetStatWater().Set( 900 );
+		player.GetStatEnergy().Set( 1100 );
 	}
 };
   

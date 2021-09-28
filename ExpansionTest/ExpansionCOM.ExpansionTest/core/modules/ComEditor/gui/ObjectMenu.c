@@ -474,6 +474,11 @@ class COM_ObjectMenu extends PopupMenu
 
 				int scope = g_Game.ConfigGetInt( strConfigPath + " " + strName + " scope" );
 
+				if ( scope == 0 )
+				{
+					continue;
+				}
+
 				string strNameLower = strName;
 
 				strNameLower.ToLower();

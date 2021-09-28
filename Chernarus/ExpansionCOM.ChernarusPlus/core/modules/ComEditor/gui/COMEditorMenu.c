@@ -17,7 +17,7 @@ class COMEditorMenu extends UIScriptedMenu
 	protected bool m_toggleDOJCode;
 	protected bool m_toggleDOJPrecision;
 
-	void EditorMenu()
+	void COMEditorMenu()
 	{
 		SetID( 133742 );
 		
@@ -25,7 +25,7 @@ class COMEditorMenu extends UIScriptedMenu
 		m_toggleDOJPrecision = false;
 	}
 	
-	void ~EditorMenu()
+	void ~COMEditorMenu()
 	{
 	}
 	

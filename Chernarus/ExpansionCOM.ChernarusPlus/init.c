@@ -1,5 +1,4 @@
 #include "$CurrentDir:\\Missions\\ExpansionCOM.ChernarusPlus\\core\\BaseModuleInclude.c"
-#include "$CurrentDir:\\Missions\\ExpansionCOM.ChernarusPlus\\expansion\\missions\\MissionConstructor.c"
 
 Mission CreateCustomMission(string path)
 {

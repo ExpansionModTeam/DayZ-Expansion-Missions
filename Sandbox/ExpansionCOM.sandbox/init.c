@@ -1,7 +1,5 @@
 #include "$CurrentDir:\\Missions\\ExpansionCOM.sandbox\\core\\BaseModuleInclude.c"
 
-#include "$CurrentDir:\\Missions\\ExpansionCOM.sandbox\\expansion\\missions\\MissionConstructor.c"
-
 Mission CreateCustomMission(string path)
 {
 	return new CommunityOfflineClient();
@@ -9,8 +7,8 @@ Mission CreateCustomMission(string path)
 
 void main()
 {
-	bool loadTraderObjects = false;
-	bool loadTraderNPCs = false;
+	bool loadTraderObjects = true;
+	bool loadTraderNPCs = true;
 
 	string MissionWorldName = "empty";
 	GetGame().GetWorldName(MissionWorldName);

@@ -57,50 +57,6 @@ class CommunityOfflineClient : MissionGameplay
 		super.OnUpdate(timeslice);
 
 		GetCOMModuleManager().OnUpdate(timeslice);
-
-		/*
-		Object obj = CarScript.GetAll()[0];
-		if ( obj )
-		{
-			for ( int j = 0; j < debugObjs.Count(); j++ )
-			{
-				GetGame().ObjectDelete( debugObjs[j] );
-			}
-
-			debugObjs.Clear();
-
-			vector boundingBox[2];
-			obj.GetCollisionBox( boundingBox );
-
-			vector headingTransform[4];
-			GetHeadingTransform( obj, headingTransform );
-
-			float l = boundingBox[0][0];
-			float r = boundingBox[1][0];
-			float d = boundingBox[0][1];
-			float u = boundingBox[1][1];
-			float b = boundingBox[0][2];
-			float f = boundingBox[1][2];
-
-			Object dbg = NULL;
-
-			vector bbTransFL[4];
-			GetBoundingPositionTransform( obj, Vector( l, d, f ), headingTransform, bbTransFL );
-			CreateDebugObject( "ExpansionDebugBox_Red", bbTransFL );
-
-			vector bbTransFR[4];
-			GetBoundingPositionTransform( obj, Vector( r, d, f ), headingTransform, bbTransFR );
-			CreateDebugObject( "ExpansionDebugBox_Red", bbTransFR );
-
-			vector bbTransBL[4];
-			GetBoundingPositionTransform( obj, Vector( l, d, b ), headingTransform, bbTransBL );
-			CreateDebugObject( "ExpansionDebugBox_Red", bbTransBL );
-
-			vector bbTransBR[4];
-			GetBoundingPositionTransform( obj, Vector( r, d, b ), headingTransform, bbTransBR );
-			CreateDebugObject( "ExpansionDebugBox_Red", bbTransBR );
-		}
-		*/
 	}
 
 	override void OfflineMissionStart()
@@ -161,12 +117,6 @@ class CommunityOfflineClient : MissionGameplay
 
 	override void OnInit()
 	{
-		ExpansionMissionModule missionModule;
-		if (Class.CastTo(missionModule, GetModuleManager().GetModule(ExpansionMissionModule)))
-		{
-			missionModule.SetMissionConstructor(COMMissionConstructor);
-		}
-
 		super.OnInit();
 
 		SetupWeather();
@@ -230,56 +180,6 @@ class CommunityOfflineClient : MissionGameplay
 			string clipboard = "CameraPOS: " + currentCam.GetPosition() + "\nCameraORI: " + currentCam.GetOrientation() + "\nCharPOS: " + GetPlayer().GetPosition() + "\nCharORI: " + GetPlayer().GetOrientation() + "\nFOV: " + currentCam.GetCurrentFOV() + "\nDate: " + date + weather;
 			GetGame().CopyToClipboard(clipboard);
 		}
-		/*
-		if (key == KeyCode.KC_K)
-		{
-			Print( "START ITEMS" );
-
-			TStringArray configs = new TStringArray;
-			configs.Insert( CFG_VEHICLESPATH );
-			configs.Insert( CFG_WEAPONSPATH );
-			configs.Insert( CFG_MAGAZINESPATH );
-
-			for ( int nConfig = 0; nConfig < configs.Count(); ++nConfig )
-			{
-				string strConfigPath = configs.Get( nConfig );
-
-				int nClasses = g_Game.ConfigGetChildrenCount( strConfigPath );
-
-				for ( int nClass = 0; nClass < nClasses; ++nClass )
-				{
-					string strName;
-
-					g_Game.ConfigGetChildName( strConfigPath, nClass, strName );
-
-					int scope = g_Game.ConfigGetInt( strConfigPath + " " + strName + " scope" );
-
-					if ( scope != 2 )
-					{
-						continue;
-					}
-
-					if ( strName == "Mag_Scout_5Rnd") continue; // fix crash for this dumb item. dont spawn it
-
-					if ( strName.Contains("Fx") )continue; // fix crash for this dumb item. dont spawn it
-
-					if ( strName == "ItemOptics" ) 
-					{
-						continue; // Fix crash
-					}
-
-					if ( strName.Contains("Fx") ) 
-					{
-					//	continue; // Fix crash
-					}
-
-					Print( "" + strName );
-				}
-			}
-
-			Print( "END ITEMS" );
-		}
-		*/
 	}
 
 	static void SetupWeather()

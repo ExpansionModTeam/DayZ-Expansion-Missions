@@ -10,12 +10,10 @@
  *
 */
 
-#include "$CurrentDir:\\mpmissions\\Expansion.Chiemsee\\expansion\\missions\\MissionConstructor.c"
-
 void main()
 {
-	bool loadTraderObjects = false;
-	bool loadTraderNPCs = false;
+	bool loadTraderObjects = true;
+	bool loadTraderNPCs = true;
 
 	string MissionWorldName = "empty";
 	GetGame().GetWorldName(MissionWorldName);
@@ -63,8 +61,11 @@ void main()
 			}
 		}
 	}
-	//GetCEApi().ExportProxyData( "5120 0 5120", 11000 );  			// Generate mapgrouppos.xml
-	//GetCEApi().ExportClusterData();								// Generate mapgroupcluster.xml
+
+	//! Uncomment these lines if you want to export custom loot data
+    //TestHive.ExportProxyProto();
+    //TestHive.ExportProxyData("5120 0 5120", 11000);
+    //TestHive.ExportClusterData();
 }
 
 /**@class		CustomExpansionMission
@@ -94,17 +95,6 @@ class CustomMission: MissionServer
 		}
 	}
 	
-	override void OnInit()
-	{
-		ExpansionMissionModule missionModule;
-		if ( Class.CastTo( missionModule, GetModuleManager().GetModule( ExpansionMissionModule ) ) )
-		{
-			missionModule.SetMissionConstructor( COMMissionConstructor );
-		}
-
-		super.OnInit();
-	}
-	
 	// ------------------------------------------------------------
 	// Override PlayerBase CreateCharacter
 	// ------------------------------------------------------------
@@ -124,48 +114,47 @@ class CustomMission: MissionServer
 	// ------------------------------------------------------------
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
-		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )
+		//! NOTE: If you are using Expansion-Main, StartingEquipSetup will only be used if you have EnableCustomClothing set to 0 in SpawnSettings.json
+
+		EntityAI itemClothing;
+		EntityAI itemEnt;
+		ItemBase itemBs;
+		float rand;
+
+		itemClothing = player.FindAttachmentBySlotName( "Body" );
+		if ( itemClothing )
 		{
-			EntityAI itemClothing;
-			EntityAI itemEnt;
-			ItemBase itemBs;
-			float rand;
-
-			itemClothing = player.FindAttachmentBySlotName( "Body" );
-			if ( itemClothing )
-			{
-				SetRandomHealth( itemClothing );
-				
-				itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
-				if ( Class.CastTo( itemBs, itemEnt ) )
-					itemBs.SetQuantity( 4 );
-
-				SetRandomHealth( itemEnt );
-
-				string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-				int rndIndex = Math.RandomInt( 0, 4 );
-				itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
-				SetRandomHealth( itemEnt );
-
-				rand = Math.RandomFloatInclusive( 0.0, 1.0 );
-				if ( rand < 0.35 )
-					itemEnt = player.GetInventory().CreateInInventory( "Apple" );
-				else if ( rand > 0.65 )
-					itemEnt = player.GetInventory().CreateInInventory( "Pear" );
-				else
-					itemEnt = player.GetInventory().CreateInInventory( "Plum" );
-
-				SetRandomHealth( itemEnt );
-			}
+			SetRandomHealth( itemClothing );
 			
-			itemClothing = player.FindAttachmentBySlotName( "Legs" );
-			if ( itemClothing )
-				SetRandomHealth( itemClothing );
-			
-			itemClothing = player.FindAttachmentBySlotName( "Feet" );
-			if ( itemClothing )
-				SetRandomHealth( itemClothing );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
+			if ( Class.CastTo( itemBs, itemEnt ) )
+				itemBs.SetQuantity( 4 );
+
+			SetRandomHealth( itemEnt );
+
+			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
+			int rndIndex = Math.RandomInt( 0, 4 );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
+			SetRandomHealth( itemEnt );
+
+			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
+			if ( rand < 0.35 )
+				itemEnt = player.GetInventory().CreateInInventory( "Apple" );
+			else if ( rand > 0.65 )
+				itemEnt = player.GetInventory().CreateInInventory( "Pear" );
+			else
+				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
+
+			SetRandomHealth( itemEnt );
 		}
+		
+		itemClothing = player.FindAttachmentBySlotName( "Legs" );
+		if ( itemClothing )
+			SetRandomHealth( itemClothing );
+		
+		itemClothing = player.FindAttachmentBySlotName( "Feet" );
+		if ( itemClothing )
+			SetRandomHealth( itemClothing );
 	}
 };
 

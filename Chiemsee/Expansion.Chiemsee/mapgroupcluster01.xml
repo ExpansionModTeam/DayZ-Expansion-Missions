@@ -404,9 +404,9 @@
     <group name="PiceaAbies_stumpc" pos="6881.187500 4.956104 3415.947754" a="2.194627" />
     <group name="AppleTree5" pos="6882.640625 18.254019 3451.301514" a="115.005669" />
     <group name="PiceaAbies_2d" pos="6909.062500 11.470946 3442.269287" a="90.000000" />
-    <group name="AppleTree5" pos="6880.390625 16.427206 3598.126465" a="151.085831" />
     <group name="AppleTree5" pos="6898.078125 18.461720 3599.245605" a="68.279396" />
     <group name="AppleTree5" pos="6890.093750 17.156582 3593.133301" a="2.974654" />
+    <group name="AppleTree5" pos="6880.390625 16.427206 3598.126465" a="151.085831" />
     <group name="AppleTree5" pos="6882.500000 16.394585 3616.127686" a="135.836380" />
     <group name="AppleTree5" pos="6891.859375 15.993043 3637.652100" a="13.269153" />
     <group name="AppleTree5" pos="6916.500000 12.589260 3634.335938" a="154.447769" />
@@ -482,16 +482,16 @@
     <group name="AppleTree5" pos="6914.578125 19.581377 3918.816650" a="28.254961" />
     <group name="AppleTree5" pos="6898.609375 20.442291 3904.608887" a="114.950714" />
     <group name="AppleTree5" pos="6881.781250 19.797232 3902.579346" a="-128.337952" />
-    <group name="AppleTree5" pos="6899.218750 14.179119 3908.860352" a="-79.886734" />
     <group name="AppleTree5" pos="6917.062500 14.289970 3913.879639" a="-75.953552" />
-    <group name="AppleTree5" pos="6893.265625 14.519273 3911.630371" a="3.743692" />
     <group name="AppleTree5" pos="6884.375000 13.689074 3918.843994" a="63.533131" />
+    <group name="AppleTree5" pos="6893.265625 14.519273 3911.630371" a="3.743692" />
     <group name="AppleTree5" pos="6909.468750 14.767189 3899.507324" a="-19.657915" />
     <group name="AppleTree5" pos="6900.859375 15.398531 3881.761719" a="-59.506538" />
-    <group name="AppleTree2" pos="6904.906250 12.906866 3916.677246" a="48.734093" />
+    <group name="AppleTree5" pos="6899.218750 14.179119 3908.860352" a="-79.886734" />
     <group name="AppleTree2" pos="6900.015625 13.488777 3916.375488" a="176.157349" />
-    <group name="AppleTree2" pos="6890.609375 14.812918 3885.327148" a="157.502045" />
     <group name="AppleTree2" pos="6903.218750 15.476259 3885.135254" a="106.666794" />
+    <group name="AppleTree2" pos="6904.906250 12.906866 3916.677246" a="48.734093" />
+    <group name="AppleTree2" pos="6890.609375 14.812918 3885.327148" a="157.502045" />
     <group name="PiceaAbies_fallene" pos="6907.656250 6.901805 3912.041992" a="-44.476742" />
     <group name="CaninaBush1" pos="6889.437500 7.327772 3899.864014" a="89.648338" />
     <group name="AppleTree5" pos="6894.218750 15.954663 3955.048584" a="-3.639354" />
@@ -1677,8 +1677,8 @@
     <group name="CaninaBush2" pos="6985.760254 37.269421 6297.782227" a="-20.419569" />
     <group name="SambucusBush2" pos="6986.427246 36.775784 6280.959961" a="59.636879" />
     <group name="SambucusBush2" pos="6983.513184 37.082485 6286.008301" a="-64.895401" />
-    <group name="SambucusBush2" pos="6974.377441 37.082870 6347.391602" a="-162.423386" />
     <group name="SambucusBush2" pos="6979.493164 37.083027 6330.546875" a="-22.997885" />
+    <group name="SambucusBush2" pos="6974.377441 37.082870 6347.391602" a="-162.423386" />
     <group name="CaninaBush2" pos="6964.064453 37.072407 6358.063965" a="-172.479034" />
     <group name="AppleTree5" pos="6967.892578 44.705906 6361.332031" a="-157.193222" />
     <group name="AppleTree5" pos="6999.120605 44.705906 6384.932617" a="-157.193222" />
@@ -1700,8 +1700,8 @@
     <group name="BetulaPendula_stump" pos="6969.063965 36.960110 6484.246582" a="167.589355" />
     <group name="BetulaPendula_stump" pos="6966.234375 36.997746 6520.353027" a="-126.569122" />
     <group name="BetulaPendula_stump" pos="6979.390625 36.906586 6529.929688" a="163.588669" />
-    <group name="BetulaPendula_stump" pos="6969.203125 36.830318 6533.613281" a="36.549847" />
     <group name="BetulaPendula_stump" pos="6977.375000 36.818497 6524.656250" a="28.595575" />
+    <group name="BetulaPendula_stump" pos="6969.203125 36.830318 6533.613281" a="36.549847" />
     <group name="PiceaAbies_stumpc" pos="6969.406250 40.420452 6847.505859" a="-116.779984" />
     <group name="PiceaAbies_stumpc" pos="6978.468750 40.128139 6866.164551" a="-131.579041" />
     <group name="PiceaAbies_stumpc" pos="6971.953125 40.534283 6855.516602" a="4.051331" />
@@ -2552,8 +2552,8 @@
     <group name="AppleTree2" pos="7067.703125 13.572548 3377.954590" a="25.640097" />
     <group name="AppleTree2" pos="7051.406250 11.739504 3395.151367" a="167.510895" />
     <group name="PiceaAbies_3d" pos="7052.046875 20.667540 3518.800537" a="90.000000" />
-    <group name="PiceaAbies_3d" pos="7061.024902 20.689043 3525.316895" a="90.000000" />
     <group name="PiceaAbies_3d" pos="7075.789551 20.687910 3545.072266" a="88.454514" />
+    <group name="PiceaAbies_3d" pos="7061.024902 20.689043 3525.316895" a="90.000000" />
     <group name="PiceaAbies_3d" pos="7066.140625 19.984631 3683.343506" a="90.000000" />
     <group name="AppleTree5" pos="7073.734375 26.147293 3753.043213" a="-172.603226" />
     <group name="AppleTree5" pos="7068.625000 17.329763 3726.218750" a="-17.943979" />
@@ -3458,8 +3458,8 @@
     <group name="CaninaBush1" pos="7140.953125 10.933154 3364.463623" a="-129.700333" />
     <group name="PiceaAbies_3d" pos="7139.326660 20.685936 3446.289795" a="80.460373" />
     <group name="PiceaAbies_2d" pos="7127.034668 17.463552 3481.994385" a="88.454514" />
-    <group name="PiceaAbies_2d" pos="7135.213867 17.463833 3537.234863" a="88.454514" />
     <group name="PiceaAbies_2d" pos="7141.769043 17.463493 3546.318359" a="88.454514" />
+    <group name="PiceaAbies_2d" pos="7135.213867 17.463833 3537.234863" a="88.454514" />
     <group name="AppleTree5" pos="7152.437500 19.543230 3622.048340" a="-102.826912" />
     <group name="PiceaAbies_2d" pos="7130.312500 16.454752 3607.516113" a="90.000000" />
     <group name="PiceaAbies_2d" pos="7120.312500 16.325874 3608.516113" a="90.000000" />
@@ -3550,8 +3550,8 @@
     <group name="AppleTree5" pos="7122.687500 13.463825 4081.874512" a="-121.042816" />
     <group name="BetulaPendula_fallen" pos="7140.801270 3.811895 5103.240234" a="60.348141" />
     <group name="AppleTree2" pos="7153.906250 27.987341 5396.286621" a="-176.129959" />
-    <group name="PiceaAbies_3d" pos="7149.453125 26.386702 5398.248047" a="140.384796" />
     <group name="PiceaAbies_3d" pos="7124.809570 26.386702 5394.157715" a="140.384796" />
+    <group name="PiceaAbies_3d" pos="7149.453125 26.386702 5398.248047" a="140.384796" />
     <group name="PiceaAbies_fallene" pos="7135.500488 20.856701 5362.773438" a="44.521191" />
     <group name="PiceaAbies_3d" pos="7135.531738 26.386702 5408.882324" a="140.384796" />
     <group name="SambucusBush2" pos="7145.800293 28.580778 5598.699707" a="51.583183" />
@@ -3840,11 +3840,11 @@
     <group name="AppleTree2" pos="7168.359375 47.912464 3107.015625" a="-124.602448" />
     <group name="AppleTree2" pos="7184.531250 47.708836 3099.523438" a="169.993881" />
     <group name="SambucusBush2" pos="7160.750000 39.887711 3081.473389" a="101.986443" />
-    <group name="AppleTree5" pos="7193.000000 56.020523 3153.993896" a="59.501034" />
     <group name="AppleTree5" pos="7192.609375 55.844917 3137.276855" a="108.391663" />
+    <group name="AppleTree5" pos="7193.000000 56.020523 3153.993896" a="59.501034" />
     <group name="AppleTree5" pos="7163.062500 54.543980 3143.729004" a="-87.456543" />
-    <group name="AppleTree5" pos="7190.484375 53.200302 3159.379639" a="-107.968704" />
     <group name="AppleTree5" pos="7187.437500 53.795593 3137.943359" a="-26.821190" />
+    <group name="AppleTree5" pos="7190.484375 53.200302 3159.379639" a="-107.968704" />
     <group name="AppleTree5" pos="7198.109375 51.849422 3131.171387" a="1.150857" />
     <group name="PlumTree2" pos="7175.390625 51.627640 3149.194824" a="-134.765152" />
     <group name="AppleTree2" pos="7163.859375 51.514378 3153.220703" a="16.784855" />
@@ -4267,10 +4267,10 @@
     <group name="PiceaAbies_stumpc" pos="7201.812500 31.261250 3052.971680" a="52.799149" />
     <group name="AppleTree5" pos="7234.000000 49.007141 3089.312012" a="-87.555435" />
     <group name="AppleTree5" pos="7200.093750 50.900337 3110.161621" a="-141.500015" />
-    <group name="AppleTree2" pos="7217.843750 43.184952 3096.190674" a="20.948830" />
-    <group name="AppleTree2" pos="7238.375000 46.933365 3118.746826" a="-177.843842" />
     <group name="AppleTree2" pos="7225.515625 43.363838 3090.458496" a="-152.574509" />
     <group name="AppleTree2" pos="7217.703125 43.194000 3083.153076" a="-142.488800" />
+    <group name="AppleTree2" pos="7217.843750 43.184952 3096.190674" a="20.948830" />
+    <group name="AppleTree2" pos="7238.375000 46.933365 3118.746826" a="-177.843842" />
     <group name="CaninaBush1" pos="7224.265625 41.495232 3116.773926" a="-93.213577" />
     <group name="PiceaAbies_stumpc" pos="7211.609375 40.309620 3110.001709" a="93.911247" />
     <group name="AppleTree5" pos="7204.734375 54.863274 3131.064697" a="163.313950" />
@@ -4517,18 +4517,18 @@
     <group name="AppleTree2" pos="7206.515625 26.810602 5420.649902" a="124.640923" />
     <group name="AppleTree2" pos="7226.765625 26.472588 5439.093262" a="149.514694" />
     <group name="AppleTree2" pos="7207.953125 26.258041 5434.040039" a="169.016098" />
-    <group name="AppleTree2" pos="7231.921875 27.767843 5426.639160" a="5.919063" />
-    <group name="AppleTree2" pos="7226.535156 27.301769 5417.996582" a="71.124931" />
     <group name="AppleTree2" pos="7207.219727 26.322388 5438.481445" a="100.063805" />
+    <group name="AppleTree2" pos="7226.535156 27.301769 5417.996582" a="71.124931" />
+    <group name="AppleTree2" pos="7231.921875 27.767843 5426.639160" a="5.919063" />
     <group name="AppleTree2" pos="7205.937500 26.011293 5425.331055" a="159.600510" />
     <group name="PlumTree2" pos="7201.531250 28.164007 5448.887207" a="-30.457754" />
     <group name="AppleTree2" pos="7208.773438 29.560629 5469.934570" a="136.770218" />
     <group name="PiceaAbies_fallene" pos="7221.875000 21.509771 5455.842773" a="119.202515" />
     <group name="PiceaAbies_stumpc" pos="7225.687500 21.516420 5462.530273" a="168.972107" />
     <group name="AppleTree2" pos="7222.734375 31.641798 5491.080078" a="-85.940506" />
+    <group name="Stones" pos="7232.984375 23.291086 5596.855469" a="-67.792656" />
     <group name="Stones" pos="7236.000000 33.049980 5573.152344" a="-151.716599" />
     <group name="Stones" pos="7213.702148 34.135956 5590.461914" a="-139.082962" />
-    <group name="Stones" pos="7232.984375 23.291086 5596.855469" a="-67.792656" />
     <group name="Stones" pos="7207.416504 32.305252 5583.493164" a="-112.655182" />
     <group name="Stones" pos="7222.511719 23.039698 5603.663574" a="-4.495141" />
     <group name="Stones" pos="7232.771973 19.473425 5609.254883" a="-76.558907" />
@@ -4991,8 +4991,8 @@
     <group name="SambucusBush2" pos="7272.625000 20.744431 5148.395020" a="21.586069" />
     <group name="AppleTree5" pos="7262.687500 33.711361 5181.967773" a="-47.959515" />
     <group name="AppleTree5" pos="7246.546875 30.173420 5164.312012" a="15.290689" />
-    <group name="AppleTree2" pos="7243.562500 28.687477 5191.509277" a="-2.914227" />
     <group name="AppleTree2" pos="7241.187500 28.820343 5184.836426" a="-76.843452" />
+    <group name="AppleTree2" pos="7243.562500 28.687477 5191.509277" a="-2.914227" />
     <group name="AppleTree5" pos="7272.859375 34.886696 5201.585449" a="4.831367" />
     <group name="AppleTree2" pos="7263.187500 27.298264 5226.404785" a="-158.694122" />
     <group name="PiceaAbies_stumpc" pos="7243.515625 21.813543 5207.158691" a="-136.468140" />
@@ -5253,9 +5253,9 @@
     <group name="Stones" pos="7241.897949 37.379246 9558.981445" a="75.303619" />
     <group name="Stones" pos="7257.421875 39.551064 9554.568359" a="92.965027" />
     <group name="Stones" pos="7271.295898 25.816133 9570.470703" a="97.605919" />
-    <group name="Stones" pos="7270.384766 11.753877 9637.605469" a="90.000000" />
     <group name="Stones" pos="7251.503418 11.131663 9618.739258" a="53.774746" />
     <group name="Stones" pos="7259.860840 11.616611 9601.746094" a="31.730179" />
+    <group name="Stones" pos="7270.384766 11.753877 9637.605469" a="90.000000" />
     <group name="Stones" pos="7259.678711 17.448679 9659.506836" a="43.332581" />
     <group name="Stones" pos="7276.085449 39.283768 9687.312500" a="31.730179" />
     <group name="CaninaBush2" pos="7273.093750 38.087662 9785.643555" a="43.229729" />
@@ -5589,11 +5589,11 @@
     <group name="AppleTree5" pos="7296.796875 34.843369 5172.159180" a="44.251530" />
     <group name="AppleTree5" pos="7282.984375 27.509260 5169.677246" a="61.621464" />
     <group name="PlumTree2" pos="7310.703125 30.621468 5177.137695" a="-45.168922" />
-    <group name="AppleTree2" pos="7319.609375 29.585850 5179.901855" a="-175.547668" />
-    <group name="AppleTree2" pos="7303.171875 27.661392 5170.851074" a="-12.406718" />
-    <group name="AppleTree2" pos="7319.140625 29.220266 5173.184570" a="82.375237" />
     <group name="AppleTree2" pos="7304.390625 28.945452 5161.874512" a="-104.288177" />
     <group name="AppleTree2" pos="7306.312500 31.014851 5186.560059" a="-126.162590" />
+    <group name="AppleTree2" pos="7319.609375 29.585850 5179.901855" a="-175.547668" />
+    <group name="AppleTree2" pos="7319.140625 29.220266 5173.184570" a="82.375237" />
+    <group name="AppleTree2" pos="7303.171875 27.661392 5170.851074" a="-12.406718" />
     <group name="BetulaPendula_fallen" pos="7296.984375 22.427143 5186.471191" a="-78.172844" />
     <group name="BetulaPendula_fallen" pos="7307.656250 21.561661 5162.275879" a="105.941620" />
     <group name="PiceaAbies_stumpc" pos="7294.953125 22.130051 5182.279785" a="-75.074600" />
@@ -5612,19 +5612,19 @@
     <group name="PathDCurve" pos="7299.289551 25.129082 5444.527832" a="-30.536005" />
     <group name="PathDCurve" pos="7282.023926 23.858196 5452.073242" a="0.532636" />
     <group name="Stones" pos="7313.671875 34.285042 5509.994629" a="40.238617" />
-    <group name="Stones" pos="7285.765625 33.250751 5534.552246" a="-112.655174" />
     <group name="Stones" pos="7307.218750 28.369110 5554.770508" a="100.828865" />
+    <group name="Stones" pos="7285.765625 33.250751 5534.552246" a="-112.655174" />
     <group name="Stones" pos="7293.441406 33.479061 5573.830078" a="23.221773" />
     <group name="Stones" pos="7316.851074 23.044878 5560.751465" a="90.000000" />
     <group name="Stones" pos="7281.062500 31.532328 5585.469727" a="-44.329956" />
     <group name="Stones" pos="7315.828125 25.491415 5578.525879" a="100.828865" />
     <group name="Stones" pos="7313.406250 31.807438 5607.348145" a="23.221771" />
-    <group name="Stones" pos="7280.992188 21.701420 5675.831543" a="29.477589" />
-    <group name="Stones" pos="7293.905762 28.734404 5665.999512" a="29.477589" />
-    <group name="Stones" pos="7285.750488 30.846956 5657.812988" a="161.100327" />
-    <group name="Stones" pos="7299.004395 29.784758 5670.447754" a="-171.053894" />
     <group name="Stones" pos="7290.059082 23.537884 5678.967773" a="120.362991" />
+    <group name="Stones" pos="7299.004395 29.784758 5670.447754" a="-171.053894" />
+    <group name="Stones" pos="7280.992188 21.701420 5675.831543" a="29.477589" />
+    <group name="Stones" pos="7285.750488 30.846956 5657.812988" a="161.100327" />
     <group name="Stones" pos="7315.233398 34.047443 5675.251953" a="-151.716599" />
+    <group name="Stones" pos="7293.905762 28.734404 5665.999512" a="29.477589" />
     <group name="Stones" pos="7298.001953 28.270987 5684.026855" a="-175.050293" />
     <group name="Stones" pos="7289.187988 28.675472 5701.242188" a="-100.150383" />
     <group name="CaninaBush1" pos="7293.431152 33.317284 5839.896484" a="-150.753204" />
@@ -6280,8 +6280,8 @@
     <group name="SambucusBush1" pos="7321.843750 119.233429 8812.424805" a="-165.286118" />
     <group name="SambucusBush2" pos="7348.812500 118.380211 8903.816406" a="179.618195" />
     <group name="BetulaPendula_stump" pos="7353.625000 116.445480 8917.101563" a="68.422188" />
-    <group name="BetulaPendula_fallen" pos="7346.437500 114.519722 8948.900391" a="-79.513191" />
     <group name="BetulaPendula_fallen" pos="7350.671875 114.264137 8951.219727" a="-105.068230" />
+    <group name="BetulaPendula_fallen" pos="7346.437500 114.519722 8948.900391" a="-79.513191" />
     <group name="SambucusBush2" pos="7352.734375 112.377518 8965.812500" a="-177.799911" />
     <group name="SambucusBush2" pos="7337.781250 110.409729 8979.012695" a="-124.569572" />
     <group name="SambucusBush2" pos="7341.109375 108.733658 8991.369141" a="9.083220" />
@@ -8250,8 +8250,8 @@
     <group name="BetulaPendula_fallen" pos="7476.828125 53.303963 9386.498047" a="104.941811" />
     <group name="BetulaPendula_fallen" pos="7478.046875 51.719994 9392.444336" a="152.239456" />
     <group name="BetulaPendula_stump" pos="7448.734375 59.528652 9361.362305" a="5.523537" />
-    <group name="SambucusBush2" pos="7477.838867 38.871922 9499.976563" a="-89.321320" />
     <group name="SambucusBush2" pos="7479.402344 38.645325 9519.578125" a="-89.321320" />
+    <group name="SambucusBush2" pos="7477.838867 38.871922 9499.976563" a="-89.321320" />
     <group name="PiceaAbies_3d" pos="7453.722656 43.036537 9520.859375" a="-176.299561" />
     <group name="PiceaAbies_3d" pos="7460.428223 43.038784 9537.728516" a="-176.299561" />
     <group name="CaninaBush2" pos="7469.290527 38.915482 9550.837891" a="-55.477688" />
@@ -8854,27 +8854,27 @@
     <group name="CaninaBush1" pos="7504.765625 39.619675 9553.117188" a="-177.886490" />
     <group name="SambucusBush2" pos="7482.222656 38.311649 9559.691406" a="-51.291328" />
     <group name="CaninaBush2" pos="7516.343750 39.572433 9591.745117" a="-47.098228" />
-    <group name="CaninaBush1" pos="7489.093750 38.384056 9594.550781" a="-107.885376" />
-    <group name="CaninaBush1" pos="7516.453125 39.146156 9583.634766" a="-177.886490" />
-    <group name="CaninaBush1" pos="7491.531250 38.390095 9589.467773" a="-107.885376" />
-    <group name="CaninaBush1" pos="7501.019531 39.554924 9563.476563" a="80.914825" />
     <group name="CaninaBush1" pos="7491.531250 38.400799 9585.908203" a="-177.886490" />
+    <group name="CaninaBush1" pos="7501.019531 39.554924 9563.476563" a="80.914825" />
+    <group name="CaninaBush1" pos="7516.453125 39.146156 9583.634766" a="-177.886490" />
     <group name="CaninaBush1" pos="7508.259766 39.621082 9568.198242" a="154.009872" />
+    <group name="CaninaBush1" pos="7491.531250 38.390095 9589.467773" a="-107.885376" />
+    <group name="CaninaBush1" pos="7489.093750 38.384056 9594.550781" a="-107.885376" />
     <group name="SambucusBush2" pos="7484.535156 38.235241 9574.519531" a="-87.516579" />
-    <group name="CaninaBush2" pos="7487.080078 39.449997 9600.246094" a="-76.748787" />
     <group name="CaninaBush2" pos="7507.190918 39.454403 9605.546875" a="-76.748787" />
+    <group name="CaninaBush2" pos="7487.080078 39.449997 9600.246094" a="-76.748787" />
     <group name="SambucusBush2" pos="7495.417969 38.691654 9625.375977" a="-70.499794" />
     <group name="SambucusBush2" pos="7487.570801 38.691879 9606.685547" a="-177.757584" />
-    <group name="CaninaBush2" pos="7485.344727 38.678192 9617.614258" a="-87.387917" />
     <group name="CaninaBush2" pos="7484.403320 38.677948 9615.060547" a="-177.757584" />
     <group name="CaninaBush2" pos="7481.158691 38.677811 9623.830078" a="-87.387917" />
+    <group name="CaninaBush2" pos="7485.344727 38.678192 9617.614258" a="-87.387917" />
     <group name="SambucusBush2" pos="7500.086426 38.312458 9624.796875" a="2.595312" />
     <group name="SambucusBush2" pos="7500.208008 38.312443 9624.766602" a="2.595312" />
-    <group name="CaninaBush1" pos="7488.130371 38.385998 9614.469727" a="-87.387917" />
     <group name="CaninaBush1" pos="7481.239258 38.386147 9612.289063" a="-177.757584" />
+    <group name="CaninaBush1" pos="7488.130371 38.385998 9614.469727" a="-87.387917" />
     <group name="CaninaBush1" pos="7483.946777 38.386177 9620.679688" a="-87.387917" />
-    <group name="CaninaBush2" pos="7494.568848 38.301849 9616.143555" a="-14.292630" />
     <group name="CaninaBush2" pos="7494.463379 38.301849 9616.207031" a="-14.292630" />
+    <group name="CaninaBush2" pos="7494.568848 38.301849 9616.143555" a="-14.292630" />
     <group name="CaninaBush1" pos="7492.702637 38.069214 9620.340820" a="2.595312" />
     <group name="CaninaBush1" pos="7491.674805 38.069580 9634.244141" a="47.071148" />
     <group name="CaninaBush1" pos="7492.583008 38.069218 9620.373047" a="2.595312" />
@@ -9417,16 +9417,16 @@
     <group name="CaninaBush2" pos="7521.815430 39.609940 9593.389648" a="-47.098228" />
     <group name="CaninaBush2" pos="7548.727539 40.990753 9581.106445" a="-47.098228" />
     <group name="CaninaBush1" pos="7523.921875 39.680450 9572.645508" a="-177.886490" />
+    <group name="CaninaBush2" pos="7526.255859 39.521084 9601.901367" a="-94.925873" />
     <group name="CaninaBush2" pos="7550.901367 39.621601 9634.609375" a="-9.970589" />
     <group name="CaninaBush2" pos="7548.909668 38.932808 9630.870117" a="-58.829502" />
-    <group name="CaninaBush2" pos="7526.255859 39.521084 9601.901367" a="-94.925873" />
     <group name="CaninaBush1" pos="7544.425781 38.591778 9634.704102" a="111.209824" />
-    <group name="BetulaPendula_stump" pos="7543.953125 38.088566 9634.044922" a="98.316910" />
-    <group name="BetulaPendula_stump" pos="7546.421875 38.309361 9619.209961" a="-147.696442" />
-    <group name="BetulaPendula_stump" pos="7550.203125 38.297985 9615.406250" a="-122.613869" />
-    <group name="BetulaPendula_stump" pos="7537.171875 38.338356 9622.014648" a="5.930057" />
     <group name="BetulaPendula_stump" pos="7547.453125 38.063141 9628.458008" a="18.850348" />
+    <group name="BetulaPendula_stump" pos="7543.953125 38.088566 9634.044922" a="98.316910" />
     <group name="BetulaPendula_stump" pos="7548.812500 38.161896 9616.427734" a="-107.188622" />
+    <group name="BetulaPendula_stump" pos="7550.203125 38.297985 9615.406250" a="-122.613869" />
+    <group name="BetulaPendula_stump" pos="7546.421875 38.309361 9619.209961" a="-147.696442" />
+    <group name="BetulaPendula_stump" pos="7537.171875 38.338356 9622.014648" a="5.930057" />
     <group name="CaninaBush2" pos="7545.969238 39.599899 9648.805664" a="-74.686165" />
     <group name="CaninaBush2" pos="7541.739258 38.908691 9649.008789" a="-123.545113" />
     <group name="SambucusBush2" pos="7534.227539 38.312473 9650.002930" a="2.595312" />
@@ -11192,18 +11192,18 @@
     <group name="AppleTree5" pos="7719.187500 15.861378 3473.581787" a="-62.692642" />
     <group name="BetulaPendula_stump" pos="7719.468750 8.334182 3460.882813" a="-37.643040" />
     <group name="AppleTree5" pos="7692.796875 17.029583 3501.530762" a="133.957596" />
-    <group name="AppleTree5" pos="7699.828125 16.755779 3502.106689" a="-19.998480" />
-    <group name="AppleTree5" pos="7688.296875 19.950758 3511.514404" a="120.279259" />
     <group name="AppleTree5" pos="7715.875000 16.870628 3505.891846" a="-79.677986" />
+    <group name="AppleTree5" pos="7714.015625 20.165848 3504.602539" a="-47.640930" />
+    <group name="AppleTree5" pos="7688.296875 19.950758 3511.514404" a="120.279259" />
     <group name="AppleTree5" pos="7716.765625 19.529652 3515.464111" a="62.049908" />
     <group name="AppleTree5" pos="7694.046875 20.866377 3498.595947" a="15.796074" />
-    <group name="AppleTree5" pos="7714.015625 20.165848 3504.602539" a="-47.640930" />
+    <group name="AppleTree5" pos="7699.828125 16.755779 3502.106689" a="-19.998480" />
     <group name="AppleTree5" pos="7718.734375 15.753065 3502.408447" a="-134.127975" />
     <group name="AppleTree5" pos="7719.750000 14.401129 3488.228271" a="-18.240610" />
     <group name="PlumTree2" pos="7718.406250 15.943893 3497.800537" a="-62.088390" />
     <group name="AppleTree2" pos="7693.812500 15.184860 3480.466309" a="49.338367" />
-    <group name="AppleTree2" pos="7698.140625 13.095557 3482.139404" a="-54.430710" />
     <group name="AppleTree2" pos="7681.093750 13.530084 3489.791748" a="-130.128769" />
+    <group name="AppleTree2" pos="7698.140625 13.095557 3482.139404" a="-54.430710" />
     <group name="CaninaBush1" pos="7697.359375 8.261866 3511.212646" a="88.351944" />
     <group name="PiceaAbies_stumpd" pos="7682.781250 7.160555 3485.156250" a="104.370506" />
     <group name="AppleTree5" pos="7687.015625 20.618675 3541.986572" a="-162.715225" />
@@ -15744,16 +15744,16 @@
     <group name="SambucusBush2" pos="8197.328125 5.237578 3617.467773" a="48.470440" />
     <group name="AppleTree5" pos="8187.593750 16.050743 3655.976318" a="20.223709" />
     <group name="AppleTree5" pos="8183.656250 14.164231 3651.944580" a="53.403416" />
-    <group name="AppleTree5" pos="8176.109375 10.185628 3647.391602" a="-53.123291" />
-    <group name="AppleTree5" pos="8198.562500 10.570069 3664.204834" a="-42.663967" />
     <group name="AppleTree5" pos="8164.578125 11.474882 3647.418945" a="48.591320" />
     <group name="AppleTree5" pos="8191.984375 11.139381 3657.677002" a="-172.987762" />
+    <group name="AppleTree5" pos="8198.562500 10.570069 3664.204834" a="-42.663967" />
+    <group name="AppleTree5" pos="8176.109375 10.185628 3647.391602" a="-53.123291" />
     <group name="PiceaAbies_fallene" pos="8170.437500 2.557594 3641.137939" a="-3.265769" />
-    <group name="SambucusBush2" pos="8188.375000 3.856216 3658.664307" a="-53.233109" />
-    <group name="SambucusBush2" pos="8193.890625 3.899506 3661.681396" a="-96.103142" />
     <group name="SambucusBush2" pos="8177.796875 3.653593 3653.453125" a="133.781845" />
-    <group name="SambucusBush2" pos="8188.093750 3.522915 3674.928955" a="150.075073" />
     <group name="SambucusBush2" pos="8190.015625 3.258987 3670.019287" a="157.677826" />
+    <group name="SambucusBush2" pos="8193.890625 3.899506 3661.681396" a="-96.103142" />
+    <group name="SambucusBush2" pos="8188.093750 3.522915 3674.928955" a="150.075073" />
+    <group name="SambucusBush2" pos="8188.375000 3.856216 3658.664307" a="-53.233109" />
     <group name="AppleTree5" pos="8192.265625 15.462570 3685.817871" a="159.391724" />
     <group name="AppleTree2" pos="8188.937500 9.412407 3680.085449" a="-160.100433" />
     <group name="BetulaPendula_fallen" pos="8163.234375 12.377300 4319.997070" a="-51.738968" />
@@ -16381,9 +16381,9 @@
     <group name="BetulaPendula_stump" pos="8232.031250 53.316597 9881.627930" a="-150.937531" />
     <group name="BetulaPendula_stump" pos="8215.093750 55.256351 9887.048828" a="-74.316528" />
     <group name="BetulaPendula_stump" pos="8234.640625 53.033455 9884.528320" a="56.721405" />
-    <group name="BetulaPendula_fallen" pos="8202.890625 56.333050 9921.377930" a="4.578662" />
-    <group name="BetulaPendula_fallen" pos="8210.093750 55.620155 9922.282227" a="88.934303" />
     <group name="BetulaPendula_fallen" pos="8224.687500 54.648479 9938.781250" a="-62.099358" />
+    <group name="BetulaPendula_fallen" pos="8210.093750 55.620155 9922.282227" a="88.934303" />
+    <group name="BetulaPendula_fallen" pos="8202.890625 56.333050 9921.377930" a="4.578662" />
     <group name="BetulaPendula_fallen" pos="8211.093750 55.734619 9931.719727" a="-39.873352" />
     <group name="BetulaPendula_stump" pos="8217.203125 60.465183 10038.085938" a="55.216270" />
     <group name="BetulaPendula_stump" pos="8221.453125 59.868729 10034.755859" a="2.809842" />
@@ -16839,14 +16839,14 @@
     <group name="CaninaBush2" pos="8248.578125 51.827919 9842.376953" a="77.925682" />
     <group name="CaninaBush2" pos="8269.171875 49.197685 9842.971680" a="-172.614212" />
     <group name="BetulaPendula_fallen" pos="8276.484375 46.713692 9882.317383" a="-70.592056" />
-    <group name="CaninaBush2" pos="8254.328125 51.776600 9936.189453" a="-113.330154" />
     <group name="CaninaBush2" pos="8261.468750 50.435902 9927.131836" a="46.778481" />
+    <group name="CaninaBush2" pos="8254.328125 51.776600 9936.189453" a="-113.330154" />
     <group name="CaninaBush2" pos="8253.718750 51.525398 9929.793945" a="-40.642422" />
-    <group name="CaninaBush2" pos="8251.718750 52.003376 9936.046875" a="108.776161" />
     <group name="CaninaBush2" pos="8263.781250 49.983833 9926.061523" a="-146.070435" />
-    <group name="BetulaPendula_stump" pos="8268.453125 49.911263 9934.121094" a="6.721115" />
+    <group name="CaninaBush2" pos="8251.718750 52.003376 9936.046875" a="108.776161" />
     <group name="BetulaPendula_stump" pos="8273.875000 49.166447 9934.430664" a="141.384552" />
     <group name="BetulaPendula_stump" pos="8272.812500 49.016384 9924.397461" a="-59.396652" />
+    <group name="BetulaPendula_stump" pos="8268.453125 49.911263 9934.121094" a="6.721115" />
     <group name="PiceaAbies_fallene" pos="8249.859375 54.724514 10010.974609" a="119.576103" />
     <group name="PiceaAbies_fallene" pos="8256.328125 61.979763 10102.465820" a="-91.917244" />
     <group name="PiceaAbies_fallene" pos="8265.250000 61.804459 10107.411133" a="33.440659" />
@@ -17340,8 +17340,8 @@
     <group name="SambucusBush1" pos="8350.578125 45.916359 9779.399414" a="-10.846576" />
     <group name="SambucusBush2" pos="8321.531250 46.339478 9861.776367" a="-134.490524" />
     <group name="SambucusBush2" pos="8321.171875 46.218109 9856.950195" a="-34.588783" />
-    <group name="BetulaPendula_stump" pos="8328.703125 46.557964 9850.080078" a="-41.894886" />
     <group name="BetulaPendula_stump" pos="8345.437500 46.557133 9843.256836" a="-149.674026" />
+    <group name="BetulaPendula_stump" pos="8328.703125 46.557964 9850.080078" a="-41.894886" />
     <group name="BetulaPendula_stump" pos="8340.718750 46.411674 9840.950195" a="-6.583738" />
     <group name="Stones" pos="8340.472656 44.744907 9898.896484" a="57.900024" />
     <group name="Stones" pos="8336.387695 44.740604 9897.427734" a="140.019211" />
@@ -17636,8 +17636,8 @@
     <group name="BetulaPendula_fallen" pos="8405.546875 46.800106 10039.607422" a="-144.004990" />
     <group name="BetulaPendula_fallen" pos="8402.687500 47.216480 10027.315430" a="13.664679" />
     <group name="Rail3" pos="8420.631836 74.595009 10179.753906" a="0.016977" />
-    <group name="PiceaAbies_stumpd" pos="8433.109375 75.074066 10198.477539" a="-109.924324" />
     <group name="PiceaAbies_stumpd" pos="8435.515625 75.070496 10186.597656" a="-45.355701" />
+    <group name="PiceaAbies_stumpd" pos="8433.109375 75.074066 10198.477539" a="-109.924324" />
     <group name="BetulaPendula_stump" pos="8468.130859 30.075026 598.199036" a="-6.293906" />
     <group name="SambucusBush2" pos="8448.976563 8.839693 6076.392090" a="-66.442444" />
     <group name="SambucusBush2" pos="8473.821289 7.233137 6127.524902" a="-176.020706" />
@@ -18608,8 +18608,8 @@
     <group name="PiceaAbies_stumpd" pos="8709.234375 75.767212 10176.169922" a="-102.892822" />
     <group name="BetulaPendula_stump" pos="8723.981445 33.304935 572.246460" a="172.254089" />
     <group name="PiceaAbies_fallene" pos="8759.828125 42.602165 608.066101" a="168.310211" />
-    <group name="PiceaAbies_fallene" pos="8744.417969 76.931854 6815.164551" a="-83.406998" />
     <group name="PiceaAbies_fallene" pos="8745.569336 76.916878 6829.367188" a="132.023270" />
+    <group name="PiceaAbies_fallene" pos="8744.417969 76.931854 6815.164551" a="-83.406998" />
     <group name="PiceaAbies_fallene" pos="8750.103516 76.969826 6820.352539" a="146.719620" />
     <group name="PiceaAbies_fallene" pos="8738.750000 76.931938 6825.794434" a="-98.103363" />
     <group name="BetulaPendula_stump" pos="8730.125000 79.224190 6924.663086" a="-154.859772" />
@@ -18738,9 +18738,9 @@
     <group name="PiceaAbies_fallene" pos="8772.187500 6.848933 8399.885742" a="-141.983429" />
     <group name="PiceaAbies_fallene" pos="8775.843750 9.551717 8429.243164" a="91.340393" />
     <group name="PiceaAbies_stumpc" pos="8773.875000 2.979962 8703.508789" a="94.240822" />
-    <group name="PiceaAbies_stumpd" pos="8760.187500 3.764707 8687.298828" a="-132.095352" />
     <group name="PiceaAbies_stumpc" pos="8778.578125 2.770412 8692.559570" a="128.695053" />
     <group name="PiceaAbies_stumpd" pos="8764.593750 3.229059 8680.612305" a="-168.560104" />
+    <group name="PiceaAbies_stumpd" pos="8760.187500 3.764707 8687.298828" a="-132.095352" />
     <group name="PiceaAbies_stumpc" pos="8765.156250 3.573723 8697.677734" a="-49.058189" />
     <group name="PiceaAbies_stumpc" pos="8775.890625 2.697335 8686.998047" a="-23.635038" />
     <group name="Haybale" pos="8797.914063 2.779438 8746.525391" a="63.443390" />
@@ -18843,9 +18843,9 @@
     <group name="PiceaAbies_stumpd" pos="8825.671875 65.248726 10046.767578" a="14.950134" />
     <group name="Rail3" pos="8819.861328 82.021988 10179.874023" a="0.017031" />
     <group name="Haybale" pos="8873.839844 25.004566 702.372559" a="-37.411560" />
+    <group name="Haybale" pos="8874.212891 25.589931 700.851257" a="-37.411560" />
     <group name="Haybale" pos="8874.663086 25.278706 703.666443" a="-37.411564" />
     <group name="Haybale" pos="8875.775391 25.020212 704.693848" a="-37.411560" />
-    <group name="Haybale" pos="8874.212891 25.589931 700.851257" a="-37.411560" />
     <group name="Stones" pos="8875.125000 3.977770 796.536621" a="90.000000" />
     <group name="AppleTree5" pos="8862.328125 22.230423 4992.729980" a="135.166138" />
     <group name="AppleTree2" pos="8857.640625 19.014444 4982.342285" a="-104.991295" />
@@ -18897,10 +18897,10 @@
     <group name="PiceaAbies_stumpd" pos="8844.734375 4.855257 7401.325684" a="136.978943" />
     <group name="PiceaAbies_stumpc" pos="8871.765625 4.243957 7402.584473" a="-48.300068" />
     <group name="Haybale" pos="8850.815430 8.352231 7548.738770" a="9.685643" />
-    <group name="Haybale" pos="8851.125000 8.352217 7552.479004" a="10.201301" />
-    <group name="Haybale" pos="8850.743164 8.352236 7550.721191" a="-9.264943" />
-    <group name="Haybale" pos="8850.883789 9.495770 7551.688965" a="-1.272187" />
     <group name="Haybale" pos="8851.742188 8.352226 7546.813965" a="57.384377" />
+    <group name="Haybale" pos="8851.125000 8.352217 7552.479004" a="10.201301" />
+    <group name="Haybale" pos="8850.883789 9.495770 7551.688965" a="-1.272187" />
+    <group name="Haybale" pos="8850.743164 8.352236 7550.721191" a="-9.264943" />
     <group name="BetulaPendula_stump" pos="8862.687500 9.124932 7616.667480" a="145.087128" />
     <group name="BetulaPendula_stump" pos="8861.687500 8.859364 7626.873535" a="40.845692" />
     <group name="BetulaPendula_stump" pos="8852.843750 9.069886 7624.819824" a="-83.721123" />
@@ -19021,8 +19021,8 @@
     <group name="PiceaAbies_fallene" pos="8886.203125 75.495613 10028.272461" a="69.982300" />
     <group name="PiceaAbies_fallene" pos="8886.859375 82.603325 10139.267578" a="-79.831848" />
     <group name="Rail3" pos="8899.600586 87.642410 10179.902344" a="0.016996" />
-    <group name="Haybale" pos="8932.972656 23.228298 690.088135" a="142.586731" />
     <group name="Haybale" pos="8932.707031 23.301218 688.362244" a="-37.411560" />
+    <group name="Haybale" pos="8932.972656 23.228298 690.088135" a="142.586731" />
     <group name="Haybale" pos="8938.958984 21.682096 724.805847" a="-37.411560" />
     <group name="PiceaAbies_fallene" pos="8945.562500 11.618102 5078.398438" a="146.987808" />
     <group name="PiceaAbies_stumpd" pos="8939.062500 10.593019 5079.156738" a="-7.935138" />
@@ -19745,8 +19745,8 @@
     <group name="PiceaAbies_fallene" pos="9434.406250 64.629562 10062.445313" a="2.941705" />
     <group name="Rail3" pos="9419.250977 88.684860 10180.048828" a="0.016977" />
     <group name="Stones" pos="9473.663086 11.714479 688.828796" a="77.881950" />
-    <group name="SambucusBush1" pos="9474.171875 13.557150 691.957703" a="-104.662437" />
     <group name="SambucusBush1" pos="9452.130859 13.736427 696.265808" a="-25.508316" />
+    <group name="SambucusBush1" pos="9474.171875 13.557150 691.957703" a="-104.662437" />
     <group name="Stones" pos="9442.391602 7.689641 742.393127" a="1.950693" />
     <group name="Stones" pos="9477.794922 5.014031 792.020874" a="90.000000" />
     <group name="AppleTree1" pos="9448.496094 11.071956 811.473938" a="90.000000" />
@@ -19790,17 +19790,17 @@
     <group name="SambucusBush1" pos="9505.038086 19.904795 674.397339" a="-68.179390" />
     <group name="AppleTree1" pos="9498.662109 21.219242 686.256653" a="90.000000" />
     <group name="Stones" pos="9506.434570 17.879488 711.880615" a="90.000000" />
-    <group name="SambucusBush1" pos="9519.927734 19.756695 718.694397" a="-104.662437" />
+    <group name="SambucusBush1" pos="9508.532227 19.300482 715.953186" a="-71.144371" />
     <group name="SambucusBush1" pos="9505.739258 19.572464 713.776855" a="18.709723" />
     <group name="SambucusBush1" pos="9507.769531 20.273556 684.164307" a="-68.179390" />
-    <group name="SambucusBush1" pos="9508.532227 19.300482 715.953186" a="-71.144371" />
+    <group name="SambucusBush1" pos="9519.927734 19.756695 718.694397" a="-104.662437" />
     <group name="SambucusBush1" pos="9484.054688 13.204761 702.080505" a="90.000000" />
     <group name="Stones" pos="9501.457031 15.930966 735.549377" a="108.434883" />
     <group name="Stones" pos="9515.243164 15.577376 747.130859" a="39.207294" />
     <group name="AppleTree1" pos="9491.542969 18.810820 767.967896" a="90.000000" />
     <group name="Stones" pos="9480.489258 10.575953 774.235840" a="-93.962494" />
-    <group name="SambucusBush2" pos="9511.109375 9.912388 830.736572" a="-104.920227" />
     <group name="SambucusBush2" pos="9503.227539 9.306694 826.385315" a="-3.463714" />
+    <group name="SambucusBush2" pos="9511.109375 9.912388 830.736572" a="-104.920227" />
     <group name="Stones" pos="9481.764648 0.973522 985.463074" a="90.000000" />
     <group name="Stones" pos="9496.957031 -0.171216 1011.280273" a="139.761337" />
     <group name="BetulaPendula_stump" pos="9486.171875 9.769809 8600.777344" a="67.323532" />
@@ -19877,20 +19877,20 @@
     <group name="AppleTree1" pos="9597.952148 45.782013 662.126648" a="28.507305" />
     <group name="Stones" pos="9578.687500 29.654169 648.184326" a="-13.905905" />
     <group name="Stones" pos="9599.186523 35.712448 673.445313" a="-13.905906" />
-    <group name="Stones" pos="9589.730469 35.418911 690.191589" a="90.000000" />
     <group name="Stones" pos="9577.395508 29.164637 704.713867" a="-13.905905" />
+    <group name="Stones" pos="9589.730469 35.418911 690.191589" a="90.000000" />
     <group name="Stones" pos="9572.981445 17.804558 753.572937" a="-15.165002" />
     <group name="SambucusBush2" pos="9591.536133 28.971937 740.355957" a="9.298692" />
     <group name="SambucusBush2" pos="9592.209961 28.417576 733.216309" a="76.592583" />
     <group name="SambucusBush2" pos="9597.573242 28.772696 774.372986" a="-66.632545" />
     <group name="SambucusBush2" pos="9594.298828 28.323008 775.989746" a="9.298692" />
     <group name="SambucusBush2" pos="9579.698242 17.491970 780.979065" a="-11.198678" />
-    <group name="SambucusBush2" pos="9597.691406 22.131912 821.297974" a="33.087017" />
     <group name="SambucusBush2" pos="9586.291992 18.564680 816.612610" a="-63.212864" />
+    <group name="SambucusBush2" pos="9597.691406 22.131912 821.297974" a="33.087017" />
     <group name="SambucusBush2" pos="9586.793945 18.656000 828.569885" a="69.115692" />
-    <group name="SambucusBush2" pos="9581.631836 18.134602 829.605286" a="65.248230" />
-    <group name="SambucusBush2" pos="9585.286133 18.187420 829.089294" a="99.539848" />
     <group name="SambucusBush2" pos="9583.837891 18.139008 829.428101" a="72.596413" />
+    <group name="SambucusBush2" pos="9585.286133 18.187420 829.089294" a="99.539848" />
+    <group name="SambucusBush2" pos="9581.631836 18.134602 829.605286" a="65.248230" />
     <group name="SambucusBush2" pos="9588.267578 18.483826 829.106750" a="114.880646" />
     <group name="SambucusBush2" pos="9569.762695 17.613657 842.420715" a="34.050682" />
     <group name="SambucusBush2" pos="9582.570313 18.525141 847.243469" a="36.628998" />
@@ -19902,8 +19902,8 @@
     <group name="Stones" pos="9595.593750 16.877243 960.970459" a="134.733658" />
     <group name="Stones" pos="9582.122070 6.621767 995.115356" a="42.688004" />
     <group name="SambucusBush2" pos="9576.673828 13.569491 971.435730" a="-12.942520" />
-    <group name="Stones" pos="9595.513672 0.361850 1076.885742" a="90.000000" />
     <group name="Stones" pos="9560.536133 -0.011235 1076.894775" a="139.761337" />
+    <group name="Stones" pos="9595.513672 0.361850 1076.885742" a="90.000000" />
     <group name="Stones" pos="9574.830078 -0.166677 1083.846558" a="90.000000" />
     <group name="QuercusRobur_fallenB" pos="9565.027344 1.320633 8574.175781" a="108.563835" />
     <group name="PiceaAbies_fallene" pos="9576.234375 15.566445 9038.654297" a="-94.389183" />
@@ -19984,14 +19984,14 @@
     <group name="BetulaPendula_stump" pos="9632.343750 90.415779 10167.694336" a="168.038239" />
     <group name="Stones" pos="9641.693359 28.144442 707.881165" a="85.616837" />
     <group name="Stones" pos="9651.112305 26.224789 707.059204" a="90.000000" />
-    <group name="SambucusBush2" pos="9673.375000 14.256485 769.799072" a="-167.960144" />
-    <group name="SambucusBush2" pos="9674.629883 14.256485 767.159119" a="-167.960144" />
     <group name="SambucusBush2" pos="9667.281250 14.256485 780.961609" a="-167.960144" />
+    <group name="SambucusBush2" pos="9674.629883 14.256485 767.159119" a="-167.960144" />
     <group name="SambucusBush2" pos="9659.174805 14.256485 796.435913" a="-167.960144" />
-    <group name="SambucusBush2" pos="9666.140625 14.083741 783.492554" a="-167.960144" />
+    <group name="SambucusBush2" pos="9673.375000 14.256485 769.799072" a="-167.960144" />
     <group name="SambucusBush2" pos="9664.430664 14.083740 785.655945" a="151.947113" />
-    <group name="SambucusBush2" pos="9668.578125 14.083741 779.138733" a="-167.960144" />
+    <group name="SambucusBush2" pos="9666.140625 14.083741 783.492554" a="-167.960144" />
     <group name="SambucusBush2" pos="9675.937500 14.069668 762.803284" a="151.947159" />
+    <group name="SambucusBush2" pos="9668.578125 14.083741 779.138733" a="-167.960144" />
     <group name="SambucusBush2" pos="9655.853516 14.256485 802.506287" a="-159.193909" />
     <group name="PiceaAbies_stumpc" pos="9675.859375 28.489258 916.328430" a="123.751015" />
     <group name="PiceaAbies_stumpc" pos="9652.031250 27.993282 930.546753" a="157.348251" />
@@ -20002,9 +20002,9 @@
     <group name="Stones" pos="9641.059570 1.666638 1063.439941" a="90.000000" />
     <group name="Stones" pos="9641.825195 0.483599 1070.987549" a="90.000000" />
     <group name="Stones" pos="9666.822266 0.583317 1096.822266" a="90.000000" />
+    <group name="Stones" pos="9660.409180 -0.086019 1089.137207" a="135.764984" />
     <group name="Stones" pos="9659.846680 -0.828934 1103.043091" a="59.833771" />
     <group name="Stones" pos="9641.543945 -0.276049 1104.688354" a="59.833771" />
-    <group name="Stones" pos="9660.409180 -0.086019 1089.137207" a="135.764984" />
     <group name="Stones" pos="9670.081055 -1.041836 1180.791626" a="142.339630" />
     <group name="Stones" pos="9658.622070 -0.262027 1172.601318" a="154.199921" />
     <group name="PathR10" pos="9663.357422 7.325059 8864.052734" a="-177.072693" />
@@ -20031,21 +20031,21 @@
     <group name="SambucusBush2" pos="9697.543945 18.446949 707.124329" a="-99.763779" />
     <group name="SambucusBush2" pos="9702.270508 15.028802 717.794128" a="-51.291546" />
     <group name="SambucusBush2" pos="9717.593750 27.656317 694.861755" a="-85.711884" />
-    <group name="SambucusBush2" pos="9696.580078 14.660897 732.002563" a="149.497772" />
     <group name="SambucusBush2" pos="9680.315430 14.536679 739.113342" a="-134.184265" />
     <group name="SambucusBush2" pos="9684.979492 14.083738 748.104004" a="-134.184250" />
     <group name="SambucusBush2" pos="9686.318359 14.466695 742.690613" a="174.697342" />
+    <group name="SambucusBush2" pos="9711.303711 14.481997 745.006042" a="-162.484573" />
     <group name="SambucusBush2" pos="9711.197266 14.451891 742.051392" a="123.775742" />
+    <group name="SambucusBush2" pos="9696.580078 14.660897 732.002563" a="149.497772" />
     <group name="SambucusBush2" pos="9710.195313 14.481997 747.435120" a="125.193848" />
     <group name="SambucusBush2" pos="9716.541992 14.452527 751.070313" a="125.193848" />
-    <group name="SambucusBush2" pos="9710.224609 14.481997 741.698242" a="-162.484573" />
-    <group name="SambucusBush2" pos="9711.303711 14.481997 745.006042" a="-162.484573" />
     <group name="SambucusBush2" pos="9709.069336 14.481997 743.924133" a="-162.484573" />
-    <group name="SambucusBush2" pos="9712.137695 14.356556 743.707642" a="123.775742" />
-    <group name="SambucusBush2" pos="9707.823242 14.356556 746.288330" a="98.121544" />
-    <group name="SambucusBush2" pos="9714.511719 14.356711 749.983887" a="-166.094147" />
-    <group name="SambucusBush2" pos="9715.382813 14.351996 748.050476" a="98.121597" />
+    <group name="SambucusBush2" pos="9710.224609 14.481997 741.698242" a="-162.484573" />
     <group name="SambucusBush2" pos="9708.451172 14.356556 745.027588" a="18.193947" />
+    <group name="SambucusBush2" pos="9707.823242 14.356556 746.288330" a="98.121544" />
+    <group name="SambucusBush2" pos="9715.382813 14.351996 748.050476" a="98.121597" />
+    <group name="SambucusBush2" pos="9712.137695 14.356556 743.707642" a="123.775742" />
+    <group name="SambucusBush2" pos="9714.511719 14.356711 749.983887" a="-166.094147" />
     <group name="PiceaAbies_stumpc" pos="9684.796875 26.239098 953.392639" a="-130.392471" />
     <group name="PiceaAbies_stumpc" pos="9712.718750 25.169176 953.440063" a="157.249374" />
     <group name="PiceaAbies_stumpc" pos="9715.859375 26.239750 923.176636" a="-12.703357" />
@@ -20084,30 +20084,30 @@
     <group name="SambucusBush1" pos="9739.834961 14.514682 752.460632" a="-61.475769" />
     <group name="SambucusBush1" pos="9737.480469 14.514682 750.893921" a="136.796265" />
     <group name="SambucusBush2" pos="9747.809570 14.022466 757.584900" a="-51.420307" />
+    <group name="SambucusBush2" pos="9750.433594 13.969997 732.360718" a="-113.170883" />
     <group name="SambucusBush2" pos="9750.101563 13.969965 725.940613" a="-113.170883" />
     <group name="SambucusBush2" pos="9742.793945 14.004003 720.701782" a="-51.678204" />
-    <group name="SambucusBush2" pos="9750.433594 13.969997 732.360718" a="-113.170883" />
     <group name="SambucusBush2" pos="9730.906250 13.748435 746.692017" a="96.316681" />
-    <group name="SambucusBush1" pos="9731.207031 14.079386 748.003662" a="-80.880974" />
     <group name="SambucusBush1" pos="9733.493164 14.094833 748.836609" a="-82.041214" />
-    <group name="SambucusBush2" pos="9735.256836 13.679195 725.947205" a="96.316681" />
+    <group name="SambucusBush1" pos="9731.207031 14.079386 748.003662" a="-80.880974" />
     <group name="SambucusBush2" pos="9729.599609 13.970603 729.352478" a="96.316681" />
+    <group name="SambucusBush2" pos="9735.256836 13.679195 725.947205" a="96.316681" />
     <group name="PiceaAbies_stumpd" pos="9737.593750 23.789339 948.980042" a="-23.997585" />
     <group name="PiceaAbies_fallene" pos="9742.171875 22.361809 973.257202" a="-79.502213" />
     <group name="PiceaAbies_fallene" pos="9736.203125 21.033409 988.645935" a="-142.851349" />
     <group name="PiceaAbies_stumpd" pos="9743.578125 20.616812 989.452576" a="-75.942581" />
     <group name="SambucusBush2" pos="9746.639648 24.786177 1038.342163" a="-26.091906" />
-    <group name="SambucusBush2" pos="9742.899414 24.325329 1044.710083" a="-87.197861" />
     <group name="SambucusBush2" pos="9740.093750 24.321304 1059.046387" a="-87.197861" />
-    <group name="SambucusBush2" pos="9739.217773 23.871752 1056.642212" a="-118.008682" />
     <group name="SambucusBush2" pos="9741.463867 24.322536 1048.166626" a="-119.426743" />
     <group name="SambucusBush2" pos="9740.670898 24.319786 1054.513550" a="-118.008682" />
+    <group name="SambucusBush2" pos="9742.899414 24.325329 1044.710083" a="-87.197861" />
     <group name="SambucusBush2" pos="9742.628906 23.675116 1062.948242" a="-118.008682" />
-    <group name="SambucusBush2" pos="9742.395508 23.974037 1047.204102" a="-160.292984" />
-    <group name="SambucusBush2" pos="9741.833008 23.659149 1061.319946" a="-118.008682" />
-    <group name="SambucusBush2" pos="9741.204102 23.973623 1047.169800" a="-9.848609" />
-    <group name="SambucusBush2" pos="9743.750977 23.978664 1044.313110" a="-160.292984" />
+    <group name="SambucusBush2" pos="9739.217773 23.871752 1056.642212" a="-118.008682" />
     <group name="SambucusBush2" pos="9740.685547 23.974035 1052.850220" a="159.872116" />
+    <group name="SambucusBush2" pos="9743.750977 23.978664 1044.313110" a="-160.292984" />
+    <group name="SambucusBush2" pos="9741.833008 23.659149 1061.319946" a="-118.008682" />
+    <group name="SambucusBush2" pos="9742.395508 23.974037 1047.204102" a="-160.292984" />
+    <group name="SambucusBush2" pos="9741.204102 23.973623 1047.169800" a="-9.848609" />
     <group name="SambucusBush2" pos="9741.937500 17.555332 1092.024170" a="-118.008682" />
     <group name="Stones" pos="9721.930664 11.082679 1088.216919" a="90.000000" />
     <group name="Stones" pos="9730.598633 10.488845 1103.433350" a="9.041050" />
@@ -20152,8 +20152,8 @@
     <group name="SambucusBush2" pos="9769.135742 65.765625 600.314087" a="25.026575" />
     <group name="SambucusBush2" pos="9764.501953 64.740662 603.671265" a="25.026575" />
     <group name="Stones" pos="9764.179688 16.107790 697.154480" a="136.409546" />
-    <group name="SambucusBush2" pos="9781.021484 13.988747 716.032227" a="-140.243164" />
     <group name="SambucusBush2" pos="9774.244141 13.969917 710.440308" a="19.096418" />
+    <group name="SambucusBush2" pos="9781.021484 13.988747 716.032227" a="-140.243164" />
     <group name="SambucusBush2" pos="9768.335938 16.513264 695.610046" a="-62.635994" />
     <group name="SambucusBush2" pos="9777.111328 14.218468 725.404419" a="-82.231148" />
     <group name="SambucusBush2" pos="9775.259766 13.988746 727.507202" a="-113.299767" />
@@ -20206,44 +20206,44 @@
     <group name="PiceaAbies_fallene" pos="9784.234375 87.525528 10125.432617" a="131.353729" />
     <group name="Rail3" pos="9779.099609 88.684860 10180.156250" a="0.016977" />
     <group name="AppleTree1" pos="9823.050781 20.520756 650.516724" a="90.000000" />
-    <group name="SambucusBush2" pos="9803.670898 14.267467 660.824585" a="-114.331123" />
     <group name="SambucusBush2" pos="9806.059570 13.988747 674.119934" a="-166.799759" />
-    <group name="SambucusBush2" pos="9836.517578 13.791022 664.273560" a="106.501144" />
     <group name="SambucusBush2" pos="9833.412109 13.806354 663.264648" a="39.017300" />
-    <group name="SambucusBush2" pos="9810.363281 13.618178 719.423584" a="-68.695076" />
-    <group name="SambucusBush2" pos="9824.973633 13.618178 717.155701" a="-146.560043" />
+    <group name="SambucusBush2" pos="9803.670898 14.267467 660.824585" a="-114.331123" />
+    <group name="SambucusBush2" pos="9836.517578 13.791022 664.273560" a="106.501144" />
+    <group name="SambucusBush2" pos="9817.784180 13.618178 710.934937" a="-68.695076" />
     <group name="SambucusBush2" pos="9820.726563 13.618177 717.073914" a="-116.909485" />
+    <group name="SambucusBush2" pos="9810.363281 13.618178 719.423584" a="-68.695076" />
+    <group name="SambucusBush2" pos="9810.291016 13.618178 707.671509" a="41.914429" />
     <group name="SambucusBush2" pos="9813.293945 13.618177 709.235352" a="-101.439651" />
     <group name="SambucusBush2" pos="9824.961914 13.857744 715.421936" a="-157.131104" />
-    <group name="SambucusBush2" pos="9817.784180 13.618178 710.934937" a="-68.695076" />
+    <group name="SambucusBush2" pos="9805.174805 13.857744 715.917236" a="51.779930" />
     <group name="SambucusBush2" pos="9817.915039 13.806354 692.080872" a="38.759472" />
     <group name="SambucusBush2" pos="9822.775391 13.857744 719.652466" a="-157.131104" />
     <group name="SambucusBush2" pos="9825.477539 13.618178 716.117126" a="-146.560043" />
-    <group name="SambucusBush2" pos="9805.174805 13.857744 715.917236" a="51.779930" />
-    <group name="SambucusBush2" pos="9810.291016 13.618178 707.671509" a="41.914429" />
-    <group name="SambucusBush2" pos="9818.387695 13.857744 727.000366" a="-156.228699" />
-    <group name="SambucusBush2" pos="9802.648438 13.857743 721.153564" a="7.432998" />
-    <group name="SambucusBush2" pos="9837.648438 13.915427 725.124512" a="-3.464022" />
+    <group name="SambucusBush2" pos="9824.973633 13.618178 717.155701" a="-146.560043" />
     <group name="SambucusBush2" pos="9828.318359 14.041019 749.929016" a="-142.115829" />
+    <group name="SambucusBush2" pos="9837.648438 13.915427 725.124512" a="-3.464022" />
     <group name="SambucusBush2" pos="9817.068359 13.857744 729.361511" a="-166.413025" />
+    <group name="SambucusBush2" pos="9802.648438 13.857743 721.153564" a="7.432998" />
     <group name="SambucusBush2" pos="9817.697266 13.857744 727.916748" a="-166.413025" />
+    <group name="SambucusBush2" pos="9818.387695 13.857744 727.000366" a="-156.228699" />
     <group name="SambucusBush2" pos="9838.301758 13.806825 736.251282" a="120.294991" />
-    <group name="SambucusBush2" pos="9835.493164 13.674245 723.359131" a="-3.464022" />
     <group name="SambucusBush2" pos="9836.303711 13.626311 735.141174" a="155.746811" />
-    <group name="SambucusBush2" pos="9801.580078 13.816657 787.654907" a="-65.153244" />
-    <group name="SambucusBush2" pos="9801.338867 13.816657 786.334900" a="116.617592" />
+    <group name="SambucusBush2" pos="9835.493164 13.674245 723.359131" a="-3.464022" />
     <group name="SambucusBush2" pos="9800.582031 13.816656 787.067871" a="-11.653350" />
-    <group name="SambucusBush2" pos="9817.268555 13.574029 796.543091" a="33.338165" />
+    <group name="SambucusBush2" pos="9801.338867 13.816657 786.334900" a="116.617592" />
+    <group name="SambucusBush2" pos="9801.580078 13.816657 787.654907" a="-65.153244" />
     <group name="SambucusBush2" pos="9804.247070 13.574029 788.845825" a="33.338165" />
-    <group name="SambucusBush2" pos="9837.157227 13.780860 834.972473" a="-24.415995" />
+    <group name="SambucusBush2" pos="9817.268555 13.574029 796.543091" a="33.338165" />
     <group name="SambucusBush2" pos="9827.958984 13.780860 829.935974" a="-24.415995" />
+    <group name="SambucusBush2" pos="9837.157227 13.780860 834.972473" a="-24.415995" />
     <group name="SambucusBush2" pos="9830.617188 13.574028 803.658203" a="-64.250870" />
-    <group name="SambucusBush2" pos="9827.112305 13.780859 889.048035" a="-106.406250" />
-    <group name="SambucusBush2" pos="9826.148438 14.212646 912.830688" a="168.122726" />
-    <group name="SambucusBush2" pos="9811.745117 13.780859 905.966309" a="-138.635132" />
     <group name="SambucusBush2" pos="9825.141602 13.780860 892.299316" a="-24.415995" />
     <group name="SambucusBush2" pos="9830.544922 13.780859 882.028320" a="-106.406250" />
+    <group name="SambucusBush2" pos="9826.148438 14.212646 912.830688" a="168.122726" />
+    <group name="SambucusBush2" pos="9811.745117 13.780859 905.966309" a="-138.635132" />
     <group name="SambucusBush2" pos="9825.692383 14.413148 913.742493" a="-155.265198" />
+    <group name="SambucusBush2" pos="9827.112305 13.780859 889.048035" a="-106.406250" />
     <group name="SambucusBush2" pos="9816.987305 20.525564 1019.035278" a="-150.624344" />
     <group name="AppleTree1" pos="9816.898438 28.750381 1041.834351" a="-176.020615" />
     <group name="Stones" pos="9804.733398 20.055349 1062.278687" a="90.000000" />
@@ -20293,43 +20293,43 @@
     <group name="Rail3" pos="9819.082031 88.684860 10180.167969" a="0.016977" />
     <group name="PiceaAbies_stumpc" pos="9832.875000 89.449158 10170.721680" a="-113.275246" />
     <group name="SambucusBush2" pos="9840.768555 18.680916 634.981628" a="-65.729973" />
-    <group name="SambucusBush2" pos="9842.980469 15.593430 655.779236" a="16.260290" />
     <group name="SambucusBush2" pos="9849.894531 14.212649 671.060730" a="106.501144" />
-    <group name="SambucusBush2" pos="9863.485352 17.895910 656.260498" a="-177.309799" />
-    <group name="SambucusBush2" pos="9866.500977 13.331619 678.872864" a="43.203396" />
     <group name="SambucusBush2" pos="9852.233398 16.027187 658.637024" a="-153.718201" />
+    <group name="SambucusBush2" pos="9863.485352 17.895910 656.260498" a="-177.309799" />
+    <group name="SambucusBush2" pos="9842.980469 15.593430 655.779236" a="16.260290" />
+    <group name="SambucusBush2" pos="9866.500977 13.331619 678.872864" a="43.203396" />
     <group name="SambucusBush2" pos="9860.389648 13.816719 684.020020" a="118.232437" />
     <group name="SambucusBush2" pos="9865.629883 13.817131 694.917053" a="-142.115829" />
     <group name="SambucusBush2" pos="9874.106445 13.738128 682.103882" a="155.746811" />
-    <group name="SambucusBush2" pos="9862.696289 13.331619 684.301697" a="-51.678421" />
     <group name="SambucusBush2" pos="9841.861328 13.331619 707.742249" a="49.391335" />
-    <group name="SambucusBush2" pos="9865.102539 13.626311 707.002869" a="155.746811" />
+    <group name="SambucusBush2" pos="9862.696289 13.331619 684.301697" a="-51.678421" />
     <group name="SambucusBush2" pos="9856.762695 13.331619 687.533875" a="-0.498962" />
+    <group name="SambucusBush2" pos="9865.102539 13.626311 707.002869" a="155.746811" />
     <group name="SambucusBush2" pos="9842.101563 13.470079 718.284790" a="24.185129" />
+    <group name="SambucusBush2" pos="9873.324219 18.174698 733.382324" a="56.353024" />
+    <group name="SambucusBush2" pos="9873.174805 18.174698 734.086426" a="56.353024" />
     <group name="SambucusBush2" pos="9842.002930 13.915427 738.074524" a="111.399704" />
     <group name="SambucusBush2" pos="9872.665039 18.174698 734.833740" a="56.353024" />
-    <group name="SambucusBush2" pos="9873.174805 18.174698 734.086426" a="56.353024" />
-    <group name="SambucusBush2" pos="9873.324219 18.174698 733.382324" a="56.353024" />
     <group name="SambucusBush2" pos="9843.846680 13.806825 739.165161" a="159.356384" />
     <group name="SambucusBush2" pos="9860.697266 18.331913 786.495789" a="125.065002" />
-    <group name="SambucusBush2" pos="9873.766602 18.174696 793.655273" a="104.180656" />
-    <group name="SambucusBush2" pos="9872.693359 18.057178 795.531372" a="56.353024" />
-    <group name="SambucusBush2" pos="9844.790039 18.122623 786.090759" a="-53.421959" />
-    <group name="SambucusBush2" pos="9845.453125 18.174698 782.582336" a="56.353024" />
-    <group name="SambucusBush2" pos="9846.265625 18.051840 786.821533" a="-53.421967" />
     <group name="SambucusBush2" pos="9848.540039 18.067924 786.738037" a="-170.992920" />
+    <group name="SambucusBush2" pos="9846.265625 18.051840 786.821533" a="-53.421967" />
     <group name="SambucusBush2" pos="9844.840820 18.067924 783.032715" a="-170.992920" />
+    <group name="SambucusBush2" pos="9844.790039 18.122623 786.090759" a="-53.421959" />
+    <group name="SambucusBush2" pos="9849.437500 18.331913 785.173584" a="125.065002" />
+    <group name="SambucusBush2" pos="9844.070313 18.511181 784.634766" a="-53.421963" />
+    <group name="SambucusBush2" pos="9856.339844 17.962584 791.116089" a="118.232437" />
     <group name="SambucusBush2" pos="9859.899414 17.962584 787.705139" a="63.443348" />
     <group name="SambucusBush2" pos="9871.500000 18.174698 799.843872" a="56.353024" />
-    <group name="SambucusBush2" pos="9856.339844 17.962584 791.116089" a="118.232437" />
-    <group name="SambucusBush2" pos="9844.070313 18.511181 784.634766" a="-53.421963" />
-    <group name="SambucusBush2" pos="9849.437500 18.331913 785.173584" a="125.065002" />
+    <group name="SambucusBush2" pos="9873.766602 18.174696 793.655273" a="104.180656" />
+    <group name="SambucusBush2" pos="9845.453125 18.174698 782.582336" a="56.353024" />
+    <group name="SambucusBush2" pos="9872.693359 18.057178 795.531372" a="56.353024" />
     <group name="AppleTree1" pos="9851.463867 20.378426 814.605469" a="90.000000" />
     <group name="SambucusBush2" pos="9842.878906 13.574029 810.240295" a="135.378235" />
-    <group name="SambucusBush2" pos="9855.218750 14.041019 817.054626" a="-24.415995" />
-    <group name="SambucusBush2" pos="9842.583008 13.574028 810.520569" a="-64.250870" />
     <group name="SambucusBush2" pos="9875.296875 13.574029 828.204712" a="135.378235" />
+    <group name="SambucusBush2" pos="9842.583008 13.574028 810.520569" a="-64.250870" />
     <group name="SambucusBush2" pos="9842.131836 13.574028 809.861145" a="-36.018410" />
+    <group name="SambucusBush2" pos="9855.218750 14.041019 817.054626" a="-24.415995" />
     <group name="SambucusBush2" pos="9853.042969 14.041019 844.158203" a="-24.415995" />
     <group name="SambucusBush2" pos="9855.089844 13.808004 900.912781" a="-61.604763" />
     <group name="SambucusBush2" pos="9861.633789 13.808004 889.475769" a="-79.395088" />
@@ -20338,10 +20338,10 @@
     <group name="SambucusBush2" pos="9877.950195 14.024103 950.160400" a="-140.243210" />
     <group name="SambucusBush2" pos="9858.891602 14.212646 929.906799" a="-155.265198" />
     <group name="SambucusBush2" pos="9876.474609 14.024192 952.108826" a="-140.243210" />
-    <group name="SambucusBush2" pos="9860.589844 14.065129 980.972412" a="-140.243210" />
-    <group name="SambucusBush2" pos="9861.708984 14.044865 978.835632" a="-140.629990" />
-    <group name="SambucusBush2" pos="9864.522461 14.025652 973.934998" a="-140.243210" />
     <group name="SambucusBush2" pos="9865.998047 14.024674 971.986572" a="-140.243210" />
+    <group name="SambucusBush2" pos="9864.522461 14.025652 973.934998" a="-140.243210" />
+    <group name="SambucusBush2" pos="9861.708984 14.044865 978.835632" a="-140.629990" />
+    <group name="SambucusBush2" pos="9860.589844 14.065129 980.972412" a="-140.243210" />
     <group name="SambucusBush2" pos="9867.807617 15.300123 1005.569763" a="-71.083473" />
     <group name="SambucusBush2" pos="9860.065430 16.472099 1011.413879" a="-71.083473" />
     <group name="SambucusBush2" pos="9861.847656 15.531101 1007.958435" a="-116.719582" />
@@ -20396,35 +20396,35 @@
     <group name="SambucusBush2" pos="9892.349609 18.111345 792.360962" a="-130.384521" />
     <group name="SambucusBush2" pos="9897.069336 18.496857 783.729797" a="-131.029129" />
     <group name="SambucusBush2" pos="9898.089844 18.111345 782.149353" a="-131.029129" />
-    <group name="SambucusBush2" pos="9880.405273 14.041019 831.935913" a="-24.415995" />
-    <group name="SambucusBush2" pos="9885.196289 18.111345 805.331299" a="-128.579712" />
-    <group name="SambucusBush2" pos="9884.112305 18.496857 806.866638" a="-128.579712" />
     <group name="SambucusBush2" pos="9882.524414 18.496857 807.347107" a="-53.421963" />
+    <group name="SambucusBush2" pos="9884.112305 18.496857 806.866638" a="-128.579712" />
+    <group name="SambucusBush2" pos="9880.405273 14.041019 831.935913" a="-24.415995" />
     <group name="SambucusBush2" pos="9880.591797 18.122623 806.249512" a="-53.421959" />
+    <group name="SambucusBush2" pos="9885.196289 18.111345 805.331299" a="-128.579712" />
     <group name="SambucusBush2" pos="9885.755859 13.574029 814.545898" a="172.505905" />
     <group name="SambucusBush2" pos="9915.417969 14.041019 851.315430" a="-24.415995" />
-    <group name="SambucusBush2" pos="9910.925781 13.757957 876.996887" a="-15.968682" />
     <group name="SambucusBush2" pos="9885.299805 13.757957 861.994690" a="-90.094879" />
+    <group name="SambucusBush2" pos="9910.925781 13.757957 876.996887" a="-15.968682" />
     <group name="SambucusBush2" pos="9897.749023 14.024240 899.226624" a="9.943333" />
     <group name="SambucusBush2" pos="9901.929688 14.024103 903.246094" a="-58.897537" />
     <group name="SambucusBush2" pos="9898.329102 14.024229 897.510681" a="14.326469" />
     <group name="SambucusBush2" pos="9898.267578 13.808004 900.479248" a="-58.897530" />
     <group name="SambucusBush2" pos="9906.542969 14.154083 947.912537" a="46.426426" />
-    <group name="SambucusBush2" pos="9908.487305 14.154083 943.585571" a="34.597385" />
-    <group name="SambucusBush2" pos="9904.988281 14.154083 949.767761" a="46.426426" />
-    <group name="SambucusBush2" pos="9888.291992 14.024192 930.444824" a="-140.243210" />
-    <group name="SambucusBush2" pos="9889.767578 14.024103 928.496399" a="-140.243210" />
-    <group name="SambucusBush2" pos="9884.359375 14.024229 937.482239" a="-140.243210" />
     <group name="SambucusBush2" pos="9909.578125 14.154083 941.619080" a="44.363792" />
+    <group name="SambucusBush2" pos="9904.988281 14.154083 949.767761" a="46.426426" />
+    <group name="SambucusBush2" pos="9908.487305 14.154083 943.585571" a="34.597385" />
+    <group name="SambucusBush2" pos="9888.291992 14.024192 930.444824" a="-140.243210" />
+    <group name="SambucusBush2" pos="9884.359375 14.024229 937.482239" a="-140.243210" />
+    <group name="SambucusBush2" pos="9889.767578 14.024103 928.496399" a="-140.243210" />
     <group name="SambucusBush2" pos="9885.478516 14.024240 935.345459" a="-140.629990" />
-    <group name="SambucusBush2" pos="9893.896484 14.154084 970.903076" a="40.496326" />
     <group name="SambucusBush2" pos="9887.233398 14.024246 983.781067" a="40.496330" />
+    <group name="SambucusBush2" pos="9893.896484 14.154084 970.903076" a="40.496326" />
     <group name="SambucusBush2" pos="9898.349609 14.154084 962.105347" a="40.496326" />
     <group name="SambucusBush2" pos="9897.002930 14.154084 964.457520" a="33.050396" />
+    <group name="SambucusBush2" pos="9886.089844 14.024246 985.902283" a="40.496330" />
     <group name="SambucusBush2" pos="9895.177734 14.154084 969.064941" a="40.496326" />
     <group name="SambucusBush2" pos="9881.710938 14.190132 992.695313" a="40.496330" />
     <group name="SambucusBush2" pos="9883.208984 14.071566 990.765503" a="40.496330" />
-    <group name="SambucusBush2" pos="9886.089844 14.024246 985.902283" a="40.496330" />
     <group name="Stones" pos="9894.423828 3.242017 1203.448120" a="63.124496" />
     <group name="Stones" pos="9881.025391 0.403127 1232.798340" a="165.741241" />
     <group name="Stones" pos="9915.172852 3.363272 1215.130127" a="63.124496" />
@@ -20484,18 +20484,18 @@
     <group name="SambucusBush2" pos="9943.572266 47.116779 619.578064" a="-78.560509" />
     <group name="SambucusBush2" pos="9940.157227 46.604618 613.812378" a="-60.254581" />
     <group name="SambucusBush2" pos="9955.443359 48.169224 624.159790" a="-80.365295" />
-    <group name="SambucusBush2" pos="9937.671875 18.507418 704.719360" a="103.020424" />
-    <group name="SambucusBush2" pos="9939.003906 18.051382 710.272034" a="-131.029144" />
-    <group name="SambucusBush2" pos="9940.233398 18.253124 708.344604" a="-131.029144" />
-    <group name="SambucusBush2" pos="9939.700195 18.253124 708.188171" a="103.020424" />
-    <group name="SambucusBush2" pos="9939.181641 18.253124 705.661133" a="103.020424" />
     <group name="SambucusBush2" pos="9939.796875 18.051382 709.384460" a="-131.029144" />
-    <group name="SambucusBush2" pos="9947.262695 13.443543 704.849670" a="121.971008" />
-    <group name="SambucusBush2" pos="9953.155273 13.443544 696.695190" a="74.143364" />
     <group name="SambucusBush2" pos="9955.047852 13.574029 694.873352" a="-0.885448" />
+    <group name="SambucusBush2" pos="9940.233398 18.253124 708.344604" a="-131.029144" />
+    <group name="SambucusBush2" pos="9953.155273 13.443544 696.695190" a="74.143364" />
+    <group name="SambucusBush2" pos="9939.181641 18.253124 705.661133" a="103.020424" />
+    <group name="SambucusBush2" pos="9939.700195 18.253124 708.188171" a="103.020424" />
+    <group name="SambucusBush2" pos="9939.003906 18.051382 710.272034" a="-131.029144" />
+    <group name="SambucusBush2" pos="9937.671875 18.507418 704.719360" a="103.020424" />
+    <group name="SambucusBush2" pos="9947.262695 13.443543 704.849670" a="121.971008" />
     <group name="SambucusBush2" pos="9920.591797 18.418190 741.658508" a="-131.029144" />
-    <group name="SambucusBush2" pos="9921.082031 18.051382 741.136902" a="-131.029144" />
     <group name="SambucusBush2" pos="9920.097656 18.051382 742.728882" a="-131.029144" />
+    <group name="SambucusBush2" pos="9921.082031 18.051382 741.136902" a="-131.029144" />
     <group name="SambucusBush2" pos="9944.030273 13.574029 741.136658" a="27.733791" />
     <group name="AppleTree1" pos="9941.613281 23.345364 1133.792603" a="19.741047" />
     <group name="Stones" pos="9926.934570 2.796104 1239.406494" a="-102.728729" />
@@ -20526,13 +20526,13 @@
     <group name="BetulaPendula_stump" pos="9920.921875 81.836174 10107.742188" a="-37.928703" />
     <group name="Rail3" pos="9939.074219 88.684860 10180.194336" a="0.016977" />
     <group name="SambucusBush2" pos="9986.801758 73.496231 574.729187" a="-119.297829" />
-    <group name="SambucusBush2" pos="9978.926758 75.711319 573.120239" a="-81.654503" />
-    <group name="SambucusBush2" pos="9991.228516 73.798912 572.083618" a="-169.575027" />
+    <group name="SambucusBush2" pos="9982.289063 74.883751 573.112122" a="-110.531586" />
     <group name="SambucusBush2" pos="9984.046875 74.137253 573.729065" a="-131.931641" />
     <group name="SambucusBush2" pos="9978.493164 75.734917 572.189026" a="-92.225632" />
-    <group name="SambucusBush2" pos="9985.889648 73.609398 574.256409" a="-129.868973" />
     <group name="SambucusBush2" pos="9989.460938 73.626862 572.667664" a="-148.174927" />
-    <group name="SambucusBush2" pos="9982.289063 74.883751 573.112122" a="-110.531586" />
+    <group name="SambucusBush2" pos="9985.889648 73.609398 574.256409" a="-129.868973" />
+    <group name="SambucusBush2" pos="9991.228516 73.798912 572.083618" a="-169.575027" />
+    <group name="SambucusBush2" pos="9978.926758 75.711319 573.120239" a="-81.654503" />
     <group name="SambucusBush2" pos="9972.284180 50.326923 610.859619" a="-123.681084" />
     <group name="SambucusBush2" pos="9977.815430 50.490650 626.767517" a="-111.176147" />
     <group name="SambucusBush2" pos="9978.123047 50.501099 622.159363" a="-177.438812" />

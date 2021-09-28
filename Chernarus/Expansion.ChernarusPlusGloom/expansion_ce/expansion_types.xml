@@ -4,7 +4,7 @@
     <!-- OFFROAD HATCHBACK -->
     <type name="OffroadHatchback_WhiteRust">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -14,7 +14,7 @@
     </type>
     <type name="OffroadHatchback_Green">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -24,7 +24,7 @@
     </type>
     <type name="OffroadHatchback_GreenRust">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -36,7 +36,7 @@
     <!-- HATCHBACK 2 - Black Rust -->
     <type name="Hatchback_02_BlackRust">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -47,7 +47,7 @@
     <!-- HATCHBACK 2 - Blue Rust -->
     <type name="Hatchback_02_BlueRust">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -58,7 +58,7 @@
     <!-- HATCHBACK 2 - Red -->
     <type name="Hatchback_02_Red">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -69,7 +69,7 @@
     <!-- HATCHBACK 2 - Red Rust -->
     <type name="Hatchback_02_RedRust">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -80,7 +80,7 @@
     <!-- HATCHBACK 2 - Bandit Kitty -->
     <type name="Hatchback_02_BanditKitty">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -163,7 +163,7 @@
     <!-- HATCHBACK 2 - Sedan Grey Rust -->
     <type name="Sedan_02_GreyRust">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -174,7 +174,7 @@
     <!-- HATCHBACK 2 - Sedan Red Rust -->
     <type name="Sedan_02_RedRust">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -185,7 +185,7 @@
     <!-- HATCHBACK 2 - Sedan Yellow -->
     <type name="Sedan_02_Yellow">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -196,7 +196,7 @@
     <!-- HATCHBACK 2 - Sedan Yellow Rust -->
     <type name="Sedan_02_YellowRust">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -207,7 +207,7 @@
     <!-- HATCHBACK 2 - Sedan Yellow Bright -->
     <type name="Sedan_02_YellowBright">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -290,7 +290,7 @@
     <!-- HATCHBACK 2 - Sedan Blue -->
     <type name="Sedan_02_Blue">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -373,7 +373,7 @@
     <!-- HATCHBACK 2 - Sedan Blue Rust -->
     <type name="Sedan_02_BlueRust">
         <nominal>0</nominal>
-        <lifetime>3</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -1018,16 +1018,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Hatchback_02_BanditKitty">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
 	<!-- PLANES -->
 	<type name="ExpansionAn2">
         <nominal>0</nominal>
@@ -1415,84 +1405,6 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
-    <type name="Hatchback_02_Door_1_1_BanditKitty">
-        <nominal>0</nominal>
-        <lifetime>172800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
-        <tag name="floor"/>
-        <usage name="Industrial"/>
-    </type>
-    <type name="Hatchback_02_Door_1_2_BanditKitty">
-        <nominal>0</nominal>
-        <lifetime>172800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
-        <tag name="floor"/>
-        <usage name="Industrial"/>
-    </type>
-    <type name="Hatchback_02_Door_2_1_BanditKitty">
-        <nominal>0</nominal>
-        <lifetime>172800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
-        <tag name="floor"/>
-        <usage name="Industrial"/>
-    </type>
-    <type name="Hatchback_02_Door_2_2_BanditKitty">
-        <nominal>0</nominal>
-        <lifetime>172800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
-        <tag name="floor"/>
-        <usage name="Industrial"/>
-    </type>
-    <type name="Hatchback_02_Hood_BanditKitty">
-        <nominal>0</nominal>
-        <lifetime>172800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
-        <tag name="floor"/>
-        <usage name="Industrial"/>
-    </type>
-    <type name="Hatchback_02_Trunk_BanditKitty">
-        <nominal>0</nominal>
-        <lifetime>172800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
-        <tag name="floor"/>
-        <usage name="Industrial"/>
-    </type>    
 	<type name="ExpansionUh1hDoor_1_1">
         <nominal>5</nominal>
         <lifetime>2700</lifetime>

@@ -161,12 +161,6 @@ class CommunityOfflineClient : MissionGameplay
 
 	override void OnInit()
 	{
-		ExpansionMissionModule missionModule;
-		if (Class.CastTo(missionModule, GetModuleManager().GetModule(ExpansionMissionModule)))
-		{
-			missionModule.SetMissionConstructor(COMMissionConstructor);
-		}
-
 		super.OnInit();
 
 		SetupWeather();

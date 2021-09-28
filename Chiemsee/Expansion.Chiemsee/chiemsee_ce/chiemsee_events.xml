@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
-    <!--CHIEMSEE SPECIAL EVENTS BY LUGGE / BENNI-->
-    <!--CRASH EVENTS-->
+		<!--CHIEMSEE EVENTS BY LUGGE / BENNI-->
 	<event name="StaticVanPinkies">
 		<nominal>1</nominal>
 		<min>0</min>
@@ -19,7 +18,6 @@
 		  <child lootmax="5" lootmin="3" max="2" min="1" type="Land_jmc_van_pinkies" />
 		</children>
 	</event>
-	<!-- STATIC EVENTS -->
     <event name="StaticSmallBoat">
         <nominal>5</nominal>
         <min>5</min>

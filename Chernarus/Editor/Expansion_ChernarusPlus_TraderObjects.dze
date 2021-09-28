@@ -3480,22 +3480,6 @@
             "Flags": 2147483647
         },
         {
-            "Type": "ExpansionGenerator",
-            "DisplayName": "ExpansionGenerator",
-            "Position": [
-                1107.87353515625,
-                5.449382781982422,
-                2398.88330078125
-            ],
-            "Orientation": [
-                4.0000081062316898,
-                0.0,
-                0.0
-            ],
-            "Scale": 1.0,
-            "Flags": 2147483647
-        },
-        {
             "Type": "Land_Camp_House_brown",
             "DisplayName": "Land_Camp_House_brown",
             "Position": [

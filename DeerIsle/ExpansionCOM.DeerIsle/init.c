@@ -1,7 +1,5 @@
 #include "$CurrentDir:\\Missions\\ExpansionCOM.DeerIsle\\core\\BaseModuleInclude.c"
 
-#include "$CurrentDir:\\Missions\\ExpansionCOM.DeerIsle\\expansion\\missions\\MissionConstructor.c"
-
 Mission CreateCustomMission(string path)
 {
 	return new CommunityOfflineClient();
@@ -10,7 +8,7 @@ Mission CreateCustomMission(string path)
 void main()
 {
 	bool loadTraderObjects = true;
-	bool loadTraderNPCs = false;
+	bool loadTraderNPCs = true;
 
 	string MissionWorldName = "empty";
 	GetGame().GetWorldName(MissionWorldName);

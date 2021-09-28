@@ -29,6 +29,8 @@
 		<usage name="Office"/>
 		<usage name="School"/>
 		<usage name="Prison"/>
+		<usage name="Lunapark"/>
+		<!-- LUGGE CUSTOM USAGE FLAGS -->
 		<usage name="Boot"/>
 		<usage name="ORE"/>
 		<usage name="LuggeMedic"/>

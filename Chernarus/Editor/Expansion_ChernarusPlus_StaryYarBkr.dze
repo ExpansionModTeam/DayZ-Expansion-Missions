@@ -616,22 +616,6 @@
             "Flags": 2147483647
         },
         {
-            "Type": "ExpansionGenerator",
-            "DisplayName": "ExpansionGenerator",
-            "Position": [
-                4394.12744140625,
-                474.18023681640627,
-                15060.1982421875
-            ],
-            "Orientation": [
-                -127.00007629394531,
-                0.0,
-                0.0
-            ],
-            "Scale": 1.0,
-            "Flags": 2147483647
-        },
-        {
             "Type": "bldr_tent_boxwooden",
             "DisplayName": "bldr_tent_boxwooden",
             "Position": [

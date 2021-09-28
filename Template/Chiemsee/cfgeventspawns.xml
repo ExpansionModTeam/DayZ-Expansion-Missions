@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<eventposdef>
+
+
+	<!-- EXPANSION EVENT SPAWN POINTS FOR CHIEMSEE BY ASORRYCANADIAN -->
+	<!-- EXPANSION CARS -->
+	<event name="VehicleUAZ">
+		<!-- Gollenhausen Military & Mine -->
+		<pos x="9033.648438" z="8726.144531" a="-59.999996" />
+		<!-- Oberleiten Military -->
+		<pos x="6399.136719" z="5905.577148" a="0.000000" />
+		<!-- HerrnChiemsee Military -->
+		<pos x="6891.084473" z="3517.698730" a="75.063011" />
+		<!-- Camp Refugi -->
+		<pos x="4673.728516" z="5359.372559" a="0.000000" />
+		<!-- New No-Name Military / Industrial -->
+		<pos x="3200.632324" z="6758.759766" a="60.995815" />
+		<!-- Milcamp Military -->
+		<pos x="2434.898193" z="7206.080566" a="-90.057137" />
+		<!-- Atomkraftwerk Military -->
+		<pos x="2979.530518" z="8385.142578" a="0.000000" />
+		<!-- Rebellen Camp Military -->
+		<pos x="1007.640991" z="2379.349609" a="42.014870" />
+	</event>
+	<event name="VehicleVodnik">
+		<!-- North-West Bunker -->
+		<pos x="265.039886" z="7519.298340" a="0.000000" />
+		<!-- South-West Bunker -->
+		<pos x="692.290405" z="3104.203857" a="-129.222382" />
+	</event>
+	<event name="VehicleBus">
+		<!-- Eggstatt -->
+		<pos x="5099.482422" z="8357.552734" a="42.990139" />
+	</event>
+	<event name="VehicleTractor">
+		<!-- Mittermhule -->
+		<pos x="7020.338867" z="5893.695313" a="0.000000" />
+		<!-- Gstadt -->
+		<pos x="7863.829590" z="6253.198242" a="0.000000" />
+		<!-- Bad Endorf -->
+		<pos x="1818.433594" z="8717.405273" a="90.371529‬" />
+		<!-- Kleiner Hof -->
+		<pos x="2284.358154" z="4660.725586" a="68.763565" />
+		<!-- Groser Hof -->
+		<pos x="3245.432373" z="3956.791748" a="0.000000" />
+	</event>
+	<!-- EXPANSION HELICOPTERS -->
+	<event name="VehicleMH6Helicopter">
+		<!-- HerrnChiemsee Military -->
+		<pos x="7126.877930" z="3499.602783" a="0.000000" />
+		<!-- Milicamp Military -->
+		<pos x="2458.850586" z="7197.718750" a="0.000000" />
+		<!-- Atomkraftwerk Military -->
+		<pos x="3091.269287" z="8300.350586" a="0.000000" />
+	</event>
+	<event name="VehicleMerlinHelicopter">
+		<!-- Stein Castle & Military -->
+		<pos x="4628.116211" z="7695.230957" a="80.095512" />
+		<!-- Fraueninsel Airfield -->
+		<pos x="8962.750977" z="4817.856934" a="0.000000" />
+	</event>
+	<event name="VehicleUh1hHelicopter">
+		<!-- Fraueninsel Airfield -->
+		<pos x="8951.440430" z="4936.318359" a="0.000000" />
+		<!-- South-West Bunker - Rear Entrance -->
+		<pos x="442.062622" z="3081.010498" a="0.000000" />
+		<!-- Atomkraftwerk Military -->
+		<pos x="3109.017822" z="8488.992188" a="90.910011" />
+	</event>
+	<event name="VehicleGyroHelicopter">
+		<!-- North-West Bunker -->
+		<pos x="304.313660" z="7518.936523" a="0.000000" />
+	</event>
+	<!-- EXPANSION BOATS -->
+	<event name="VehicleUtilityBoat">
+		<!-- Gollenhausen -->
+		<pos x="9522.314453" z="8806.651367" a="65.000000" />
+		<!-- Oberleiten -->
+		<pos x="6564.705078" z="5770.463379" a="180.000000" />
+		<!-- Bucht (Bay) Chiemsee -->
+		<pos x="3459.572510" z="5983.530762" a="180.000000" />
+		<!-- Prien -->
+		<pos x="4954.476563" z="1828.943115" a="70.000000" />
+		<!-- New City on South Coast -->
+		<pos x="9635.737305" z="1188.153076" a="210.000000" />
+		<!-- Airfield -->
+		<pos x="8712.697266" z="4935.352539" a="-70.000000" />
+	</event>
+	<event name="VehicleZodiacBoat">
+		<!-- Gollenhausen -->
+		<pos x="9600.715820" z="8808.036133" a="180.000000" />
+		<!-- Dock north of Gollenhausen -->
+		<pos x="10076.688477" z="9210.697266" a="140.000015" />
+		<!-- Dock south of Gollenhausen -->
+		<pos x="9469.225586" z="8181.178711" a="108.000008" />
+		<!-- Mittermhule -->
+		<pos x="7048.029297" z="5057.485840" a="-169.999985" />
+		<!-- Mittermhule Lighthouse -->
+		<pos x="6783.189941" z="5160.088379" a="-40.999939‬" />
+		<!-- Oberleiten -->
+		<pos x="6680.112305" z="5820.697266" a="170.000015" />
+		<pos x="6483.475098" z="5725.047363" a="180.000000" />
+		<pos x="6401.680176" z="5700.567383" a="134.999969" />
+		<!-- HerrnChiemsee -->
+		<pos x="6709.965820" z="3564.491211" a="-82.000168" />
+		<pos x="7882.082520" z="3712.259521" a="34.999958" />
+		<!-- Sagewerk -->
+		<pos x="5024.898438" z="6277.260254" a="-179.999985" />
+		<!-- Camp Refugi -->
+		<pos x="5176.664551" z="5182.330566" a="28.000183" />
+		<pos x="4862.545410" z="4709.625488" a="180.000000" />
+		<!-- Oil Rig -->
+		<pos x="4998.142578" z="4194.553223" a="90.000000" />
+		<!-- Bucht (Bay) Chiemsee -->
+		<pos x="4073.056641" z="5980.945801" a="180.000000" />
+		<pos x="3478.714844" z="6282.111328" a="170.000000" />
+		<!-- Rimsting -->
+		<pos x="3531.342041" z="5387.459473" a="89.000191" />
+		<!-- Dock on new South Coast -->
+		<pos x="8631.129883" z="814.043701" a="0.000000" />
+		<!-- New City on South Coast -->
+		<pos x="9473.645508" z="1024.114502" a="240.000000‬" />
+	</event>
+
+
+</eventposdef>

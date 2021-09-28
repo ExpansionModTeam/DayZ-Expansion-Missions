@@ -1,5 +1,4 @@
 #include "$CurrentDir:\\Missions\\ExpansionCOM.TakistanPlus\\core\\BaseModuleInclude.c"
-#include "$CurrentDir:\\Missions\\ExpansionCOM.TakistanPlus\\expansion\\missions\\MissionConstructor.c"
 
 Mission CreateCustomMission(string path)
 {

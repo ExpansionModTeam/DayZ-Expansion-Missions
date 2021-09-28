@@ -1,0 +1,36 @@
+
+tutorial.txt
+
+DayZ Expansion Mod
+www.dayzexpansion.com
+© 2021 DayZ Expansion Mod Team
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+=====================================================================================================================
+
+How to add Expansion Items (types/vehicles) to your mission
+
+STEP 1.
+Add the folder "expansion_ce" inside your mission.
+
+STEP 2.
+Inside the file "cfgeconomycore.xml" copy from <ce folder="expansion_ce"> to (including) </ce>
+and paste this lines inside your own "cfgeconomycore.xml" of your mission.
+
+STEP 3.
+Inside the file "cfgeventspawns.xml" copy the spawn points
+and paste this lines inside your own "cfgeventspawns.xml" of your mission.
+
+
+
+
+How to make your mission DayZ-Expansion-Market compatible
+
+STEP 1.
+Copy the lines from the "init.c" into your mission.
+
+STEP 2.
+Inside your mission, create a folder named "expansion" and inside this new folder. Create two folders
+"objects" and "traders".
