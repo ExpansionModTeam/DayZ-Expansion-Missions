@@ -13,7 +13,7 @@
 		<file path="env/hare_territories.xml" />
 		<file path="env/zombie_territories.xml" />
 		<file path="env/bear_territories.xml" />
-		<!--<file path="env/domestic_animals_territories.xml" /> -->
+		<file path="env/domestic_animals_territories.xml" /> 
 		<file path="env/red_deer_territories.xml" />
 		<file path="env/roe_deer_territories.xml" />
 
@@ -77,11 +77,11 @@
 				<spawn configName="Animal_LepusEuropaeus" chance="1" />
 			</agent>
 
-			<item name="globalCountMax" val="0" />
-			<item name="zoneCountMin" val="3" />
-			<item name="zoneCountMax" val="5" />
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="2" />
+			<item name="zoneCountMax" val="3" />
 			<item name="playerSpawnRadiusNear" val="15" />
-			<item name="playerSpawnRadiusFar" val="200" />
+			<item name="playerSpawnRadiusFar" val="100" />
 		</territory>
 
 		<!-- INFECTED -->

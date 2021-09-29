@@ -126,19 +126,30 @@ class CustomMission: MissionServer
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
 		//! NOTE: If you are using Expansion-Main, StartingEquipSetup will only be used if you have EnableCustomClothing set to 0 in SpawnSettings.json
-
 		EntityAI itemClothing;
 		EntityAI itemEnt;
 		ItemBase itemBs;
 		float rand;
 
 		itemClothing = player.FindAttachmentBySlotName( "Body" );
+		{
+			itemEnt = player.GetInventory().CreateInInventory("Compass");
+
+            itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
+
+            itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
+
+            itemEnt = player.GetInventory().CreateInInventory("TunaCan");
+			
+			itemEnt = player.GetInventory().CreateInInventory("Chemlight_White");			
+			
+		};
 		if ( itemClothing )
 		{
 			SetRandomHealth( itemClothing );
 			
-			itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
-			if ( Class.CastTo( itemBs, itemEnt ) )
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "TunaCan" );
+						if ( Class.CastTo( itemBs, itemEnt ) )
 				itemBs.SetQuantity( 4 );
 
 			SetRandomHealth( itemEnt );
@@ -146,16 +157,6 @@ class CustomMission: MissionServer
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
-			SetRandomHealth( itemEnt );
-
-			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
-			if ( rand < 0.35 )
-				itemEnt = player.GetInventory().CreateInInventory( "Apple" );
-			else if ( rand > 0.65 )
-				itemEnt = player.GetInventory().CreateInInventory( "Pear" );
-			else
-				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
-
 			SetRandomHealth( itemEnt );
 		}
 		
