@@ -127,8 +127,8 @@
             <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_HandymanNormal_Beige"/>
             <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_HandymanNormal_Blue"/>
             <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_HandymanNormal_Green"/>
-            <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_HandymanNormal_Grey"/>
-            <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_HandymanNormal_White"/>
+            <child lootmax="0" lootmin="0" max="0" min="2" type="ZmbM_HandymanNormal_Grey"/>
+            <child lootmax="0" lootmin="0" max="0" min="2" type="ZmbM_HandymanNormal_White"/>
             <child lootmax="0" lootmin="0" max="0" min="6" type="ZmbM_HeavyIndustryWorker"/>
             <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_MechanicSkinny_Blue"/>
             <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_MechanicSkinny_Green"/>
@@ -139,6 +139,7 @@
             <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_OffshoreWorker_Red"/>
             <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_OffshoreWorker_Yellow"/>
             <child lootmax="0" lootmin="0" max="0" min="2" type="ZmbM_FirefighterNormal"/>
+            <child lootmax="0" lootmin="0" max="0" min="4" type="ZmbM_NBC_Grey"/>
         </children>
     </event>
     <event name="InfectedCivil">
@@ -274,17 +275,18 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbF_DoctorSkinny"/>
-            <child lootmax="0" lootmin="0" max="0" min="10" type="ZmbF_NurseFat"/>
+            <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbF_NurseFat"/>
             <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbF_ParamedicNormal_Blue"/>
             <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbF_ParamedicNormal_Green"/>
             <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbF_ParamedicNormal_Red"/>
             <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbF_PatientOld"/>
-            <child lootmax="0" lootmin="0" max="0" min="10" type="ZmbM_DoctorFat"/>
+            <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbM_DoctorFat"/>
             <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbM_ParamedicNormal_Black"/>
             <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbM_ParamedicNormal_Blue"/>
-            <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbM_ParamedicNormal_Green"/>
-            <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbM_ParamedicNormal_Red"/>
+            <child lootmax="0" lootmin="0" max="0" min="6" type="ZmbM_ParamedicNormal_Green"/>
+            <child lootmax="0" lootmin="0" max="0" min="6" type="ZmbM_ParamedicNormal_Red"/>
             <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbM_PatientSkinny"/>
+            <child lootmax="0" lootmin="0" max="0" min="8" type="ZmbM_NBC_Yellow"/>
         </children>
     </event>
     <event name="AnimalGoat">
