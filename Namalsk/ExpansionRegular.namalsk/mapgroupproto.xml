@@ -33,7 +33,7 @@
 						<point pos="-0.996826 -2.604483 0.854694" range="0.737329" height="2.000000" />
 						<point pos="-0.828369 -2.604483 -0.948921" range="1.074136" height="2.000000" />
 				</container>
-				<container name="Roof" lootmax="2">
+				<container name="SniperPost" lootmax="2">
 						<category name="rifles" />
 						<category name="weapons" />
 						<category name="tools" />

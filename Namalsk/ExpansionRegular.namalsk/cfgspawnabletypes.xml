@@ -181,6 +181,11 @@
             <item name="M4_Suppressor" chance="1.00" />
         </attachments>
     </type>
+    <type name="FAMAS">
+        <attachments chance="1.00">
+            <item name="Mag_FAMAS_25Rnd" chance="1.00" />
+        </attachments>
+    </type>
     <type name="Mosin9130">
         <attachments chance="0.30">
             <item name="Mosin_Compensator" chance="0.50" />
@@ -839,6 +844,9 @@
     <type name="NBCJacketGray">
         <cargo preset="toolsgeneral" />
     </type>
+    <type name="NBCJacketYellow">
+        <cargo preset="toolsgeneral" />
+    </type>
     <type name="DenimJacket">
         <cargo preset="toolsgeneral" />
         <cargo preset="ammocivil" />
@@ -1167,7 +1175,9 @@
     <type name="PrisonUniformPants" />
     <type name="NBCPantsGray">
         <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+    </type>
+    <type name="NBCPantsYellow">
+        <cargo preset="toolsgeneral" />
     </type>
     <type name="JumpsuitPants_Blue">
         <cargo preset="toolsgeneral" />
@@ -1526,7 +1536,16 @@
 
 
     <!-- NAMALSK - CLOTHES - MASKS -->
-    <!-- none require special care -->
+    <type name="AirborneMask">
+        <attachments chance="0.45">
+            <item name="GasMask_Filter" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="GP5GasMask">
+        <attachments chance="0.15">
+            <item name="GasMask_Filter" chance="1.00" />
+        </attachments>
+    </type>
 
 
     <!-- NAMALSK - CLOTHES - SHOES -->
@@ -2284,5 +2303,15 @@
         <cargo preset="magsmilitary" />
         <attachments preset="headsNAC" />
         <attachments preset="vestsNAC" />
+    </type>
+    <type name="ZmbM_NBC_Grey">
+        <cargo chance="0.33">
+            <item name="GasMask_Filter" chance="1.00" />
+        </cargo>
+    </type>
+    <type name="ZmbM_NBC_Yellow">
+        <cargo chance="0.33">
+            <item name="GasMask_Filter" chance="1.00" />
+        </cargo>
     </type>
 </spawnabletypes>
