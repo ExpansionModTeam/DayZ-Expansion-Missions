@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
+
     <!-- Vanilla Tweaks -->
     <event name="VehicleHatchback02">
         <nominal>10</nominal>
@@ -256,4 +257,6 @@
             <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_LepusEuropaeus"/>
         </children>
     </event>
+
+    
 </events>

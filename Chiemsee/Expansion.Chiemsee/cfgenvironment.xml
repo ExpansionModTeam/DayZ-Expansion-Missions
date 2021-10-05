@@ -12,9 +12,11 @@
 		<file path="env/pig_territories.xml" />
 		<file path="env/hen_territories.xml" />
 		<file path="env/wolf_territories.xml" />
-		<file path="env/hare_territories.xml" />
+		<!-- <file path="env/hare_territories.xml" /> -->
 		<file path="env/zombie_territories.xml" />
 		<file path="env/bear_territories.xml" />
+		<file path="env/polar_bear_territories.xml" />
+		<file path="env/scorpion_territories.xml" />
 
 		<territory type="Herd" name="Deer" behavior="DZDeerGroupBeh">
 			<file usable="red_deer_territories" />
@@ -42,6 +44,12 @@
 		</territory>
 		<territory type="Herd" name="Bear" behavior="BlissBearGroupBeh">
 			<file usable="bear_territories"/>
+		</territory>
+		<territory type="Herd" name="PolarBear" behavior="BlissBearGroupBeh">
+			<file usable="polar_bear_territories"/>
+		</territory>
+		<territory type="Herd" name="scorpion" behavior="BlissBearGroupBeh">
+			<file usable="scorpion_territories"/>
 		</territory>
 
 		<!-- HEN -->

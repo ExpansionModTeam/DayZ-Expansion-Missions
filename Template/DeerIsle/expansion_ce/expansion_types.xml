@@ -1226,10 +1226,10 @@
         <usage name="Farm"/>
     </type>
 	<type name="ExpansionVodnikWheel">
-        <nominal>0</nominal>
+        <nominal>25</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1238,10 +1238,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionVodnikDoorDriver">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1250,16 +1250,28 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionVodnikDoorCoDriver">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <tag name="floor"/>
         <usage name="Industrial"/>
+    </type>
+    <type name="ExpansionUAZDoorHood">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor"/>
+        <usage name="Industrial" />
     </type>
 	<type name="ExpansionUAZDoorDriver">
         <nominal>15</nominal>
@@ -1309,6 +1321,18 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
+    <type name="ExpansionUAZDoorHood_Black">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor"/>
+        <usage name="Industrial" />
+    </type>
 	<type name="ExpansionUAZDoorDriver_Black">
         <nominal>0</nominal>
         <lifetime>2700</lifetime>
@@ -1318,7 +1342,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCoDriver_Black">
         <nominal>0</nominal>
@@ -1329,7 +1354,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo1_Black">
         <nominal>0</nominal>
@@ -1340,7 +1366,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo2_Black">
         <nominal>0</nominal>
@@ -1351,7 +1378,20 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="ExpansionUAZDoorHood_LightGreen">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor"/>
+        <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorDriver_LightGreen">
         <nominal>0</nominal>
@@ -1362,7 +1402,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCoDriver_LightGreen">
         <nominal>0</nominal>
@@ -1373,7 +1414,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo1_LightGreen">
         <nominal>0</nominal>
@@ -1384,7 +1426,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo2_LightGreen">
         <nominal>0</nominal>
@@ -1395,7 +1438,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUh1hDoor_1_1">
         <nominal>5</nominal>
@@ -2527,9 +2571,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier8" />
-        <value name="Tier9" />
-        <value name="Tier13" />
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Expansion_MPX">
         <nominal>20</nominal>
@@ -2542,18 +2585,50 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1" />
-        <value name="Tier4" />
-        <value name="Tier5" />
+        <value name="Tier2" />
+        <value name="Tier3" />
         <value name="Tier6" />
-        <value name="Tier7" />
         <value name="Tier8" />
         <value name="Tier9" />
-        <value name="Tier10" />
-        <value name="Tier11" />
         <value name="Tier13" />
     </type>
 	<type name="Expansion_MP5">
+        <nominal>20</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2" />
+        <value name="Tier3" />
+        <value name="Tier6" />
+        <value name="Tier8" />
+        <value name="Tier9" />
+        <value name="Tier13" />
+    </type>
+	<type name="Expansion_MP5SD">
+        <nominal>20</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2" />
+        <value name="Tier3" />
+        <value name="Tier6" />
+        <value name="Tier8" />
+        <value name="Tier9" />
+        <value name="Tier13" />
+    </type>
+	<type name="Expansion_MP5_RailAtt">
         <nominal>20</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
@@ -3297,7 +3372,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <!-- OTHER MARKET ITEMS -->
-   <type name="ExpansionTemporaryOwnedContainer">
+    <type name="ExpansionTemporaryOwnedContainer">
         <nominal>0</nominal>
         <!-- NOTE: Lifetime is not controlled by CE, this is just here to prevent it from despawning before it expires -->
         <lifetime>3888000</lifetime>

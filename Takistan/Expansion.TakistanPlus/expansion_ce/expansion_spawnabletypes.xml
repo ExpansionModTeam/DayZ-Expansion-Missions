@@ -1600,13 +1600,13 @@
 			<item name="SparkPlug" chance="0.60" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
+			<item name="Fabric" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionUAZWheel" chance="0.80" />
+			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
@@ -1616,6 +1616,12 @@
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver" chance="0.30" />
@@ -1641,13 +1647,13 @@
 			<item name="SparkPlug" chance="0.60" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
+			<item name="Fabric" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionUAZWheel" chance="0.80" />
+			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
@@ -1657,6 +1663,12 @@
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood_Black" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver_Black" chance="0.30" />
@@ -1682,13 +1694,13 @@
 			<item name="SparkPlug" chance="0.60" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
+			<item name="Fabric" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionUAZWheel" chance="0.80" />
+			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
@@ -1698,6 +1710,12 @@
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood_LightGreen" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver_LightGreen" chance="0.30" />
@@ -1741,6 +1759,9 @@
 			<item name="ExpansionUAZWheel" chance="0.80" />
         </attachments>
 		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
@@ -1780,6 +1801,9 @@
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood_Black" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver_Black" chance="0.30" />
@@ -1823,6 +1847,9 @@
 			<item name="ExpansionUAZWheel" chance="0.80" />
         </attachments>
 		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood_LightGreen" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver_LightGreen" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
@@ -1846,13 +1873,13 @@
 			<item name="SparkPlug" chance="0.60" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
+			<item name="Fabric" chance="0.50" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionUAZWheel" chance="0.80" />
+			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
@@ -1862,6 +1889,12 @@
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver" chance="0.30" />
@@ -1887,13 +1920,13 @@
 			<item name="SparkPlug" chance="0.60" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
+			<item name="Fabric" chance="0.50" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionUAZWheel" chance="0.80" />
+			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
@@ -1903,6 +1936,12 @@
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood_Black" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver_Black" chance="0.30" />
@@ -1928,13 +1967,13 @@
 			<item name="SparkPlug" chance="0.60" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
+			<item name="Fabric" chance="0.50" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionUAZWheel" chance="0.80" />
+			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
@@ -1944,6 +1983,12 @@
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood_LightGreen" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver_LightGreen" chance="0.30" />
@@ -1987,6 +2032,9 @@
 			<item name="ExpansionUAZWheel" chance="0.80" />
         </attachments>
 		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
@@ -2028,6 +2076,9 @@
 			<item name="ExpansionUAZWheel" chance="0.80" />
         </attachments>
 		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood_Black" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver_Black" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
@@ -2067,6 +2118,9 @@
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZWheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood_LightGreen" chance="0.30" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUAZDoorDriver_LightGreen" chance="0.30" />
@@ -2275,10 +2329,23 @@
 	</type>
 	<type name="Expansion_MP5">
 		<attachments chance="0.30">
-			<item name="Mag_MP5_30Rnd" chance="1.00" />
+			<item name="Mag_MP5_15Rnd" chance="0.30" />
+			<item name="Mag_MP5_30Rnd" chance="0.70" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Expansion_MP5_RailAtt" chance="1.00" />
 		</attachments>
 		<attachments chance="0.05">
 			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Expansion_MP5SD">
+		<attachments chance="0.30">
+			<item name="Mag_MP5_15Rnd" chance="0.40" />
+			<item name="Mag_MP5_30Rnd" chance="0.60" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Expansion_MP5_RailAtt" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Expansion_G36">

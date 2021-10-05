@@ -27,11 +27,11 @@ void main()
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
 	Weather weather = g_Game.GetWeather();
 
-	weather.MissionWeather(false);	// false = use weather controller from Weather.c
+	weather.MissionWeather(false);    // false = use weather controller from Weather.c
 
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.02, 0.1), 1, 0);
-	weather.GetRain().Set( 0, 1, 0);
-	weather.GetFog().Set( 0, 1, 0);
+	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
+	weather.GetRain().Set( 0, 0, 1);
+	weather.GetFog().Set( Math.RandomFloatInclusive(0.05, 0.1), 1, 0);
 
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
@@ -40,7 +40,7 @@ void main()
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-	int reset_month = 8, reset_day = 10;
+	int reset_month = 9, reset_day = 20;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
@@ -61,61 +61,34 @@ void main()
 			}
 		}
 	}
-
-	//! Uncomment these lines if you want to export custom loot data
-    //TestHive.ExportProxyProto();
-    //TestHive.ExportProxyData("5120 0 5120", 11000);
-    //TestHive.ExportClusterData();
+		// GetCEApi().ExportProxyData( "5120 0 5120", 10240 );  			// Generate mapgrouppos.xml
+		// GetCEApi().ExportClusterData();									// Generate mapgroupcluster.xml
 }
 
-/**@class		CustomExpansionMission
- * @brief		This class handle expansion serverside mission
- **/
 class CustomMission: MissionServer
 {
-	// ------------------------------------------------------------
-	// CustomMission constructor
-	// ------------------------------------------------------------
-	void CustomMission()
-	{
-		//! Set to true if you want to create a JSON dump list with all class names from all
-		// loaded mods in the server profile directory (ClassNames.JSON and ExpansionClassNames.JSON)
-		EXPANSION_CLASSNAME_DUMP = false;
-	}
-
-	// ------------------------------------------------------------
-	// SetRandomHealth
-	// ------------------------------------------------------------
 	void SetRandomHealth(EntityAI itemEnt)
 	{
 		if ( itemEnt )
 		{
-			int rndHlt = Math.RandomInt(55,100);
-			itemEnt.SetHealth("","",rndHlt);
+			float rndHlt = Math.RandomFloat( 0.25, 0.65 )
+			itemEnt.SetHealth01( "", "", rndHlt );
 		}
 	}
-	
-	// ------------------------------------------------------------
-	// Override PlayerBase CreateCharacter
-	// ------------------------------------------------------------
+
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
 	{
 		Entity playerEnt;
-		playerEnt = GetGame().CreatePlayer(identity, characterName, pos, 0, "NONE");//Creates random player
-		Class.CastTo(m_player, playerEnt);
+		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
+		Class.CastTo( m_player, playerEnt );
 
-		GetGame().SelectPlayer(identity, m_player);
+		GetGame().SelectPlayer( identity, m_player );
 
 		return m_player;
 	}
 
-	// ------------------------------------------------------------
-	// Override StartingEquipSetup
-	// ------------------------------------------------------------
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
-		//! NOTE: If you are using Expansion-Main, StartingEquipSetup will only be used if you have EnableCustomClothing set to 0 in SpawnSettings.json
-
 		EntityAI itemClothing;
 		EntityAI itemEnt;
 		ItemBase itemBs;
@@ -126,11 +99,9 @@ class CustomMission: MissionServer
 		{
 			SetRandomHealth( itemClothing );
 			
-			itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
 			if ( Class.CastTo( itemBs, itemEnt ) )
-				itemBs.SetQuantity( 4 );
-
-			SetRandomHealth( itemEnt );
+				itemBs.SetQuantity( 2 );
 
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
@@ -153,8 +124,6 @@ class CustomMission: MissionServer
 			SetRandomHealth( itemClothing );
 		
 		itemClothing = player.FindAttachmentBySlotName( "Feet" );
-		if ( itemClothing )
-			SetRandomHealth( itemClothing );
 	}
 };
 

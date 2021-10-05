@@ -30,6 +30,8 @@
 		<usage name="School"/>
 		<usage name="Prison"/>
 		<usage name="Lunapark"/>
+		<usage name="SeasonalEvent"/>
+		<usage name="ContaminatedArea"/>
 		<!-- LUGGE CUSTOM USAGE FLAGS -->
 		<usage name="Boot"/>
 		<usage name="ORE"/>
@@ -46,17 +48,5 @@
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
-        <value name="Tier5"/>
-        <value name="Tier6"/>
-		<value name="Tier7"/>
-        <value name="Tier8"/>
-        <value name="Tier9"/>
-		<value name="Tier10"/>
-        <value name="Tier11"/>
-        <value name="Tier12"/>
-		<value name="Tier13"/>
-		<value name="Tier14"/>
-		<value name="Tier15"/>
-        <value name="Tier16"/>
 	</valueflags>
 </lists>

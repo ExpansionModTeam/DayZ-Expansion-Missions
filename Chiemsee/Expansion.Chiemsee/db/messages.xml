@@ -44,11 +44,4 @@ Example messages:
     </message>
     -->
 
-
-<!-- Chiemsee Messages (Please do not remove) -->
-    <message>
-        <repeat>30</repeat>
-        <text>You're playing Chiemsee, a community mod map by Lugge2. Visit discord.gg/khs6E4y for more info about the map and it's creator!  </text>
-    </message>
-
 </messages>
