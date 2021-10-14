@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>
+
+    <message>
+        <deadline>180</deadline>
+        <shutdown>1</shutdown>
+        <text>(#name)server restarts in #tmin minutes.</text>
+    </message>
+    <message>
+        <repeat>25</repeat>
+        <text>(#name). Discord -- </text>
+    </message>
+    <message>
+        <delay>1</delay>
+        <onconnect>1</onconnect>
+        <text>#name  Discord -- </text>
+    </message>
+	<message>
+        <delay>5</delay>
+        <onconnect>1</onconnect>
+        <text>Hello Survivors</text>
+    </message>	
+	<message>
+        <delay>10</delay>
+        <onconnect>1</onconnect>
+        <text>Map is work in progress - report issues in Discord</text>
+    </message>
+
+</messages>
