@@ -2439,7 +2439,7 @@
 	</type>
 	<type name="Expansion_MPX">
 		<attachments chance="0.30">
-			<item name="Mag_Expansion_MPX_50Rnd_50Rnd" chance="1.00" />
+			<item name="Mag_Expansion_MPX_50Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.20">
 			<item name="M68Optic" chance="0.20" />
@@ -2455,7 +2455,7 @@
 	</type>
 	<type name="Expansion_MP7">
 		<attachments chance="0.30">
-			<item name="Mag_Expansion_MP7_40Rnd_40Rnd" chance="1.00" />
+			<item name="Mag_Expansion_MP7_40Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.20">
 			<item name="M68Optic" chance="0.20" />
