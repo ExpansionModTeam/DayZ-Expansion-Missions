@@ -140,13 +140,12 @@ class CustomMission: MissionServer
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
 			if ( Class.CastTo( itemBs, itemEnt ) )
 			{
+				SetRandomHealth( itemEnt );
 				itemBs.SetQuantity( 4 );
 				itemBs.SetCleanness( 1 );
 			}
 			player.SetQuickBarEntityShortcut( itemEnt, 0 );
 
-			SetRandomHealth( itemEnt );
-			
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "RoadFlare" );
 			SetRandomHealth( itemEnt );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "RoadFlare" );

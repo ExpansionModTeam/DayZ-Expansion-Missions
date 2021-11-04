@@ -130,7 +130,7 @@
 		<item name="Mag_STANAG_30Rnd" chance="0.05" />
 		<item name="Mag_CMAG_40Rnd" chance="0.025" />
 		<item name="Mag_SVD_10Rnd" chance="0.025" />
-		<item name="Mag_STANAGCoupled_30Rnd" chance="0.025" />
+		<item name="Mag_STANAG_60Rnd" chance="0.025" />
 		<item name="Mag_AKM_Drum75Rnd" chance="0.025" />
 	</cargo>
 
