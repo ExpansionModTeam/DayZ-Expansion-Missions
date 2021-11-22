@@ -18,13 +18,13 @@ void main()
 	bool loadTraderObjects = true;
 	bool loadTraderNPCs = true;
 
-	string MissionWorldName = "empty";
+	string MissionWorldName = "empty"; // Do not change
 	GetGame().GetWorldName(MissionWorldName);
 
-	if (MissionWorldName != "empty")
+	if (MissionWorldName != "empty") // Do not change
 	{
 		//! Spawn mission objects and traders
-		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\Expansion." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
+		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\dayzOffline." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
 	}
 	//! ....Until here !
 

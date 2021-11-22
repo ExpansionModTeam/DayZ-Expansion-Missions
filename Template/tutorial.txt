@@ -32,5 +32,8 @@ STEP 1.
 Copy the lines from the "init.c" into your mission.
 
 STEP 2.
-Inside your mission, create a folder named "expansion" and inside this new folder. Create two folders
-"objects" and "traders".
+Inside your mission, add the folder "expansion". If this folder doesn't exist from the template of the desired map,
+create a folder named "expansion" and inside this new folder. And create two folders "objects" and "traders".
+
+For more informations, please read our wiki at
+https://github.com/salutesh/DayZ-Expansion-Scripts/wiki
