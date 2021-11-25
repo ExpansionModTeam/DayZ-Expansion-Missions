@@ -29,11 +29,11 @@ and paste this lines inside your own "cfgeventspawns.xml" of your mission.
 How to make your mission DayZ-Expansion-Market compatible
 
 STEP 1.
-Copy the lines from the "init.c" into your mission.
+Copy the lines from the "init.c" into your mission. After void main() {
 
 STEP 2.
 Inside your mission, add the folder "expansion". If this folder doesn't exist from the template of the desired map,
-create a folder named "expansion" and inside this new folder. And create two folders "objects" and "traders".
+create a folder named "expansion" and inside this new folder create two folders "objects" and "traders".
 
 For more informations, please read our wiki at
 https://github.com/salutesh/DayZ-Expansion-Scripts/wiki
