@@ -10,18 +10,18 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 
 =====================================================================================================================
 
-How to add Expansion Items (types/vehicles) to your mission
+How to add Expansion Items (weapons/items/vehicles) to your mission
 
 STEP 1.
 Add the folder "expansion_ce" inside your mission.
 
 STEP 2.
 Inside the file "cfgeconomycore.xml" copy from <ce folder="expansion_ce"> to (including) </ce>
-and paste this lines inside your own "cfgeconomycore.xml" of your mission.
+and paste this lines before "</economycore>" inside your own "cfgeconomycore.xml" of your mission.
 
 STEP 3.
 Inside the file "cfgeventspawns.xml" copy the spawn points
-and paste this lines inside your own "cfgeventspawns.xml" of your mission.
+and paste this lines before "</eventposdef>" inside your own "cfgeventspawns.xml" of your mission.
 
 
 
@@ -32,7 +32,9 @@ STEP 1.
 Copy the lines from the "init.c" into your mission. After void main() {
 
 STEP 2.
-Inside your mission, add the folder "expansion". If this folder doesn't exist from the template of the desired map,
+Inside your mission, add the folder "expansion".
+
+If this folder doesn't exist from the template of the desired map,
 create a folder named "expansion" and inside this new folder create two folders "objects" and "traders".
 
 For more informations, please read our wiki at

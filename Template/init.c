@@ -25,6 +25,10 @@ void main()
 	{
 		//! Spawn mission objects and traders
 		ExpansionObjectSpawnTools.FindMissionFiles("$CurrentDir:\\mpmissions\\dayzOffline." + MissionWorldName, loadTraderObjects, loadTraderNPCs);
+
+		// If your mission is not named dayzOffline.MapName (example: dayzOffline.Chernarusplus)
+		// but instead something different like empty.MapName (example: empty.deerisle)
+		// replace dayzOffline by your mission name (in the example it was the word "empty")
 	}
 	//! ....Until here !
 
