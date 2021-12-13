@@ -2,7 +2,7 @@
 <eventposdef>
 
 
-	<!-- EXPANSION EVENT SPAWN POINTS FOR CHERNARUS PLUS -->
+	<!-- Copy from here... -->
 	<!-- EXPANSION CARS -->
 	<event name="VehicleUAZ">
 		<!-- Airfield Vyvor -->
@@ -122,6 +122,7 @@
 		<!-- Airfield Vybor -->
 		<pos x="4128.941895" y="338.637085" z="10842.748047" a="0.000000" />
 	</event>
+	<!-- ....To here -->
 
 	
 </eventposdef>

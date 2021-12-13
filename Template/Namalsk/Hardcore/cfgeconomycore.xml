@@ -2,11 +2,12 @@
 <economycore>
 
 
-	<!-- EXPANSION CENTRAL ECONOMY -->
+	<!-- Copy from here... -->
 	<ce folder="expansion_ce">
 		<file name="expansion_types.xml" type="types" />
 		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- ....To here -->
 
 
 </economycore>

@@ -2,7 +2,7 @@
 <eventposdef>
 
 
-	<!-- EXPANSION EVENT SPAWN POINTS FOR BANOV -->
+	<!-- Copy from here... -->
 	<!-- EXPANSION CARS -->
 	<event name="VehicleUAZ">
 		<pos x="2224.56" y="270.164" z="11869.2" a="-148.564"/>
@@ -55,6 +55,7 @@
 		<pos x="8118.34" y="550.922" z="9727.67" a="0"/>
 		<pos x="8290.86" y="550.922" z="9993.41" a="0"/>
 	</event>
+	<!-- ....To here -->
 
 	
 </eventposdef>

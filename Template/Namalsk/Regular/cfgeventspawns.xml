@@ -30,7 +30,7 @@
 	</event>
 
 
-	<!-- EXPANSION EVENT SPAWN POINTS -->
+	<!-- Copy from here... -->
 	<event name="VehicleHelicopters">
 		<pos x="3393.402344" z="6696.062012" a="0.009544"/>
 		<pos x="5129.513672" z="8934.148438" a="90.00000"/>
@@ -61,6 +61,7 @@
 		<pos x="9137.700195" z="10076.22265" a="119.9999"/>
 		<pos x="7598.048340" z="9349.501953" a="-2.41764"/>
 	</event>
+	<!-- ....To here -->
 
 	
 </eventposdef>

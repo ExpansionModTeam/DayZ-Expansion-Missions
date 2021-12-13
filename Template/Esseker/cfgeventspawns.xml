@@ -2,7 +2,7 @@
 <eventposdef>
 
 
-	<!-- EXPANSION EVENT SPAWN POINTS -->
+	<!-- Copy from here... -->
 	<!-- EXPANSION CARS -->
 	<event name="VehicleUAZ">
 	</event>
@@ -26,6 +26,7 @@
 	</event>
 	<event name="VehicleZodiacBoat">
 	</event>
+	<!-- ....To here -->
 
   
 </eventposdef>

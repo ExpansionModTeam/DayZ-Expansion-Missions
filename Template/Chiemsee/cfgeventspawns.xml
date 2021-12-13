@@ -3,6 +3,7 @@
 
 
 	<!-- EXPANSION EVENT SPAWN POINTS FOR CHIEMSEE BY ASORRYCANADIAN -->
+	<!-- Copy From here... -->
 	<!-- EXPANSION CARS -->
 	<event name="VehicleUAZ">
 		<!-- Gollenhausen Military & Mine -->
@@ -121,6 +122,7 @@
 		<!-- New City on South Coast -->
 		<pos x="9473.645508" z="1024.114502" a="240.000000" />
 	</event>
+	<!-- ....To here -->
 
 
 </eventposdef>
