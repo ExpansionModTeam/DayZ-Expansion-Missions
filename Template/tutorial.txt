@@ -1,27 +1,22 @@
+If you need a video to explain you everything step by step,
+we recommend you to check out this guide from TheWomberchomby:
+https://youtu.be/xwqJ0nIiYb0
 
-tutorial.txt
 
-DayZ Expansion Mod
-www.dayzexpansion.com
-© 2021 DayZ Expansion Mod Team
 
-This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
-
-=====================================================================================================================
 
 How to add Expansion Items (weapons/items/vehicles) to your mission
 
 STEP 1.
-Add the folder "expansion_ce" inside your mission.
+From the template, copy the "expansion_ce" folder and paste it inside your mission.
 
 STEP 2.
-Inside the file "cfgeconomycore.xml" copy from <ce folder="expansion_ce"> to (including) </ce>
-and paste this lines before "</economycore>" inside your own "cfgeconomycore.xml" of your mission.
+From the template, open the file "cfgeconomycore.xml" and copy from <ce folder="expansion_ce"> to (including) </ce>
+Inside your mission, open the file "cfgeconomycore.xml" and paste this lines before "</economycore>".
 
 STEP 3.
-Inside the file "cfgeventspawns.xml" copy the spawn points
-and paste this lines before "</eventposdef>" inside your own "cfgeventspawns.xml" of your mission.
+From the template, inside the file "cfgeventspawns.xml" copy the spawn points
+Inside your mission, open the file "cfgeventspawns.xml" and paste this lines before "</eventposdef>".
 
 
 
@@ -29,10 +24,14 @@ and paste this lines before "</eventposdef>" inside your own "cfgeventspawns.xml
 How to make your mission DayZ-Expansion-Market compatible
 
 STEP 1.
-Copy the lines from the "init.c" into your mission. After void main() {
+Copy the lines from the "init.c" into your own "init.c" from your mission.
+You will need to paste this lines AFTER
+void main()
+{
+    PASTE HERE
 
 STEP 2.
-Inside your mission, add the folder "expansion".
+Inside your mission, add the folder "expansion" from the template.
 
 If this folder doesn't exist from the template of the desired map,
 create a folder named "expansion" and inside this new folder create two folders "objects" and "traders".
