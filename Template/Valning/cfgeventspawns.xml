@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<eventposdef>
+
+
+	<!-- EXPANSION CARS -->
+	<event name="VehicleUAZ">
+    </event>
+	<event name="VehicleVodnik">
+    </event>
+	<event name="VehicleBus">
+	</event>
+	<event name="VehicleTractor">
+	</event>
+	<!-- EXPANSION HELICOPTERS -->
+	<event name="VehicleMH6Helicopter">
+	</event>
+	<event name="VehicleMerlinHelicopter">
+	</event>
+	<event name="VehicleUh1hHelicopter">
+	</event>
+	<event name="VehicleGyroHelicopter">
+	</event>
+
+
+</eventposdef>
