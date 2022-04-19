@@ -128,6 +128,29 @@
             <child lootmax="0" lootmin="0" max="5" min="1" type="ExpansionTractor_Green"/>
         </children>
     </event>
+    <event name="VehicleLandRover">
+        <nominal>4</nominal>
+        <min>1</min>
+        <max>5</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover"/>
+			<child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Yellow"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Red"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Green"/>
+			<child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Grey"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Orange"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Blue"/>
+        </children>
+    </event>
 	<!-- HELICOPTERS -->
 	<event name="VehicleMH6Helicopter">
         <nominal>2</nominal>

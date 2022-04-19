@@ -50,6 +50,22 @@
 		<!-- Berezino -->
 		<pos x="12300.703125" y="34.068638" z="9174.880859" a="0.000000" />
 	</event>
+	<event name="VehicleLandRover">
+	    <!-- Stary Yar -->
+		<pos x="4832.06" y="475.25" z="15187.4" a="-171"/>
+        <!-- Metalurg -->		
+		<pos x="1052.22" y="159.931" z="6674.85" a="-90"/>
+		<!-- Krasnostav -->
+		<pos x="11164" y="197.614" z="12182.8" a="-58.5678"/>
+		<!-- Youth Pioneer Camp -->
+		<pos x="11151.7" y="134.596" z="7049.74" a="-110.19"/>
+        <!-- Myshkino -->		
+		<pos x="2021.77" y="241.837" z="7054.07" a="-9.49191"/>
+		<!-- Biathlon -->
+		<pos x="503.831" y="424.199" z="11067" a="117"/>
+		<!-- Dobroe -->
+		<pos x="12865" y="63.4724" z="15123.1" a="32.4625"/>
+	</event>
 	<!-- EXPANSION HELICOPTERS -->
 	<event name="VehicleMH6Helicopter">
 		<!-- Airfield Vyvor -->

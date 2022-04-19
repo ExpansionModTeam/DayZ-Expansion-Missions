@@ -2,6 +2,8 @@ If you need a video to explain you everything step by step,
 we recommend you to check out this guide from TheWomberchomby:
 https://youtu.be/xwqJ0nIiYb0
 
+(ignore the init.c part)
+
 # Disclaimer !
 Adding or removing expansion (mods) currently require a wipe (loss of player and base progression)
 Think to delete your "Storage" folder from your mission.
