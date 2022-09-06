@@ -1088,7 +1088,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-        
+
     <type name="Expansion_Landrover_Wheel">
         <nominal>25</nominal>
         <lifetime>2700</lifetime>
@@ -1851,7 +1851,7 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Industrial"/>
-    </type>	
+    </type>
 	<type name="ExpansionAnWheel">
         <nominal>0</nominal>
         <lifetime>2700</lifetime>
@@ -1864,7 +1864,7 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Industrial"/>
-    </type>	
+    </type>
 	<type name="ExpansionAnWheelSmall">
         <nominal>0</nominal>
         <lifetime>2700</lifetime>
@@ -1877,7 +1877,7 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Industrial"/>
-    </type>	
+    </type>
 	<type name="ExpansionBusWheel">
         <nominal>5</nominal>
         <lifetime>2700</lifetime>
@@ -1890,7 +1890,7 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Industrial"/>
-    </type>	
+    </type>
 	<type name="ExpansionBusWheelDouble">
         <nominal>5</nominal>
         <lifetime>2700</lifetime>
@@ -1903,7 +1903,7 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Industrial"/>
-    </type>	
+    </type>
 	<type name="ExpansionUAZWheel">
         <nominal>25</nominal>
         <lifetime>2700</lifetime>
@@ -1928,7 +1928,7 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Farm"/>
-    </type>	
+    </type>
 	<type name="ExpansionTractorBackWheel">
         <nominal>15</nominal>
         <lifetime>2700</lifetime>
@@ -1954,7 +1954,7 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Farm"/>
-    </type>	
+    </type>
 	<type name="ExpansionTractorDoorsCoDriver">
         <nominal>10</nominal>
         <lifetime>2700</lifetime>
@@ -3142,7 +3142,7 @@
         <value name="Tier8" />
         <value name="Tier9" />
         <value name="Tier13" />
-    </type>	
+    </type>
 	<type name="Expansion_Kar98_Bayonet">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
@@ -3260,7 +3260,7 @@
         <category name="weapons"/>
         <usage name="Police"/>
         <value name="Tier13" />
-    </type>	
+    </type>
 	<type name="Expansion_Taser_Black">
         <nominal>0</nominal>
         <lifetime>10800</lifetime>
@@ -3271,7 +3271,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="weapons"/>
-    </type>	
+    </type>
 	<type name="Expansion_M9">
         <nominal>20</nominal>
         <lifetime>10800</lifetime>
@@ -3600,7 +3600,7 @@
 		<usage name="Hunting"/>
         <value name="Tier8" />
         <value name="Tier9" />
-        <value name="Tier13" />	
+        <value name="Tier13" />
     </type>
 	<!-- AMMO -->
 	<type name="Expansion_Ammo_8mm">
@@ -3935,7 +3935,7 @@
         <value name="Tier8" />
         <value name="Tier9" />
         <value name="Tier13" />
-    </type>	
+    </type>
     <type name="Mag_Expansion_Vityaz_30Rnd">
         <nominal>25</nominal>
         <lifetime>10800</lifetime>
@@ -3950,7 +3950,7 @@
         <value name="Tier8" />
         <value name="Tier9" />
         <value name="Tier13" />
-    </type>	
+    </type>
     <type name="Mag_Expansion_M14_20Rnd">
         <nominal>8</nominal>
         <lifetime>10800</lifetime>
@@ -4114,6 +4114,36 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+    <type name="ExpansionBanknoteUSD">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="ExpansionBanknoteEuro">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="ExpansionBanknoteHryvnia">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
     <!-- OTHER MARKET ITEMS -->
     <type name="ExpansionTemporaryOwnedContainer">
         <nominal>0</nominal>
@@ -4126,7 +4156,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
     </type>
 	<!-- ITEM END -->
-	<!-- BASE BUILDING -->	
+	<!-- BASE BUILDING -->
 	<type name="WoodenLog">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
@@ -4203,7 +4233,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="tools"/>
-    </type>	
+    </type>
 	<type name="ExpansionRampKit">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>

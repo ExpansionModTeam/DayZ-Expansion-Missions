@@ -11,6 +11,8 @@
 	</event>
 	<event name="VehicleTractor">
 	</event>
+	<event name="VehicleLandRover">
+	</event>
 	<!-- EXPANSION HELICOPTERS -->
 	<event name="VehicleMH6Helicopter">
 	</event>
