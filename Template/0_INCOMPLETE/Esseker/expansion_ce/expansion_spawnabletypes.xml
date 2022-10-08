@@ -1038,9 +1038,6 @@
 	<type name="ExpansionCamoBox">
 		<hoarder />
 	</type>
-	<type name="ExpansionATent">
-		<hoarder />
-	</type>
 	<type name="ExpansionCamoTent">
 		<hoarder />
 	</type>
@@ -2637,13 +2634,13 @@
 		<attachments chance="1.00">
 			<item name="GlowPlug" chance="0.60" />
 		</attachments>
-	</type>	
+	</type>
 	<!-- WEAPONS -->
 	<type name="ExpansionHAMROptic">
 		<attachments chance="0.30">
 			<item name="ExpansionDeltapointOptic" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
 	<type name="Expansion_M79">
 		<attachments chance="0.30">
 			<item name="Ammo_Expansion_M203_Smoke_White" chance="0.07" />
@@ -2836,7 +2833,7 @@
 		</attachments>
 		<attachments chance="0.05">
 			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>		
+		</attachments>
         <attachments chance="1.00">
             <item name="AK_RailHndgrd" chance="1.00" />
         </attachments>
