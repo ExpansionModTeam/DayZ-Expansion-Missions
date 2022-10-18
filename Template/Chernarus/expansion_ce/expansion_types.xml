@@ -4962,8 +4962,12 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <!-- AIRDROP CONTAINERS END -->
-    <!-- CAR COVERS START -->
+    <!-- VEHICLE COVERS START -->
     <type name="Expansion_Generic_Vehicle_Cover">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="ExpansionGarageVehicle">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
@@ -5023,7 +5027,15 @@
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
-    <!-- CAR COVERS END -->
+    <type name="ExpansionUtilityBoat_Cover">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="ExpansionZodiacBoat_Cover">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <!-- VEHICLE COVERS END -->
     <!-- DEBUG OBJECTS -->
     <type name="ExpansionDebugGoat">
         <lifetime>3888000</lifetime>
