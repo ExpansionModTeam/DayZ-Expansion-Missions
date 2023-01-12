@@ -1510,6 +1510,38 @@
 		<attachments chance="1.00">
 			<item name="ExpansionUh1hDoor_1_2" chance="0.30" />
 		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="ExpansionUh1h_Civilian">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_1_Civilian" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_2_Civilian" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1_Civilian" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2_Civilian" chance="0.30" />
+		</attachments>
 	</type>
 	<type name="ExpansionUh1h_Medical">
 		<attachments chance="1.00">
@@ -1529,6 +1561,12 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUh1hDoor_1_2_Medical" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1_Medical" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2_Medical" chance="0.30" />
 		</attachments>
 	</type>
 	<type name="ExpansionUh1h_Uber">
@@ -1550,6 +1588,12 @@
 		<attachments chance="1.00">
 			<item name="ExpansionUh1hDoor_1_2_Uber" chance="0.30" />
 		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1_Uber" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2_Uber" chance="0.30" />
+		</attachments>
 	</type>
 	<type name="ExpansionUh1h_Resistance">
 		<attachments chance="1.00">
@@ -1569,6 +1613,12 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionUh1hDoor_1_2_Resistance" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1_Resistance" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2_Resistance" chance="0.30" />
 		</attachments>
 	</type>
 	<type name="ExpansionGyrocopter">
