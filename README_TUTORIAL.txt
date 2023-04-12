@@ -5,8 +5,8 @@ https://youtu.be/xwqJ0nIiYb0
 (ignore the init.c part)
 
 # Disclaimer !
-Adding or removing expansion (mods) currently require a wipe (loss of player and base progression)
-Think to delete your "Storage" folder from your mission.
+removing DayZ Expansion Core or DayZ Expansion Bundle (you can swap between the two) currently require a wipe (loss of player and base progression)
+Delete your "Storage" folder from your mission if you do this mistake.
 
 If you are reading this from Github, please download the zip containing this template and instructions !
 https://github.com/ExpansionModTeam/DayZ-Expansion-Missions/archive/refs/heads/master.zip
