@@ -4632,6 +4632,10 @@
         <lifetime>0</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     </type>
+	<type name="ExpansionAdminChest">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
     <type name="ExpansionCarKey">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
