@@ -3467,10 +3467,10 @@
     </type>
 	<!-- CROSSBOWS -->
     <type name="Expansion_Crossbow">
-        <nominal>30</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
