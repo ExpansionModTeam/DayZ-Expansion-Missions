@@ -3728,10 +3728,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Expansion_M14">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>7</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4087,10 +4087,10 @@
         <usage name="Military"/>
     </type>
     <type name="Expansion_Ammo_ArrowBolt">
-        <nominal>75</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>55</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4132,10 +4132,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_Expansion_M14_20Rnd">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4147,10 +4147,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_Expansion_M14_10Rnd">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>800</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
