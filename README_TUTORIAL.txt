@@ -1,13 +1,3 @@
-If you need a video to explain you everything step by step,
-we recommend you to check out this guide from TheWomberchomby:
-https://youtu.be/xwqJ0nIiYb0
-
-(ignore the init.c part)
-
-# Disclaimer !
-removing DayZ Expansion Core or DayZ Expansion Bundle (you can swap between the two) currently require a wipe (loss of player and base progression)
-Delete your "Storage" folder from your mission if you do this mistake.
-
 If you are reading this from Github, please download the zip containing this template and instructions !
 https://github.com/ExpansionModTeam/DayZ-Expansion-Missions/archive/refs/heads/master.zip
 
@@ -37,8 +27,6 @@ Inside your mission, add the folder "expansion" from the template.
 
 If this folder doesn't exist from the template of the desired map,
 create a folder named "expansion" and inside this new folder create two folders "objects" and "traders".
-
-P.S. Yes the init.c part has been removed. This is now managed by the mod instead :)
 
 For more informations, please read our wiki at
 https://github.com/salutesh/DayZ-Expansion-Scripts/wiki
