@@ -4,8 +4,20 @@
 
 	<!-- Copy from here... -->
 	<ce folder="expansion_ce">
-		<file name="expansion_types.xml" type="types" />
-		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="expansion_types_vehicles.xml" type="types" />
+		<file name="expansion_types_weapons.xml" type="types" />
+		<file name="expansion_types_basebuilding.xml" type="types" />
+		<file name="expansion_types_core.xml" type="types" />
+		<file name="expansion_types_navigation.xml" type="types" />
+		<file name="expansion_types_personalstorage.xml" type="types" />
+		<file name="expansion_types_missions.xml" type="types" />
+		<file name="expansion_types_quests.xml" type="types" />
+		<file name="expansion_types_market.xml" type="types" />
+		<file name="expansion_types_ai.xml" type="types" />
+		<file name="expansion_types_hardline.xml" type="types" />
+		<file name="expansion_spawnabletypes_vehicles.xml" type="spawnabletypes" />
+		<file name="expansion_spawnabletypes_weapons.xml" type="spawnabletypes" />
+		<file name="expansion_spawnabletypes_basebuilding.xml" type="spawnabletypes" />
 	</ce>
 	<!-- ....To here -->
 

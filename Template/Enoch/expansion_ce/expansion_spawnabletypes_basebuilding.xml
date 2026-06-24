@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<spawnabletypes>
+	<type name="ExpansionSafeLarge">
+		<hoarder />
+	</type>
+	<type name="ExpansionSafeMini">
+		<hoarder />
+	</type>
+	<type name="ExpansionSafeMedium">
+		<hoarder />
+	</type>
+	<type name="ExpansionCamoBox">
+		<hoarder />
+	</type>
+	<type name="ExpansionCamoTent">
+		<hoarder />
+	</type>
+	<type name="ExpansionGunrack">
+		<hoarder />
+	</type>
+	<type name="ExpansionStove">
+		<hoarder />
+	</type>
+</spawnabletypes>

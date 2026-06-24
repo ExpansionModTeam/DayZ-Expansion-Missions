@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<eventposdef>
+
+
+	<!-- Copy from here... -->
+	<!-- EXPANSION CARS -->
+	<!-- Add Sakhal-specific vehicle spawn positions below, e.g.:
+	<event name="VehicleUAZ">
+		<pos x="0.0" y="0.0" z="0.0" a="0.0" />
+	</event>
+	-->
+	<!-- ....To here -->
+
+
+</eventposdef>
