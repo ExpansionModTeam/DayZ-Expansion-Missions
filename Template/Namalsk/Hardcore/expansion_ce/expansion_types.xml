@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
+    <!-- VANILLA CARS -->
+    <type name="CivilianSedan">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="CivilianSedan_Black">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="CivilianSedan_Wine">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Hatchback_02">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Hatchback_02_Black">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Hatchback_02_Blue">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="OffroadHatchback">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="OffroadHatchback_Blue">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="OffroadHatchback_White">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Offroad_02">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Sedan_02">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Sedan_02_Grey">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Sedan_02_Red">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Truck_01_Covered">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Truck_01_Covered_Blue">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Truck_01_Covered_Orange">
+        <lifetime>3888000</lifetime>
+    </type>
+    <!-- VANILLA BOATS -->
+    <type name="Boat_01_Black">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Boat_01_Blue">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Boat_01_Camo">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Boat_01_Orange">
+        <lifetime>3888000</lifetime>
+    </type>
+    <!-- VANILLA MOTORBIKES -->
+    <type name="Motorbike_01_Blue">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Motorbike_01_Red">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Motorbike_01_Yellow">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Motorbike_02_Blue">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Motorbike_02_Green">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Motorbike_02_Red">
+        <lifetime>3888000</lifetime>
+    </type>
+    <type name="Motorbike_02_Yellow">
+        <lifetime>3888000</lifetime>
+    </type>
     <!-- ADDITONAL VANILLA CAR VARIANTS -->
     <!-- OFFROAD HATCHBACK -->
     <type name="OffroadHatchback_WhiteRust">
@@ -918,6 +1002,16 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
 	<type name="ExpansionMh6_Wave">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="ExpansionHatchBird">
         <nominal>0</nominal>
         <lifetime>3888000</lifetime>
         <restock>1800</restock>
